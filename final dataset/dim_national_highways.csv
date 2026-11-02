@@ -1,0 +1,1014 @@
+highway_name,road_type,segment_count,total_length_km,corridor_tier
+NH 44,National Highway,2992,3637.93,Major Trans-National Corridor
+NH 27,National Highway,2239,3203.16,Major Trans-National Corridor
+NH 52,National Highway,1307,2004.29,Major Trans-National Corridor
+NH 48,National Highway,2122,1836.87,Major Trans-National Corridor
+NH 30,National Highway,718,1804.74,Major Trans-National Corridor
+NH 53,National Highway,1162,1674.51,Major Trans-National Corridor
+NH 66,National Highway,1009,1545.92,Major Trans-National Corridor
+NH 16,National Highway,1989,1506.0,Major Trans-National Corridor
+NH 34,National Highway,651,1381.52,Inter-State Trunk Highway
+NH 19,National Highway,835,1215.58,Inter-State Trunk Highway
+NH 47,National Highway,427,1069.75,Inter-State Trunk Highway
+NH 13,National Highway,430,1022.79,Inter-State Trunk Highway
+NH 2,National Highway,183,1021.66,Inter-State Trunk Highway
+NH 43,National Highway,237,997.34,Inter-State Trunk Highway
+NH 31,National Highway,305,979.84,Inter-State Trunk Highway
+NH 148N,National Highway,277,955.14,Inter-State Trunk Highway
+NH 65,National Highway,756,867.71,Inter-State Trunk Highway
+NH 9,National Highway,462,823.76,Inter-State Trunk Highway
+NH 3,National Highway,486,817.97,Inter-State Trunk Highway
+NH 7,National Highway,533,816.87,Inter-State Trunk Highway
+NH 11,National Highway,175,797.65,Inter-State Trunk Highway
+NH 58,National Highway,284,795.37,Inter-State Trunk Highway
+NH 39,National Highway,266,779.79,Inter-State Trunk Highway
+NH 63,National Highway,222,756.54,Inter-State Trunk Highway
+NH 51,National Highway,438,754.91,Inter-State Trunk Highway
+NH 548C,National Highway,307,748.41,Inter-State Trunk Highway
+NH 56,National Highway,304,722.64,Inter-State Trunk Highway
+NH 50,National Highway,337,720.27,Inter-State Trunk Highway
+NH 20,National Highway,333,704.06,Inter-State Trunk Highway
+NH 61,National Highway,227,690.82,Inter-State Trunk Highway
+NH 150A,National Highway,258,641.89,Inter-State Trunk Highway
+NH 46,National Highway,293,627.46,Inter-State Trunk Highway
+NH 15,National Highway,176,626.24,Inter-State Trunk Highway
+NH 67,National Highway,428,625.39,Inter-State Trunk Highway
+NH 5,National Highway,350,606.63,Inter-State Trunk Highway
+NH 69,National Highway,205,601.3,Inter-State Trunk Highway
+NH 68,National Highway,111,598.82,Inter-State Trunk Highway
+NH 12,National Highway,286,589.35,Inter-State Trunk Highway
+NH 552,National Highway,167,582.24,Inter-State Trunk Highway
+NH 38,National Highway,581,576.76,Inter-State Trunk Highway
+NH 730,National Highway,167,571.74,Inter-State Trunk Highway
+NH 161A,National Highway,159,569.36,Inter-State Trunk Highway
+NH 6,National Highway,148,562.35,Inter-State Trunk Highway
+NH 49,National Highway,255,561.01,Inter-State Trunk Highway
+NH 45,National Highway,121,558.22,Inter-State Trunk Highway
+NH 160,National Highway,269,552.17,Inter-State Trunk Highway
+NH 753F,National Highway,209,538.93,Inter-State Trunk Highway
+NH 32,National Highway,612,537.05,Inter-State Trunk Highway
+NH 754K,National Highway,66,533.64,Inter-State Trunk Highway
+NH 548B,National Highway,117,520.9,Inter-State Trunk Highway
+NH 48(G.Q),National Highway,743,519.6,Inter-State Trunk Highway
+NH 326,National Highway,95,505.17,Inter-State Trunk Highway
+NH 543,National Highway,69,504.78,Inter-State Trunk Highway
+NH 26,National Highway,184,491.48,Regional Link Highway
+NH 75,National Highway,351,486.31,Regional Link Highway
+NH 731,National Highway,150,477.43,Regional Link Highway
+NH 167,National Highway,212,470.66,Regional Link Highway
+NH 1,National Highway,155,464.99,Regional Link Highway
+NH 163,National Highway,228,455.93,Regional Link Highway
+NH 17,National Highway,177,446.23,Regional Link Highway
+"NH 62,  NH 754K",National Highway,111,426.96,Regional Link Highway
+NH 565,National Highway,257,421.81,Regional Link Highway
+NH 24,National Highway,165,409.14,Regional Link Highway
+NH 40,National Highway,443,403.22,Regional Link Highway
+NH 42,National Highway,296,394.89,Regional Link Highway
+NH 33,National Highway,123,391.71,Regional Link Highway
+NH 216,National Highway,432,390.79,Regional Link Highway
+NH 83,National Highway,505,387.04,Regional Link Highway
+NH 202,National Highway,96,385.15,Regional Link Highway
+NH 22,National Highway,165,385.03,Regional Link Highway
+NH 54,National Highway,188,383.77,Regional Link Highway
+NH 361,National Highway,276,382.47,Regional Link Highway
+NH 544F,National Highway,276,378.29,Regional Link Highway
+NH 752G,National Highway,137,377.2,Regional Link Highway
+NH 930,National Highway,81,369.54,Regional Link Highway
+NH 752I,National Highway,91,367.38,Regional Link Highway
+NH 148B,National Highway,143,365.54,Regional Link Highway
+NH 127B,National Highway,56,359.33,Regional Link Highway
+NH 85,National Highway,305,358.45,Regional Link Highway
+NH 548D,National Highway,98,350.39,Regional Link Highway
+NH 516E,National Highway,205,350.37,Regional Link Highway
+NH 18,National Highway,168,347.81,Regional Link Highway
+NH 347B,National Highway,94,344.69,Regional Link Highway
+NH 166,National Highway,272,344.69,Regional Link Highway
+NH 8,National Highway,61,343.83,Regional Link Highway
+Purvanchal Expressway,National Highway,128,342.62,Regional Link Highway
+NH 60,National Highway,306,339.51,Regional Link Highway
+NH 275,National Highway,178,338.14,Regional Link Highway
+NH 59,National Highway,73,337.15,Regional Link Highway
+NH 81,National Highway,444,335.03,Regional Link Highway
+NH 161,National Highway,304,327.83,Regional Link Highway
+NH 544,National Highway,365,327.61,Regional Link Highway
+NH 62,National Highway,197,327.37,Regional Link Highway
+NH 21,National Highway,128,326.57,Regional Link Highway
+NH 312,National Highway,58,323.63,Regional Link Highway
+NH 948,National Highway,261,318.29,Regional Link Highway
+NH 36,National Highway,430,317.48,Regional Link Highway
+NH 152D,National Highway,65,315.9,Regional Link Highway
+NH 55,National Highway,65,312.54,Regional Link Highway
+NH 927A,National Highway,91,307.01,Regional Link Highway
+NH 183,National Highway,215,304.66,Regional Link Highway
+NH 14,National Highway,129,303.55,Regional Link Highway
+NH 716,National Highway,304,303.26,Regional Link Highway
+NH 73,National Highway,162,302.4,Regional Link Highway
+NH 70,National Highway,2,302.19,Regional Link Highway
+Agra-Lucknow Expressway,National Highway,92,301.99,Regional Link Highway
+NH 354,National Highway,108,301.74,Regional Link Highway
+Bundelkhand Expressway,National Highway,122,300.92,Regional Link Highway
+NH 4,National Highway,24,300.53,Regional Link Highway
+NH 301,National Highway,53,300.46,Regional Link Highway
+NH 709A,National Highway,91,299.17,Regional Link Highway
+NH 544D,National Highway,293,299.04,Regional Link Highway
+NH 166E,National Highway,79,294.55,Regional Link Highway
+NH 41,National Highway,212,293.67,Regional Link Highway
+NH 561A,National Highway,61,292.3,Regional Link Highway
+NH 28,National Highway,156,290.27,Regional Link Highway
+NH 227A,National Highway,39,287.09,Regional Link Highway
+NH 753C,National Highway,63,284.02,Regional Link Highway
+NH 130,National Highway,183,283.11,Regional Link Highway
+NH 130A,National Highway,76,280.98,Regional Link Highway
+NH 102A,National Highway,40,278.21,Regional Link Highway
+NH 162,National Highway,106,275.96,Regional Link Highway
+NH 37,National Highway,62,269.81,Regional Link Highway
+NH 309,National Highway,128,268.94,Regional Link Highway
+NH 217,National Highway,24,268.12,Regional Link Highway
+NH 114A,National Highway,44,267.0,Regional Link Highway
+NH 365BB,National Highway,136,266.45,Regional Link Highway
+NH 109,National Highway,70,265.95,Regional Link Highway
+NH 316A,National Highway,71,265.72,Regional Link Highway
+NH 148D,National Highway,64,264.65,Regional Link Highway
+NH 709,National Highway,133,263.75,Regional Link Highway
+NH 327,National Highway,161,259.98,Regional Link Highway
+NH 333A,National Highway,41,258.91,Regional Link Highway
+NH 703,National Highway,155,257.06,Regional Link Highway
+Delhi - Vadodara Expressway,National Highway,256,253.51,Regional Link Highway
+NH 29,National Highway,88,252.95,Regional Link Highway
+NH 765,National Highway,69,251.26,Regional Link Highway
+NH 151A,National Highway,123,251.13,Regional Link Highway
+NH 64,National Highway,241,248.41,Regional Link Highway
+NH 154,National Highway,87,244.56,Regional Link Highway
+NH 505,National Highway,64,243.41,Regional Link Highway
+NH 458,National Highway,36,240.99,Regional Link Highway
+NH 143,National Highway,69,238.13,Regional Link Highway
+NH 346,National Highway,47,237.12,Regional Link Highway
+NH 57,National Highway,58,234.36,Regional Link Highway
+NH 627,National Highway,38,233.93,Regional Link Highway
+NH 509,National Highway,127,233.43,Regional Link Highway
+NH 965,National Highway,100,233.02,Regional Link Highway
+NH 752K,National Highway,73,231.03,Regional Link Highway
+NH 35,National Highway,103,230.69,Regional Link Highway
+NH 707A,National Highway,134,230.3,Regional Link Highway
+NH 347C,National Highway,60,229.45,Regional Link Highway
+NH 120,National Highway,94,229.34,Regional Link Highway
+NH 766,National Highway,45,227.83,Regional Link Highway
+NH 744,National Highway,203,226.33,Regional Link Highway
+NH 116A,National Highway,46,225.45,Regional Link Highway
+NH 848,National Highway,57,224.12,Regional Link Highway
+NH 330,National Highway,81,220.32,Regional Link Highway
+NH 23,National Highway,88,217.49,Regional Link Highway
+NH 139,National Highway,46,217.29,Regional Link Highway
+NH 244,National Highway,39,216.02,Regional Link Highway
+NH 130C,National Highway,21,214.88,Regional Link Highway
+NH 563,National Highway,100,214.08,Regional Link Highway
+NH 965G,National Highway,70,213.47,Regional Link Highway
+NH 130CD,National Highway,23,212.89,Regional Link Highway
+NH 25,National Highway,76,212.32,Regional Link Highway
+NH 334B,National Highway,121,208.56,Regional Link Highway
+NH 135A,National Highway,54,208.32,Regional Link Highway
+NH 752H,National Highway,48,208.06,Regional Link Highway
+NH 150,National Highway,97,207.09,Regional Link Highway
+NH 361F,National Highway,55,206.87,Regional Link Highway
+NH 144A,National Highway,109,205.69,Regional Link Highway
+NH 547,National Highway,76,200.76,Regional Link Highway
+NH 102B,National Highway,49,199.44,Regional Link Highway
+NH 227,National Highway,65,198.87,Regional Link Highway
+NH 715,National Highway,50,198.11,Regional Link Highway
+NH 169,National Highway,40,192.91,Regional Link Highway
+NH 503A,National Highway,58,192.69,Regional Link Highway
+NH 347A,National Highway,37,192.49,Regional Link Highway
+NH 160A,National Highway,23,192.47,Regional Link Highway
+NH 753,National Highway,97,191.29,Regional Link Highway
+NH 231,National Highway,77,189.36,Regional Link Highway
+NH 167B,National Highway,112,188.58,Regional Link Highway
+NH 766C,National Highway,44,185.54,Regional Link Highway
+KMP Expressway,National Highway,72,185.21,Regional Link Highway
+NH 130D,National Highway,29,184.34,Regional Link Highway
+NH 911,National Highway,5,182.99,Regional Link Highway
+NH 87,National Highway,159,182.12,Regional Link Highway
+NH 352,National Highway,84,180.37,Regional Link Highway
+NH 71,National Highway,147,179.05,Regional Link Highway
+Yamuna Expressway,National Highway,86,178.34,Regional Link Highway
+NH 353C,National Highway,52,178.12,Regional Link Highway
+NH 365B,National Highway,43,178.08,Regional Link Highway
+NH 220,National Highway,40,176.35,Regional Link Highway
+NH 181,National Highway,160,175.93,Regional Link Highway
+NH 948A,National Highway,94,174.93,Regional Link Highway
+NH 313,National Highway,91,174.89,Regional Link Highway
+NH 152,National Highway,117,174.24,Regional Link Highway
+NH 351,National Highway,43,174.18,Regional Link Highway
+NH 146,National Highway,47,171.11,Regional Link Highway
+NH 320G,National Highway,27,170.91,Regional Link Highway
+NH 205,National Highway,103,170.07,Regional Link Highway
+NH 215,National Highway,16,165.29,Regional Link Highway
+NH 125,National Highway,23,165.12,Regional Link Highway
+NH 727,National Highway,34,164.91,Regional Link Highway
+NH 753J,National Highway,44,163.75,Regional Link Highway
+NH 934,National Highway,30,163.04,Regional Link Highway
+NH 753L,National Highway,52,163.01,Regional Link Highway
+NH 129A,National Highway,33,162.48,Regional Link Highway
+NH 953,National Highway,47,161.19,Regional Link Highway
+NH 753B,National Highway,56,160.77,Regional Link Highway
+NH 113,National Highway,138,159.03,Regional Link Highway
+NH 234,National Highway,45,159.01,Regional Link Highway
+NH 552G,National Highway,21,158.76,Regional Link Highway
+NH 752E,National Highway,32,158.49,Regional Link Highway
+NH 247,National Highway,42,158.24,Regional Link Highway
+NH 751,National Highway,55,157.88,Regional Link Highway
+NH 734,National Highway,68,157.25,Regional Link Highway
+NH 365,National Highway,72,156.57,Regional Link Highway
+NH 758,National Highway,84,156.08,Regional Link Highway
+NH 254,National Highway,33,156.02,Regional Link Highway
+NH 309A,National Highway,63,155.77,Regional Link Highway
+NH 347,National Highway,77,155.61,Regional Link Highway
+NH 353J,National Highway,52,155.45,Regional Link Highway
+NH 131A,National Highway,51,155.37,Regional Link Highway
+NH 161AA,National Highway,33,154.95,Regional Link Highway
+NH 344,National Highway,117,153.7,Regional Link Highway
+NH 168,National Highway,40,153.65,Regional Link Highway
+NH 752B,National Highway,35,153.57,Regional Link Highway
+NH 702,National Highway,61,152.94,Regional Link Highway
+NH 343,National Highway,25,152.34,Regional Link Highway
+NH 748,National Highway,124,150.89,Regional Link Highway
+NH 157,National Highway,34,149.99,Regional Link Highway
+NH 367,National Highway,43,149.51,Regional Link Highway
+NH 965DD,National Highway,31,149.38,Regional Link Highway
+"NH 21,  530B",National Highway,45,149.21,Regional Link Highway
+NH 539,National Highway,21,149.0,Regional Link Highway
+NH 130B,National Highway,42,148.77,Regional Link Highway
+NH 108,National Highway,23,148.3,Regional Link Highway
+NH 333,National Highway,27,147.25,Regional Link Highway
+NH 131,National Highway,29,145.45,Regional Link Highway
+NH 173,National Highway,24,145.36,Regional Link Highway
+NH 707,National Highway,30,145.29,Regional Link Highway
+NH 341,National Highway,69,144.76,Regional Link Highway
+NH 326A,National Highway,28,144.31,Regional Link Highway
+NH 161G,National Highway,29,143.75,Regional Link Highway
+NH 709B,National Highway,28,143.4,Regional Link Highway
+NH 353,National Highway,23,143.22,Regional Link Highway
+NH 753A,National Highway,31,143.11,Regional Link Highway
+NH 128,National Highway,37,141.43,Regional Link Highway
+NH 86,National Highway,15,140.57,Regional Link Highway
+NH 709AD,National Highway,93,140.32,Regional Link Highway
+NH 135,National Highway,133,140.17,Regional Link Highway
+NH 353B,National Highway,56,140.07,Regional Link Highway
+NH 325,National Highway,29,139.83,Regional Link Highway
+NH 79,National Highway,187,138.76,Regional Link Highway
+NH 648,National Highway,90,136.51,Regional Link Highway
+NH 925,National Highway,2,136.02,Regional Link Highway
+NH 503,National Highway,72,135.8,Regional Link Highway
+NH 167A,National Highway,187,135.68,Regional Link Highway
+NH 158,National Highway,37,134.4,Regional Link Highway
+NH 752C,National Highway,24,134.18,Regional Link Highway
+NH 727H,National Highway,24,133.18,Regional Link Highway
+NH 136,National Highway,174,132.93,Regional Link Highway
+NH 727B,National Highway,11,131.59,Regional Link Highway
+"NH 16,  NH 316A",National Highway,169,130.85,Regional Link Highway
+NH 320D,National Highway,32,130.56,Regional Link Highway
+NH 340C,National Highway,89,130.4,Regional Link Highway
+NH 154A,National Highway,37,129.09,Regional Link Highway
+NH 927,National Highway,58,128.49,Regional Link Highway
+NH 334,National Highway,83,128.13,Regional Link Highway
+"NH 77,  179B",National Highway,126,127.74,Regional Link Highway
+NH 731A,National Highway,31,127.62,Regional Link Highway
+NH 133,National Highway,25,126.31,Regional Link Highway
+NH 319,National Highway,64,125.27,Regional Link Highway
+NH 143AG,National Highway,25,125.24,Regional Link Highway
+NH 160H,National Highway,20,125.07,Regional Link Highway
+NH 373,National Highway,45,123.89,Regional Link Highway
+NH 266,National Highway,38,122.78,Regional Link Highway
+NH 561,National Highway,14,122.76,Regional Link Highway
+NH 731K,National Highway,22,121.82,Regional Link Highway
+NH 216A,National Highway,114,121.36,Regional Link Highway
+NH 183A,National Highway,63,121.16,Regional Link Highway
+NH 766E,National Highway,19,120.61,Regional Link Highway
+NH 10,National Highway,74,120.06,Regional Link Highway
+"NH 544D,  NH 544F",National Highway,81,118.61,Regional Link Highway
+NH 966,National Highway,53,115.7,Regional Link Highway
+NH 922,National Highway,54,115.18,Regional Link Highway
+NH 534,National Highway,81,114.9,Regional Link Highway
+NH 702A,National Highway,48,114.41,Regional Link Highway
+NH 179A,National Highway,187,114.25,Regional Link Highway
+NH 544DD,National Highway,57,113.27,Regional Link Highway
+NH 335,National Highway,28,113.18,Regional Link Highway
+NH 135BG,National Highway,25,112.72,Regional Link Highway
+NH 544E,National Highway,78,112.39,Regional Link Highway
+NH 515,National Highway,33,110.61,Regional Link Highway
+NH 206,National Highway,22,110.53,Regional Link Highway
+NH 330D,National Highway,19,110.48,Regional Link Highway
+NH 730C,National Highway,11,110.29,Regional Link Highway
+NH 522,National Highway,25,109.78,Regional Link Highway
+NH 713,National Highway,43,109.47,Regional Link Highway
+NH 753H,National Highway,22,108.63,Regional Link Highway
+NH 149B,National Highway,50,108.28,Regional Link Highway
+NH 165,National Highway,131,107.93,Regional Link Highway
+NH 248,National Highway,24,107.71,Regional Link Highway
+NH 330A,National Highway,33,107.22,Regional Link Highway
+NH 128B,National Highway,47,106.86,Regional Link Highway
+NH 316,National Highway,25,106.18,Regional Link Highway
+NH 512,National Highway,38,105.91,Regional Link Highway
+NH 135C,National Highway,21,105.83,Regional Link Highway
+NH 381,National Highway,144,105.44,Regional Link Highway
+NH 461B,National Highway,5,104.35,Regional Link Highway
+NH 167BG,National Highway,41,103.89,Regional Link Highway
+NH 465,National Highway,12,103.61,Regional Link Highway
+NH 753M,National Highway,28,103.51,Regional Link Highway
+NH 353D,National Highway,63,103.48,Regional Link Highway
+NH 369,National Highway,23,103.31,Regional Link Highway
+NH 114,National Highway,32,103.01,Regional Link Highway
+NH 548H,National Highway,21,102.17,Regional Link Highway
+NH 129,National Highway,4,101.62,Regional Link Highway
+NH 730A,National Highway,14,101.54,Regional Link Highway
+NH 927D,National Highway,26,101.28,Regional Link Highway
+NH 122,National Highway,22,101.12,Regional Link Highway
+"NH 25,  NH 754K",National Highway,19,101.12,Regional Link Highway
+NH 701,National Highway,73,101.03,Regional Link Highway
+NH 444,National Highway,41,100.61,Regional Link Highway
+NH 86A,National Highway,19,100.46,Regional Link Highway
+NH 703A,National Highway,30,100.23,Regional Link Highway
+NH 383,National Highway,107,100.22,Regional Link Highway
+NH 353E,National Highway,15,99.32,Feeder / Spur Highway
+NH 513,National Highway,41,98.99,Feeder / Spur Highway
+NH 151,National Highway,67,98.23,Feeder / Spur Highway
+NH 719,National Highway,25,98.07,Feeder / Spur Highway
+NH 520,National Highway,83,97.51,Feeder / Spur Highway
+NH 753E,National Highway,15,97.32,Feeder / Spur Highway
+NH 727A,National Highway,27,96.94,Feeder / Spur Highway
+NH 536,National Highway,76,96.32,Feeder / Spur Highway
+NH 965D,National Highway,23,95.26,Feeder / Spur Highway
+NH 731B,National Highway,11,95.19,Feeder / Spur Highway
+"NH 32,  179B",National Highway,105,95.02,Feeder / Spur Highway
+NH 548CC,National Highway,27,94.9,Feeder / Spur Highway
+NH 347GB,National Highway,31,94.0,Feeder / Spur Highway
+"NH 48,  NH 27",National Highway,117,93.89,Feeder / Spur Highway
+NH 507,National Highway,15,93.83,Feeder / Spur Highway
+NH 102,National Highway,16,93.62,Feeder / Spur Highway
+NH 332A,National Highway,138,93.62,Feeder / Spur Highway
+"NH 52,  NH 152",National Highway,64,93.47,Feeder / Spur Highway
+NH 531,National Highway,44,92.82,Feeder / Spur Highway
+NH 119,National Highway,11,91.9,Feeder / Spur Highway
+NH 844,National Highway,105,91.81,Feeder / Spur Highway
+NH 208,National Highway,21,90.24,Feeder / Spur Highway
+NH 353I,National Highway,33,89.96,Feeder / Spur Highway
+NH 427,National Highway,32,89.62,Feeder / Spur Highway
+"NH 48,  NE 1",National Highway,56,89.57,Feeder / Spur Highway
+NH 363,National Highway,38,89.53,Feeder / Spur Highway
+NH 752,National Highway,11,89.44,Feeder / Spur Highway
+NH 532,National Highway,120,89.3,Feeder / Spur Highway
+NH 328,National Highway,14,89.17,Feeder / Spur Highway
+NH 161E,National Highway,31,89.07,Feeder / Spur Highway
+NH 315,National Highway,19,88.95,Feeder / Spur Highway
+NH 501,National Highway,12,88.59,Feeder / Spur Highway
+NH 361C,National Highway,17,88.06,Feeder / Spur Highway
+Eastern Peripheral Expressway,National Highway,54,87.97,Feeder / Spur Highway
+NH 344A,National Highway,51,87.93,Feeder / Spur Highway
+NH 320,National Highway,23,87.29,Feeder / Spur Highway
+NH 328A,National Highway,18,87.21,Feeder / Spur Highway
+NH 720,National Highway,32,86.71,Feeder / Spur Highway
+NH 116B,National Highway,25,86.05,Feeder / Spur Highway
+NH 702D,National Highway,13,86.03,Feeder / Spur Highway
+NH 314,National Highway,12,84.81,Feeder / Spur Highway
+NH 655,National Highway,18,84.4,Feeder / Spur Highway
+NH 544H,National Highway,102,82.83,Feeder / Spur Highway
+NH 143B,National Highway,16,82.56,Feeder / Spur Highway
+NH 717A,National Highway,6,82.29,Feeder / Spur Highway
+"NH 48,  NH 64",National Highway,69,82.17,Feeder / Spur Highway
+"NH 19,  44",National Highway,67,82.08,Feeder / Spur Highway
+NH 166G,National Highway,12,81.87,Feeder / Spur Highway
+NH 306,National Highway,13,80.76,Feeder / Spur Highway
+NH 143D,National Highway,14,80.32,Feeder / Spur Highway
+NH 305,National Highway,30,79.73,Feeder / Spur Highway
+NH 431,National Highway,56,78.97,Feeder / Spur Highway
+NH 530B,National Highway,30,78.64,Feeder / Spur Highway
+NH 169A,National Highway,24,78.27,Feeder / Spur Highway
+NH 931,National Highway,8,77.69,Feeder / Spur Highway
+NH 135B,National Highway,15,76.61,Feeder / Spur Highway
+NH 722,National Highway,35,76.19,Feeder / Spur Highway
+NH 334D,National Highway,20,75.56,Feeder / Spur Highway
+NH 153B,National Highway,24,75.25,Feeder / Spur Highway
+NH 134,National Highway,42,74.97,Feeder / Spur Highway
+NH 381A,National Highway,113,74.4,Feeder / Spur Highway
+NH 754,National Highway,25,74.24,Feeder / Spur Highway
+NH 115,National Highway,22,73.93,Feeder / Spur Highway
+NH 703B,National Highway,17,72.92,Feeder / Spur Highway
+NH 527A,National Highway,22,72.32,Feeder / Spur Highway
+NH 716A,National Highway,51,72.2,Feeder / Spur Highway
+NH 122B,National Highway,12,71.76,Feeder / Spur Highway
+NH 185,National Highway,17,70.63,Feeder / Spur Highway
+NH 365A,National Highway,23,70.58,Feeder / Spur Highway
+NH 753BB,National Highway,7,70.36,Feeder / Spur Highway
+NH 208A,National Highway,10,70.25,Feeder / Spur Highway
+NH 133E,National Highway,23,70.17,Feeder / Spur Highway
+NH 748AA,National Highway,21,70.13,Feeder / Spur Highway
+"NH 148N,  NH 248A",National Highway,5,69.85,Feeder / Spur Highway
+NH 143A,National Highway,14,69.57,Feeder / Spur Highway
+NH 516A,National Highway,5,68.79,Feeder / Spur Highway
+NH 943,National Highway,3,68.15,Feeder / Spur Highway
+NH 530,National Highway,61,68.14,Feeder / Spur Highway
+NH 332,National Highway,55,67.6,Feeder / Spur Highway
+NH 652,National Highway,11,67.46,Feeder / Spur Highway
+NH 107A,National Highway,52,67.42,Feeder / Spur Highway
+NH 730S,National Highway,11,67.15,Feeder / Spur Highway
+NH 785,National Highway,123,67.04,Feeder / Spur Highway
+NH 727G,National Highway,4,67.0,Feeder / Spur Highway
+NH 510,National Highway,94,66.83,Feeder / Spur Highway
+NH 317,National Highway,48,66.81,Feeder / Spur Highway
+NH 527D,National Highway,19,66.66,Feeder / Spur Highway
+NH 148,National Highway,61,66.34,Feeder / Spur Highway
+NH 419,National Highway,18,66.2,Feeder / Spur Highway
+NH 144,National Highway,36,66.05,Feeder / Spur Highway
+NH 306A,National Highway,7,65.82,Feeder / Spur Highway
+NH 230,National Highway,18,65.74,Feeder / Spur Highway
+NH 334A,National Highway,24,65.39,Feeder / Spur Highway
+NH 369E,National Highway,7,65.09,Feeder / Spur Highway
+NH 302,National Highway,26,64.96,Feeder / Spur Highway
+NH 765D,National Highway,23,64.94,Feeder / Spur Highway
+NH 331,National Highway,10,64.82,Feeder / Spur Highway
+NH 527C,National Highway,32,64.73,Feeder / Spur Highway
+NH 502A,National Highway,12,64.09,Feeder / Spur Highway
+NH 715A,National Highway,26,63.96,Feeder / Spur Highway
+NH 105,National Highway,48,63.62,Feeder / Spur Highway
+NH 150E,National Highway,9,63.35,Feeder / Spur Highway
+NH 107,National Highway,45,62.32,Feeder / Spur Highway
+NH 907,National Highway,20,61.5,Feeder / Spur Highway
+NH 503D,National Highway,19,61.49,Feeder / Spur Highway
+NH 149,National Highway,33,60.43,Feeder / Spur Highway
+NH 717,National Highway,21,60.33,Feeder / Spur Highway
+NH 925A,National Highway,1,60.01,Feeder / Spur Highway
+NH 309B,National Highway,28,60.0,Feeder / Spur Highway
+NH 919,National Highway,12,59.97,Feeder / Spur Highway
+NH 219,National Highway,15,59.83,Feeder / Spur Highway
+NH 907A,National Highway,5,59.79,Feeder / Spur Highway
+NH 340,National Highway,22,59.72,Feeder / Spur Highway
+NH 968,National Highway,1,59.52,Feeder / Spur Highway
+"NH 44,  48",National Highway,84,58.9,Feeder / Spur Highway
+NH 516D,National Highway,42,58.72,Feeder / Spur Highway
+NH 705,National Highway,13,58.11,Feeder / Spur Highway
+"NH 215,  NH 315A",National Highway,14,58.08,Feeder / Spur Highway
+NH 112,National Highway,15,58.07,Feeder / Spur Highway
+NH 124D,National Highway,4,57.99,Feeder / Spur Highway
+"NH 160,  NH 548B",National Highway,7,57.7,Feeder / Spur Highway
+NH 110,National Highway,15,57.46,Feeder / Spur Highway
+NH 322,National Highway,13,57.45,Feeder / Spur Highway
+NH 116,National Highway,22,57.01,Feeder / Spur Highway
+NH 527E,National Highway,10,56.31,Feeder / Spur Highway
+NH 161B,National Highway,13,56.29,Feeder / Spur Highway
+NH 336,National Highway,61,55.8,Feeder / Spur Highway
+NH 77,National Highway,75,55.52,Feeder / Spur Highway
+NH 108B,National Highway,3,55.18,Feeder / Spur Highway
+NH 751D,National Highway,47,54.23,Feeder / Spur Highway
+NH 124C,National Highway,7,54.05,Feeder / Spur Highway
+NH 527B,National Highway,6,53.62,Feeder / Spur Highway
+NH 415,National Highway,32,53.59,Feeder / Spur Highway
+NH 126A,National Highway,8,53.53,Feeder / Spur Highway
+NH 133A,National Highway,20,53.45,Feeder / Spur Highway
+NH 146B,National Highway,21,53.33,Feeder / Spur Highway
+NH 647,National Highway,6,52.67,Feeder / Spur Highway
+NH 381B,National Highway,73,52.67,Feeder / Spur Highway
+NH 166H,National Highway,15,52.59,Feeder / Spur Highway
+NH 548E,National Highway,17,52.39,Feeder / Spur Highway
+NH 136B,National Highway,61,52.38,Feeder / Spur Highway
+NE 3,National Highway,60,52.36,Feeder / Spur Highway
+"NH 130B,  NH 49",National Highway,14,51.91,Feeder / Spur Highway
+NH 921,National Highway,9,51.91,Feeder / Spur Highway
+NH 138,National Highway,38,51.82,Feeder / Spur Highway
+NH 103A,National Highway,19,51.75,Feeder / Spur Highway
+NH 218,National Highway,13,51.66,Feeder / Spur Highway
+NH 931A,National Highway,5,51.65,Feeder / Spur Highway
+NH 361H,National Highway,8,51.56,Feeder / Spur Highway
+NH 168A,National Highway,12,51.28,Feeder / Spur Highway
+"NH 68,  NH 754K",National Highway,20,51.08,Feeder / Spur Highway
+NH 344M,National Highway,19,50.82,Feeder / Spur Highway
+NH 354E,National Highway,8,50.78,Feeder / Spur Highway
+NH 103,National Highway,15,50.32,Feeder / Spur Highway
+NH 361B,National Highway,15,49.75,Feeder / Spur Highway
+NH 319A,National Highway,17,49.44,Feeder / Spur Highway
+NH 329,National Highway,11,49.21,Feeder / Spur Highway
+NH 727AA,National Highway,11,49.19,Feeder / Spur Highway
+NH 127D,National Highway,10,49.03,Feeder / Spur Highway
+NH 133B,National Highway,22,48.92,Feeder / Spur Highway
+NH 756,National Highway,24,48.4,Feeder / Spur Highway
+NH 761,National Highway,2,47.86,Feeder / Spur Highway
+NH 147,National Highway,64,47.69,Feeder / Spur Highway
+NH 148C,National Highway,19,47.57,Feeder / Spur Highway
+NH 162A,National Highway,10,47.52,Feeder / Spur Highway
+NH 352W,National Highway,11,47.49,Feeder / Spur Highway
+NH 140,National Highway,50,47.36,Feeder / Spur Highway
+NH 248A,National Highway,15,47.33,Feeder / Spur Highway
+NH 965C,National Highway,6,47.33,Feeder / Spur Highway
+NH 548DD,National Highway,25,47.25,Feeder / Spur Highway
+NH 752I NH 753A,National Highway,26,47.23,Feeder / Spur Highway
+NH 160D,National Highway,3,47.14,Feeder / Spur Highway
+NH 351F,National Highway,14,46.61,Feeder / Spur Highway
+NH 730H,National Highway,3,46.47,Feeder / Spur Highway
+NH 702B,National Highway,7,46.41,Feeder / Spur Highway
+NH 702C,National Highway,7,45.89,Feeder / Spur Highway
+NH 330B,National Highway,19,45.68,Feeder / Spur Highway
+NH 334C,National Highway,29,45.22,Feeder / Spur Highway
+NH 105B,National Highway,8,44.98,Feeder / Spur Highway
+NH 334DD,National Highway,10,44.45,Feeder / Spur Highway
+NH 310A,National Highway,39,44.06,Feeder / Spur Highway
+NH 717B,National Highway,13,43.97,Feeder / Spur Highway
+NH 137A,National Highway,4,43.89,Feeder / Spur Highway
+"NH 27,  19",National Highway,36,43.77,Feeder / Spur Highway
+"NH 152D,  NH 352A",National Highway,20,43.6,Feeder / Spur Highway
+Saharanpur Bypass,National Highway,37,43.39,Feeder / Spur Highway
+NH 161BB,National Highway,18,43.32,Feeder / Spur Highway
+NH 128C,National Highway,9,43.16,Feeder / Spur Highway
+NH 307,National Highway,18,42.47,Feeder / Spur Highway
+NH 954,National Highway,7,42.29,Feeder / Spur Highway
+NH 127E,National Highway,5,42.28,Feeder / Spur Highway
+NH 132B,National Highway,80,42.04,Feeder / Spur Highway
+NH 153,National Highway,1,41.96,Feeder / Spur Highway
+NH 227F,National Highway,6,41.93,Feeder / Spur Highway
+"NH 30,  730C",National Highway,17,41.76,Feeder / Spur Highway
+NH 127,National Highway,8,40.66,Feeder / Spur Highway
+NH 128A,National Highway,20,40.48,Feeder / Spur Highway
+NH 353K,National Highway,6,39.93,Feeder / Spur Highway
+NH 147D,National Highway,16,39.89,Feeder / Spur Highway
+"NH 49,  NH 153",National Highway,8,39.56,Feeder / Spur Highway
+NH 227J,National Highway,23,39.48,Feeder / Spur Highway
+NH 205A,National Highway,5,39.45,Feeder / Spur Highway
+NH 123,National Highway,21,39.43,Feeder / Spur Highway
+NH 117A,National Highway,7,39.15,Feeder / Spur Highway
+NH 352A,National Highway,30,39.15,Feeder / Spur Highway
+NH 310,National Highway,43,39.12,Feeder / Spur Highway
+NH 127C,National Highway,11,38.79,Feeder / Spur Highway
+NH 848A,National Highway,10,38.78,Feeder / Spur Highway
+NH 148M,National Highway,13,38.39,Feeder / Spur Highway
+NH 127A,National Highway,9,37.9,Feeder / Spur Highway
+Chindwara Ring Road,National Highway,21,37.86,Feeder / Spur Highway
+NH 148BB,National Highway,13,37.81,Feeder / Spur Highway
+NH 448,National Highway,36,37.34,Feeder / Spur Highway
+NH 710,National Highway,28,36.97,Feeder / Spur Highway
+NH 135BD,National Highway,9,36.9,Feeder / Spur Highway
+NH 701A,National Highway,36,36.71,Feeder / Spur Highway
+NH 132,National Highway,24,36.34,Feeder / Spur Highway
+NH 152A,National Highway,5,36.07,Feeder / Spur Highway
+"NH 58,  NH 927A",National Highway,10,35.84,Feeder / Spur Highway
+"NH 248A,  NH 148N",National Highway,11,35.79,Feeder / Spur Highway
+Chhatarpur Bypass,National Highway,11,35.52,Feeder / Spur Highway
+"NH 52,  NH 752B",National Highway,5,35.29,Feeder / Spur Highway
+NH 344B,National Highway,14,35.27,Feeder / Spur Highway
+"NH 754K,  NH 68",National Highway,3,35.12,Feeder / Spur Highway
+NH 730B,National Highway,9,35.03,Feeder / Spur Highway
+NH 930D,National Highway,15,34.73,Feeder / Spur Highway
+Gwalior Bypass,National Highway,21,34.26,Feeder / Spur Highway
+NH 143H,National Highway,8,34.08,Feeder / Spur Highway
+NH 329A,National Highway,2,33.98,Feeder / Spur Highway
+NH 147E,National Highway,10,33.94,Feeder / Spur Highway
+NH 157A,National Highway,3,33.78,Feeder / Spur Highway
+NH 339,National Highway,3,33.44,Feeder / Spur Highway
+NH 727BB,National Highway,5,33.14,Feeder / Spur Highway
+NH 251,National Highway,13,33.1,Feeder / Spur Highway
+"NH 33,  NH 133B",National Highway,3,32.39,Feeder / Spur Highway
+NH 338,National Highway,35,32.26,Feeder / Spur Highway
+NH 353J NH 353K,National Highway,13,32.21,Feeder / Spur Highway
+NH 444A,National Highway,13,31.83,Feeder / Spur Highway
+NH 547E,National Highway,27,31.63,Feeder / Spur Highway
+NH 911A,National Highway,1,31.62,Feeder / Spur Highway
+NH 319D,National Highway,15,31.39,Feeder / Spur Highway
+"NH 148N,  NH 148",National Highway,29,30.87,Feeder / Spur Highway
+"NH 161,  NH 361",National Highway,17,30.86,Feeder / Spur Highway
+NH 566,National Highway,13,30.68,Feeder / Spur Highway
+"NH 565,  NH 67",National Highway,29,30.26,Feeder / Spur Highway
+"NH 565,  NH 544F",National Highway,20,30.07,Feeder / Spur Highway
+NH 137,National Highway,15,29.99,Feeder / Spur Highway
+NH 303,National Highway,5,29.65,Feeder / Spur Highway
+"NH 361,  NH 50",National Highway,10,29.62,Feeder / Spur Highway
+"NH 52,  347B",National Highway,8,29.34,Feeder / Spur Highway
+"NH 54,  NH 754K",National Highway,3,29.12,Feeder / Spur Highway
+NH 348,National Highway,43,28.71,Feeder / Spur Highway
+NH 367A,National Highway,6,28.67,Feeder / Spur Highway
+"NH 39,  135C",National Highway,31,28.65,Feeder / Spur Highway
+NH AH1,National Highway,63,28.12,Feeder / Spur Highway
+Rewa Road,National Highway,7,27.82,Feeder / Spur Highway
+NH 519,National Highway,1,27.74,Feeder / Spur Highway
+NH 848B,National Highway,13,26.28,Feeder / Spur Highway
+NH 315A,National Highway,13,26.06,Feeder / Spur Highway
+NH 344P,National Highway,6,25.88,Feeder / Spur Highway
+Noida-Greater Noida Expressway,National Highway,18,25.84,Feeder / Spur Highway
+NH 160C,National Highway,7,25.83,Feeder / Spur Highway
+"NH 731,  330D",National Highway,9,25.79,Feeder / Spur Highway
+"NH 15,  NH 715A",National Highway,4,25.63,Feeder / Spur Highway
+"NH 543,  45",National Highway,2,25.42,Feeder / Spur Highway
+NH 247;NH 353D,National Highway,2,25.28,Feeder / Spur Highway
+NH 166D,National Highway,3,25.21,Feeder / Spur Highway
+NH 39 135C,National Highway,13,25.2,Feeder / Spur Highway
+NH 161H,National Highway,10,25.09,Feeder / Spur Highway
+ROORKEE BYPASS,National Highway,15,24.96,Feeder / Spur Highway
+NH 327A,National Highway,6,24.72,Feeder / Spur Highway
+NH 122A,National Highway,8,24.65,Feeder / Spur Highway
+MAKUM BYPASS,National Highway,10,24.07,Feeder / Spur Highway
+"NH 48,  NH 67",National Highway,31,24.03,Feeder / Spur Highway
+"NH 202,  NH 102A",National Highway,6,23.9,Feeder / Spur Highway
+Ranchi Ring Road,National Highway,37,23.61,Feeder / Spur Highway
+NH 311,National Highway,9,23.54,Feeder / Spur Highway
+"NH 563,  NH 365",National Highway,3,23.5,Feeder / Spur Highway
+"NH 352,  NH 9",National Highway,13,23.37,Feeder / Spur Highway
+NH 126,National Highway,3,23.36,Feeder / Spur Highway
+"NH 27,  NH 227A",National Highway,16,23.12,Feeder / Spur Highway
+NH 166A,National Highway,8,23.05,Feeder / Spur Highway
+Nagaur Bypass,National Highway,18,23.04,Feeder / Spur Highway
+"NH 730,  927",National Highway,10,23.0,Feeder / Spur Highway
+"NH 150A,  NH 766",National Highway,15,22.66,Feeder / Spur Highway
+NH 352R,National Highway,8,22.45,Feeder / Spur Highway
+"NH 25,  NH 458",National Highway,4,22.28,Feeder / Spur Highway
+NH 502,National Highway,17,22.06,Feeder / Spur Highway
+Satana Bypass,National Highway,15,22.06,Feeder / Spur Highway
+"NH 60,  NH 160",National Highway,43,21.95,Feeder / Spur Highway
+"NH 848,  160A",National Highway,12,21.94,Feeder / Spur Highway
+NH 166F,National Highway,5,20.85,Feeder / Spur Highway
+"NH 52,  NH 148N",National Highway,21,20.37,Feeder / Spur Highway
+NH 108A,National Highway,1,20.33,Feeder / Spur Highway
+"NH 217,  NH 127B",National Highway,2,19.9,Feeder / Spur Highway
+NH 321G,National Highway,3,19.89,Feeder / Spur Highway
+"NH 179A,  179B",National Highway,43,19.85,Feeder / Spur Highway
+NH 135BB,National Highway,4,19.7,Feeder / Spur Highway
+"NH 754K,  NH 341",National Highway,6,19.42,Feeder / Spur Highway
+NH 227L,National Highway,1,19.41,Feeder / Spur Highway
+NH 148A,National Highway,7,19.39,Feeder / Spur Highway
+KASHIPUR BYPASS,National Highway,8,19.29,Feeder / Spur Highway
+NH 751DD,National Highway,1,19.09,Feeder / Spur Highway
+NH 248BB,National Highway,5,19.04,Feeder / Spur Highway
+Meerut Bypass,National Highway,13,18.98,Feeder / Spur Highway
+"NH 29,  NH 229",National Highway,7,18.72,Feeder / Spur Highway
+"NH 27,  NH 17",National Highway,11,18.51,Feeder / Spur Highway
+Kaithal Bypass,National Highway,6,18.46,Feeder / Spur Highway
+NH 348B,National Highway,8,18.43,Feeder / Spur Highway
+"NH 149,  NH 53",National Highway,6,18.33,Feeder / Spur Highway
+NH 333B,National Highway,11,18.2,Feeder / Spur Highway
+NH 731AG,National Highway,1,18.16,Feeder / Spur Highway
+NH 966A,National Highway,41,18.08,Feeder / Spur Highway
+"NH 548B,  NH 166E",National Highway,6,17.81,Feeder / Spur Highway
+"NH 716,  NH 67",National Highway,20,17.62,Feeder / Spur Highway
+NH 907G,National Highway,2,17.6,Feeder / Spur Highway
+"NH 26,  NH 326",National Highway,1,17.55,Feeder / Spur Highway
+Tirupati Bypass,National Highway,9,17.4,Feeder / Spur Highway
+NH 317A,National Highway,9,17.24,Feeder / Spur Highway
+NH 713A,National Highway,7,17.23,Feeder / Spur Highway
+Jodhpur Bypass,National Highway,12,17.14,Feeder / Spur Highway
+NH 944,National Highway,32,17.12,Feeder / Spur Highway
+NH 333C,National Highway,1,17.11,Feeder / Spur Highway
+Rayachoti Bypass,National Highway,16,17.09,Feeder / Spur Highway
+NH 517,National Highway,8,17.05,Feeder / Spur Highway
+"NH 30,  NH 63",National Highway,6,16.89,Feeder / Spur Highway
+Aligarh Bypass,National Highway,19,16.72,Feeder / Spur Highway
+"NH 16,  NH 516A",National Highway,3,16.7,Feeder / Spur Highway
+NH 118,National Highway,8,16.47,Feeder / Spur Highway
+NH 275K,National Highway,3,16.44,Feeder / Spur Highway
+"NH 63,  NH 361",National Highway,6,16.07,Feeder / Spur Highway
+"NH 30,  34",National Highway,9,15.89,Feeder / Spur Highway
+"NH 754K,  NH 27",National Highway,9,15.87,Feeder / Spur Highway
+"NH 731,  230",National Highway,19,15.78,Feeder / Spur Highway
+Bhagalpur Bypass,National Highway,23,15.74,Feeder / Spur Highway
+"NH 315,  NH 215",National Highway,3,15.62,Feeder / Spur Highway
+"NH 60,  NH 65",National Highway,16,15.48,Feeder / Spur Highway
+"NH 30,  35",National Highway,7,15.4,Feeder / Spur Highway
+Lalsot Bypass,National Highway,20,15.38,Feeder / Spur Highway
+Gwalior South Bypass,National Highway,5,15.3,Feeder / Spur Highway
+Chhapra Bypass,National Highway,25,15.24,Feeder / Spur Highway
+NH 141,National Highway,18,15.05,Feeder / Spur Highway
+NH 131B,National Highway,12,15.03,Feeder / Spur Highway
+NH 321,National Highway,7,14.96,Feeder / Spur Highway
+"NH 565,  NH 544D",National Highway,11,14.82,Feeder / Spur Highway
+"NH 22,  NH 31",National Highway,22,14.8,Feeder / Spur Highway
+Sultanpur Road,National Highway,7,14.6,Feeder / Spur Highway
+"NH 52,  47",National Highway,15,14.59,Feeder / Spur Highway
+NH 102C,National Highway,1,14.55,Feeder / Spur Highway
+NH 244A,National Highway,17,14.51,Feeder / Spur Highway
+NH 752I NH 548B,National Highway,8,14.51,Feeder / Spur Highway
+"NH 27,  230",National Highway,1,14.39,Feeder / Spur Highway
+"NH 58,  NH 448",National Highway,10,14.19,Feeder / Spur Highway
+"NH 30,  330",National Highway,15,14.06,Feeder / Spur Highway
+NH 117,National Highway,2,13.98,Feeder / Spur Highway
+Etah Bypass,National Highway,10,13.89,Feeder / Spur Highway
+"NH 148B,  NH 152, NH 52",National Highway,7,13.88,Feeder / Spur Highway
+NH 516C,National Highway,29,13.65,Feeder / Spur Highway
+Uri-Ghar Kote Rd,National Highway,9,13.5,Feeder / Spur Highway
+NH 156,National Highway,11,13.23,Feeder / Spur Highway
+"NH 55,  NH 316A",National Highway,1,13.2,Feeder / Spur Highway
+NH 752I NH 52,National Highway,6,13.15,Feeder / Spur Highway
+"NH 330,  128",National Highway,11,13.1,Feeder / Spur Highway
+NH 327C,National Highway,7,12.91,Feeder / Spur Highway
+"NH 48,  NH 52",National Highway,23,12.91,Feeder / Spur Highway
+FULBARI GHOSHPUKUR BYPASS ROAD,National Highway,19,12.86,Feeder / Spur Highway
+"NH 52,  NH 27",National Highway,17,12.75,Feeder / Spur Highway
+Ambala Bypass,National Highway,6,12.51,Feeder / Spur Highway
+"NH 19,  731A",National Highway,6,12.21,Feeder / Spur Highway
+Akbarpur Bpass Road,National Highway,15,12.18,Feeder / Spur Highway
+Sirsa Bypass,National Highway,5,12.18,Feeder / Spur Highway
+Sampla Bypass,National Highway,20,12.17,Feeder / Spur Highway
+Gulabpura Bypass,National Highway,11,12.04,Feeder / Spur Highway
+Ghazipur Bypass,National Highway,18,11.85,Feeder / Spur Highway
+NH 168K,National Highway,2,11.8,Feeder / Spur Highway
+NH 584D,National Highway,3,11.79,Feeder / Spur Highway
+NH 505A,National Highway,26,11.78,Feeder / Spur Highway
+"NH 44,  NH 75",National Highway,33,11.75,Feeder / Spur Highway
+"NH 43,  NH 20",National Highway,5,11.58,Feeder / Spur Highway
+"NH 53,  NH 353I",National Highway,23,11.28,Feeder / Spur Highway
+NH 163A,National Highway,6,11.24,Feeder / Spur Highway
+"NH 49,  NH 53",National Highway,3,11.21,Feeder / Spur Highway
+NH 179B,National Highway,5,11.07,Feeder / Spur Highway
+Nongstoin Bypass,National Highway,1,11.04,Feeder / Spur Highway
+NH 527,National Highway,7,10.8,Feeder / Spur Highway
+"NH 52,  NH 148D",National Highway,11,10.69,Feeder / Spur Highway
+"NH 752I,  NH 161A",National Highway,5,10.59,Feeder / Spur Highway
+NH 516,National Highway,4,10.57,Feeder / Spur Highway
+NH 366,National Highway,2,10.47,Feeder / Spur Highway
+"NH 27,  330",National Highway,11,10.44,Feeder / Spur Highway
+Kadapa Bypass,National Highway,8,10.39,Feeder / Spur Highway
+NH AH2,National Highway,26,10.21,Feeder / Spur Highway
+NH 348A,National Highway,11,10.17,Feeder / Spur Highway
+"NH 75,  NH 48",National Highway,25,10.15,Feeder / Spur Highway
+"NH 27,  44",National Highway,13,10.1,Feeder / Spur Highway
+NH 339B,National Highway,5,10.03,Feeder / Spur Highway
+Purnia Bypass,National Highway,10,9.98,Feeder / Spur Highway
+Hazaribag Bypass,National Highway,9,9.94,Feeder / Spur Highway
+"NH 32,  536",National Highway,4,9.87,Feeder / Spur Highway
+"NH 30,  NH 53",National Highway,15,9.81,Feeder / Spur Highway
+Kunda Bypass,National Highway,1,9.72,Feeder / Spur Highway
+NH 327AD,National Highway,6,9.63,Feeder / Spur Highway
+NH  114A,National Highway,2,9.58,Feeder / Spur Highway
+"NH 66,  NH 166",National Highway,4,9.55,Feeder / Spur Highway
+Islampur Bypass,National Highway,11,9.5,Feeder / Spur Highway
+Gorakhpur Bypass,National Highway,4,9.49,Feeder / Spur Highway
+"NH 54,  NH 3",National Highway,15,9.47,Feeder / Spur Highway
+Ponda Road,National Highway,1,9.13,Feeder / Spur Highway
+"NH 17,  NH 127B",National Highway,1,9.03,Feeder / Spur Highway
+NH 752I NH 548C,National Highway,3,9.01,Feeder / Spur Highway
+"NH 83,  36",National Highway,19,8.97,Feeder / Spur Highway
+"NH 30,  27",National Highway,5,8.96,Feeder / Spur Highway
+"NH 18,  NH 49",National Highway,3,8.95,Feeder / Spur Highway
+Pehowa Bypass,National Highway,5,8.91,Feeder / Spur Highway
+MNH la Bypass,National Highway,10,8.75,Feeder / Spur Highway
+"NH 49,  NH 220",National Highway,7,8.67,Feeder / Spur Highway
+Bapatla Bypass,National Highway,4,8.61,Feeder / Spur Highway
+"NH 307,  344",National Highway,11,8.6,Feeder / Spur Highway
+"NH 548B,  NH 548D",National Highway,6,8.54,Feeder / Spur Highway
+"NH 275,  NH 275K",National Highway,6,8.48,Feeder / Spur Highway
+"NH 54,  NH 703B",National Highway,9,8.41,Feeder / Spur Highway
+NH 930H,National Highway,1,8.4,Feeder / Spur Highway
+"NH 365,  NH 365A",National Highway,5,8.37,Feeder / Spur Highway
+"NH 458,  NH 162",National Highway,3,8.28,Feeder / Spur Highway
+Siwan Bypass,National Highway,13,8.15,Feeder / Spur Highway
+"NH 47,  548C",National Highway,3,8.14,Feeder / Spur Highway
+Rampur Bypass,National Highway,12,8.04,Feeder / Spur Highway
+Madgaon Bypass,National Highway,1,8.02,Feeder / Spur Highway
+NH 548,National Highway,11,7.96,Feeder / Spur Highway
+Srinagar-Muzaffarabad Rd,National Highway,8,7.9,Feeder / Spur Highway
+"NH 766,  NH 275K",National Highway,1,7.9,Feeder / Spur Highway
+"NH 40,  NH 544F",National Highway,7,7.86,Feeder / Spur Highway
+"NH 709B,  709AD",National Highway,2,7.73,Feeder / Spur Highway
+"NH 50,  NH 67",National Highway,9,7.6,Feeder / Spur Highway
+"NH 543,  30",National Highway,3,7.59,Feeder / Spur Highway
+"NH 731,  931",National Highway,4,7.56,Feeder / Spur Highway
+NH 344N,National Highway,2,7.49,Feeder / Spur Highway
+NH 247;NH 53,National Highway,6,7.41,Feeder / Spur Highway
+"NH 150A,  NH 275K",National Highway,1,7.4,Feeder / Spur Highway
+Bihar Sharif Bypass,National Highway,2,7.4,Feeder / Spur Highway
+NH 361;NH 161E,National Highway,1,7.38,Feeder / Spur Highway
+"NH 16,  NH 55",National Highway,17,7.37,Feeder / Spur Highway
+"NH 334,  709AD",National Highway,5,7.36,Feeder / Spur Highway
+"NH 148N,  NH 552",National Highway,14,7.34,Feeder / Spur Highway
+"NH 27,  731",National Highway,5,7.33,Feeder / Spur Highway
+NH 175A,National Highway,9,7.33,Feeder / Spur Highway
+"NH 33,  NH 31",National Highway,9,7.28,Feeder / Spur Highway
+NH 930D ; NH 353B,National Highway,9,7.0,Feeder / Spur Highway
+NH 160B,National Highway,2,6.98,Feeder / Spur Highway
+NH 148AE,National Highway,4,6.95,Feeder / Spur Highway
+NH 151 A,National Highway,1,6.82,Feeder / Spur Highway
+Baskhari Jahangirganj Rajesultanpur Road,National Highway,1,6.7,Feeder / Spur Highway
+"NH 30,  27, 731",National Highway,4,6.51,Feeder / Spur Highway
+NH 348BB,National Highway,3,6.49,Feeder / Spur Highway
+"NH 31,  NH 131A",National Highway,8,6.45,Feeder / Spur Highway
+"NH 16,  NH 12",National Highway,15,6.34,Feeder / Spur Highway
+"NH 922,  NH 139",National Highway,1,6.27,Feeder / Spur Highway
+"NH 47,  NH 48",National Highway,8,6.24,Feeder / Spur Highway
+"NH 44,  NH 154",National Highway,14,6.18,Feeder / Spur Highway
+Rohtak Bypass,National Highway,3,6.11,Feeder / Spur Highway
+"NH 15,  NH 215",National Highway,1,6.03,Feeder / Spur Highway
+NH 966B,National Highway,17,6.01,Feeder / Spur Highway
+Rampur Baghelan ByPass,National Highway,5,5.72,Feeder / Spur Highway
+"NH 148B,  NH 709A",National Highway,6,5.47,Feeder / Spur Highway
+"NH 333,  NH 333A",National Highway,3,5.46,Feeder / Spur Highway
+"NH 148D,  NH 158",National Highway,3,5.43,Feeder / Spur Highway
+"NH 44,  NH 3",National Highway,13,5.24,Feeder / Spur Highway
+"NH 30,  731A",National Highway,4,5.22,Feeder / Spur Highway
+Rampurhat Bypass,National Highway,2,5.13,Feeder / Spur Highway
+"NH 44,  NH 42",National Highway,4,5.1,Feeder / Spur Highway
+NH 147 D,National Highway,3,5.03,Feeder / Spur Highway
+"NH 150A,  NH 275",National Highway,15,4.97,Feeder / Spur Highway
+Shahajadpur Bypass Bypass,National Highway,8,4.92,Feeder / Spur Highway
+"NH 66,  166E",National Highway,6,4.9,Feeder / Spur Highway
+Kharkhoda Bypass,National Highway,14,4.86,Feeder / Spur Highway
+"NH 22,  NH 139",National Highway,6,4.86,Feeder / Spur Highway
+"NH 58,  NH 158",National Highway,3,4.85,Feeder / Spur Highway
+Hassangarh Bypass,National Highway,8,4.69,Feeder / Spur Highway
+"NH 32,  87",National Highway,2,4.6,Feeder / Spur Highway
+"NH 503,  503A",National Highway,5,4.6,Feeder / Spur Highway
+"NH 965,  65",National Highway,6,4.55,Feeder / Spur Highway
+"NH 75,  NH 69",National Highway,2,4.55,Feeder / Spur Highway
+KATLICHERRA BYPASS,National Highway,2,4.53,Feeder / Spur Highway
+"NH 753,  NH 543",National Highway,6,4.5,Feeder / Spur Highway
+"NH 730,  28",National Highway,5,4.48,Feeder / Spur Highway
+"NH 87,  85",National Highway,4,4.47,Feeder / Spur Highway
+"NH 709B,  334B",National Highway,1,4.45,Feeder / Spur Highway
+"NH 167,  NH 765",National Highway,2,4.38,Feeder / Spur Highway
+Chhara Bypass,National Highway,7,4.38,Feeder / Spur Highway
+"NH 325,  NH 754K",National Highway,6,4.35,Feeder / Spur Highway
+Mydukur Bypass,National Highway,6,4.35,Feeder / Spur Highway
+Bankura Bypass,National Highway,1,4.34,Feeder / Spur Highway
+"NH 25,  NH 754K,  NH 125",National Highway,1,4.31,Feeder / Spur Highway
+"NH 753A,  NH 752I",National Highway,6,4.26,Feeder / Spur Highway
+NH 361C;NH 161E,National Highway,10,4.22,Feeder / Spur Highway
+"NH 62,  NH 754K,  NH 11",National Highway,4,4.22,Feeder / Spur Highway
+"NH 30,  31",National Highway,6,4.21,Feeder / Spur Highway
+"NH 731,  128A",National Highway,7,4.18,Feeder / Spur Highway
+"NH 30,  43",National Highway,4,4.18,Feeder / Spur Highway
+NH 548CC ; NH 753A,National Highway,1,4.17,Feeder / Spur Highway
+"NH 727A,  727B",National Highway,4,4.13,Feeder / Spur Highway
+Shahpura Bypass,National Highway,4,4.12,Feeder / Spur Highway
+NH 752K;NH 548D,National Highway,3,4.11,Feeder / Spur Highway
+"NH 3,  503",National Highway,7,4.08,Feeder / Spur Highway
+Gopalganj Bypass,National Highway,8,4.08,Feeder / Spur Highway
+"NH 38,  136",National Highway,10,4.05,Feeder / Spur Highway
+Jaitaran Bypass,National Highway,3,4.04,Feeder / Spur Highway
+Mirganj Bypass,National Highway,3,4.02,Feeder / Spur Highway
+"NH 168,  NH 168A",National Highway,5,4.02,Feeder / Spur Highway
+Hindoli Bypass Road,National Highway,1,4.0,Feeder / Spur Highway
+"NH 30,  39",National Highway,1,3.98,Feeder / Spur Highway
+"NH 6,  NH 37",National Highway,6,3.97,Feeder / Spur Highway
+"NH 26,  NH 59",National Highway,3,3.91,Feeder / Spur Highway
+Sajjanpur Bypass,National Highway,5,3.88,Feeder / Spur Highway
+"NH 731,  128",National Highway,8,3.84,Feeder / Spur Highway
+NH 390,National Highway,1,3.83,Feeder / Spur Highway
+NH 753M NH 753H,National Highway,2,3.69,Feeder / Spur Highway
+"NH 65,  NH 163,  NH 44",National Highway,4,3.68,Feeder / Spur Highway
+"NH 148,  NH 148N",National Highway,3,3.67,Feeder / Spur Highway
+NE 1,National Highway,2,3.64,Feeder / Spur Highway
+NH 354B,National Highway,1,3.56,Feeder / Spur Highway
+"NH 52,  NH 46",National Highway,1,3.52,Feeder / Spur Highway
+"NH 167,  NH 565",National Highway,5,3.46,Feeder / Spur Highway
+Kalayat Bypass,National Highway,5,3.36,Feeder / Spur Highway
+Panchrukhi Bypass,National Highway,4,3.34,Feeder / Spur Highway
+NH 766EE,National Highway,2,3.28,Feeder / Spur Highway
+DND Expressway,National Highway,5,3.21,Feeder / Spur Highway
+"NH 167A,  NH 544F",National Highway,3,3.21,Feeder / Spur Highway
+"NH 42,  NH 544F",National Highway,6,3.21,Feeder / Spur Highway
+Duvyuru Bypass,National Highway,6,3.2,Feeder / Spur Highway
+"NH 731,  28",National Highway,1,3.19,Feeder / Spur Highway
+"NH 27,  NH 527A",National Highway,3,3.18,Feeder / Spur Highway
+"NH 50,  NH 65",National Highway,2,3.14,Feeder / Spur Highway
+"NH 365BB,  NH 365A",National Highway,5,3.13,Feeder / Spur Highway
+"NH 11,  NH 52",National Highway,4,3.12,Feeder / Spur Highway
+Pedana Bypass,National Highway,4,3.09,Feeder / Spur Highway
+"NH 30,  NH 330",National Highway,3,3.08,Feeder / Spur Highway
+"NH 52,  NH 53",National Highway,5,3.01,Feeder / Spur Highway
+SHRINGAR BYPASS,National Highway,2,3.01,Feeder / Spur Highway
+"NH 27,  NH 68",National Highway,1,2.93,Feeder / Spur Highway
+"NH 52,  752C",National Highway,5,2.91,Feeder / Spur Highway
+"NH 16,  NH 20",National Highway,3,2.91,Feeder / Spur Highway
+CHHATNA BYPASS,National Highway,3,2.91,Feeder / Spur Highway
+"NH 166,  266",National Highway,5,2.9,Feeder / Spur Highway
+"NH 730,  727",National Highway,1,2.88,Feeder / Spur Highway
+NH 752H NH 753M,National Highway,1,2.84,Feeder / Spur Highway
+"NH 34,  709AD",National Highway,1,2.84,Feeder / Spur Highway
+"NH 65,  NH 163",National Highway,5,2.8,Feeder / Spur Highway
+"NH 44,  81",National Highway,6,2.75,Feeder / Spur Highway
+"NH 133E,  NH 333A",National Highway,1,2.68,Feeder / Spur Highway
+NH 753H NH 752I NH 753A,National Highway,3,2.64,Feeder / Spur Highway
+Rajgir Rajauli Bypass,National Highway,3,2.6,Feeder / Spur Highway
+NH 752K;NH 61,National Highway,3,2.54,Feeder / Spur Highway
+"NH 934,  146",National Highway,1,2.52,Feeder / Spur Highway
+Kanagala Bypass,National Highway,2,2.51,Feeder / Spur Highway
+"NH 927A,  148N",National Highway,2,2.5,Feeder / Spur Highway
+"NH 7,  NH 5",National Highway,5,2.46,Feeder / Spur Highway
+"NH 61,  NH 361",National Highway,4,2.46,Feeder / Spur Highway
+"NH 62,  NH 162",National Highway,1,2.43,Feeder / Spur Highway
+"NH 507,  NH 707A",National Highway,7,2.41,Feeder / Spur Highway
+"NH 48,  NH 927A",National Highway,3,2.41,Feeder / Spur Highway
+"NH 333A,  NH 133",National Highway,1,2.36,Feeder / Spur Highway
+"NH 20,  NH 49",National Highway,5,2.33,Feeder / Spur Highway
+Naugarh Bypass,National Highway,3,2.3,Feeder / Spur Highway
+Mahnapur Bypass,National Highway,5,2.29,Feeder / Spur Highway
+Jamui Bypass,National Highway,5,2.29,Feeder / Spur Highway
+"NH 948,  NH 948A",National Highway,4,2.28,Feeder / Spur Highway
+NH 361G,National Highway,1,2.27,Feeder / Spur Highway
+"NH 38,  83",National Highway,5,2.26,Feeder / Spur Highway
+"NH 150A,  NH 69",National Highway,2,2.23,Feeder / Spur Highway
+"NH 19,  NH 139",National Highway,1,2.23,Feeder / Spur Highway
+"NH 38,  179B, 77",National Highway,1,2.22,Feeder / Spur Highway
+"NH 753BB,  NH 160H",National Highway,5,2.18,Feeder / Spur Highway
+"NH 54,  NH 503D",National Highway,1,2.17,Feeder / Spur Highway
+"NH 703A,  NH 703B",National Highway,2,2.15,Feeder / Spur Highway
+"NH 173,  NH 69",National Highway,4,2.13,Feeder / Spur Highway
+"NH 148B,  NH 334B",National Highway,1,2.12,Feeder / Spur Highway
+"NH 34,  NH 7",National Highway,5,2.12,Feeder / Spur Highway
+PANAGARH BYPASS,National Highway,1,2.11,Feeder / Spur Highway
+Asthavna Bypass,National Highway,2,2.1,Feeder / Spur Highway
+Pallahara ByPass,National Highway,4,2.08,Feeder / Spur Highway
+"NH 27,  NH 717",National Highway,5,2.07,Feeder / Spur Highway
+NH 353J NH 547E,National Highway,4,2.06,Feeder / Spur Highway
+NH 327B,National Highway,6,2.01,Feeder / Spur Highway
+"NH 131,  NH 231",National Highway,3,2.0,Feeder / Spur Highway
+"NH 2,  NH 6",National Highway,1,1.99,Feeder / Spur Highway
+Poondi Bypass,National Highway,2,1.93,Feeder / Spur Highway
+"NH 20,  NH 143AG",National Highway,2,1.92,Feeder / Spur Highway
+"NH 7,  NH 254",National Highway,5,1.9,Feeder / Spur Highway
+"NH 320D,  NH 320G",National Highway,1,1.84,Feeder / Spur Highway
+"NH 56,  NH 148N",National Highway,7,1.8,Feeder / Spur Highway
+"NH 55,  NH 153B",National Highway,1,1.77,Feeder / Spur Highway
+"NH 152,  NH 344",National Highway,3,1.75,Feeder / Spur Highway
+"NH 44,  NH 648",National Highway,5,1.75,Feeder / Spur Highway
+"NH 50,  NH 361",National Highway,1,1.75,Feeder / Spur Highway
+NH 965G;NH 160,National Highway,2,1.75,Feeder / Spur Highway
+"NH 334,  NH 334A",National Highway,7,1.71,Feeder / Spur Highway
+Gudipadu Bypass,National Highway,6,1.66,Feeder / Spur Highway
+"NH 544D,  NH 544F, NH 67",National Highway,1,1.65,Feeder / Spur Highway
+"NH 16,  NH 65",National Highway,3,1.58,Feeder / Spur Highway
+NH 966`,National Highway,1,1.57,Feeder / Spur Highway
+Mahipal Pur Bypass,National Highway,1,1.49,Feeder / Spur Highway
+"NH 353J,  353K",National Highway,4,1.48,Feeder / Spur Highway
+"NH 44,  NH 48",National Highway,6,1.48,Feeder / Spur Highway
+"NH 22,  NH 33",National Highway,1,1.46,Feeder / Spur Highway
+NH 161G;NH 548C,National Highway,9,1.42,Feeder / Spur Highway
+NH  309,National Highway,3,1.41,Feeder / Spur Highway
+"NH 69,  NH 766C",National Highway,2,1.4,Feeder / Spur Highway
+"NH 927A,  NH 58",National Highway,1,1.36,Feeder / Spur Highway
+"NH 148,  NH 148N,  NH 23",National Highway,1,1.36,Feeder / Spur Highway
+NH 161G;NH 53,National Highway,1,1.36,Feeder / Spur Highway
+"NH 7,  NH 703",National Highway,1,1.33,Feeder / Spur Highway
+"NH 53,  NH 752G",National Highway,11,1.32,Feeder / Spur Highway
+Ponda Madgoan Road,National Highway,1,1.31,Feeder / Spur Highway
+"NH 21,  34",National Highway,1,1.31,Feeder / Spur Highway
+"NH 44,  NH 334B",National Highway,1,1.3,Feeder / Spur Highway
+NH  27,National Highway,1,1.29,Feeder / Spur Highway
+"NH 753B,  NH 752G",National Highway,1,1.23,Feeder / Spur Highway
+"NH 34,  39",National Highway,1,1.19,Feeder / Spur Highway
+"NH 39,  135BG",National Highway,5,1.19,Feeder / Spur Highway
+"NH 22,  NH 120",National Highway,2,1.17,Feeder / Spur Highway
+"NH 75,  NH 42",National Highway,5,1.15,Feeder / Spur Highway
+NH 130`,National Highway,1,1.13,Feeder / Spur Highway
+"NH 128,  931",National Highway,2,1.12,Feeder / Spur Highway
+"NH 27,  NH 327",National Highway,1,1.1,Feeder / Spur Highway
+"NH 69,  NH 42",National Highway,2,1.07,Feeder / Spur Highway
+"NH 383,  338",National Highway,3,1.05,Feeder / Spur Highway
+"NH 128,  135A",National Highway,5,1.05,Feeder / Spur Highway
+"NH 312,  NH 112",National Highway,4,1.01,Feeder / Spur Highway
+"NH 44,  NH 709A",National Highway,3,0.99,Feeder / Spur Highway
+"NH 49,  NH 130B",National Highway,2,0.9,Feeder / Spur Highway
+"NH 21,  NH 148",National Highway,1,0.9,Feeder / Spur Highway
+"NH 731,  730A",National Highway,1,0.88,Feeder / Spur Highway
+"NH 67,  NH 150A",National Highway,1,0.85,Feeder / Spur Highway
+"NH 552G,  752B",National Highway,1,0.85,Feeder / Spur Highway
+"NH 931A,  128",National Highway,1,0.82,Feeder / Spur Highway
+"NH 227A,  NH 531",National Highway,3,0.79,Feeder / Spur Highway
+NH  44,National Highway,2,0.78,Feeder / Spur Highway
+"NH 169,  NH 73",National Highway,1,0.74,Feeder / Spur Highway
+NH 47.548C,National Highway,1,0.71,Feeder / Spur Highway
+NH 752K;NH 63,National Highway,1,0.69,Feeder / Spur Highway
+"NH 7,  NH 44",National Highway,3,0.68,Feeder / Spur Highway
+FULBARI GHOSHPUKUR BYPASS,National Highway,1,0.66,Feeder / Spur Highway
+"NH 753F,  965",National Highway,2,0.61,Feeder / Spur Highway
+NH 631C,National Highway,1,0.57,Feeder / Spur Highway
+NH 752K;NH 361F,National Highway,1,0.57,Feeder / Spur Highway
+NH 361H ; NH 548D,National Highway,1,0.56,Feeder / Spur Highway
+"NH 544F,  NH 544D",National Highway,5,0.55,Feeder / Spur Highway
+NH 752K;NH 361,National Highway,1,0.52,Feeder / Spur Highway
+"NH 54,  NH 703A",National Highway,4,0.5,Feeder / Spur Highway
+"NH 66,  753F",National Highway,1,0.49,Feeder / Spur Highway
+"NH 161E,  NH 161A",National Highway,1,0.46,Feeder / Spur Highway
+"NH 68,  NH 11",National Highway,1,0.46,Feeder / Spur Highway
+NH 965G;NH 166,National Highway,1,0.46,Feeder / Spur Highway
+Kolaghat Haldia Road,National Highway,1,0.45,Feeder / Spur Highway
+"NH 162,  NH 162A",National Highway,1,0.45,Feeder / Spur Highway
+"NH 162,  NH 458",National Highway,2,0.41,Feeder / Spur Highway
+"NH 44,  NH 503A",National Highway,1,0.41,Feeder / Spur Highway
+"NE 1,  NH 48",National Highway,5,0.39,Feeder / Spur Highway
+"NH 50,  NH 52",National Highway,1,0.38,Feeder / Spur Highway
+"NH 709,  NH 148B",National Highway,1,0.36,Feeder / Spur Highway
+"NH 39,",National Highway,1,0.34,Feeder / Spur Highway
+"NH 703A,  703B",National Highway,2,0.33,Feeder / Spur Highway
+"NH 19,  NH 22",National Highway,2,0.3,Feeder / Spur Highway
+"NH 30,  230",National Highway,1,0.3,Feeder / Spur Highway
+"NH 948,  NH 766",National Highway,1,0.29,Feeder / Spur Highway
+"NH 41,  NH 141",National Highway,1,0.28,Feeder / Spur Highway
+NH 48 NH 148D,National Highway,1,0.28,Feeder / Spur Highway
+"NH 381,  81",National Highway,3,0.26,Feeder / Spur Highway
+NH 52A,National Highway,1,0.23,Feeder / Spur Highway
+NH 752i,National Highway,1,0.22,Feeder / Spur Highway
+"NH 52,  NH 58",National Highway,1,0.16,Feeder / Spur Highway
+"NH 361,  NH 548B",National Highway,2,0.14,Feeder / Spur Highway
+"NH 354,  NH 754",National Highway,1,0.14,Feeder / Spur Highway
+"NH 44,  79",National Highway,1,0.13,Feeder / Spur Highway
+"NH 7,  NH 54",National Highway,1,0.13,Feeder / Spur Highway
+"NH 49,  NH 14",National Highway,1,0.12,Feeder / Spur Highway
+Ponda Madgaon Road,National Highway,1,0.11,Feeder / Spur Highway
+"NH 131,  NH 327",National Highway,1,0.1,Feeder / Spur Highway
+"NH 716,  NH 40",National Highway,1,0.09,Feeder / Spur Highway
+"NH 43,  NH 143AG",National Highway,1,0.09,Feeder / Spur Highway
+"NH 161,  NH 161A, NH 63",National Highway,2,0.07,Feeder / Spur Highway
+"NH 62,  NH 754KNH 62,  NH 754K",National Highway,2,0.07,Feeder / Spur Highway
+"NH 162,  NH 62",National Highway,1,0.04,Feeder / Spur Highway

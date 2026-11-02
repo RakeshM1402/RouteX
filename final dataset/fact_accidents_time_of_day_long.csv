@@ -1,0 +1,3921 @@
+state_name,year,time_slot,period,accidents_count,share_of_annual_total_pct
+Andaman and Nicobar Islands,2001,00:00 - 03:00,Night,2,1.1
+Andaman and Nicobar Islands,2001,03:00 - 06:00,Night,6,3.31
+Andaman and Nicobar Islands,2001,06:00 - 09:00,Day,29,16.02
+Andaman and Nicobar Islands,2001,09:00 - 12:00,Day,40,22.1
+Andaman and Nicobar Islands,2001,12:00 - 15:00,Day,39,21.55
+Andaman and Nicobar Islands,2001,15:00 - 18:00,Day,40,22.1
+Andaman and Nicobar Islands,2001,18:00 - 21:00,Night,18,9.94
+Andaman and Nicobar Islands,2001,21:00 - 24:00,Night,7,3.87
+Andaman and Nicobar Islands,2002,00:00 - 03:00,Night,2,1.19
+Andaman and Nicobar Islands,2002,03:00 - 06:00,Night,6,3.57
+Andaman and Nicobar Islands,2002,06:00 - 09:00,Day,22,13.1
+Andaman and Nicobar Islands,2002,09:00 - 12:00,Day,41,24.4
+Andaman and Nicobar Islands,2002,12:00 - 15:00,Day,33,19.64
+Andaman and Nicobar Islands,2002,15:00 - 18:00,Day,33,19.64
+Andaman and Nicobar Islands,2002,18:00 - 21:00,Night,23,13.69
+Andaman and Nicobar Islands,2002,21:00 - 24:00,Night,8,4.76
+Andaman and Nicobar Islands,2003,00:00 - 03:00,Night,2,1.11
+Andaman and Nicobar Islands,2003,03:00 - 06:00,Night,8,4.44
+Andaman and Nicobar Islands,2003,06:00 - 09:00,Day,31,17.22
+Andaman and Nicobar Islands,2003,09:00 - 12:00,Day,35,19.44
+Andaman and Nicobar Islands,2003,12:00 - 15:00,Day,28,15.56
+Andaman and Nicobar Islands,2003,15:00 - 18:00,Day,36,20.0
+Andaman and Nicobar Islands,2003,18:00 - 21:00,Night,25,13.89
+Andaman and Nicobar Islands,2003,21:00 - 24:00,Night,15,8.33
+Andaman and Nicobar Islands,2004,00:00 - 03:00,Night,2,0.93
+Andaman and Nicobar Islands,2004,03:00 - 06:00,Night,5,2.33
+Andaman and Nicobar Islands,2004,06:00 - 09:00,Day,29,13.49
+Andaman and Nicobar Islands,2004,09:00 - 12:00,Day,42,19.53
+Andaman and Nicobar Islands,2004,12:00 - 15:00,Day,43,20.0
+Andaman and Nicobar Islands,2004,15:00 - 18:00,Day,43,20.0
+Andaman and Nicobar Islands,2004,18:00 - 21:00,Night,37,17.21
+Andaman and Nicobar Islands,2004,21:00 - 24:00,Night,14,6.51
+Andaman and Nicobar Islands,2005,00:00 - 03:00,Night,0,0.0
+Andaman and Nicobar Islands,2005,03:00 - 06:00,Night,8,3.88
+Andaman and Nicobar Islands,2005,06:00 - 09:00,Day,27,13.11
+Andaman and Nicobar Islands,2005,09:00 - 12:00,Day,28,13.59
+Andaman and Nicobar Islands,2005,12:00 - 15:00,Day,38,18.45
+Andaman and Nicobar Islands,2005,15:00 - 18:00,Day,42,20.39
+Andaman and Nicobar Islands,2005,18:00 - 21:00,Night,50,24.27
+Andaman and Nicobar Islands,2005,21:00 - 24:00,Night,13,6.31
+Andaman and Nicobar Islands,2006,00:00 - 03:00,Night,1,0.65
+Andaman and Nicobar Islands,2006,03:00 - 06:00,Night,3,1.94
+Andaman and Nicobar Islands,2006,06:00 - 09:00,Day,17,10.97
+Andaman and Nicobar Islands,2006,09:00 - 12:00,Day,33,21.29
+Andaman and Nicobar Islands,2006,12:00 - 15:00,Day,33,21.29
+Andaman and Nicobar Islands,2006,15:00 - 18:00,Day,23,14.84
+Andaman and Nicobar Islands,2006,18:00 - 21:00,Night,38,24.52
+Andaman and Nicobar Islands,2006,21:00 - 24:00,Night,7,4.52
+Andaman and Nicobar Islands,2007,00:00 - 03:00,Night,2,1.32
+Andaman and Nicobar Islands,2007,03:00 - 06:00,Night,5,3.29
+Andaman and Nicobar Islands,2007,06:00 - 09:00,Day,20,13.16
+Andaman and Nicobar Islands,2007,09:00 - 12:00,Day,30,19.74
+Andaman and Nicobar Islands,2007,12:00 - 15:00,Day,30,19.74
+Andaman and Nicobar Islands,2007,15:00 - 18:00,Day,27,17.76
+Andaman and Nicobar Islands,2007,18:00 - 21:00,Night,31,20.39
+Andaman and Nicobar Islands,2007,21:00 - 24:00,Night,7,4.61
+Andaman and Nicobar Islands,2008,00:00 - 03:00,Night,3,1.57
+Andaman and Nicobar Islands,2008,03:00 - 06:00,Night,7,3.66
+Andaman and Nicobar Islands,2008,06:00 - 09:00,Day,33,17.28
+Andaman and Nicobar Islands,2008,09:00 - 12:00,Day,24,12.57
+Andaman and Nicobar Islands,2008,12:00 - 15:00,Day,40,20.94
+Andaman and Nicobar Islands,2008,15:00 - 18:00,Day,31,16.23
+Andaman and Nicobar Islands,2008,18:00 - 21:00,Night,40,20.94
+Andaman and Nicobar Islands,2008,21:00 - 24:00,Night,13,6.81
+Andaman and Nicobar Islands,2009,00:00 - 03:00,Night,2,0.74
+Andaman and Nicobar Islands,2009,03:00 - 06:00,Night,6,2.21
+Andaman and Nicobar Islands,2009,06:00 - 09:00,Day,35,12.92
+Andaman and Nicobar Islands,2009,09:00 - 12:00,Day,41,15.13
+Andaman and Nicobar Islands,2009,12:00 - 15:00,Day,64,23.62
+Andaman and Nicobar Islands,2009,15:00 - 18:00,Day,54,19.93
+Andaman and Nicobar Islands,2009,18:00 - 21:00,Night,50,18.45
+Andaman and Nicobar Islands,2009,21:00 - 24:00,Night,19,7.01
+Andaman and Nicobar Islands,2010,00:00 - 03:00,Night,2,0.7
+Andaman and Nicobar Islands,2010,03:00 - 06:00,Night,10,3.51
+Andaman and Nicobar Islands,2010,06:00 - 09:00,Day,36,12.63
+Andaman and Nicobar Islands,2010,09:00 - 12:00,Day,45,15.79
+Andaman and Nicobar Islands,2010,12:00 - 15:00,Day,64,22.46
+Andaman and Nicobar Islands,2010,15:00 - 18:00,Day,57,20.0
+Andaman and Nicobar Islands,2010,18:00 - 21:00,Night,53,18.6
+Andaman and Nicobar Islands,2010,21:00 - 24:00,Night,18,6.32
+Andaman and Nicobar Islands,2011,00:00 - 03:00,Night,4,1.7
+Andaman and Nicobar Islands,2011,03:00 - 06:00,Night,3,1.28
+Andaman and Nicobar Islands,2011,06:00 - 09:00,Day,36,15.32
+Andaman and Nicobar Islands,2011,09:00 - 12:00,Day,27,11.49
+Andaman and Nicobar Islands,2011,12:00 - 15:00,Day,46,19.57
+Andaman and Nicobar Islands,2011,15:00 - 18:00,Day,50,21.28
+Andaman and Nicobar Islands,2011,18:00 - 21:00,Night,51,21.7
+Andaman and Nicobar Islands,2011,21:00 - 24:00,Night,18,7.66
+Andaman and Nicobar Islands,2012,00:00 - 03:00,Night,4,1.69
+Andaman and Nicobar Islands,2012,03:00 - 06:00,Night,6,2.54
+Andaman and Nicobar Islands,2012,06:00 - 09:00,Day,26,11.02
+Andaman and Nicobar Islands,2012,09:00 - 12:00,Day,29,12.29
+Andaman and Nicobar Islands,2012,12:00 - 15:00,Day,54,22.88
+Andaman and Nicobar Islands,2012,15:00 - 18:00,Day,45,19.07
+Andaman and Nicobar Islands,2012,18:00 - 21:00,Night,58,24.58
+Andaman and Nicobar Islands,2012,21:00 - 24:00,Night,14,5.93
+Andaman and Nicobar Islands,2013,00:00 - 03:00,Night,2,1.0
+Andaman and Nicobar Islands,2013,03:00 - 06:00,Night,3,1.5
+Andaman and Nicobar Islands,2013,06:00 - 09:00,Day,22,11.0
+Andaman and Nicobar Islands,2013,09:00 - 12:00,Day,31,15.5
+Andaman and Nicobar Islands,2013,12:00 - 15:00,Day,40,20.0
+Andaman and Nicobar Islands,2013,15:00 - 18:00,Day,40,20.0
+Andaman and Nicobar Islands,2013,18:00 - 21:00,Night,37,18.5
+Andaman and Nicobar Islands,2013,21:00 - 24:00,Night,25,12.5
+Andaman and Nicobar Islands,2014,00:00 - 03:00,Night,4,1.83
+Andaman and Nicobar Islands,2014,03:00 - 06:00,Night,6,2.75
+Andaman and Nicobar Islands,2014,06:00 - 09:00,Day,25,11.47
+Andaman and Nicobar Islands,2014,09:00 - 12:00,Day,28,12.84
+Andaman and Nicobar Islands,2014,12:00 - 15:00,Day,55,25.23
+Andaman and Nicobar Islands,2014,15:00 - 18:00,Day,36,16.51
+Andaman and Nicobar Islands,2014,18:00 - 21:00,Night,41,18.81
+Andaman and Nicobar Islands,2014,21:00 - 24:00,Night,23,10.55
+Andhra Pradesh,2001,00:00 - 03:00,Night,2239,8.24
+Andhra Pradesh,2001,03:00 - 06:00,Night,3265,12.01
+Andhra Pradesh,2001,06:00 - 09:00,Day,3198,11.76
+Andhra Pradesh,2001,09:00 - 12:00,Day,3729,13.72
+Andhra Pradesh,2001,12:00 - 15:00,Day,3604,13.26
+Andhra Pradesh,2001,15:00 - 18:00,Day,3792,13.95
+Andhra Pradesh,2001,18:00 - 21:00,Night,4098,15.07
+Andhra Pradesh,2001,21:00 - 24:00,Night,3263,12.0
+Andhra Pradesh,2002,00:00 - 03:00,Night,2931,9.0
+Andhra Pradesh,2002,03:00 - 06:00,Night,3857,11.84
+Andhra Pradesh,2002,06:00 - 09:00,Day,3671,11.27
+Andhra Pradesh,2002,09:00 - 12:00,Day,4255,13.06
+Andhra Pradesh,2002,12:00 - 15:00,Day,4153,12.75
+Andhra Pradesh,2002,15:00 - 18:00,Day,4778,14.67
+Andhra Pradesh,2002,18:00 - 21:00,Night,4844,14.87
+Andhra Pradesh,2002,21:00 - 24:00,Night,4088,12.55
+Andhra Pradesh,2003,00:00 - 03:00,Night,3158,9.14
+Andhra Pradesh,2003,03:00 - 06:00,Night,4865,14.09
+Andhra Pradesh,2003,06:00 - 09:00,Day,3749,10.86
+Andhra Pradesh,2003,09:00 - 12:00,Day,4319,12.51
+Andhra Pradesh,2003,12:00 - 15:00,Day,4266,12.35
+Andhra Pradesh,2003,15:00 - 18:00,Day,4853,14.05
+Andhra Pradesh,2003,18:00 - 21:00,Night,5218,15.11
+Andhra Pradesh,2003,21:00 - 24:00,Night,4109,11.9
+Andhra Pradesh,2004,00:00 - 03:00,Night,3191,8.61
+Andhra Pradesh,2004,03:00 - 06:00,Night,4770,12.86
+Andhra Pradesh,2004,06:00 - 09:00,Day,4598,12.4
+Andhra Pradesh,2004,09:00 - 12:00,Day,5030,13.57
+Andhra Pradesh,2004,12:00 - 15:00,Day,4033,10.88
+Andhra Pradesh,2004,15:00 - 18:00,Day,4971,13.41
+Andhra Pradesh,2004,18:00 - 21:00,Night,6031,16.27
+Andhra Pradesh,2004,21:00 - 24:00,Night,4454,12.01
+Andhra Pradesh,2005,00:00 - 03:00,Night,3826,10.26
+Andhra Pradesh,2005,03:00 - 06:00,Night,6011,16.12
+Andhra Pradesh,2005,06:00 - 09:00,Day,5002,13.41
+Andhra Pradesh,2005,09:00 - 12:00,Day,4137,11.09
+Andhra Pradesh,2005,12:00 - 15:00,Day,4261,11.43
+Andhra Pradesh,2005,15:00 - 18:00,Day,4524,12.13
+Andhra Pradesh,2005,18:00 - 21:00,Night,5096,13.67
+Andhra Pradesh,2005,21:00 - 24:00,Night,4432,11.89
+Andhra Pradesh,2006,00:00 - 03:00,Night,3635,8.8
+Andhra Pradesh,2006,03:00 - 06:00,Night,5525,13.37
+Andhra Pradesh,2006,06:00 - 09:00,Day,4270,10.33
+Andhra Pradesh,2006,09:00 - 12:00,Day,5108,12.36
+Andhra Pradesh,2006,12:00 - 15:00,Day,4918,11.9
+Andhra Pradesh,2006,15:00 - 18:00,Day,6101,14.76
+Andhra Pradesh,2006,18:00 - 21:00,Night,6757,16.35
+Andhra Pradesh,2006,21:00 - 24:00,Night,5009,12.12
+Andhra Pradesh,2007,00:00 - 03:00,Night,4054,9.3
+Andhra Pradesh,2007,03:00 - 06:00,Night,4890,11.22
+Andhra Pradesh,2007,06:00 - 09:00,Day,4748,10.89
+Andhra Pradesh,2007,09:00 - 12:00,Day,5826,13.36
+Andhra Pradesh,2007,12:00 - 15:00,Day,5547,12.72
+Andhra Pradesh,2007,15:00 - 18:00,Day,6236,14.3
+Andhra Pradesh,2007,18:00 - 21:00,Night,6719,15.41
+Andhra Pradesh,2007,21:00 - 24:00,Night,5574,12.79
+Andhra Pradesh,2008,00:00 - 03:00,Night,4051,9.62
+Andhra Pradesh,2008,03:00 - 06:00,Night,4492,10.67
+Andhra Pradesh,2008,06:00 - 09:00,Day,4532,10.76
+Andhra Pradesh,2008,09:00 - 12:00,Day,5558,13.2
+Andhra Pradesh,2008,12:00 - 15:00,Day,5620,13.35
+Andhra Pradesh,2008,15:00 - 18:00,Day,6045,14.36
+Andhra Pradesh,2008,18:00 - 21:00,Night,6453,15.33
+Andhra Pradesh,2008,21:00 - 24:00,Night,5355,12.72
+Andhra Pradesh,2009,00:00 - 03:00,Night,3718,8.85
+Andhra Pradesh,2009,03:00 - 06:00,Night,4433,10.55
+Andhra Pradesh,2009,06:00 - 09:00,Day,4569,10.88
+Andhra Pradesh,2009,09:00 - 12:00,Day,5332,12.69
+Andhra Pradesh,2009,12:00 - 15:00,Day,5320,12.66
+Andhra Pradesh,2009,15:00 - 18:00,Day,6154,14.65
+Andhra Pradesh,2009,18:00 - 21:00,Night,6302,15.0
+Andhra Pradesh,2009,21:00 - 24:00,Night,6183,14.72
+Andhra Pradesh,2010,00:00 - 03:00,Night,3822,9.01
+Andhra Pradesh,2010,03:00 - 06:00,Night,5347,12.6
+Andhra Pradesh,2010,06:00 - 09:00,Day,5553,13.09
+Andhra Pradesh,2010,09:00 - 12:00,Day,5438,12.82
+Andhra Pradesh,2010,12:00 - 15:00,Day,5176,12.2
+Andhra Pradesh,2010,15:00 - 18:00,Day,5548,13.08
+Andhra Pradesh,2010,18:00 - 21:00,Night,6363,15.0
+Andhra Pradesh,2010,21:00 - 24:00,Night,5181,12.21
+Andhra Pradesh,2011,00:00 - 03:00,Night,3577,8.71
+Andhra Pradesh,2011,03:00 - 06:00,Night,4958,12.07
+Andhra Pradesh,2011,06:00 - 09:00,Day,4494,10.94
+Andhra Pradesh,2011,09:00 - 12:00,Day,5897,14.36
+Andhra Pradesh,2011,12:00 - 15:00,Day,5420,13.2
+Andhra Pradesh,2011,15:00 - 18:00,Day,5716,13.92
+Andhra Pradesh,2011,18:00 - 21:00,Night,6418,15.63
+Andhra Pradesh,2011,21:00 - 24:00,Night,4586,11.17
+Andhra Pradesh,2012,00:00 - 03:00,Night,3026,7.69
+Andhra Pradesh,2012,03:00 - 06:00,Night,3795,9.65
+Andhra Pradesh,2012,06:00 - 09:00,Day,4413,11.22
+Andhra Pradesh,2012,09:00 - 12:00,Day,5413,13.76
+Andhra Pradesh,2012,12:00 - 15:00,Day,4978,12.65
+Andhra Pradesh,2012,15:00 - 18:00,Day,5616,14.27
+Andhra Pradesh,2012,18:00 - 21:00,Night,6877,17.48
+Andhra Pradesh,2012,21:00 - 24:00,Night,5226,13.28
+Andhra Pradesh,2013,00:00 - 03:00,Night,3742,8.69
+Andhra Pradesh,2013,03:00 - 06:00,Night,4679,10.87
+Andhra Pradesh,2013,06:00 - 09:00,Day,4857,11.28
+Andhra Pradesh,2013,09:00 - 12:00,Day,5539,12.87
+Andhra Pradesh,2013,12:00 - 15:00,Day,5430,12.61
+Andhra Pradesh,2013,15:00 - 18:00,Day,6171,14.34
+Andhra Pradesh,2013,18:00 - 21:00,Night,7269,16.89
+Andhra Pradesh,2013,21:00 - 24:00,Night,5361,12.45
+Andhra Pradesh,2014,00:00 - 03:00,Night,3336,7.72
+Andhra Pradesh,2014,03:00 - 06:00,Night,4466,10.33
+Andhra Pradesh,2014,06:00 - 09:00,Day,4312,9.97
+Andhra Pradesh,2014,09:00 - 12:00,Day,5631,13.03
+Andhra Pradesh,2014,12:00 - 15:00,Day,5882,13.61
+Andhra Pradesh,2014,15:00 - 18:00,Day,6669,15.43
+Andhra Pradesh,2014,18:00 - 21:00,Night,7177,16.6
+Andhra Pradesh,2014,21:00 - 24:00,Night,5759,13.32
+Arunachal Pradesh,2001,00:00 - 03:00,Night,9,3.81
+Arunachal Pradesh,2001,03:00 - 06:00,Night,24,10.17
+Arunachal Pradesh,2001,06:00 - 09:00,Day,21,8.9
+Arunachal Pradesh,2001,09:00 - 12:00,Day,46,19.49
+Arunachal Pradesh,2001,12:00 - 15:00,Day,31,13.14
+Arunachal Pradesh,2001,15:00 - 18:00,Day,45,19.07
+Arunachal Pradesh,2001,18:00 - 21:00,Night,36,15.25
+Arunachal Pradesh,2001,21:00 - 24:00,Night,24,10.17
+Arunachal Pradesh,2002,00:00 - 03:00,Night,8,3.4
+Arunachal Pradesh,2002,03:00 - 06:00,Night,22,9.36
+Arunachal Pradesh,2002,06:00 - 09:00,Day,32,13.62
+Arunachal Pradesh,2002,09:00 - 12:00,Day,46,19.57
+Arunachal Pradesh,2002,12:00 - 15:00,Day,40,17.02
+Arunachal Pradesh,2002,15:00 - 18:00,Day,36,15.32
+Arunachal Pradesh,2002,18:00 - 21:00,Night,38,16.17
+Arunachal Pradesh,2002,21:00 - 24:00,Night,13,5.53
+Arunachal Pradesh,2003,00:00 - 03:00,Night,9,3.93
+Arunachal Pradesh,2003,03:00 - 06:00,Night,21,9.17
+Arunachal Pradesh,2003,06:00 - 09:00,Day,29,12.66
+Arunachal Pradesh,2003,09:00 - 12:00,Day,47,20.52
+Arunachal Pradesh,2003,12:00 - 15:00,Day,36,15.72
+Arunachal Pradesh,2003,15:00 - 18:00,Day,37,16.16
+Arunachal Pradesh,2003,18:00 - 21:00,Night,36,15.72
+Arunachal Pradesh,2003,21:00 - 24:00,Night,14,6.11
+Arunachal Pradesh,2004,00:00 - 03:00,Night,6,2.76
+Arunachal Pradesh,2004,03:00 - 06:00,Night,9,4.15
+Arunachal Pradesh,2004,06:00 - 09:00,Day,32,14.75
+Arunachal Pradesh,2004,09:00 - 12:00,Day,47,21.66
+Arunachal Pradesh,2004,12:00 - 15:00,Day,39,17.97
+Arunachal Pradesh,2004,15:00 - 18:00,Day,45,20.74
+Arunachal Pradesh,2004,18:00 - 21:00,Night,30,13.82
+Arunachal Pradesh,2004,21:00 - 24:00,Night,9,4.15
+Arunachal Pradesh,2005,00:00 - 03:00,Night,5,2.11
+Arunachal Pradesh,2005,03:00 - 06:00,Night,12,5.06
+Arunachal Pradesh,2005,06:00 - 09:00,Day,29,12.24
+Arunachal Pradesh,2005,09:00 - 12:00,Day,46,19.41
+Arunachal Pradesh,2005,12:00 - 15:00,Day,44,18.57
+Arunachal Pradesh,2005,15:00 - 18:00,Day,49,20.68
+Arunachal Pradesh,2005,18:00 - 21:00,Night,38,16.03
+Arunachal Pradesh,2005,21:00 - 24:00,Night,14,5.91
+Arunachal Pradesh,2006,00:00 - 03:00,Night,16,6.58
+Arunachal Pradesh,2006,03:00 - 06:00,Night,19,7.82
+Arunachal Pradesh,2006,06:00 - 09:00,Day,32,13.17
+Arunachal Pradesh,2006,09:00 - 12:00,Day,44,18.11
+Arunachal Pradesh,2006,12:00 - 15:00,Day,40,16.46
+Arunachal Pradesh,2006,15:00 - 18:00,Day,43,17.7
+Arunachal Pradesh,2006,18:00 - 21:00,Night,33,13.58
+Arunachal Pradesh,2006,21:00 - 24:00,Night,16,6.58
+Arunachal Pradesh,2007,00:00 - 03:00,Night,20,8.7
+Arunachal Pradesh,2007,03:00 - 06:00,Night,23,10.0
+Arunachal Pradesh,2007,06:00 - 09:00,Day,24,10.43
+Arunachal Pradesh,2007,09:00 - 12:00,Day,40,17.39
+Arunachal Pradesh,2007,12:00 - 15:00,Day,37,16.09
+Arunachal Pradesh,2007,15:00 - 18:00,Day,45,19.57
+Arunachal Pradesh,2007,18:00 - 21:00,Night,25,10.87
+Arunachal Pradesh,2007,21:00 - 24:00,Night,16,6.96
+Arunachal Pradesh,2008,00:00 - 03:00,Night,21,8.05
+Arunachal Pradesh,2008,03:00 - 06:00,Night,15,5.75
+Arunachal Pradesh,2008,06:00 - 09:00,Day,17,6.51
+Arunachal Pradesh,2008,09:00 - 12:00,Day,44,16.86
+Arunachal Pradesh,2008,12:00 - 15:00,Day,58,22.22
+Arunachal Pradesh,2008,15:00 - 18:00,Day,50,19.16
+Arunachal Pradesh,2008,18:00 - 21:00,Night,41,15.71
+Arunachal Pradesh,2008,21:00 - 24:00,Night,15,5.75
+Arunachal Pradesh,2009,00:00 - 03:00,Night,21,8.05
+Arunachal Pradesh,2009,03:00 - 06:00,Night,15,5.75
+Arunachal Pradesh,2009,06:00 - 09:00,Day,17,6.51
+Arunachal Pradesh,2009,09:00 - 12:00,Day,44,16.86
+Arunachal Pradesh,2009,12:00 - 15:00,Day,58,22.22
+Arunachal Pradesh,2009,15:00 - 18:00,Day,50,19.16
+Arunachal Pradesh,2009,18:00 - 21:00,Night,41,15.71
+Arunachal Pradesh,2009,21:00 - 24:00,Night,15,5.75
+Arunachal Pradesh,2010,00:00 - 03:00,Night,8,2.86
+Arunachal Pradesh,2010,03:00 - 06:00,Night,16,5.71
+Arunachal Pradesh,2010,06:00 - 09:00,Day,38,13.57
+Arunachal Pradesh,2010,09:00 - 12:00,Day,48,17.14
+Arunachal Pradesh,2010,12:00 - 15:00,Day,50,17.86
+Arunachal Pradesh,2010,15:00 - 18:00,Day,68,24.29
+Arunachal Pradesh,2010,18:00 - 21:00,Night,35,12.5
+Arunachal Pradesh,2010,21:00 - 24:00,Night,17,6.07
+Arunachal Pradesh,2011,00:00 - 03:00,Night,12,4.56
+Arunachal Pradesh,2011,03:00 - 06:00,Night,12,4.56
+Arunachal Pradesh,2011,06:00 - 09:00,Day,36,13.69
+Arunachal Pradesh,2011,09:00 - 12:00,Day,46,17.49
+Arunachal Pradesh,2011,12:00 - 15:00,Day,52,19.77
+Arunachal Pradesh,2011,15:00 - 18:00,Day,55,20.91
+Arunachal Pradesh,2011,18:00 - 21:00,Night,39,14.83
+Arunachal Pradesh,2011,21:00 - 24:00,Night,11,4.18
+Arunachal Pradesh,2012,00:00 - 03:00,Night,4,1.96
+Arunachal Pradesh,2012,03:00 - 06:00,Night,17,8.33
+Arunachal Pradesh,2012,06:00 - 09:00,Day,22,10.78
+Arunachal Pradesh,2012,09:00 - 12:00,Day,41,20.1
+Arunachal Pradesh,2012,12:00 - 15:00,Day,34,16.67
+Arunachal Pradesh,2012,15:00 - 18:00,Day,51,25.0
+Arunachal Pradesh,2012,18:00 - 21:00,Night,23,11.27
+Arunachal Pradesh,2012,21:00 - 24:00,Night,12,5.88
+Arunachal Pradesh,2013,00:00 - 03:00,Night,4,1.3
+Arunachal Pradesh,2013,03:00 - 06:00,Night,16,5.19
+Arunachal Pradesh,2013,06:00 - 09:00,Day,27,8.77
+Arunachal Pradesh,2013,09:00 - 12:00,Day,56,18.18
+Arunachal Pradesh,2013,12:00 - 15:00,Day,61,19.81
+Arunachal Pradesh,2013,15:00 - 18:00,Day,76,24.68
+Arunachal Pradesh,2013,18:00 - 21:00,Night,51,16.56
+Arunachal Pradesh,2013,21:00 - 24:00,Night,17,5.52
+Arunachal Pradesh,2014,00:00 - 03:00,Night,6,3.24
+Arunachal Pradesh,2014,03:00 - 06:00,Night,5,2.7
+Arunachal Pradesh,2014,06:00 - 09:00,Day,13,7.03
+Arunachal Pradesh,2014,09:00 - 12:00,Day,24,12.97
+Arunachal Pradesh,2014,12:00 - 15:00,Day,26,14.05
+Arunachal Pradesh,2014,15:00 - 18:00,Day,45,24.32
+Arunachal Pradesh,2014,18:00 - 21:00,Night,36,19.46
+Arunachal Pradesh,2014,21:00 - 24:00,Night,30,16.22
+Assam,2001,00:00 - 03:00,Night,133,7.36
+Assam,2001,03:00 - 06:00,Night,150,8.31
+Assam,2001,06:00 - 09:00,Day,259,14.34
+Assam,2001,09:00 - 12:00,Day,346,19.16
+Assam,2001,12:00 - 15:00,Day,300,16.61
+Assam,2001,15:00 - 18:00,Day,285,15.78
+Assam,2001,18:00 - 21:00,Night,234,12.96
+Assam,2001,21:00 - 24:00,Night,99,5.48
+Assam,2002,00:00 - 03:00,Night,167,7.45
+Assam,2002,03:00 - 06:00,Night,240,10.7
+Assam,2002,06:00 - 09:00,Day,322,14.36
+Assam,2002,09:00 - 12:00,Day,411,18.32
+Assam,2002,12:00 - 15:00,Day,335,14.94
+Assam,2002,15:00 - 18:00,Day,339,15.11
+Assam,2002,18:00 - 21:00,Night,272,12.13
+Assam,2002,21:00 - 24:00,Night,157,7.0
+Assam,2003,00:00 - 03:00,Night,129,6.01
+Assam,2003,03:00 - 06:00,Night,219,10.21
+Assam,2003,06:00 - 09:00,Day,295,13.75
+Assam,2003,09:00 - 12:00,Day,434,20.23
+Assam,2003,12:00 - 15:00,Day,330,15.38
+Assam,2003,15:00 - 18:00,Day,364,16.97
+Assam,2003,18:00 - 21:00,Night,247,11.52
+Assam,2003,21:00 - 24:00,Night,127,5.92
+Assam,2004,00:00 - 03:00,Night,101,5.04
+Assam,2004,03:00 - 06:00,Night,170,8.49
+Assam,2004,06:00 - 09:00,Day,287,14.34
+Assam,2004,09:00 - 12:00,Day,457,22.83
+Assam,2004,12:00 - 15:00,Day,340,16.98
+Assam,2004,15:00 - 18:00,Day,339,16.93
+Assam,2004,18:00 - 21:00,Night,204,10.19
+Assam,2004,21:00 - 24:00,Night,104,5.19
+Assam,2005,00:00 - 03:00,Night,172,4.7
+Assam,2005,03:00 - 06:00,Night,282,7.71
+Assam,2005,06:00 - 09:00,Day,584,15.97
+Assam,2005,09:00 - 12:00,Day,731,19.99
+Assam,2005,12:00 - 15:00,Day,664,18.16
+Assam,2005,15:00 - 18:00,Day,668,18.27
+Assam,2005,18:00 - 21:00,Night,365,9.98
+Assam,2005,21:00 - 24:00,Night,190,5.2
+Assam,2006,00:00 - 03:00,Night,159,3.9
+Assam,2006,03:00 - 06:00,Night,275,6.74
+Assam,2006,06:00 - 09:00,Day,679,16.64
+Assam,2006,09:00 - 12:00,Day,916,22.45
+Assam,2006,12:00 - 15:00,Day,753,18.46
+Assam,2006,15:00 - 18:00,Day,799,19.58
+Assam,2006,18:00 - 21:00,Night,313,7.67
+Assam,2006,21:00 - 24:00,Night,186,4.56
+Assam,2007,00:00 - 03:00,Night,195,4.88
+Assam,2007,03:00 - 06:00,Night,230,5.76
+Assam,2007,06:00 - 09:00,Day,690,17.27
+Assam,2007,09:00 - 12:00,Day,941,23.55
+Assam,2007,12:00 - 15:00,Day,752,18.82
+Assam,2007,15:00 - 18:00,Day,610,15.27
+Assam,2007,18:00 - 21:00,Night,362,9.06
+Assam,2007,21:00 - 24:00,Night,215,5.38
+Assam,2008,00:00 - 03:00,Night,220,5.16
+Assam,2008,03:00 - 06:00,Night,259,6.08
+Assam,2008,06:00 - 09:00,Day,777,18.23
+Assam,2008,09:00 - 12:00,Day,915,21.47
+Assam,2008,12:00 - 15:00,Day,747,17.53
+Assam,2008,15:00 - 18:00,Day,780,18.3
+Assam,2008,18:00 - 21:00,Night,369,8.66
+Assam,2008,21:00 - 24:00,Night,195,4.58
+Assam,2009,00:00 - 03:00,Night,165,3.6
+Assam,2009,03:00 - 06:00,Night,218,4.75
+Assam,2009,06:00 - 09:00,Day,667,14.55
+Assam,2009,09:00 - 12:00,Day,1039,22.66
+Assam,2009,12:00 - 15:00,Day,912,19.89
+Assam,2009,15:00 - 18:00,Day,961,20.96
+Assam,2009,18:00 - 21:00,Night,437,9.53
+Assam,2009,21:00 - 24:00,Night,186,4.06
+Assam,2010,00:00 - 03:00,Night,231,4.21
+Assam,2010,03:00 - 06:00,Night,255,4.65
+Assam,2010,06:00 - 09:00,Day,898,16.37
+Assam,2010,09:00 - 12:00,Day,1313,23.94
+Assam,2010,12:00 - 15:00,Day,972,17.72
+Assam,2010,15:00 - 18:00,Day,1058,19.29
+Assam,2010,18:00 - 21:00,Night,480,8.75
+Assam,2010,21:00 - 24:00,Night,278,5.07
+Assam,2011,00:00 - 03:00,Night,275,4.19
+Assam,2011,03:00 - 06:00,Night,216,3.29
+Assam,2011,06:00 - 09:00,Day,1110,16.9
+Assam,2011,09:00 - 12:00,Day,1494,22.74
+Assam,2011,12:00 - 15:00,Day,1166,17.75
+Assam,2011,15:00 - 18:00,Day,1118,17.02
+Assam,2011,18:00 - 21:00,Night,762,11.6
+Assam,2011,21:00 - 24:00,Night,428,6.52
+Assam,2012,00:00 - 03:00,Night,176,2.69
+Assam,2012,03:00 - 06:00,Night,206,3.15
+Assam,2012,06:00 - 09:00,Day,955,14.61
+Assam,2012,09:00 - 12:00,Day,1357,20.77
+Assam,2012,12:00 - 15:00,Day,1260,19.28
+Assam,2012,15:00 - 18:00,Day,1219,18.65
+Assam,2012,18:00 - 21:00,Night,905,13.85
+Assam,2012,21:00 - 24:00,Night,457,6.99
+Assam,2013,00:00 - 03:00,Night,181,2.51
+Assam,2013,03:00 - 06:00,Night,283,3.92
+Assam,2013,06:00 - 09:00,Day,1078,14.95
+Assam,2013,09:00 - 12:00,Day,1501,20.82
+Assam,2013,12:00 - 15:00,Day,1356,18.8
+Assam,2013,15:00 - 18:00,Day,1315,18.24
+Assam,2013,18:00 - 21:00,Night,942,13.06
+Assam,2013,21:00 - 24:00,Night,555,7.7
+Assam,2014,00:00 - 03:00,Night,212,2.97
+Assam,2014,03:00 - 06:00,Night,277,3.88
+Assam,2014,06:00 - 09:00,Day,939,13.14
+Assam,2014,09:00 - 12:00,Day,1475,20.65
+Assam,2014,12:00 - 15:00,Day,1225,17.15
+Assam,2014,15:00 - 18:00,Day,1438,20.13
+Assam,2014,18:00 - 21:00,Night,1023,14.32
+Assam,2014,21:00 - 24:00,Night,555,7.77
+Bihar,2001,00:00 - 03:00,Night,344,7.94
+Bihar,2001,03:00 - 06:00,Night,541,12.48
+Bihar,2001,06:00 - 09:00,Day,618,14.26
+Bihar,2001,09:00 - 12:00,Day,690,15.92
+Bihar,2001,12:00 - 15:00,Day,552,12.74
+Bihar,2001,15:00 - 18:00,Day,625,14.42
+Bihar,2001,18:00 - 21:00,Night,503,11.61
+Bihar,2001,21:00 - 24:00,Night,461,10.64
+Bihar,2002,00:00 - 03:00,Night,297,6.79
+Bihar,2002,03:00 - 06:00,Night,395,9.03
+Bihar,2002,06:00 - 09:00,Day,710,16.24
+Bihar,2002,09:00 - 12:00,Day,777,17.77
+Bihar,2002,12:00 - 15:00,Day,718,16.42
+Bihar,2002,15:00 - 18:00,Day,637,14.57
+Bihar,2002,18:00 - 21:00,Night,495,11.32
+Bihar,2002,21:00 - 24:00,Night,343,7.85
+Bihar,2003,00:00 - 03:00,Night,374,9.58
+Bihar,2003,03:00 - 06:00,Night,423,10.84
+Bihar,2003,06:00 - 09:00,Day,531,13.61
+Bihar,2003,09:00 - 12:00,Day,664,17.02
+Bihar,2003,12:00 - 15:00,Day,580,14.86
+Bihar,2003,15:00 - 18:00,Day,567,14.53
+Bihar,2003,18:00 - 21:00,Night,477,12.22
+Bihar,2003,21:00 - 24:00,Night,286,7.33
+Bihar,2004,00:00 - 03:00,Night,286,7.35
+Bihar,2004,03:00 - 06:00,Night,494,12.7
+Bihar,2004,06:00 - 09:00,Day,466,11.98
+Bihar,2004,09:00 - 12:00,Day,638,16.4
+Bihar,2004,12:00 - 15:00,Day,689,17.71
+Bihar,2004,15:00 - 18:00,Day,537,13.8
+Bihar,2004,18:00 - 21:00,Night,436,11.21
+Bihar,2004,21:00 - 24:00,Night,344,8.84
+Bihar,2005,00:00 - 03:00,Night,233,6.22
+Bihar,2005,03:00 - 06:00,Night,435,11.61
+Bihar,2005,06:00 - 09:00,Day,643,17.16
+Bihar,2005,09:00 - 12:00,Day,632,16.87
+Bihar,2005,12:00 - 15:00,Day,644,17.19
+Bihar,2005,15:00 - 18:00,Day,540,14.42
+Bihar,2005,18:00 - 21:00,Night,419,11.19
+Bihar,2005,21:00 - 24:00,Night,200,5.34
+Bihar,2006,00:00 - 03:00,Night,263,6.0
+Bihar,2006,03:00 - 06:00,Night,524,11.96
+Bihar,2006,06:00 - 09:00,Day,661,15.08
+Bihar,2006,09:00 - 12:00,Day,745,17.0
+Bihar,2006,12:00 - 15:00,Day,709,16.18
+Bihar,2006,15:00 - 18:00,Day,610,13.92
+Bihar,2006,18:00 - 21:00,Night,500,11.41
+Bihar,2006,21:00 - 24:00,Night,370,8.44
+Bihar,2007,00:00 - 03:00,Night,356,6.32
+Bihar,2007,03:00 - 06:00,Night,739,13.12
+Bihar,2007,06:00 - 09:00,Day,868,15.41
+Bihar,2007,09:00 - 12:00,Day,866,15.38
+Bihar,2007,12:00 - 15:00,Day,838,14.88
+Bihar,2007,15:00 - 18:00,Day,918,16.3
+Bihar,2007,18:00 - 21:00,Night,664,11.79
+Bihar,2007,21:00 - 24:00,Night,382,6.78
+Bihar,2008,00:00 - 03:00,Night,361,5.84
+Bihar,2008,03:00 - 06:00,Night,907,14.68
+Bihar,2008,06:00 - 09:00,Day,928,15.02
+Bihar,2008,09:00 - 12:00,Day,1006,16.28
+Bihar,2008,12:00 - 15:00,Day,845,13.67
+Bihar,2008,15:00 - 18:00,Day,1002,16.21
+Bihar,2008,18:00 - 21:00,Night,702,11.36
+Bihar,2008,21:00 - 24:00,Night,429,6.94
+Bihar,2009,00:00 - 03:00,Night,703,8.4
+Bihar,2009,03:00 - 06:00,Night,1052,12.57
+Bihar,2009,06:00 - 09:00,Day,1232,14.73
+Bihar,2009,09:00 - 12:00,Day,1215,14.52
+Bihar,2009,12:00 - 15:00,Day,1007,12.04
+Bihar,2009,15:00 - 18:00,Day,1335,15.96
+Bihar,2009,18:00 - 21:00,Night,1126,13.46
+Bihar,2009,21:00 - 24:00,Night,696,8.32
+Bihar,2010,00:00 - 03:00,Night,720,8.53
+Bihar,2010,03:00 - 06:00,Night,923,10.93
+Bihar,2010,06:00 - 09:00,Day,1037,12.29
+Bihar,2010,09:00 - 12:00,Day,1267,15.01
+Bihar,2010,12:00 - 15:00,Day,1210,14.33
+Bihar,2010,15:00 - 18:00,Day,1288,15.26
+Bihar,2010,18:00 - 21:00,Night,1168,13.84
+Bihar,2010,21:00 - 24:00,Night,828,9.81
+Bihar,2011,00:00 - 03:00,Night,690,7.38
+Bihar,2011,03:00 - 06:00,Night,903,9.65
+Bihar,2011,06:00 - 09:00,Day,1167,12.47
+Bihar,2011,09:00 - 12:00,Day,1512,16.16
+Bihar,2011,12:00 - 15:00,Day,1511,16.15
+Bihar,2011,15:00 - 18:00,Day,1492,15.95
+Bihar,2011,18:00 - 21:00,Night,1240,13.25
+Bihar,2011,21:00 - 24:00,Night,840,8.98
+Bihar,2012,00:00 - 03:00,Night,666,6.45
+Bihar,2012,03:00 - 06:00,Night,763,7.39
+Bihar,2012,06:00 - 09:00,Day,1733,16.79
+Bihar,2012,09:00 - 12:00,Day,1725,16.72
+Bihar,2012,12:00 - 15:00,Day,1653,16.02
+Bihar,2012,15:00 - 18:00,Day,1569,15.2
+Bihar,2012,18:00 - 21:00,Night,1269,12.3
+Bihar,2012,21:00 - 24:00,Night,942,9.13
+Bihar,2013,00:00 - 03:00,Night,640,6.28
+Bihar,2013,03:00 - 06:00,Night,1622,15.91
+Bihar,2013,06:00 - 09:00,Day,1555,15.25
+Bihar,2013,09:00 - 12:00,Day,1500,14.71
+Bihar,2013,12:00 - 15:00,Day,1369,13.42
+Bihar,2013,15:00 - 18:00,Day,1455,14.27
+Bihar,2013,18:00 - 21:00,Night,1337,13.11
+Bihar,2013,21:00 - 24:00,Night,720,7.06
+Bihar,2014,00:00 - 03:00,Night,672,7.05
+Bihar,2014,03:00 - 06:00,Night,987,10.36
+Bihar,2014,06:00 - 09:00,Day,1429,14.99
+Bihar,2014,09:00 - 12:00,Day,1429,14.99
+Bihar,2014,12:00 - 15:00,Day,1460,15.32
+Bihar,2014,15:00 - 18:00,Day,1421,14.91
+Bihar,2014,18:00 - 21:00,Night,1262,13.24
+Bihar,2014,21:00 - 24:00,Night,871,9.14
+Chandigarh,2001,00:00 - 03:00,Night,15,3.04
+Chandigarh,2001,03:00 - 06:00,Night,10,2.03
+Chandigarh,2001,06:00 - 09:00,Day,41,8.32
+Chandigarh,2001,09:00 - 12:00,Day,81,16.43
+Chandigarh,2001,12:00 - 15:00,Day,81,16.43
+Chandigarh,2001,15:00 - 18:00,Day,90,18.26
+Chandigarh,2001,18:00 - 21:00,Night,94,19.07
+Chandigarh,2001,21:00 - 24:00,Night,81,16.43
+Chandigarh,2002,00:00 - 03:00,Night,40,8.1
+Chandigarh,2002,03:00 - 06:00,Night,49,9.92
+Chandigarh,2002,06:00 - 09:00,Day,54,10.93
+Chandigarh,2002,09:00 - 12:00,Day,63,12.75
+Chandigarh,2002,12:00 - 15:00,Day,68,13.77
+Chandigarh,2002,15:00 - 18:00,Day,74,14.98
+Chandigarh,2002,18:00 - 21:00,Night,89,18.02
+Chandigarh,2002,21:00 - 24:00,Night,57,11.54
+Chandigarh,2003,00:00 - 03:00,Night,17,3.84
+Chandigarh,2003,03:00 - 06:00,Night,10,2.26
+Chandigarh,2003,06:00 - 09:00,Day,35,7.9
+Chandigarh,2003,09:00 - 12:00,Day,54,12.19
+Chandigarh,2003,12:00 - 15:00,Day,63,14.22
+Chandigarh,2003,15:00 - 18:00,Day,85,19.19
+Chandigarh,2003,18:00 - 21:00,Night,111,25.06
+Chandigarh,2003,21:00 - 24:00,Night,68,15.35
+Chandigarh,2004,00:00 - 03:00,Night,20,4.87
+Chandigarh,2004,03:00 - 06:00,Night,4,0.97
+Chandigarh,2004,06:00 - 09:00,Day,27,6.57
+Chandigarh,2004,09:00 - 12:00,Day,65,15.82
+Chandigarh,2004,12:00 - 15:00,Day,80,19.46
+Chandigarh,2004,15:00 - 18:00,Day,72,17.52
+Chandigarh,2004,18:00 - 21:00,Night,72,17.52
+Chandigarh,2004,21:00 - 24:00,Night,71,17.27
+Chandigarh,2005,00:00 - 03:00,Night,23,4.36
+Chandigarh,2005,03:00 - 06:00,Night,15,2.84
+Chandigarh,2005,06:00 - 09:00,Day,30,5.68
+Chandigarh,2005,09:00 - 12:00,Day,70,13.26
+Chandigarh,2005,12:00 - 15:00,Day,88,16.67
+Chandigarh,2005,15:00 - 18:00,Day,95,17.99
+Chandigarh,2005,18:00 - 21:00,Night,117,22.16
+Chandigarh,2005,21:00 - 24:00,Night,90,17.05
+Chandigarh,2006,00:00 - 03:00,Night,28,5.37
+Chandigarh,2006,03:00 - 06:00,Night,8,1.54
+Chandigarh,2006,06:00 - 09:00,Day,35,6.72
+Chandigarh,2006,09:00 - 12:00,Day,58,11.13
+Chandigarh,2006,12:00 - 15:00,Day,93,17.85
+Chandigarh,2006,15:00 - 18:00,Day,83,15.93
+Chandigarh,2006,18:00 - 21:00,Night,114,21.88
+Chandigarh,2006,21:00 - 24:00,Night,102,19.58
+Chandigarh,2007,00:00 - 03:00,Night,29,5.41
+Chandigarh,2007,03:00 - 06:00,Night,9,1.68
+Chandigarh,2007,06:00 - 09:00,Day,39,7.28
+Chandigarh,2007,09:00 - 12:00,Day,77,14.37
+Chandigarh,2007,12:00 - 15:00,Day,80,14.93
+Chandigarh,2007,15:00 - 18:00,Day,75,13.99
+Chandigarh,2007,18:00 - 21:00,Night,122,22.76
+Chandigarh,2007,21:00 - 24:00,Night,105,19.59
+Chandigarh,2008,00:00 - 03:00,Night,27,5.66
+Chandigarh,2008,03:00 - 06:00,Night,15,3.14
+Chandigarh,2008,06:00 - 09:00,Day,35,7.34
+Chandigarh,2008,09:00 - 12:00,Day,50,10.48
+Chandigarh,2008,12:00 - 15:00,Day,76,15.93
+Chandigarh,2008,15:00 - 18:00,Day,68,14.26
+Chandigarh,2008,18:00 - 21:00,Night,108,22.64
+Chandigarh,2008,21:00 - 24:00,Night,98,20.55
+Chandigarh,2009,00:00 - 03:00,Night,29,6.84
+Chandigarh,2009,03:00 - 06:00,Night,15,3.54
+Chandigarh,2009,06:00 - 09:00,Day,43,10.14
+Chandigarh,2009,09:00 - 12:00,Day,54,12.74
+Chandigarh,2009,12:00 - 15:00,Day,56,13.21
+Chandigarh,2009,15:00 - 18:00,Day,53,12.5
+Chandigarh,2009,18:00 - 21:00,Night,91,21.46
+Chandigarh,2009,21:00 - 24:00,Night,83,19.58
+Chandigarh,2010,00:00 - 03:00,Night,17,3.73
+Chandigarh,2010,03:00 - 06:00,Night,19,4.17
+Chandigarh,2010,06:00 - 09:00,Day,45,9.87
+Chandigarh,2010,09:00 - 12:00,Day,62,13.6
+Chandigarh,2010,12:00 - 15:00,Day,57,12.5
+Chandigarh,2010,15:00 - 18:00,Day,78,17.11
+Chandigarh,2010,18:00 - 21:00,Night,94,20.61
+Chandigarh,2010,21:00 - 24:00,Night,84,18.42
+Chandigarh,2011,00:00 - 03:00,Night,33,7.48
+Chandigarh,2011,03:00 - 06:00,Night,47,10.66
+Chandigarh,2011,06:00 - 09:00,Day,27,6.12
+Chandigarh,2011,09:00 - 12:00,Day,52,11.79
+Chandigarh,2011,12:00 - 15:00,Day,47,10.66
+Chandigarh,2011,15:00 - 18:00,Day,38,8.62
+Chandigarh,2011,18:00 - 21:00,Night,109,24.72
+Chandigarh,2011,21:00 - 24:00,Night,88,19.95
+Chandigarh,2012,00:00 - 03:00,Night,22,5.34
+Chandigarh,2012,03:00 - 06:00,Night,7,1.7
+Chandigarh,2012,06:00 - 09:00,Day,36,8.74
+Chandigarh,2012,09:00 - 12:00,Day,49,11.89
+Chandigarh,2012,12:00 - 15:00,Day,60,14.56
+Chandigarh,2012,15:00 - 18:00,Day,62,15.05
+Chandigarh,2012,18:00 - 21:00,Night,94,22.82
+Chandigarh,2012,21:00 - 24:00,Night,82,19.9
+Chandigarh,2013,00:00 - 03:00,Night,41,10.02
+Chandigarh,2013,03:00 - 06:00,Night,16,3.91
+Chandigarh,2013,06:00 - 09:00,Day,26,6.36
+Chandigarh,2013,09:00 - 12:00,Day,40,9.78
+Chandigarh,2013,12:00 - 15:00,Day,59,14.43
+Chandigarh,2013,15:00 - 18:00,Day,65,15.89
+Chandigarh,2013,18:00 - 21:00,Night,87,21.27
+Chandigarh,2013,21:00 - 24:00,Night,75,18.34
+Chandigarh,2014,00:00 - 03:00,Night,32,8.74
+Chandigarh,2014,03:00 - 06:00,Night,29,7.92
+Chandigarh,2014,06:00 - 09:00,Day,42,11.48
+Chandigarh,2014,09:00 - 12:00,Day,51,13.93
+Chandigarh,2014,12:00 - 15:00,Day,41,11.2
+Chandigarh,2014,15:00 - 18:00,Day,56,15.3
+Chandigarh,2014,18:00 - 21:00,Night,66,18.03
+Chandigarh,2014,21:00 - 24:00,Night,49,13.39
+Chhattisgarh,2001,00:00 - 03:00,Night,279,5.59
+Chhattisgarh,2001,03:00 - 06:00,Night,353,7.08
+Chhattisgarh,2001,06:00 - 09:00,Day,632,12.67
+Chhattisgarh,2001,09:00 - 12:00,Day,1026,20.57
+Chhattisgarh,2001,12:00 - 15:00,Day,762,15.28
+Chhattisgarh,2001,15:00 - 18:00,Day,859,17.22
+Chhattisgarh,2001,18:00 - 21:00,Night,684,13.72
+Chhattisgarh,2001,21:00 - 24:00,Night,392,7.86
+Chhattisgarh,2002,00:00 - 03:00,Night,384,6.62
+Chhattisgarh,2002,03:00 - 06:00,Night,528,9.1
+Chhattisgarh,2002,06:00 - 09:00,Day,847,14.6
+Chhattisgarh,2002,09:00 - 12:00,Day,813,14.01
+Chhattisgarh,2002,12:00 - 15:00,Day,892,15.38
+Chhattisgarh,2002,15:00 - 18:00,Day,927,15.98
+Chhattisgarh,2002,18:00 - 21:00,Night,794,13.69
+Chhattisgarh,2002,21:00 - 24:00,Night,616,10.62
+Chhattisgarh,2003,00:00 - 03:00,Night,611,8.7
+Chhattisgarh,2003,03:00 - 06:00,Night,732,10.42
+Chhattisgarh,2003,06:00 - 09:00,Day,859,12.23
+Chhattisgarh,2003,09:00 - 12:00,Day,1099,15.65
+Chhattisgarh,2003,12:00 - 15:00,Day,959,13.66
+Chhattisgarh,2003,15:00 - 18:00,Day,929,13.23
+Chhattisgarh,2003,18:00 - 21:00,Night,938,13.36
+Chhattisgarh,2003,21:00 - 24:00,Night,896,12.76
+Chhattisgarh,2004,00:00 - 03:00,Night,359,5.91
+Chhattisgarh,2004,03:00 - 06:00,Night,431,7.09
+Chhattisgarh,2004,06:00 - 09:00,Day,719,11.84
+Chhattisgarh,2004,09:00 - 12:00,Day,1165,19.18
+Chhattisgarh,2004,12:00 - 15:00,Day,868,14.29
+Chhattisgarh,2004,15:00 - 18:00,Day,910,14.98
+Chhattisgarh,2004,18:00 - 21:00,Night,818,13.47
+Chhattisgarh,2004,21:00 - 24:00,Night,805,13.25
+Chhattisgarh,2005,00:00 - 03:00,Night,445,7.42
+Chhattisgarh,2005,03:00 - 06:00,Night,712,11.87
+Chhattisgarh,2005,06:00 - 09:00,Day,782,13.04
+Chhattisgarh,2005,09:00 - 12:00,Day,1016,16.94
+Chhattisgarh,2005,12:00 - 15:00,Day,920,15.34
+Chhattisgarh,2005,15:00 - 18:00,Day,805,13.43
+Chhattisgarh,2005,18:00 - 21:00,Night,716,11.94
+Chhattisgarh,2005,21:00 - 24:00,Night,600,10.01
+Chhattisgarh,2006,00:00 - 03:00,Night,531,7.47
+Chhattisgarh,2006,03:00 - 06:00,Night,570,8.02
+Chhattisgarh,2006,06:00 - 09:00,Day,918,12.91
+Chhattisgarh,2006,09:00 - 12:00,Day,1229,17.28
+Chhattisgarh,2006,12:00 - 15:00,Day,1197,16.83
+Chhattisgarh,2006,15:00 - 18:00,Day,1069,15.03
+Chhattisgarh,2006,18:00 - 21:00,Night,958,13.47
+Chhattisgarh,2006,21:00 - 24:00,Night,639,8.99
+Chhattisgarh,2007,00:00 - 03:00,Night,498,6.35
+Chhattisgarh,2007,03:00 - 06:00,Night,846,10.79
+Chhattisgarh,2007,06:00 - 09:00,Day,1081,13.79
+Chhattisgarh,2007,09:00 - 12:00,Day,1230,15.69
+Chhattisgarh,2007,12:00 - 15:00,Day,1210,15.44
+Chhattisgarh,2007,15:00 - 18:00,Day,1173,14.97
+Chhattisgarh,2007,18:00 - 21:00,Night,990,12.63
+Chhattisgarh,2007,21:00 - 24:00,Night,809,10.32
+Chhattisgarh,2008,00:00 - 03:00,Night,594,6.77
+Chhattisgarh,2008,03:00 - 06:00,Night,957,10.91
+Chhattisgarh,2008,06:00 - 09:00,Day,1199,13.67
+Chhattisgarh,2008,09:00 - 12:00,Day,1452,16.56
+Chhattisgarh,2008,12:00 - 15:00,Day,1414,16.12
+Chhattisgarh,2008,15:00 - 18:00,Day,1141,13.01
+Chhattisgarh,2008,18:00 - 21:00,Night,1133,12.92
+Chhattisgarh,2008,21:00 - 24:00,Night,879,10.02
+Chhattisgarh,2009,00:00 - 03:00,Night,414,5.23
+Chhattisgarh,2009,03:00 - 06:00,Night,692,8.75
+Chhattisgarh,2009,06:00 - 09:00,Day,998,12.61
+Chhattisgarh,2009,09:00 - 12:00,Day,1408,17.79
+Chhattisgarh,2009,12:00 - 15:00,Day,1219,15.41
+Chhattisgarh,2009,15:00 - 18:00,Day,1165,14.72
+Chhattisgarh,2009,18:00 - 21:00,Night,1193,15.08
+Chhattisgarh,2009,21:00 - 24:00,Night,824,10.41
+Chhattisgarh,2010,00:00 - 03:00,Night,579,7.42
+Chhattisgarh,2010,03:00 - 06:00,Night,756,9.69
+Chhattisgarh,2010,06:00 - 09:00,Day,1007,12.91
+Chhattisgarh,2010,09:00 - 12:00,Day,1417,18.16
+Chhattisgarh,2010,12:00 - 15:00,Day,1254,16.07
+Chhattisgarh,2010,15:00 - 18:00,Day,1095,14.03
+Chhattisgarh,2010,18:00 - 21:00,Night,1034,13.25
+Chhattisgarh,2010,21:00 - 24:00,Night,660,8.46
+Chhattisgarh,2011,00:00 - 03:00,Night,572,6.22
+Chhattisgarh,2011,03:00 - 06:00,Night,814,8.85
+Chhattisgarh,2011,06:00 - 09:00,Day,1275,13.87
+Chhattisgarh,2011,09:00 - 12:00,Day,1514,16.47
+Chhattisgarh,2011,12:00 - 15:00,Day,1493,16.24
+Chhattisgarh,2011,15:00 - 18:00,Day,1385,15.06
+Chhattisgarh,2011,18:00 - 21:00,Night,1293,14.06
+Chhattisgarh,2011,21:00 - 24:00,Night,849,9.23
+Chhattisgarh,2012,00:00 - 03:00,Night,1159,8.58
+Chhattisgarh,2012,03:00 - 06:00,Night,1415,10.47
+Chhattisgarh,2012,06:00 - 09:00,Day,1708,12.64
+Chhattisgarh,2012,09:00 - 12:00,Day,1885,13.95
+Chhattisgarh,2012,12:00 - 15:00,Day,1936,14.33
+Chhattisgarh,2012,15:00 - 18:00,Day,1886,13.96
+Chhattisgarh,2012,18:00 - 21:00,Night,1995,14.77
+Chhattisgarh,2012,21:00 - 24:00,Night,1527,11.3
+Chhattisgarh,2013,00:00 - 03:00,Night,1261,9.23
+Chhattisgarh,2013,03:00 - 06:00,Night,1477,10.81
+Chhattisgarh,2013,06:00 - 09:00,Day,1691,12.38
+Chhattisgarh,2013,09:00 - 12:00,Day,1863,13.64
+Chhattisgarh,2013,12:00 - 15:00,Day,1889,13.83
+Chhattisgarh,2013,15:00 - 18:00,Day,2035,14.9
+Chhattisgarh,2013,18:00 - 21:00,Night,1993,14.59
+Chhattisgarh,2013,21:00 - 24:00,Night,1448,10.6
+Chhattisgarh,2014,00:00 - 03:00,Night,648,5.34
+Chhattisgarh,2014,03:00 - 06:00,Night,849,6.99
+Chhattisgarh,2014,06:00 - 09:00,Day,1469,12.1
+Chhattisgarh,2014,09:00 - 12:00,Day,1916,15.78
+Chhattisgarh,2014,12:00 - 15:00,Day,1702,14.02
+Chhattisgarh,2014,15:00 - 18:00,Day,2102,17.31
+Chhattisgarh,2014,18:00 - 21:00,Night,2072,17.07
+Chhattisgarh,2014,21:00 - 24:00,Night,1382,11.38
+Dadra and Nagar Haveli and Daman and Diu,2001,00:00 - 03:00,Night,3,3.45
+Dadra and Nagar Haveli and Daman and Diu,2001,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2001,06:00 - 09:00,Day,13,14.94
+Dadra and Nagar Haveli and Daman and Diu,2001,09:00 - 12:00,Day,13,14.94
+Dadra and Nagar Haveli and Daman and Diu,2001,12:00 - 15:00,Day,13,14.94
+Dadra and Nagar Haveli and Daman and Diu,2001,15:00 - 18:00,Day,17,19.54
+Dadra and Nagar Haveli and Daman and Diu,2001,18:00 - 21:00,Night,20,22.99
+Dadra and Nagar Haveli and Daman and Diu,2001,21:00 - 24:00,Night,8,9.2
+Dadra and Nagar Haveli and Daman and Diu,2002,00:00 - 03:00,Night,1,1.25
+Dadra and Nagar Haveli and Daman and Diu,2002,03:00 - 06:00,Night,2,2.5
+Dadra and Nagar Haveli and Daman and Diu,2002,06:00 - 09:00,Day,11,13.75
+Dadra and Nagar Haveli and Daman and Diu,2002,09:00 - 12:00,Day,11,13.75
+Dadra and Nagar Haveli and Daman and Diu,2002,12:00 - 15:00,Day,7,8.75
+Dadra and Nagar Haveli and Daman and Diu,2002,15:00 - 18:00,Day,17,21.25
+Dadra and Nagar Haveli and Daman and Diu,2002,18:00 - 21:00,Night,19,23.75
+Dadra and Nagar Haveli and Daman and Diu,2002,21:00 - 24:00,Night,12,15.0
+Dadra and Nagar Haveli and Daman and Diu,2003,00:00 - 03:00,Night,4,5.48
+Dadra and Nagar Haveli and Daman and Diu,2003,03:00 - 06:00,Night,2,2.74
+Dadra and Nagar Haveli and Daman and Diu,2003,06:00 - 09:00,Day,4,5.48
+Dadra and Nagar Haveli and Daman and Diu,2003,09:00 - 12:00,Day,12,16.44
+Dadra and Nagar Haveli and Daman and Diu,2003,12:00 - 15:00,Day,10,13.7
+Dadra and Nagar Haveli and Daman and Diu,2003,15:00 - 18:00,Day,12,16.44
+Dadra and Nagar Haveli and Daman and Diu,2003,18:00 - 21:00,Night,17,23.29
+Dadra and Nagar Haveli and Daman and Diu,2003,21:00 - 24:00,Night,12,16.44
+Dadra and Nagar Haveli and Daman and Diu,2004,00:00 - 03:00,Night,7,6.31
+Dadra and Nagar Haveli and Daman and Diu,2004,03:00 - 06:00,Night,8,7.21
+Dadra and Nagar Haveli and Daman and Diu,2004,06:00 - 09:00,Day,7,6.31
+Dadra and Nagar Haveli and Daman and Diu,2004,09:00 - 12:00,Day,15,13.51
+Dadra and Nagar Haveli and Daman and Diu,2004,12:00 - 15:00,Day,19,17.12
+Dadra and Nagar Haveli and Daman and Diu,2004,15:00 - 18:00,Day,22,19.82
+Dadra and Nagar Haveli and Daman and Diu,2004,18:00 - 21:00,Night,22,19.82
+Dadra and Nagar Haveli and Daman and Diu,2004,21:00 - 24:00,Night,11,9.91
+Dadra and Nagar Haveli and Daman and Diu,2005,00:00 - 03:00,Night,6,4.72
+Dadra and Nagar Haveli and Daman and Diu,2005,03:00 - 06:00,Night,3,2.36
+Dadra and Nagar Haveli and Daman and Diu,2005,06:00 - 09:00,Day,14,11.02
+Dadra and Nagar Haveli and Daman and Diu,2005,09:00 - 12:00,Day,20,15.75
+Dadra and Nagar Haveli and Daman and Diu,2005,12:00 - 15:00,Day,17,13.39
+Dadra and Nagar Haveli and Daman and Diu,2005,15:00 - 18:00,Day,24,18.9
+Dadra and Nagar Haveli and Daman and Diu,2005,18:00 - 21:00,Night,32,25.2
+Dadra and Nagar Haveli and Daman and Diu,2005,21:00 - 24:00,Night,11,8.66
+Dadra and Nagar Haveli and Daman and Diu,2006,00:00 - 03:00,Night,2,1.94
+Dadra and Nagar Haveli and Daman and Diu,2006,03:00 - 06:00,Night,6,5.83
+Dadra and Nagar Haveli and Daman and Diu,2006,06:00 - 09:00,Day,8,7.77
+Dadra and Nagar Haveli and Daman and Diu,2006,09:00 - 12:00,Day,10,9.71
+Dadra and Nagar Haveli and Daman and Diu,2006,12:00 - 15:00,Day,17,16.5
+Dadra and Nagar Haveli and Daman and Diu,2006,15:00 - 18:00,Day,18,17.48
+Dadra and Nagar Haveli and Daman and Diu,2006,18:00 - 21:00,Night,28,27.18
+Dadra and Nagar Haveli and Daman and Diu,2006,21:00 - 24:00,Night,14,13.59
+Dadra and Nagar Haveli and Daman and Diu,2007,00:00 - 03:00,Night,9,7.76
+Dadra and Nagar Haveli and Daman and Diu,2007,03:00 - 06:00,Night,1,0.86
+Dadra and Nagar Haveli and Daman and Diu,2007,06:00 - 09:00,Day,10,8.62
+Dadra and Nagar Haveli and Daman and Diu,2007,09:00 - 12:00,Day,13,11.21
+Dadra and Nagar Haveli and Daman and Diu,2007,12:00 - 15:00,Day,16,13.79
+Dadra and Nagar Haveli and Daman and Diu,2007,15:00 - 18:00,Day,17,14.66
+Dadra and Nagar Haveli and Daman and Diu,2007,18:00 - 21:00,Night,29,25.0
+Dadra and Nagar Haveli and Daman and Diu,2007,21:00 - 24:00,Night,21,18.1
+Dadra and Nagar Haveli and Daman and Diu,2008,00:00 - 03:00,Night,2,1.72
+Dadra and Nagar Haveli and Daman and Diu,2008,03:00 - 06:00,Night,2,1.72
+Dadra and Nagar Haveli and Daman and Diu,2008,06:00 - 09:00,Day,7,6.03
+Dadra and Nagar Haveli and Daman and Diu,2008,09:00 - 12:00,Day,17,14.66
+Dadra and Nagar Haveli and Daman and Diu,2008,12:00 - 15:00,Day,15,12.93
+Dadra and Nagar Haveli and Daman and Diu,2008,15:00 - 18:00,Day,20,17.24
+Dadra and Nagar Haveli and Daman and Diu,2008,18:00 - 21:00,Night,30,25.86
+Dadra and Nagar Haveli and Daman and Diu,2008,21:00 - 24:00,Night,23,19.83
+Dadra and Nagar Haveli and Daman and Diu,2009,00:00 - 03:00,Night,1,2.22
+Dadra and Nagar Haveli and Daman and Diu,2009,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2009,06:00 - 09:00,Day,5,11.11
+Dadra and Nagar Haveli and Daman and Diu,2009,09:00 - 12:00,Day,6,13.33
+Dadra and Nagar Haveli and Daman and Diu,2009,12:00 - 15:00,Day,3,6.67
+Dadra and Nagar Haveli and Daman and Diu,2009,15:00 - 18:00,Day,6,13.33
+Dadra and Nagar Haveli and Daman and Diu,2009,18:00 - 21:00,Night,14,31.11
+Dadra and Nagar Haveli and Daman and Diu,2009,21:00 - 24:00,Night,10,22.22
+Dadra and Nagar Haveli and Daman and Diu,2010,00:00 - 03:00,Night,2,2.53
+Dadra and Nagar Haveli and Daman and Diu,2010,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2010,06:00 - 09:00,Day,11,13.92
+Dadra and Nagar Haveli and Daman and Diu,2010,09:00 - 12:00,Day,8,10.13
+Dadra and Nagar Haveli and Daman and Diu,2010,12:00 - 15:00,Day,11,13.92
+Dadra and Nagar Haveli and Daman and Diu,2010,15:00 - 18:00,Day,13,16.46
+Dadra and Nagar Haveli and Daman and Diu,2010,18:00 - 21:00,Night,21,26.58
+Dadra and Nagar Haveli and Daman and Diu,2010,21:00 - 24:00,Night,13,16.46
+Dadra and Nagar Haveli and Daman and Diu,2011,00:00 - 03:00,Night,4,3.88
+Dadra and Nagar Haveli and Daman and Diu,2011,03:00 - 06:00,Night,2,1.94
+Dadra and Nagar Haveli and Daman and Diu,2011,06:00 - 09:00,Day,8,7.77
+Dadra and Nagar Haveli and Daman and Diu,2011,09:00 - 12:00,Day,10,9.71
+Dadra and Nagar Haveli and Daman and Diu,2011,12:00 - 15:00,Day,13,12.62
+Dadra and Nagar Haveli and Daman and Diu,2011,15:00 - 18:00,Day,20,19.42
+Dadra and Nagar Haveli and Daman and Diu,2011,18:00 - 21:00,Night,32,31.07
+Dadra and Nagar Haveli and Daman and Diu,2011,21:00 - 24:00,Night,14,13.59
+Dadra and Nagar Haveli and Daman and Diu,2012,00:00 - 03:00,Night,3,3.53
+Dadra and Nagar Haveli and Daman and Diu,2012,03:00 - 06:00,Night,1,1.18
+Dadra and Nagar Haveli and Daman and Diu,2012,06:00 - 09:00,Day,9,10.59
+Dadra and Nagar Haveli and Daman and Diu,2012,09:00 - 12:00,Day,9,10.59
+Dadra and Nagar Haveli and Daman and Diu,2012,12:00 - 15:00,Day,11,12.94
+Dadra and Nagar Haveli and Daman and Diu,2012,15:00 - 18:00,Day,18,21.18
+Dadra and Nagar Haveli and Daman and Diu,2012,18:00 - 21:00,Night,21,24.71
+Dadra and Nagar Haveli and Daman and Diu,2012,21:00 - 24:00,Night,13,15.29
+Dadra and Nagar Haveli and Daman and Diu,2013,00:00 - 03:00,Night,3,3.3
+Dadra and Nagar Haveli and Daman and Diu,2013,03:00 - 06:00,Night,2,2.2
+Dadra and Nagar Haveli and Daman and Diu,2013,06:00 - 09:00,Day,7,7.69
+Dadra and Nagar Haveli and Daman and Diu,2013,09:00 - 12:00,Day,12,13.19
+Dadra and Nagar Haveli and Daman and Diu,2013,12:00 - 15:00,Day,20,21.98
+Dadra and Nagar Haveli and Daman and Diu,2013,15:00 - 18:00,Day,19,20.88
+Dadra and Nagar Haveli and Daman and Diu,2013,18:00 - 21:00,Night,19,20.88
+Dadra and Nagar Haveli and Daman and Diu,2013,21:00 - 24:00,Night,9,9.89
+Dadra and Nagar Haveli and Daman and Diu,2014,00:00 - 03:00,Night,1,1.15
+Dadra and Nagar Haveli and Daman and Diu,2014,03:00 - 06:00,Night,1,1.15
+Dadra and Nagar Haveli and Daman and Diu,2014,06:00 - 09:00,Day,8,9.2
+Dadra and Nagar Haveli and Daman and Diu,2014,09:00 - 12:00,Day,7,8.05
+Dadra and Nagar Haveli and Daman and Diu,2014,12:00 - 15:00,Day,13,14.94
+Dadra and Nagar Haveli and Daman and Diu,2014,15:00 - 18:00,Day,22,25.29
+Dadra and Nagar Haveli and Daman and Diu,2014,18:00 - 21:00,Night,27,31.03
+Dadra and Nagar Haveli and Daman and Diu,2014,21:00 - 24:00,Night,8,9.2
+Dadra and Nagar Haveli and Daman and Diu,2001,00:00 - 03:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2001,03:00 - 06:00,Night,2,5.71
+Dadra and Nagar Haveli and Daman and Diu,2001,06:00 - 09:00,Day,2,5.71
+Dadra and Nagar Haveli and Daman and Diu,2001,09:00 - 12:00,Day,6,17.14
+Dadra and Nagar Haveli and Daman and Diu,2001,12:00 - 15:00,Day,9,25.71
+Dadra and Nagar Haveli and Daman and Diu,2001,15:00 - 18:00,Day,9,25.71
+Dadra and Nagar Haveli and Daman and Diu,2001,18:00 - 21:00,Night,5,14.29
+Dadra and Nagar Haveli and Daman and Diu,2001,21:00 - 24:00,Night,2,5.71
+Dadra and Nagar Haveli and Daman and Diu,2002,00:00 - 03:00,Night,7,10.29
+Dadra and Nagar Haveli and Daman and Diu,2002,03:00 - 06:00,Night,6,8.82
+Dadra and Nagar Haveli and Daman and Diu,2002,06:00 - 09:00,Day,7,10.29
+Dadra and Nagar Haveli and Daman and Diu,2002,09:00 - 12:00,Day,8,11.76
+Dadra and Nagar Haveli and Daman and Diu,2002,12:00 - 15:00,Day,7,10.29
+Dadra and Nagar Haveli and Daman and Diu,2002,15:00 - 18:00,Day,10,14.71
+Dadra and Nagar Haveli and Daman and Diu,2002,18:00 - 21:00,Night,13,19.12
+Dadra and Nagar Haveli and Daman and Diu,2002,21:00 - 24:00,Night,10,14.71
+Dadra and Nagar Haveli and Daman and Diu,2003,00:00 - 03:00,Night,4,5.56
+Dadra and Nagar Haveli and Daman and Diu,2003,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2003,06:00 - 09:00,Day,3,4.17
+Dadra and Nagar Haveli and Daman and Diu,2003,09:00 - 12:00,Day,5,6.94
+Dadra and Nagar Haveli and Daman and Diu,2003,12:00 - 15:00,Day,10,13.89
+Dadra and Nagar Haveli and Daman and Diu,2003,15:00 - 18:00,Day,15,20.83
+Dadra and Nagar Haveli and Daman and Diu,2003,18:00 - 21:00,Night,17,23.61
+Dadra and Nagar Haveli and Daman and Diu,2003,21:00 - 24:00,Night,18,25.0
+Dadra and Nagar Haveli and Daman and Diu,2004,00:00 - 03:00,Night,5,10.64
+Dadra and Nagar Haveli and Daman and Diu,2004,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2004,06:00 - 09:00,Day,4,8.51
+Dadra and Nagar Haveli and Daman and Diu,2004,09:00 - 12:00,Day,7,14.89
+Dadra and Nagar Haveli and Daman and Diu,2004,12:00 - 15:00,Day,6,12.77
+Dadra and Nagar Haveli and Daman and Diu,2004,15:00 - 18:00,Day,9,19.15
+Dadra and Nagar Haveli and Daman and Diu,2004,18:00 - 21:00,Night,10,21.28
+Dadra and Nagar Haveli and Daman and Diu,2004,21:00 - 24:00,Night,6,12.77
+Dadra and Nagar Haveli and Daman and Diu,2005,00:00 - 03:00,Night,4,7.02
+Dadra and Nagar Haveli and Daman and Diu,2005,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2005,06:00 - 09:00,Day,1,1.75
+Dadra and Nagar Haveli and Daman and Diu,2005,09:00 - 12:00,Day,10,17.54
+Dadra and Nagar Haveli and Daman and Diu,2005,12:00 - 15:00,Day,9,15.79
+Dadra and Nagar Haveli and Daman and Diu,2005,15:00 - 18:00,Day,11,19.3
+Dadra and Nagar Haveli and Daman and Diu,2005,18:00 - 21:00,Night,12,21.05
+Dadra and Nagar Haveli and Daman and Diu,2005,21:00 - 24:00,Night,10,17.54
+Dadra and Nagar Haveli and Daman and Diu,2006,00:00 - 03:00,Night,3,5.26
+Dadra and Nagar Haveli and Daman and Diu,2006,03:00 - 06:00,Night,1,1.75
+Dadra and Nagar Haveli and Daman and Diu,2006,06:00 - 09:00,Day,5,8.77
+Dadra and Nagar Haveli and Daman and Diu,2006,09:00 - 12:00,Day,7,12.28
+Dadra and Nagar Haveli and Daman and Diu,2006,12:00 - 15:00,Day,10,17.54
+Dadra and Nagar Haveli and Daman and Diu,2006,15:00 - 18:00,Day,12,21.05
+Dadra and Nagar Haveli and Daman and Diu,2006,18:00 - 21:00,Night,7,12.28
+Dadra and Nagar Haveli and Daman and Diu,2006,21:00 - 24:00,Night,12,21.05
+Dadra and Nagar Haveli and Daman and Diu,2007,00:00 - 03:00,Night,7,11.67
+Dadra and Nagar Haveli and Daman and Diu,2007,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2007,06:00 - 09:00,Day,1,1.67
+Dadra and Nagar Haveli and Daman and Diu,2007,09:00 - 12:00,Day,2,3.33
+Dadra and Nagar Haveli and Daman and Diu,2007,12:00 - 15:00,Day,14,23.33
+Dadra and Nagar Haveli and Daman and Diu,2007,15:00 - 18:00,Day,10,16.67
+Dadra and Nagar Haveli and Daman and Diu,2007,18:00 - 21:00,Night,17,28.33
+Dadra and Nagar Haveli and Daman and Diu,2007,21:00 - 24:00,Night,9,15.0
+Dadra and Nagar Haveli and Daman and Diu,2008,00:00 - 03:00,Night,4,8.0
+Dadra and Nagar Haveli and Daman and Diu,2008,03:00 - 06:00,Night,1,2.0
+Dadra and Nagar Haveli and Daman and Diu,2008,06:00 - 09:00,Day,3,6.0
+Dadra and Nagar Haveli and Daman and Diu,2008,09:00 - 12:00,Day,6,12.0
+Dadra and Nagar Haveli and Daman and Diu,2008,12:00 - 15:00,Day,6,12.0
+Dadra and Nagar Haveli and Daman and Diu,2008,15:00 - 18:00,Day,9,18.0
+Dadra and Nagar Haveli and Daman and Diu,2008,18:00 - 21:00,Night,11,22.0
+Dadra and Nagar Haveli and Daman and Diu,2008,21:00 - 24:00,Night,10,20.0
+Dadra and Nagar Haveli and Daman and Diu,2009,00:00 - 03:00,Night,1,4.76
+Dadra and Nagar Haveli and Daman and Diu,2009,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2009,06:00 - 09:00,Day,3,14.29
+Dadra and Nagar Haveli and Daman and Diu,2009,09:00 - 12:00,Day,2,9.52
+Dadra and Nagar Haveli and Daman and Diu,2009,12:00 - 15:00,Day,5,23.81
+Dadra and Nagar Haveli and Daman and Diu,2009,15:00 - 18:00,Day,5,23.81
+Dadra and Nagar Haveli and Daman and Diu,2009,18:00 - 21:00,Night,4,19.05
+Dadra and Nagar Haveli and Daman and Diu,2009,21:00 - 24:00,Night,1,4.76
+Dadra and Nagar Haveli and Daman and Diu,2010,00:00 - 03:00,Night,1,2.78
+Dadra and Nagar Haveli and Daman and Diu,2010,03:00 - 06:00,Night,1,2.78
+Dadra and Nagar Haveli and Daman and Diu,2010,06:00 - 09:00,Day,1,2.78
+Dadra and Nagar Haveli and Daman and Diu,2010,09:00 - 12:00,Day,4,11.11
+Dadra and Nagar Haveli and Daman and Diu,2010,12:00 - 15:00,Day,5,13.89
+Dadra and Nagar Haveli and Daman and Diu,2010,15:00 - 18:00,Day,8,22.22
+Dadra and Nagar Haveli and Daman and Diu,2010,18:00 - 21:00,Night,8,22.22
+Dadra and Nagar Haveli and Daman and Diu,2010,21:00 - 24:00,Night,8,22.22
+Dadra and Nagar Haveli and Daman and Diu,2011,00:00 - 03:00,Night,2,9.52
+Dadra and Nagar Haveli and Daman and Diu,2011,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2011,06:00 - 09:00,Day,2,9.52
+Dadra and Nagar Haveli and Daman and Diu,2011,09:00 - 12:00,Day,4,19.05
+Dadra and Nagar Haveli and Daman and Diu,2011,12:00 - 15:00,Day,7,33.33
+Dadra and Nagar Haveli and Daman and Diu,2011,15:00 - 18:00,Day,3,14.29
+Dadra and Nagar Haveli and Daman and Diu,2011,18:00 - 21:00,Night,2,9.52
+Dadra and Nagar Haveli and Daman and Diu,2011,21:00 - 24:00,Night,1,4.76
+Dadra and Nagar Haveli and Daman and Diu,2012,00:00 - 03:00,Night,1,2.0
+Dadra and Nagar Haveli and Daman and Diu,2012,03:00 - 06:00,Night,1,2.0
+Dadra and Nagar Haveli and Daman and Diu,2012,06:00 - 09:00,Day,4,8.0
+Dadra and Nagar Haveli and Daman and Diu,2012,09:00 - 12:00,Day,4,8.0
+Dadra and Nagar Haveli and Daman and Diu,2012,12:00 - 15:00,Day,9,18.0
+Dadra and Nagar Haveli and Daman and Diu,2012,15:00 - 18:00,Day,11,22.0
+Dadra and Nagar Haveli and Daman and Diu,2012,18:00 - 21:00,Night,13,26.0
+Dadra and Nagar Haveli and Daman and Diu,2012,21:00 - 24:00,Night,7,14.0
+Dadra and Nagar Haveli and Daman and Diu,2013,00:00 - 03:00,Night,3,10.0
+Dadra and Nagar Haveli and Daman and Diu,2013,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2013,06:00 - 09:00,Day,1,3.33
+Dadra and Nagar Haveli and Daman and Diu,2013,09:00 - 12:00,Day,4,13.33
+Dadra and Nagar Haveli and Daman and Diu,2013,12:00 - 15:00,Day,4,13.33
+Dadra and Nagar Haveli and Daman and Diu,2013,15:00 - 18:00,Day,7,23.33
+Dadra and Nagar Haveli and Daman and Diu,2013,18:00 - 21:00,Night,5,16.67
+Dadra and Nagar Haveli and Daman and Diu,2013,21:00 - 24:00,Night,6,20.0
+Dadra and Nagar Haveli and Daman and Diu,2014,00:00 - 03:00,Night,3,7.69
+Dadra and Nagar Haveli and Daman and Diu,2014,03:00 - 06:00,Night,0,0.0
+Dadra and Nagar Haveli and Daman and Diu,2014,06:00 - 09:00,Day,4,10.26
+Dadra and Nagar Haveli and Daman and Diu,2014,09:00 - 12:00,Day,6,15.38
+Dadra and Nagar Haveli and Daman and Diu,2014,12:00 - 15:00,Day,5,12.82
+Dadra and Nagar Haveli and Daman and Diu,2014,15:00 - 18:00,Day,7,17.95
+Dadra and Nagar Haveli and Daman and Diu,2014,18:00 - 21:00,Night,12,30.77
+Dadra and Nagar Haveli and Daman and Diu,2014,21:00 - 24:00,Night,2,5.13
+Delhi,2001,00:00 - 03:00,Night,998,10.75
+Delhi,2001,03:00 - 06:00,Night,762,8.21
+Delhi,2001,06:00 - 09:00,Day,1102,11.87
+Delhi,2001,09:00 - 12:00,Day,1176,12.67
+Delhi,2001,12:00 - 15:00,Day,1140,12.28
+Delhi,2001,15:00 - 18:00,Day,1189,12.81
+Delhi,2001,18:00 - 21:00,Night,1393,15.01
+Delhi,2001,21:00 - 24:00,Night,1522,16.4
+Delhi,2002,00:00 - 03:00,Night,788,9.05
+Delhi,2002,03:00 - 06:00,Night,527,6.05
+Delhi,2002,06:00 - 09:00,Day,931,10.69
+Delhi,2002,09:00 - 12:00,Day,1132,13.0
+Delhi,2002,12:00 - 15:00,Day,1148,13.18
+Delhi,2002,15:00 - 18:00,Day,1200,13.78
+Delhi,2002,18:00 - 21:00,Night,1491,17.12
+Delhi,2002,21:00 - 24:00,Night,1493,17.14
+Delhi,2003,00:00 - 03:00,Night,764,8.61
+Delhi,2003,03:00 - 06:00,Night,565,6.37
+Delhi,2003,06:00 - 09:00,Day,906,10.22
+Delhi,2003,09:00 - 12:00,Day,1091,12.3
+Delhi,2003,12:00 - 15:00,Day,1151,12.98
+Delhi,2003,15:00 - 18:00,Day,1248,14.07
+Delhi,2003,18:00 - 21:00,Night,1507,16.99
+Delhi,2003,21:00 - 24:00,Night,1637,18.46
+Delhi,2004,00:00 - 03:00,Night,836,9.18
+Delhi,2004,03:00 - 06:00,Night,709,7.78
+Delhi,2004,06:00 - 09:00,Day,817,8.97
+Delhi,2004,09:00 - 12:00,Day,1189,13.05
+Delhi,2004,12:00 - 15:00,Day,1230,13.5
+Delhi,2004,15:00 - 18:00,Day,1206,13.24
+Delhi,2004,18:00 - 21:00,Night,1617,17.75
+Delhi,2004,21:00 - 24:00,Night,1506,16.53
+Delhi,2005,00:00 - 03:00,Night,825,8.61
+Delhi,2005,03:00 - 06:00,Night,640,6.68
+Delhi,2005,06:00 - 09:00,Day,988,10.31
+Delhi,2005,09:00 - 12:00,Day,1250,13.05
+Delhi,2005,12:00 - 15:00,Day,1264,13.19
+Delhi,2005,15:00 - 18:00,Day,1387,14.48
+Delhi,2005,18:00 - 21:00,Night,1708,17.83
+Delhi,2005,21:00 - 24:00,Night,1518,15.85
+Delhi,2006,00:00 - 03:00,Night,964,9.94
+Delhi,2006,03:00 - 06:00,Night,743,7.66
+Delhi,2006,06:00 - 09:00,Day,946,9.75
+Delhi,2006,09:00 - 12:00,Day,1270,13.09
+Delhi,2006,12:00 - 15:00,Day,1207,12.44
+Delhi,2006,15:00 - 18:00,Day,1328,13.69
+Delhi,2006,18:00 - 21:00,Night,1592,16.41
+Delhi,2006,21:00 - 24:00,Night,1649,17.0
+Delhi,2007,00:00 - 03:00,Night,1183,11.24
+Delhi,2007,03:00 - 06:00,Night,902,8.57
+Delhi,2007,06:00 - 09:00,Day,1087,10.32
+Delhi,2007,09:00 - 12:00,Day,1296,12.31
+Delhi,2007,12:00 - 15:00,Day,1250,11.87
+Delhi,2007,15:00 - 18:00,Day,1434,13.62
+Delhi,2007,18:00 - 21:00,Night,1818,17.27
+Delhi,2007,21:00 - 24:00,Night,1558,14.8
+Delhi,2008,00:00 - 03:00,Night,839,9.79
+Delhi,2008,03:00 - 06:00,Night,730,8.52
+Delhi,2008,06:00 - 09:00,Day,865,10.1
+Delhi,2008,09:00 - 12:00,Day,1003,11.71
+Delhi,2008,12:00 - 15:00,Day,1138,13.29
+Delhi,2008,15:00 - 18:00,Day,1255,14.65
+Delhi,2008,18:00 - 21:00,Night,1373,16.03
+Delhi,2008,21:00 - 24:00,Night,1363,15.91
+Delhi,2009,00:00 - 03:00,Night,644,8.46
+Delhi,2009,03:00 - 06:00,Night,574,7.54
+Delhi,2009,06:00 - 09:00,Day,886,11.64
+Delhi,2009,09:00 - 12:00,Day,944,12.4
+Delhi,2009,12:00 - 15:00,Day,1069,14.04
+Delhi,2009,15:00 - 18:00,Day,1066,14.0
+Delhi,2009,18:00 - 21:00,Night,1306,17.15
+Delhi,2009,21:00 - 24:00,Night,1125,14.78
+Delhi,2010,00:00 - 03:00,Night,597,8.27
+Delhi,2010,03:00 - 06:00,Night,502,6.95
+Delhi,2010,06:00 - 09:00,Day,778,10.78
+Delhi,2010,09:00 - 12:00,Day,905,12.53
+Delhi,2010,12:00 - 15:00,Day,928,12.85
+Delhi,2010,15:00 - 18:00,Day,998,13.82
+Delhi,2010,18:00 - 21:00,Night,1234,17.09
+Delhi,2010,21:00 - 24:00,Night,1278,17.7
+Delhi,2011,00:00 - 03:00,Night,607,8.34
+Delhi,2011,03:00 - 06:00,Night,535,7.35
+Delhi,2011,06:00 - 09:00,Day,794,10.91
+Delhi,2011,09:00 - 12:00,Day,936,12.86
+Delhi,2011,12:00 - 15:00,Day,963,13.23
+Delhi,2011,15:00 - 18:00,Day,1087,14.93
+Delhi,2011,18:00 - 21:00,Night,1100,15.11
+Delhi,2011,21:00 - 24:00,Night,1258,17.28
+Delhi,2012,00:00 - 03:00,Night,638,9.2
+Delhi,2012,03:00 - 06:00,Night,509,7.34
+Delhi,2012,06:00 - 09:00,Day,648,9.34
+Delhi,2012,09:00 - 12:00,Day,872,12.57
+Delhi,2012,12:00 - 15:00,Day,920,13.26
+Delhi,2012,15:00 - 18:00,Day,1039,14.98
+Delhi,2012,18:00 - 21:00,Night,1131,16.3
+Delhi,2012,21:00 - 24:00,Night,1180,17.01
+Delhi,2013,00:00 - 03:00,Night,764,10.09
+Delhi,2013,03:00 - 06:00,Night,662,8.75
+Delhi,2013,06:00 - 09:00,Day,718,9.49
+Delhi,2013,09:00 - 12:00,Day,828,10.94
+Delhi,2013,12:00 - 15:00,Day,896,11.84
+Delhi,2013,15:00 - 18:00,Day,981,12.96
+Delhi,2013,18:00 - 21:00,Night,1341,17.72
+Delhi,2013,21:00 - 24:00,Night,1379,18.22
+Delhi,2014,00:00 - 03:00,Night,757,9.11
+Delhi,2014,03:00 - 06:00,Night,581,6.99
+Delhi,2014,06:00 - 09:00,Day,867,10.43
+Delhi,2014,09:00 - 12:00,Day,925,11.13
+Delhi,2014,12:00 - 15:00,Day,909,10.94
+Delhi,2014,15:00 - 18:00,Day,1208,14.54
+Delhi,2014,18:00 - 21:00,Night,1502,18.07
+Delhi,2014,21:00 - 24:00,Night,1561,18.78
+Goa,2001,00:00 - 03:00,Night,52,3.78
+Goa,2001,03:00 - 06:00,Night,33,2.4
+Goa,2001,06:00 - 09:00,Day,152,11.05
+Goa,2001,09:00 - 12:00,Day,248,18.04
+Goa,2001,12:00 - 15:00,Day,233,16.95
+Goa,2001,15:00 - 18:00,Day,299,21.75
+Goa,2001,18:00 - 21:00,Night,229,16.65
+Goa,2001,21:00 - 24:00,Night,129,9.38
+Goa,2002,00:00 - 03:00,Night,57,4.75
+Goa,2002,03:00 - 06:00,Night,44,3.66
+Goa,2002,06:00 - 09:00,Day,147,12.24
+Goa,2002,09:00 - 12:00,Day,204,16.99
+Goa,2002,12:00 - 15:00,Day,173,14.4
+Goa,2002,15:00 - 18:00,Day,209,17.4
+Goa,2002,18:00 - 21:00,Night,239,19.9
+Goa,2002,21:00 - 24:00,Night,128,10.66
+Goa,2003,00:00 - 03:00,Night,81,4.83
+Goa,2003,03:00 - 06:00,Night,38,2.26
+Goa,2003,06:00 - 09:00,Day,144,8.58
+Goa,2003,09:00 - 12:00,Day,284,16.92
+Goa,2003,12:00 - 15:00,Day,306,18.24
+Goa,2003,15:00 - 18:00,Day,345,20.56
+Goa,2003,18:00 - 21:00,Night,323,19.25
+Goa,2003,21:00 - 24:00,Night,157,9.36
+Goa,2004,00:00 - 03:00,Night,74,4.8
+Goa,2004,03:00 - 06:00,Night,33,2.14
+Goa,2004,06:00 - 09:00,Day,161,10.44
+Goa,2004,09:00 - 12:00,Day,220,14.27
+Goa,2004,12:00 - 15:00,Day,274,17.77
+Goa,2004,15:00 - 18:00,Day,263,17.06
+Goa,2004,18:00 - 21:00,Night,248,16.08
+Goa,2004,21:00 - 24:00,Night,269,17.44
+Goa,2005,00:00 - 03:00,Night,56,5.24
+Goa,2005,03:00 - 06:00,Night,38,3.55
+Goa,2005,06:00 - 09:00,Day,110,10.29
+Goa,2005,09:00 - 12:00,Day,165,15.43
+Goa,2005,12:00 - 15:00,Day,187,17.49
+Goa,2005,15:00 - 18:00,Day,208,19.46
+Goa,2005,18:00 - 21:00,Night,191,17.87
+Goa,2005,21:00 - 24:00,Night,114,10.66
+Goa,2006,00:00 - 03:00,Night,200,5.33
+Goa,2006,03:00 - 06:00,Night,138,3.68
+Goa,2006,06:00 - 09:00,Day,335,8.94
+Goa,2006,09:00 - 12:00,Day,559,14.91
+Goa,2006,12:00 - 15:00,Day,702,18.72
+Goa,2006,15:00 - 18:00,Day,712,18.99
+Goa,2006,18:00 - 21:00,Night,692,18.46
+Goa,2006,21:00 - 24:00,Night,411,10.96
+Goa,2007,00:00 - 03:00,Night,212,5.27
+Goa,2007,03:00 - 06:00,Night,117,2.91
+Goa,2007,06:00 - 09:00,Day,407,10.12
+Goa,2007,09:00 - 12:00,Day,599,14.89
+Goa,2007,12:00 - 15:00,Day,719,17.88
+Goa,2007,15:00 - 18:00,Day,798,19.84
+Goa,2007,18:00 - 21:00,Night,755,18.77
+Goa,2007,21:00 - 24:00,Night,415,10.32
+Goa,2008,00:00 - 03:00,Night,194,4.64
+Goa,2008,03:00 - 06:00,Night,139,3.33
+Goa,2008,06:00 - 09:00,Day,378,9.05
+Goa,2008,09:00 - 12:00,Day,618,14.79
+Goa,2008,12:00 - 15:00,Day,772,18.47
+Goa,2008,15:00 - 18:00,Day,828,19.81
+Goa,2008,18:00 - 21:00,Night,760,18.19
+Goa,2008,21:00 - 24:00,Night,490,11.73
+Goa,2009,00:00 - 03:00,Night,200,4.8
+Goa,2009,03:00 - 06:00,Night,132,3.17
+Goa,2009,06:00 - 09:00,Day,410,9.83
+Goa,2009,09:00 - 12:00,Day,635,15.23
+Goa,2009,12:00 - 15:00,Day,740,17.75
+Goa,2009,15:00 - 18:00,Day,837,20.07
+Goa,2009,18:00 - 21:00,Night,756,18.13
+Goa,2009,21:00 - 24:00,Night,460,11.03
+Goa,2010,00:00 - 03:00,Night,195,4.26
+Goa,2010,03:00 - 06:00,Night,164,3.59
+Goa,2010,06:00 - 09:00,Day,443,9.69
+Goa,2010,09:00 - 12:00,Day,736,16.09
+Goa,2010,12:00 - 15:00,Day,848,18.54
+Goa,2010,15:00 - 18:00,Day,873,19.09
+Goa,2010,18:00 - 21:00,Night,876,19.15
+Goa,2010,21:00 - 24:00,Night,439,9.6
+Goa,2011,00:00 - 03:00,Night,261,5.72
+Goa,2011,03:00 - 06:00,Night,178,3.9
+Goa,2011,06:00 - 09:00,Day,431,9.45
+Goa,2011,09:00 - 12:00,Day,749,16.42
+Goa,2011,12:00 - 15:00,Day,783,17.17
+Goa,2011,15:00 - 18:00,Day,901,19.75
+Goa,2011,18:00 - 21:00,Night,812,17.8
+Goa,2011,21:00 - 24:00,Night,446,9.78
+Goa,2012,00:00 - 03:00,Night,208,4.85
+Goa,2012,03:00 - 06:00,Night,155,3.61
+Goa,2012,06:00 - 09:00,Day,424,9.89
+Goa,2012,09:00 - 12:00,Day,666,15.53
+Goa,2012,12:00 - 15:00,Day,807,18.82
+Goa,2012,15:00 - 18:00,Day,799,18.63
+Goa,2012,18:00 - 21:00,Night,775,18.07
+Goa,2012,21:00 - 24:00,Night,454,10.59
+Goa,2013,00:00 - 03:00,Night,226,5.26
+Goa,2013,03:00 - 06:00,Night,175,4.08
+Goa,2013,06:00 - 09:00,Day,374,8.71
+Goa,2013,09:00 - 12:00,Day,703,16.38
+Goa,2013,12:00 - 15:00,Day,785,18.29
+Goa,2013,15:00 - 18:00,Day,819,19.08
+Goa,2013,18:00 - 21:00,Night,753,17.54
+Goa,2013,21:00 - 24:00,Night,458,10.67
+Goa,2014,00:00 - 03:00,Night,189,4.47
+Goa,2014,03:00 - 06:00,Night,173,4.09
+Goa,2014,06:00 - 09:00,Day,371,8.77
+Goa,2014,09:00 - 12:00,Day,712,16.83
+Goa,2014,12:00 - 15:00,Day,752,17.78
+Goa,2014,15:00 - 18:00,Day,791,18.7
+Goa,2014,18:00 - 21:00,Night,785,18.56
+Goa,2014,21:00 - 24:00,Night,457,10.8
+Gujarat,2001,00:00 - 03:00,Night,1267,6.4
+Gujarat,2001,03:00 - 06:00,Night,1338,6.75
+Gujarat,2001,06:00 - 09:00,Day,2316,11.69
+Gujarat,2001,09:00 - 12:00,Day,3263,16.47
+Gujarat,2001,12:00 - 15:00,Day,3119,15.75
+Gujarat,2001,15:00 - 18:00,Day,3163,15.97
+Gujarat,2001,18:00 - 21:00,Night,3161,15.96
+Gujarat,2001,21:00 - 24:00,Night,2181,11.01
+Gujarat,2002,00:00 - 03:00,Night,1106,5.9
+Gujarat,2002,03:00 - 06:00,Night,1120,5.98
+Gujarat,2002,06:00 - 09:00,Day,2239,11.95
+Gujarat,2002,09:00 - 12:00,Day,3150,16.81
+Gujarat,2002,12:00 - 15:00,Day,2968,15.84
+Gujarat,2002,15:00 - 18:00,Day,3030,16.17
+Gujarat,2002,18:00 - 21:00,Night,2985,15.93
+Gujarat,2002,21:00 - 24:00,Night,2142,11.43
+Gujarat,2003,00:00 - 03:00,Night,1070,5.91
+Gujarat,2003,03:00 - 06:00,Night,1238,6.84
+Gujarat,2003,06:00 - 09:00,Day,2170,11.99
+Gujarat,2003,09:00 - 12:00,Day,3094,17.09
+Gujarat,2003,12:00 - 15:00,Day,2733,15.1
+Gujarat,2003,15:00 - 18:00,Day,2881,15.92
+Gujarat,2003,18:00 - 21:00,Night,2998,16.56
+Gujarat,2003,21:00 - 24:00,Night,1918,10.6
+Gujarat,2004,00:00 - 03:00,Night,1152,6.23
+Gujarat,2004,03:00 - 06:00,Night,1339,7.25
+Gujarat,2004,06:00 - 09:00,Day,2109,11.41
+Gujarat,2004,09:00 - 12:00,Day,2895,15.67
+Gujarat,2004,12:00 - 15:00,Day,2856,15.46
+Gujarat,2004,15:00 - 18:00,Day,3079,16.66
+Gujarat,2004,18:00 - 21:00,Night,2994,16.2
+Gujarat,2004,21:00 - 24:00,Night,2054,11.12
+Gujarat,2005,00:00 - 03:00,Night,1428,7.7
+Gujarat,2005,03:00 - 06:00,Night,1324,7.14
+Gujarat,2005,06:00 - 09:00,Day,2091,11.28
+Gujarat,2005,09:00 - 12:00,Day,2860,15.43
+Gujarat,2005,12:00 - 15:00,Day,2917,15.73
+Gujarat,2005,15:00 - 18:00,Day,2846,15.35
+Gujarat,2005,18:00 - 21:00,Night,2928,15.79
+Gujarat,2005,21:00 - 24:00,Night,2147,11.58
+Gujarat,2006,00:00 - 03:00,Night,1277,6.74
+Gujarat,2006,03:00 - 06:00,Night,1533,8.09
+Gujarat,2006,06:00 - 09:00,Day,2216,11.7
+Gujarat,2006,09:00 - 12:00,Day,2837,14.98
+Gujarat,2006,12:00 - 15:00,Day,2968,15.67
+Gujarat,2006,15:00 - 18:00,Day,2960,15.62
+Gujarat,2006,18:00 - 21:00,Night,3029,15.99
+Gujarat,2006,21:00 - 24:00,Night,2124,11.21
+Gujarat,2007,00:00 - 03:00,Night,1468,6.85
+Gujarat,2007,03:00 - 06:00,Night,2013,9.39
+Gujarat,2007,06:00 - 09:00,Day,2503,11.68
+Gujarat,2007,09:00 - 12:00,Day,3085,14.39
+Gujarat,2007,12:00 - 15:00,Day,3009,14.04
+Gujarat,2007,15:00 - 18:00,Day,3419,15.95
+Gujarat,2007,18:00 - 21:00,Night,3319,15.49
+Gujarat,2007,21:00 - 24:00,Night,2617,12.21
+Gujarat,2008,00:00 - 03:00,Night,1432,6.81
+Gujarat,2008,03:00 - 06:00,Night,1631,7.76
+Gujarat,2008,06:00 - 09:00,Day,2535,12.06
+Gujarat,2008,09:00 - 12:00,Day,3263,15.52
+Gujarat,2008,12:00 - 15:00,Day,3169,15.07
+Gujarat,2008,15:00 - 18:00,Day,3323,15.8
+Gujarat,2008,18:00 - 21:00,Night,3449,16.4
+Gujarat,2008,21:00 - 24:00,Night,2225,10.58
+Gujarat,2009,00:00 - 03:00,Night,1239,6.16
+Gujarat,2009,03:00 - 06:00,Night,1640,8.16
+Gujarat,2009,06:00 - 09:00,Day,2545,12.66
+Gujarat,2009,09:00 - 12:00,Day,3110,15.47
+Gujarat,2009,12:00 - 15:00,Day,2918,14.52
+Gujarat,2009,15:00 - 18:00,Day,3282,16.33
+Gujarat,2009,18:00 - 21:00,Night,3255,16.19
+Gujarat,2009,21:00 - 24:00,Night,2112,10.51
+Gujarat,2010,00:00 - 03:00,Night,1348,6.58
+Gujarat,2010,03:00 - 06:00,Night,1670,8.15
+Gujarat,2010,06:00 - 09:00,Day,2507,12.23
+Gujarat,2010,09:00 - 12:00,Day,3232,15.77
+Gujarat,2010,12:00 - 15:00,Day,2968,14.48
+Gujarat,2010,15:00 - 18:00,Day,3267,15.94
+Gujarat,2010,18:00 - 21:00,Night,3341,16.3
+Gujarat,2010,21:00 - 24:00,Night,2165,10.56
+Gujarat,2011,00:00 - 03:00,Night,1962,6.5
+Gujarat,2011,03:00 - 06:00,Night,2282,7.56
+Gujarat,2011,06:00 - 09:00,Day,3571,11.82
+Gujarat,2011,09:00 - 12:00,Day,4941,16.36
+Gujarat,2011,12:00 - 15:00,Day,4595,15.22
+Gujarat,2011,15:00 - 18:00,Day,4751,15.73
+Gujarat,2011,18:00 - 21:00,Night,4767,15.79
+Gujarat,2011,21:00 - 24:00,Night,3330,11.03
+Gujarat,2012,00:00 - 03:00,Night,2085,7.65
+Gujarat,2012,03:00 - 06:00,Night,2603,9.55
+Gujarat,2012,06:00 - 09:00,Day,3286,12.05
+Gujarat,2012,09:00 - 12:00,Day,4190,15.37
+Gujarat,2012,12:00 - 15:00,Day,3802,13.94
+Gujarat,2012,15:00 - 18:00,Day,4045,14.83
+Gujarat,2012,18:00 - 21:00,Night,4403,16.15
+Gujarat,2012,21:00 - 24:00,Night,2853,10.46
+Gujarat,2013,00:00 - 03:00,Night,1747,6.98
+Gujarat,2013,03:00 - 06:00,Night,2023,8.08
+Gujarat,2013,06:00 - 09:00,Day,2910,11.62
+Gujarat,2013,09:00 - 12:00,Day,3836,15.32
+Gujarat,2013,12:00 - 15:00,Day,3681,14.7
+Gujarat,2013,15:00 - 18:00,Day,4003,15.99
+Gujarat,2013,18:00 - 21:00,Night,4134,16.51
+Gujarat,2013,21:00 - 24:00,Night,2701,10.79
+Gujarat,2014,00:00 - 03:00,Night,1232,5.56
+Gujarat,2014,03:00 - 06:00,Night,1541,6.96
+Gujarat,2014,06:00 - 09:00,Day,2496,11.27
+Gujarat,2014,09:00 - 12:00,Day,3595,16.23
+Gujarat,2014,12:00 - 15:00,Day,3328,15.02
+Gujarat,2014,15:00 - 18:00,Day,3735,16.86
+Gujarat,2014,18:00 - 21:00,Night,3791,17.11
+Gujarat,2014,21:00 - 24:00,Night,2434,10.99
+Haryana,2001,00:00 - 03:00,Night,407,6.39
+Haryana,2001,03:00 - 06:00,Night,625,9.81
+Haryana,2001,06:00 - 09:00,Day,1003,15.74
+Haryana,2001,09:00 - 12:00,Day,1015,15.93
+Haryana,2001,12:00 - 15:00,Day,894,14.03
+Haryana,2001,15:00 - 18:00,Day,882,13.84
+Haryana,2001,18:00 - 21:00,Night,832,13.06
+Haryana,2001,21:00 - 24:00,Night,715,11.22
+Haryana,2002,00:00 - 03:00,Night,615,8.68
+Haryana,2002,03:00 - 06:00,Night,740,10.44
+Haryana,2002,06:00 - 09:00,Day,1070,15.1
+Haryana,2002,09:00 - 12:00,Day,1004,14.17
+Haryana,2002,12:00 - 15:00,Day,877,12.37
+Haryana,2002,15:00 - 18:00,Day,992,14.0
+Haryana,2002,18:00 - 21:00,Night,1006,14.2
+Haryana,2002,21:00 - 24:00,Night,783,11.05
+Haryana,2003,00:00 - 03:00,Night,709,11.04
+Haryana,2003,03:00 - 06:00,Night,910,14.17
+Haryana,2003,06:00 - 09:00,Day,793,12.34
+Haryana,2003,09:00 - 12:00,Day,888,13.82
+Haryana,2003,12:00 - 15:00,Day,823,12.81
+Haryana,2003,15:00 - 18:00,Day,837,13.03
+Haryana,2003,18:00 - 21:00,Night,826,12.86
+Haryana,2003,21:00 - 24:00,Night,638,9.93
+Haryana,2004,00:00 - 03:00,Night,845,10.69
+Haryana,2004,03:00 - 06:00,Night,1014,12.82
+Haryana,2004,06:00 - 09:00,Day,1042,13.18
+Haryana,2004,09:00 - 12:00,Day,1069,13.52
+Haryana,2004,12:00 - 15:00,Day,998,12.62
+Haryana,2004,15:00 - 18:00,Day,989,12.51
+Haryana,2004,18:00 - 21:00,Night,1070,13.53
+Haryana,2004,21:00 - 24:00,Night,881,11.14
+Haryana,2005,00:00 - 03:00,Night,760,9.89
+Haryana,2005,03:00 - 06:00,Night,859,11.18
+Haryana,2005,06:00 - 09:00,Day,1020,13.28
+Haryana,2005,09:00 - 12:00,Day,962,12.52
+Haryana,2005,12:00 - 15:00,Day,898,11.69
+Haryana,2005,15:00 - 18:00,Day,1065,13.86
+Haryana,2005,18:00 - 21:00,Night,1165,15.17
+Haryana,2005,21:00 - 24:00,Night,953,12.41
+Haryana,2006,00:00 - 03:00,Night,1155,11.26
+Haryana,2006,03:00 - 06:00,Night,1112,10.84
+Haryana,2006,06:00 - 09:00,Day,1277,12.44
+Haryana,2006,09:00 - 12:00,Day,1191,11.61
+Haryana,2006,12:00 - 15:00,Day,1114,10.86
+Haryana,2006,15:00 - 18:00,Day,1317,12.83
+Haryana,2006,18:00 - 21:00,Night,1760,17.15
+Haryana,2006,21:00 - 24:00,Night,1336,13.02
+Haryana,2007,00:00 - 03:00,Night,1080,10.47
+Haryana,2007,03:00 - 06:00,Night,1033,10.01
+Haryana,2007,06:00 - 09:00,Day,1313,12.73
+Haryana,2007,09:00 - 12:00,Day,1312,12.72
+Haryana,2007,12:00 - 15:00,Day,1267,12.28
+Haryana,2007,15:00 - 18:00,Day,1407,13.64
+Haryana,2007,18:00 - 21:00,Night,1767,17.13
+Haryana,2007,21:00 - 24:00,Night,1137,11.02
+Haryana,2008,00:00 - 03:00,Night,1089,9.69
+Haryana,2008,03:00 - 06:00,Night,1236,11.0
+Haryana,2008,06:00 - 09:00,Day,1367,12.16
+Haryana,2008,09:00 - 12:00,Day,1374,12.22
+Haryana,2008,12:00 - 15:00,Day,1380,12.28
+Haryana,2008,15:00 - 18:00,Day,1622,14.43
+Haryana,2008,18:00 - 21:00,Night,1911,17.0
+Haryana,2008,21:00 - 24:00,Night,1262,11.23
+Haryana,2009,00:00 - 03:00,Night,860,7.53
+Haryana,2009,03:00 - 06:00,Night,1184,10.36
+Haryana,2009,06:00 - 09:00,Day,1488,13.02
+Haryana,2009,09:00 - 12:00,Day,1580,13.83
+Haryana,2009,12:00 - 15:00,Day,1526,13.35
+Haryana,2009,15:00 - 18:00,Day,1670,14.61
+Haryana,2009,18:00 - 21:00,Night,1870,16.36
+Haryana,2009,21:00 - 24:00,Night,1249,10.93
+Haryana,2010,00:00 - 03:00,Night,799,7.16
+Haryana,2010,03:00 - 06:00,Night,1105,9.9
+Haryana,2010,06:00 - 09:00,Day,1617,14.49
+Haryana,2010,09:00 - 12:00,Day,1517,13.59
+Haryana,2010,12:00 - 15:00,Day,1481,13.27
+Haryana,2010,15:00 - 18:00,Day,1715,15.37
+Haryana,2010,18:00 - 21:00,Night,1756,15.73
+Haryana,2010,21:00 - 24:00,Night,1171,10.49
+Haryana,2011,00:00 - 03:00,Night,685,6.49
+Haryana,2011,03:00 - 06:00,Night,1049,9.94
+Haryana,2011,06:00 - 09:00,Day,1319,12.5
+Haryana,2011,09:00 - 12:00,Day,1302,12.34
+Haryana,2011,12:00 - 15:00,Day,1364,12.93
+Haryana,2011,15:00 - 18:00,Day,1720,16.3
+Haryana,2011,18:00 - 21:00,Night,1811,17.16
+Haryana,2011,21:00 - 24:00,Night,1303,12.35
+Haryana,2012,00:00 - 03:00,Night,578,5.8
+Haryana,2012,03:00 - 06:00,Night,941,9.44
+Haryana,2012,06:00 - 09:00,Day,1263,12.67
+Haryana,2012,09:00 - 12:00,Day,1268,12.72
+Haryana,2012,12:00 - 15:00,Day,1350,13.54
+Haryana,2012,15:00 - 18:00,Day,1613,16.18
+Haryana,2012,18:00 - 21:00,Night,1802,18.07
+Haryana,2012,21:00 - 24:00,Night,1156,11.59
+Haryana,2013,00:00 - 03:00,Night,651,6.22
+Haryana,2013,03:00 - 06:00,Night,957,9.14
+Haryana,2013,06:00 - 09:00,Day,1423,13.59
+Haryana,2013,09:00 - 12:00,Day,1485,14.18
+Haryana,2013,12:00 - 15:00,Day,1474,14.07
+Haryana,2013,15:00 - 18:00,Day,1546,14.76
+Haryana,2013,18:00 - 21:00,Night,1714,16.37
+Haryana,2013,21:00 - 24:00,Night,1223,11.68
+Haryana,2014,00:00 - 03:00,Night,726,6.57
+Haryana,2014,03:00 - 06:00,Night,868,7.86
+Haryana,2014,06:00 - 09:00,Day,1459,13.21
+Haryana,2014,09:00 - 12:00,Day,1646,14.91
+Haryana,2014,12:00 - 15:00,Day,1493,13.52
+Haryana,2014,15:00 - 18:00,Day,1740,15.76
+Haryana,2014,18:00 - 21:00,Night,1887,17.09
+Haryana,2014,21:00 - 24:00,Night,1224,11.08
+Himachal Pradesh,2001,00:00 - 03:00,Night,75,3.55
+Himachal Pradesh,2001,03:00 - 06:00,Night,145,6.87
+Himachal Pradesh,2001,06:00 - 09:00,Day,207,9.81
+Himachal Pradesh,2001,09:00 - 12:00,Day,271,12.84
+Himachal Pradesh,2001,12:00 - 15:00,Day,252,11.94
+Himachal Pradesh,2001,15:00 - 18:00,Day,362,17.16
+Himachal Pradesh,2001,18:00 - 21:00,Night,446,21.14
+Himachal Pradesh,2001,21:00 - 24:00,Night,352,16.68
+Himachal Pradesh,2002,00:00 - 03:00,Night,81,3.55
+Himachal Pradesh,2002,03:00 - 06:00,Night,124,5.44
+Himachal Pradesh,2002,06:00 - 09:00,Day,267,11.71
+Himachal Pradesh,2002,09:00 - 12:00,Day,352,15.43
+Himachal Pradesh,2002,12:00 - 15:00,Day,255,11.18
+Himachal Pradesh,2002,15:00 - 18:00,Day,345,15.12
+Himachal Pradesh,2002,18:00 - 21:00,Night,497,21.79
+Himachal Pradesh,2002,21:00 - 24:00,Night,360,15.78
+Himachal Pradesh,2003,00:00 - 03:00,Night,87,3.69
+Himachal Pradesh,2003,03:00 - 06:00,Night,85,3.6
+Himachal Pradesh,2003,06:00 - 09:00,Day,320,13.57
+Himachal Pradesh,2003,09:00 - 12:00,Day,484,20.52
+Himachal Pradesh,2003,12:00 - 15:00,Day,334,14.16
+Himachal Pradesh,2003,15:00 - 18:00,Day,377,15.98
+Himachal Pradesh,2003,18:00 - 21:00,Night,402,17.04
+Himachal Pradesh,2003,21:00 - 24:00,Night,270,11.45
+Himachal Pradesh,2004,00:00 - 03:00,Night,135,5.37
+Himachal Pradesh,2004,03:00 - 06:00,Night,141,5.61
+Himachal Pradesh,2004,06:00 - 09:00,Day,323,12.84
+Himachal Pradesh,2004,09:00 - 12:00,Day,451,17.93
+Himachal Pradesh,2004,12:00 - 15:00,Day,358,14.23
+Himachal Pradesh,2004,15:00 - 18:00,Day,453,18.01
+Himachal Pradesh,2004,18:00 - 21:00,Night,357,14.19
+Himachal Pradesh,2004,21:00 - 24:00,Night,297,11.81
+Himachal Pradesh,2005,00:00 - 03:00,Night,123,5.12
+Himachal Pradesh,2005,03:00 - 06:00,Night,88,3.67
+Himachal Pradesh,2005,06:00 - 09:00,Day,268,11.16
+Himachal Pradesh,2005,09:00 - 12:00,Day,395,16.45
+Himachal Pradesh,2005,12:00 - 15:00,Day,397,16.53
+Himachal Pradesh,2005,15:00 - 18:00,Day,396,16.49
+Himachal Pradesh,2005,18:00 - 21:00,Night,444,18.49
+Himachal Pradesh,2005,21:00 - 24:00,Night,290,12.08
+Himachal Pradesh,2006,00:00 - 03:00,Night,112,4.64
+Himachal Pradesh,2006,03:00 - 06:00,Night,120,4.97
+Himachal Pradesh,2006,06:00 - 09:00,Day,314,13.0
+Himachal Pradesh,2006,09:00 - 12:00,Day,495,20.49
+Himachal Pradesh,2006,12:00 - 15:00,Day,444,18.38
+Himachal Pradesh,2006,15:00 - 18:00,Day,425,17.59
+Himachal Pradesh,2006,18:00 - 21:00,Night,307,12.71
+Himachal Pradesh,2006,21:00 - 24:00,Night,199,8.24
+Himachal Pradesh,2007,00:00 - 03:00,Night,120,4.65
+Himachal Pradesh,2007,03:00 - 06:00,Night,151,5.85
+Himachal Pradesh,2007,06:00 - 09:00,Day,273,10.57
+Himachal Pradesh,2007,09:00 - 12:00,Day,309,11.97
+Himachal Pradesh,2007,12:00 - 15:00,Day,436,16.89
+Himachal Pradesh,2007,15:00 - 18:00,Day,443,17.16
+Himachal Pradesh,2007,18:00 - 21:00,Night,513,19.87
+Himachal Pradesh,2007,21:00 - 24:00,Night,337,13.05
+Himachal Pradesh,2008,00:00 - 03:00,Night,103,5.2
+Himachal Pradesh,2008,03:00 - 06:00,Night,106,5.35
+Himachal Pradesh,2008,06:00 - 09:00,Day,219,11.05
+Himachal Pradesh,2008,09:00 - 12:00,Day,255,12.87
+Himachal Pradesh,2008,12:00 - 15:00,Day,297,14.98
+Himachal Pradesh,2008,15:00 - 18:00,Day,414,20.89
+Himachal Pradesh,2008,18:00 - 21:00,Night,382,19.27
+Himachal Pradesh,2008,21:00 - 24:00,Night,206,10.39
+Himachal Pradesh,2009,00:00 - 03:00,Night,135,4.39
+Himachal Pradesh,2009,03:00 - 06:00,Night,153,4.97
+Himachal Pradesh,2009,06:00 - 09:00,Day,322,10.46
+Himachal Pradesh,2009,09:00 - 12:00,Day,366,11.89
+Himachal Pradesh,2009,12:00 - 15:00,Day,500,16.24
+Himachal Pradesh,2009,15:00 - 18:00,Day,653,21.22
+Himachal Pradesh,2009,18:00 - 21:00,Night,566,18.39
+Himachal Pradesh,2009,21:00 - 24:00,Night,383,12.44
+Himachal Pradesh,2010,00:00 - 03:00,Night,153,4.97
+Himachal Pradesh,2010,03:00 - 06:00,Night,192,6.24
+Himachal Pradesh,2010,06:00 - 09:00,Day,372,12.09
+Himachal Pradesh,2010,09:00 - 12:00,Day,360,11.7
+Himachal Pradesh,2010,12:00 - 15:00,Day,396,12.87
+Himachal Pradesh,2010,15:00 - 18:00,Day,633,20.57
+Himachal Pradesh,2010,18:00 - 21:00,Night,626,20.34
+Himachal Pradesh,2010,21:00 - 24:00,Night,345,11.21
+Himachal Pradesh,2011,00:00 - 03:00,Night,100,3.23
+Himachal Pradesh,2011,03:00 - 06:00,Night,124,4.0
+Himachal Pradesh,2011,06:00 - 09:00,Day,353,11.39
+Himachal Pradesh,2011,09:00 - 12:00,Day,465,15.0
+Himachal Pradesh,2011,12:00 - 15:00,Day,472,15.23
+Himachal Pradesh,2011,15:00 - 18:00,Day,693,22.36
+Himachal Pradesh,2011,18:00 - 21:00,Night,577,18.62
+Himachal Pradesh,2011,21:00 - 24:00,Night,315,10.16
+Himachal Pradesh,2012,00:00 - 03:00,Night,114,3.93
+Himachal Pradesh,2012,03:00 - 06:00,Night,128,4.42
+Himachal Pradesh,2012,06:00 - 09:00,Day,332,11.45
+Himachal Pradesh,2012,09:00 - 12:00,Day,459,15.83
+Himachal Pradesh,2012,12:00 - 15:00,Day,434,14.97
+Himachal Pradesh,2012,15:00 - 18:00,Day,539,18.59
+Himachal Pradesh,2012,18:00 - 21:00,Night,558,19.25
+Himachal Pradesh,2012,21:00 - 24:00,Night,335,11.56
+Himachal Pradesh,2013,00:00 - 03:00,Night,100,3.35
+Himachal Pradesh,2013,03:00 - 06:00,Night,116,3.89
+Himachal Pradesh,2013,06:00 - 09:00,Day,353,11.84
+Himachal Pradesh,2013,09:00 - 12:00,Day,502,16.84
+Himachal Pradesh,2013,12:00 - 15:00,Day,489,16.4
+Himachal Pradesh,2013,15:00 - 18:00,Day,547,18.35
+Himachal Pradesh,2013,18:00 - 21:00,Night,548,18.38
+Himachal Pradesh,2013,21:00 - 24:00,Night,326,10.94
+Himachal Pradesh,2014,00:00 - 03:00,Night,199,5.98
+Himachal Pradesh,2014,03:00 - 06:00,Night,183,5.5
+Himachal Pradesh,2014,06:00 - 09:00,Day,418,12.57
+Himachal Pradesh,2014,09:00 - 12:00,Day,517,15.55
+Himachal Pradesh,2014,12:00 - 15:00,Day,517,15.55
+Himachal Pradesh,2014,15:00 - 18:00,Day,603,18.14
+Himachal Pradesh,2014,18:00 - 21:00,Night,558,16.78
+Himachal Pradesh,2014,21:00 - 24:00,Night,330,9.92
+Jammu and Kashmir,2001,00:00 - 03:00,Night,337,6.73
+Jammu and Kashmir,2001,03:00 - 06:00,Night,352,7.02
+Jammu and Kashmir,2001,06:00 - 09:00,Day,658,13.13
+Jammu and Kashmir,2001,09:00 - 12:00,Day,1099,21.93
+Jammu and Kashmir,2001,12:00 - 15:00,Day,1062,21.19
+Jammu and Kashmir,2001,15:00 - 18:00,Day,864,17.24
+Jammu and Kashmir,2001,18:00 - 21:00,Night,386,7.7
+Jammu and Kashmir,2001,21:00 - 24:00,Night,253,5.05
+Jammu and Kashmir,2002,00:00 - 03:00,Night,154,2.87
+Jammu and Kashmir,2002,03:00 - 06:00,Night,180,3.35
+Jammu and Kashmir,2002,06:00 - 09:00,Day,582,10.83
+Jammu and Kashmir,2002,09:00 - 12:00,Day,1293,24.06
+Jammu and Kashmir,2002,12:00 - 15:00,Day,1118,20.81
+Jammu and Kashmir,2002,15:00 - 18:00,Day,1001,18.63
+Jammu and Kashmir,2002,18:00 - 21:00,Night,641,11.93
+Jammu and Kashmir,2002,21:00 - 24:00,Night,404,7.52
+Jammu and Kashmir,2003,00:00 - 03:00,Night,298,5.06
+Jammu and Kashmir,2003,03:00 - 06:00,Night,304,5.16
+Jammu and Kashmir,2003,06:00 - 09:00,Day,639,10.85
+Jammu and Kashmir,2003,09:00 - 12:00,Day,1038,17.63
+Jammu and Kashmir,2003,12:00 - 15:00,Day,1292,21.94
+Jammu and Kashmir,2003,15:00 - 18:00,Day,1177,19.99
+Jammu and Kashmir,2003,18:00 - 21:00,Night,795,13.5
+Jammu and Kashmir,2003,21:00 - 24:00,Night,345,5.86
+Jammu and Kashmir,2004,00:00 - 03:00,Night,333,5.3
+Jammu and Kashmir,2004,03:00 - 06:00,Night,239,3.81
+Jammu and Kashmir,2004,06:00 - 09:00,Day,958,15.25
+Jammu and Kashmir,2004,09:00 - 12:00,Day,1677,26.7
+Jammu and Kashmir,2004,12:00 - 15:00,Day,1441,22.94
+Jammu and Kashmir,2004,15:00 - 18:00,Day,966,15.38
+Jammu and Kashmir,2004,18:00 - 21:00,Night,501,7.98
+Jammu and Kashmir,2004,21:00 - 24:00,Night,166,2.64
+Jammu and Kashmir,2005,00:00 - 03:00,Night,188,3.32
+Jammu and Kashmir,2005,03:00 - 06:00,Night,396,6.99
+Jammu and Kashmir,2005,06:00 - 09:00,Day,811,14.31
+Jammu and Kashmir,2005,09:00 - 12:00,Day,1233,21.75
+Jammu and Kashmir,2005,12:00 - 15:00,Day,1057,18.65
+Jammu and Kashmir,2005,15:00 - 18:00,Day,1173,20.69
+Jammu and Kashmir,2005,18:00 - 21:00,Night,532,9.38
+Jammu and Kashmir,2005,21:00 - 24:00,Night,279,4.92
+Jammu and Kashmir,2006,00:00 - 03:00,Night,350,6.24
+Jammu and Kashmir,2006,03:00 - 06:00,Night,235,4.19
+Jammu and Kashmir,2006,06:00 - 09:00,Day,541,9.65
+Jammu and Kashmir,2006,09:00 - 12:00,Day,1110,19.79
+Jammu and Kashmir,2006,12:00 - 15:00,Day,1061,18.92
+Jammu and Kashmir,2006,15:00 - 18:00,Day,1116,19.9
+Jammu and Kashmir,2006,18:00 - 21:00,Night,728,12.98
+Jammu and Kashmir,2006,21:00 - 24:00,Night,468,8.34
+Jammu and Kashmir,2007,00:00 - 03:00,Night,326,5.55
+Jammu and Kashmir,2007,03:00 - 06:00,Night,418,7.12
+Jammu and Kashmir,2007,06:00 - 09:00,Day,697,11.87
+Jammu and Kashmir,2007,09:00 - 12:00,Day,1049,17.86
+Jammu and Kashmir,2007,12:00 - 15:00,Day,1099,18.71
+Jammu and Kashmir,2007,15:00 - 18:00,Day,982,16.72
+Jammu and Kashmir,2007,18:00 - 21:00,Night,842,14.33
+Jammu and Kashmir,2007,21:00 - 24:00,Night,461,7.85
+Jammu and Kashmir,2008,00:00 - 03:00,Night,261,4.81
+Jammu and Kashmir,2008,03:00 - 06:00,Night,368,6.78
+Jammu and Kashmir,2008,06:00 - 09:00,Day,631,11.63
+Jammu and Kashmir,2008,09:00 - 12:00,Day,999,18.41
+Jammu and Kashmir,2008,12:00 - 15:00,Day,1139,20.99
+Jammu and Kashmir,2008,15:00 - 18:00,Day,892,16.44
+Jammu and Kashmir,2008,18:00 - 21:00,Night,675,12.44
+Jammu and Kashmir,2008,21:00 - 24:00,Night,461,8.5
+Jammu and Kashmir,2009,00:00 - 03:00,Night,298,4.96
+Jammu and Kashmir,2009,03:00 - 06:00,Night,386,6.42
+Jammu and Kashmir,2009,06:00 - 09:00,Day,676,11.24
+Jammu and Kashmir,2009,09:00 - 12:00,Day,1178,19.59
+Jammu and Kashmir,2009,12:00 - 15:00,Day,1240,20.63
+Jammu and Kashmir,2009,15:00 - 18:00,Day,1023,17.02
+Jammu and Kashmir,2009,18:00 - 21:00,Night,802,13.34
+Jammu and Kashmir,2009,21:00 - 24:00,Night,409,6.8
+Jammu and Kashmir,2010,00:00 - 03:00,Night,239,3.89
+Jammu and Kashmir,2010,03:00 - 06:00,Night,287,4.67
+Jammu and Kashmir,2010,06:00 - 09:00,Day,699,11.38
+Jammu and Kashmir,2010,09:00 - 12:00,Day,1173,19.1
+Jammu and Kashmir,2010,12:00 - 15:00,Day,1265,20.6
+Jammu and Kashmir,2010,15:00 - 18:00,Day,1099,17.89
+Jammu and Kashmir,2010,18:00 - 21:00,Night,796,12.96
+Jammu and Kashmir,2010,21:00 - 24:00,Night,584,9.51
+Jammu and Kashmir,2011,00:00 - 03:00,Night,299,4.49
+Jammu and Kashmir,2011,03:00 - 06:00,Night,298,4.47
+Jammu and Kashmir,2011,06:00 - 09:00,Day,681,10.22
+Jammu and Kashmir,2011,09:00 - 12:00,Day,1424,21.37
+Jammu and Kashmir,2011,12:00 - 15:00,Day,1458,21.88
+Jammu and Kashmir,2011,15:00 - 18:00,Day,1244,18.66
+Jammu and Kashmir,2011,18:00 - 21:00,Night,753,11.3
+Jammu and Kashmir,2011,21:00 - 24:00,Night,508,7.62
+Jammu and Kashmir,2012,00:00 - 03:00,Night,285,4.29
+Jammu and Kashmir,2012,03:00 - 06:00,Night,347,5.23
+Jammu and Kashmir,2012,06:00 - 09:00,Day,642,9.67
+Jammu and Kashmir,2012,09:00 - 12:00,Day,1306,19.68
+Jammu and Kashmir,2012,12:00 - 15:00,Day,1444,21.76
+Jammu and Kashmir,2012,15:00 - 18:00,Day,1420,21.4
+Jammu and Kashmir,2012,18:00 - 21:00,Night,748,11.27
+Jammu and Kashmir,2012,21:00 - 24:00,Night,445,6.7
+Jammu and Kashmir,2013,00:00 - 03:00,Night,296,4.59
+Jammu and Kashmir,2013,03:00 - 06:00,Night,352,5.45
+Jammu and Kashmir,2013,06:00 - 09:00,Day,612,9.48
+Jammu and Kashmir,2013,09:00 - 12:00,Day,1109,17.18
+Jammu and Kashmir,2013,12:00 - 15:00,Day,1371,21.24
+Jammu and Kashmir,2013,15:00 - 18:00,Day,1275,19.75
+Jammu and Kashmir,2013,18:00 - 21:00,Night,886,13.73
+Jammu and Kashmir,2013,21:00 - 24:00,Night,554,8.58
+Jammu and Kashmir,2014,00:00 - 03:00,Night,168,2.91
+Jammu and Kashmir,2014,03:00 - 06:00,Night,442,7.65
+Jammu and Kashmir,2014,06:00 - 09:00,Day,693,11.99
+Jammu and Kashmir,2014,09:00 - 12:00,Day,928,16.06
+Jammu and Kashmir,2014,12:00 - 15:00,Day,1195,20.68
+Jammu and Kashmir,2014,15:00 - 18:00,Day,1126,19.49
+Jammu and Kashmir,2014,18:00 - 21:00,Night,833,14.42
+Jammu and Kashmir,2014,21:00 - 24:00,Night,393,6.8
+Jharkhand,2001,00:00 - 03:00,Night,103,10.35
+Jharkhand,2001,03:00 - 06:00,Night,104,10.45
+Jharkhand,2001,06:00 - 09:00,Day,117,11.76
+Jharkhand,2001,09:00 - 12:00,Day,135,13.57
+Jharkhand,2001,12:00 - 15:00,Day,109,10.95
+Jharkhand,2001,15:00 - 18:00,Day,120,12.06
+Jharkhand,2001,18:00 - 21:00,Night,179,17.99
+Jharkhand,2001,21:00 - 24:00,Night,128,12.86
+Jharkhand,2002,00:00 - 03:00,Night,101,11.48
+Jharkhand,2002,03:00 - 06:00,Night,99,11.25
+Jharkhand,2002,06:00 - 09:00,Day,109,12.39
+Jharkhand,2002,09:00 - 12:00,Day,100,11.36
+Jharkhand,2002,12:00 - 15:00,Day,110,12.5
+Jharkhand,2002,15:00 - 18:00,Day,112,12.73
+Jharkhand,2002,18:00 - 21:00,Night,138,15.68
+Jharkhand,2002,21:00 - 24:00,Night,111,12.61
+Jharkhand,2003,00:00 - 03:00,Night,101,11.48
+Jharkhand,2003,03:00 - 06:00,Night,110,12.5
+Jharkhand,2003,06:00 - 09:00,Day,130,14.77
+Jharkhand,2003,09:00 - 12:00,Day,140,15.91
+Jharkhand,2003,12:00 - 15:00,Day,135,15.34
+Jharkhand,2003,15:00 - 18:00,Day,145,16.48
+Jharkhand,2003,18:00 - 21:00,Night,0,0.0
+Jharkhand,2003,21:00 - 24:00,Night,119,13.52
+Jharkhand,2004,00:00 - 03:00,Night,151,11.66
+Jharkhand,2004,03:00 - 06:00,Night,168,12.97
+Jharkhand,2004,06:00 - 09:00,Day,199,15.37
+Jharkhand,2004,09:00 - 12:00,Day,175,13.51
+Jharkhand,2004,12:00 - 15:00,Day,178,13.75
+Jharkhand,2004,15:00 - 18:00,Day,172,13.28
+Jharkhand,2004,18:00 - 21:00,Night,85,6.56
+Jharkhand,2004,21:00 - 24:00,Night,167,12.9
+Jharkhand,2005,00:00 - 03:00,Night,93,3.4
+Jharkhand,2005,03:00 - 06:00,Night,289,10.55
+Jharkhand,2005,06:00 - 09:00,Day,405,14.79
+Jharkhand,2005,09:00 - 12:00,Day,451,16.47
+Jharkhand,2005,12:00 - 15:00,Day,384,14.02
+Jharkhand,2005,15:00 - 18:00,Day,516,18.84
+Jharkhand,2005,18:00 - 21:00,Night,377,13.76
+Jharkhand,2005,21:00 - 24:00,Night,224,8.18
+Jharkhand,2006,00:00 - 03:00,Night,207,4.81
+Jharkhand,2006,03:00 - 06:00,Night,322,7.49
+Jharkhand,2006,06:00 - 09:00,Day,681,15.83
+Jharkhand,2006,09:00 - 12:00,Day,706,16.41
+Jharkhand,2006,12:00 - 15:00,Day,741,17.23
+Jharkhand,2006,15:00 - 18:00,Day,684,15.9
+Jharkhand,2006,18:00 - 21:00,Night,513,11.93
+Jharkhand,2006,21:00 - 24:00,Night,447,10.39
+Jharkhand,2007,00:00 - 03:00,Night,250,5.55
+Jharkhand,2007,03:00 - 06:00,Night,416,9.24
+Jharkhand,2007,06:00 - 09:00,Day,683,15.16
+Jharkhand,2007,09:00 - 12:00,Day,702,15.59
+Jharkhand,2007,12:00 - 15:00,Day,850,18.87
+Jharkhand,2007,15:00 - 18:00,Day,816,18.12
+Jharkhand,2007,18:00 - 21:00,Night,521,11.57
+Jharkhand,2007,21:00 - 24:00,Night,266,5.91
+Jharkhand,2008,00:00 - 03:00,Night,283,8.68
+Jharkhand,2008,03:00 - 06:00,Night,345,10.59
+Jharkhand,2008,06:00 - 09:00,Day,414,12.7
+Jharkhand,2008,09:00 - 12:00,Day,489,15.0
+Jharkhand,2008,12:00 - 15:00,Day,474,14.54
+Jharkhand,2008,15:00 - 18:00,Day,472,14.48
+Jharkhand,2008,18:00 - 21:00,Night,477,14.64
+Jharkhand,2008,21:00 - 24:00,Night,305,9.36
+Jharkhand,2009,00:00 - 03:00,Night,326,7.19
+Jharkhand,2009,03:00 - 06:00,Night,446,9.83
+Jharkhand,2009,06:00 - 09:00,Day,681,15.01
+Jharkhand,2009,09:00 - 12:00,Day,744,16.4
+Jharkhand,2009,12:00 - 15:00,Day,658,14.51
+Jharkhand,2009,15:00 - 18:00,Day,670,14.77
+Jharkhand,2009,18:00 - 21:00,Night,524,11.55
+Jharkhand,2009,21:00 - 24:00,Night,487,10.74
+Jharkhand,2010,00:00 - 03:00,Night,247,5.84
+Jharkhand,2010,03:00 - 06:00,Night,379,8.96
+Jharkhand,2010,06:00 - 09:00,Day,706,16.7
+Jharkhand,2010,09:00 - 12:00,Day,766,18.12
+Jharkhand,2010,12:00 - 15:00,Day,602,14.24
+Jharkhand,2010,15:00 - 18:00,Day,648,15.33
+Jharkhand,2010,18:00 - 21:00,Night,557,13.17
+Jharkhand,2010,21:00 - 24:00,Night,323,7.64
+Jharkhand,2011,00:00 - 03:00,Night,285,7.31
+Jharkhand,2011,03:00 - 06:00,Night,355,9.1
+Jharkhand,2011,06:00 - 09:00,Day,585,15.0
+Jharkhand,2011,09:00 - 12:00,Day,640,16.41
+Jharkhand,2011,12:00 - 15:00,Day,582,14.92
+Jharkhand,2011,15:00 - 18:00,Day,581,14.89
+Jharkhand,2011,18:00 - 21:00,Night,512,13.12
+Jharkhand,2011,21:00 - 24:00,Night,361,9.25
+Jharkhand,2012,00:00 - 03:00,Night,351,7.59
+Jharkhand,2012,03:00 - 06:00,Night,494,10.68
+Jharkhand,2012,06:00 - 09:00,Day,779,16.84
+Jharkhand,2012,09:00 - 12:00,Day,705,15.24
+Jharkhand,2012,12:00 - 15:00,Day,542,11.72
+Jharkhand,2012,15:00 - 18:00,Day,708,15.31
+Jharkhand,2012,18:00 - 21:00,Night,626,13.54
+Jharkhand,2012,21:00 - 24:00,Night,420,9.08
+Jharkhand,2013,00:00 - 03:00,Night,645,12.5
+Jharkhand,2013,03:00 - 06:00,Night,642,12.44
+Jharkhand,2013,06:00 - 09:00,Day,649,12.58
+Jharkhand,2013,09:00 - 12:00,Day,640,12.4
+Jharkhand,2013,12:00 - 15:00,Day,649,12.58
+Jharkhand,2013,15:00 - 18:00,Day,644,12.48
+Jharkhand,2013,18:00 - 21:00,Night,644,12.48
+Jharkhand,2013,21:00 - 24:00,Night,648,12.56
+Jharkhand,2014,00:00 - 03:00,Night,247,5.04
+Jharkhand,2014,03:00 - 06:00,Night,592,12.07
+Jharkhand,2014,06:00 - 09:00,Day,703,14.33
+Jharkhand,2014,09:00 - 12:00,Day,749,15.27
+Jharkhand,2014,12:00 - 15:00,Day,670,13.66
+Jharkhand,2014,15:00 - 18:00,Day,847,17.27
+Jharkhand,2014,18:00 - 21:00,Night,678,13.82
+Jharkhand,2014,21:00 - 24:00,Night,419,8.54
+Karnataka,2001,00:00 - 03:00,Night,2426,7.38
+Karnataka,2001,03:00 - 06:00,Night,2925,8.9
+Karnataka,2001,06:00 - 09:00,Day,3775,11.49
+Karnataka,2001,09:00 - 12:00,Day,5210,15.86
+Karnataka,2001,12:00 - 15:00,Day,4799,14.6
+Karnataka,2001,15:00 - 18:00,Day,5131,15.61
+Karnataka,2001,18:00 - 21:00,Night,4807,14.63
+Karnataka,2001,21:00 - 24:00,Night,3787,11.52
+Karnataka,2002,00:00 - 03:00,Night,2663,7.47
+Karnataka,2002,03:00 - 06:00,Night,3482,9.76
+Karnataka,2002,06:00 - 09:00,Day,4123,11.56
+Karnataka,2002,09:00 - 12:00,Day,5865,16.45
+Karnataka,2002,12:00 - 15:00,Day,5414,15.18
+Karnataka,2002,15:00 - 18:00,Day,5315,14.9
+Karnataka,2002,18:00 - 21:00,Night,5141,14.42
+Karnataka,2002,21:00 - 24:00,Night,3658,10.26
+Karnataka,2003,00:00 - 03:00,Night,2719,7.25
+Karnataka,2003,03:00 - 06:00,Night,3398,9.06
+Karnataka,2003,06:00 - 09:00,Day,4095,10.92
+Karnataka,2003,09:00 - 12:00,Day,5735,15.29
+Karnataka,2003,12:00 - 15:00,Day,5696,15.18
+Karnataka,2003,15:00 - 18:00,Day,6154,16.41
+Karnataka,2003,18:00 - 21:00,Night,5687,15.16
+Karnataka,2003,21:00 - 24:00,Night,4027,10.74
+Karnataka,2004,00:00 - 03:00,Night,2576,6.65
+Karnataka,2004,03:00 - 06:00,Night,3106,8.02
+Karnataka,2004,06:00 - 09:00,Day,4140,10.68
+Karnataka,2004,09:00 - 12:00,Day,5955,15.37
+Karnataka,2004,12:00 - 15:00,Day,5888,15.19
+Karnataka,2004,15:00 - 18:00,Day,6400,16.52
+Karnataka,2004,18:00 - 21:00,Night,6371,16.44
+Karnataka,2004,21:00 - 24:00,Night,4315,11.14
+Karnataka,2005,00:00 - 03:00,Night,2949,7.32
+Karnataka,2005,03:00 - 06:00,Night,3198,7.94
+Karnataka,2005,06:00 - 09:00,Day,4665,11.58
+Karnataka,2005,09:00 - 12:00,Day,6193,15.38
+Karnataka,2005,12:00 - 15:00,Day,6095,15.13
+Karnataka,2005,15:00 - 18:00,Day,6658,16.53
+Karnataka,2005,18:00 - 21:00,Night,6377,15.83
+Karnataka,2005,21:00 - 24:00,Night,4138,10.27
+Karnataka,2006,00:00 - 03:00,Night,3264,7.54
+Karnataka,2006,03:00 - 06:00,Night,3702,8.55
+Karnataka,2006,06:00 - 09:00,Day,4738,10.95
+Karnataka,2006,09:00 - 12:00,Day,6871,15.88
+Karnataka,2006,12:00 - 15:00,Day,6425,14.85
+Karnataka,2006,15:00 - 18:00,Day,6709,15.5
+Karnataka,2006,18:00 - 21:00,Night,6839,15.8
+Karnataka,2006,21:00 - 24:00,Night,4732,10.93
+Karnataka,2007,00:00 - 03:00,Night,3239,6.99
+Karnataka,2007,03:00 - 06:00,Night,3590,7.75
+Karnataka,2007,06:00 - 09:00,Day,5350,11.55
+Karnataka,2007,09:00 - 12:00,Day,7142,15.41
+Karnataka,2007,12:00 - 15:00,Day,7486,16.16
+Karnataka,2007,15:00 - 18:00,Day,7193,15.52
+Karnataka,2007,18:00 - 21:00,Night,7263,15.68
+Karnataka,2007,21:00 - 24:00,Night,5071,10.94
+Karnataka,2008,00:00 - 03:00,Night,3181,6.88
+Karnataka,2008,03:00 - 06:00,Night,3802,8.22
+Karnataka,2008,06:00 - 09:00,Day,5471,11.83
+Karnataka,2008,09:00 - 12:00,Day,6533,14.12
+Karnataka,2008,12:00 - 15:00,Day,7183,15.53
+Karnataka,2008,15:00 - 18:00,Day,7051,15.24
+Karnataka,2008,18:00 - 21:00,Night,7159,15.48
+Karnataka,2008,21:00 - 24:00,Night,5872,12.7
+Karnataka,2009,00:00 - 03:00,Night,3107,6.88
+Karnataka,2009,03:00 - 06:00,Night,3750,8.3
+Karnataka,2009,06:00 - 09:00,Day,5001,11.07
+Karnataka,2009,09:00 - 12:00,Day,6399,14.16
+Karnataka,2009,12:00 - 15:00,Day,6733,14.9
+Karnataka,2009,15:00 - 18:00,Day,7066,15.64
+Karnataka,2009,18:00 - 21:00,Night,7258,16.06
+Karnataka,2009,21:00 - 24:00,Night,5876,13.0
+Karnataka,2010,00:00 - 03:00,Night,3481,7.53
+Karnataka,2010,03:00 - 06:00,Night,5270,11.4
+Karnataka,2010,06:00 - 09:00,Day,5268,11.4
+Karnataka,2010,09:00 - 12:00,Day,6922,14.98
+Karnataka,2010,12:00 - 15:00,Day,6451,13.96
+Karnataka,2010,15:00 - 18:00,Day,6951,15.04
+Karnataka,2010,18:00 - 21:00,Night,7207,15.59
+Karnataka,2010,21:00 - 24:00,Night,4670,10.1
+Karnataka,2011,00:00 - 03:00,Night,3468,7.76
+Karnataka,2011,03:00 - 06:00,Night,3807,8.52
+Karnataka,2011,06:00 - 09:00,Day,4657,10.42
+Karnataka,2011,09:00 - 12:00,Day,6606,14.78
+Karnataka,2011,12:00 - 15:00,Day,6568,14.69
+Karnataka,2011,15:00 - 18:00,Day,7376,16.5
+Karnataka,2011,18:00 - 21:00,Night,7501,16.78
+Karnataka,2011,21:00 - 24:00,Night,4713,10.54
+Karnataka,2012,00:00 - 03:00,Night,3085,6.94
+Karnataka,2012,03:00 - 06:00,Night,2802,6.3
+Karnataka,2012,06:00 - 09:00,Day,4472,10.06
+Karnataka,2012,09:00 - 12:00,Day,6842,15.39
+Karnataka,2012,12:00 - 15:00,Day,6753,15.19
+Karnataka,2012,15:00 - 18:00,Day,7802,17.55
+Karnataka,2012,18:00 - 21:00,Night,7431,16.72
+Karnataka,2012,21:00 - 24:00,Night,5261,11.84
+Karnataka,2013,00:00 - 03:00,Night,3318,8.38
+Karnataka,2013,03:00 - 06:00,Night,3174,8.02
+Karnataka,2013,06:00 - 09:00,Day,4126,10.42
+Karnataka,2013,09:00 - 12:00,Day,6104,15.42
+Karnataka,2013,12:00 - 15:00,Day,5836,14.74
+Karnataka,2013,15:00 - 18:00,Day,6201,15.66
+Karnataka,2013,18:00 - 21:00,Night,6526,16.48
+Karnataka,2013,21:00 - 24:00,Night,4306,10.88
+Karnataka,2014,00:00 - 03:00,Night,3022,6.92
+Karnataka,2014,03:00 - 06:00,Night,3219,7.37
+Karnataka,2014,06:00 - 09:00,Day,4576,10.47
+Karnataka,2014,09:00 - 12:00,Day,6393,14.63
+Karnataka,2014,12:00 - 15:00,Day,6646,15.21
+Karnataka,2014,15:00 - 18:00,Day,7119,16.29
+Karnataka,2014,18:00 - 21:00,Night,7377,16.88
+Karnataka,2014,21:00 - 24:00,Night,5342,12.23
+Kerala,2001,00:00 - 03:00,Night,892,2.45
+Kerala,2001,03:00 - 06:00,Night,1610,4.42
+Kerala,2001,06:00 - 09:00,Day,4820,13.23
+Kerala,2001,09:00 - 12:00,Day,6684,18.34
+Kerala,2001,12:00 - 15:00,Day,6119,16.79
+Kerala,2001,15:00 - 18:00,Day,7610,20.88
+Kerala,2001,18:00 - 21:00,Night,5960,16.36
+Kerala,2001,21:00 - 24:00,Night,2744,7.53
+Kerala,2002,00:00 - 03:00,Night,669,1.94
+Kerala,2002,03:00 - 06:00,Night,1187,3.44
+Kerala,2002,06:00 - 09:00,Day,4685,13.57
+Kerala,2002,09:00 - 12:00,Day,6397,18.52
+Kerala,2002,12:00 - 15:00,Day,6322,18.31
+Kerala,2002,15:00 - 18:00,Day,7579,21.95
+Kerala,2002,18:00 - 21:00,Night,5296,15.34
+Kerala,2002,21:00 - 24:00,Night,2399,6.95
+Kerala,2003,00:00 - 03:00,Night,748,2.34
+Kerala,2003,03:00 - 06:00,Night,1312,4.11
+Kerala,2003,06:00 - 09:00,Day,3882,12.15
+Kerala,2003,09:00 - 12:00,Day,6152,19.26
+Kerala,2003,12:00 - 15:00,Day,4914,15.38
+Kerala,2003,15:00 - 18:00,Day,7019,21.97
+Kerala,2003,18:00 - 21:00,Night,5616,17.58
+Kerala,2003,21:00 - 24:00,Night,2304,7.21
+Kerala,2004,00:00 - 03:00,Night,1439,3.5
+Kerala,2004,03:00 - 06:00,Night,2124,5.17
+Kerala,2004,06:00 - 09:00,Day,5143,12.51
+Kerala,2004,09:00 - 12:00,Day,8107,19.72
+Kerala,2004,12:00 - 15:00,Day,6328,15.4
+Kerala,2004,15:00 - 18:00,Day,8252,20.08
+Kerala,2004,18:00 - 21:00,Night,6534,15.9
+Kerala,2004,21:00 - 24:00,Night,3176,7.73
+Kerala,2005,00:00 - 03:00,Night,1205,2.85
+Kerala,2005,03:00 - 06:00,Night,1763,4.17
+Kerala,2005,06:00 - 09:00,Day,4977,11.77
+Kerala,2005,09:00 - 12:00,Day,7620,18.02
+Kerala,2005,12:00 - 15:00,Day,6244,14.76
+Kerala,2005,15:00 - 18:00,Day,8601,20.34
+Kerala,2005,18:00 - 21:00,Night,7961,18.82
+Kerala,2005,21:00 - 24:00,Night,3924,9.28
+Kerala,2006,00:00 - 03:00,Night,1553,3.72
+Kerala,2006,03:00 - 06:00,Night,1877,4.5
+Kerala,2006,06:00 - 09:00,Day,4438,10.64
+Kerala,2006,09:00 - 12:00,Day,7140,17.11
+Kerala,2006,12:00 - 15:00,Day,6446,15.45
+Kerala,2006,15:00 - 18:00,Day,8461,20.28
+Kerala,2006,18:00 - 21:00,Night,7587,18.18
+Kerala,2006,21:00 - 24:00,Night,4226,10.13
+Kerala,2007,00:00 - 03:00,Night,1501,3.77
+Kerala,2007,03:00 - 06:00,Night,2486,6.24
+Kerala,2007,06:00 - 09:00,Day,4064,10.2
+Kerala,2007,09:00 - 12:00,Day,7433,18.65
+Kerala,2007,12:00 - 15:00,Day,5865,14.71
+Kerala,2007,15:00 - 18:00,Day,7854,19.7
+Kerala,2007,18:00 - 21:00,Night,7083,17.77
+Kerala,2007,21:00 - 24:00,Night,3575,8.97
+Kerala,2008,00:00 - 03:00,Night,836,2.25
+Kerala,2008,03:00 - 06:00,Night,1356,3.64
+Kerala,2008,06:00 - 09:00,Day,4278,11.49
+Kerala,2008,09:00 - 12:00,Day,6871,18.45
+Kerala,2008,12:00 - 15:00,Day,6077,16.32
+Kerala,2008,15:00 - 18:00,Day,8426,22.63
+Kerala,2008,18:00 - 21:00,Night,6768,18.17
+Kerala,2008,21:00 - 24:00,Night,2626,7.05
+Kerala,2009,00:00 - 03:00,Night,664,1.87
+Kerala,2009,03:00 - 06:00,Night,1283,3.62
+Kerala,2009,06:00 - 09:00,Day,4468,12.6
+Kerala,2009,09:00 - 12:00,Day,6606,18.63
+Kerala,2009,12:00 - 15:00,Day,5648,15.93
+Kerala,2009,15:00 - 18:00,Day,7755,21.87
+Kerala,2009,18:00 - 21:00,Night,6762,19.07
+Kerala,2009,21:00 - 24:00,Night,2271,6.4
+Kerala,2010,00:00 - 03:00,Night,892,2.54
+Kerala,2010,03:00 - 06:00,Night,1271,3.62
+Kerala,2010,06:00 - 09:00,Day,4127,11.76
+Kerala,2010,09:00 - 12:00,Day,6328,18.04
+Kerala,2010,12:00 - 15:00,Day,5380,15.34
+Kerala,2010,15:00 - 18:00,Day,7838,22.34
+Kerala,2010,18:00 - 21:00,Night,6864,19.57
+Kerala,2010,21:00 - 24:00,Night,2382,6.79
+Kerala,2011,00:00 - 03:00,Night,595,1.69
+Kerala,2011,03:00 - 06:00,Night,1265,3.59
+Kerala,2011,06:00 - 09:00,Day,5051,14.34
+Kerala,2011,09:00 - 12:00,Day,6119,17.38
+Kerala,2011,12:00 - 15:00,Day,6393,18.15
+Kerala,2011,15:00 - 18:00,Day,8071,22.92
+Kerala,2011,18:00 - 21:00,Night,6335,17.99
+Kerala,2011,21:00 - 24:00,Night,1387,3.94
+Kerala,2012,00:00 - 03:00,Night,583,1.61
+Kerala,2012,03:00 - 06:00,Night,785,2.17
+Kerala,2012,06:00 - 09:00,Day,3720,10.28
+Kerala,2012,09:00 - 12:00,Day,6795,18.78
+Kerala,2012,12:00 - 15:00,Day,6091,16.84
+Kerala,2012,15:00 - 18:00,Day,8075,22.32
+Kerala,2012,18:00 - 21:00,Night,7359,20.34
+Kerala,2012,21:00 - 24:00,Night,2766,7.65
+Kerala,2013,00:00 - 03:00,Night,620,1.76
+Kerala,2013,03:00 - 06:00,Night,1341,3.81
+Kerala,2013,06:00 - 09:00,Day,5378,15.27
+Kerala,2013,09:00 - 12:00,Day,6329,17.97
+Kerala,2013,12:00 - 15:00,Day,6210,17.63
+Kerala,2013,15:00 - 18:00,Day,7706,21.88
+Kerala,2013,18:00 - 21:00,Night,6207,17.63
+Kerala,2013,21:00 - 24:00,Night,1424,4.04
+Kerala,2014,00:00 - 03:00,Night,759,2.12
+Kerala,2014,03:00 - 06:00,Night,1232,3.43
+Kerala,2014,06:00 - 09:00,Day,4145,11.55
+Kerala,2014,09:00 - 12:00,Day,6709,18.7
+Kerala,2014,12:00 - 15:00,Day,6057,16.89
+Kerala,2014,15:00 - 18:00,Day,8172,22.78
+Kerala,2014,18:00 - 21:00,Night,6114,17.04
+Kerala,2014,21:00 - 24:00,Night,2684,7.48
+Lakshadweep,2001,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2001,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2001,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2001,09:00 - 12:00,Day,1,16.67
+Lakshadweep,2001,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2001,15:00 - 18:00,Day,1,16.67
+Lakshadweep,2001,18:00 - 21:00,Night,1,16.67
+Lakshadweep,2001,21:00 - 24:00,Night,3,50.0
+Lakshadweep,2002,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2002,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2002,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2002,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2002,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2002,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2002,18:00 - 21:00,Night,0,0.0
+Lakshadweep,2002,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2003,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2003,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2003,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2003,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2003,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2003,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2003,18:00 - 21:00,Night,1,100.0
+Lakshadweep,2003,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2004,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2004,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2004,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2004,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2004,12:00 - 15:00,Day,1,50.0
+Lakshadweep,2004,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2004,18:00 - 21:00,Night,1,50.0
+Lakshadweep,2004,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2005,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2005,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2005,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2005,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2005,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2005,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2005,18:00 - 21:00,Night,0,0.0
+Lakshadweep,2005,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2006,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2006,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2006,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2006,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2006,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2006,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2006,18:00 - 21:00,Night,1,100.0
+Lakshadweep,2006,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2007,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2007,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2007,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2007,09:00 - 12:00,Day,1,50.0
+Lakshadweep,2007,12:00 - 15:00,Day,1,50.0
+Lakshadweep,2007,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2007,18:00 - 21:00,Night,0,0.0
+Lakshadweep,2007,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2008,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2008,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2008,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2008,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2008,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2008,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2008,18:00 - 21:00,Night,0,0.0
+Lakshadweep,2008,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2009,00:00 - 03:00,Night,1,100.0
+Lakshadweep,2009,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2009,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2009,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2009,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2009,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2009,18:00 - 21:00,Night,0,0.0
+Lakshadweep,2009,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2010,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2010,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2010,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2010,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2010,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2010,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2010,18:00 - 21:00,Night,0,0.0
+Lakshadweep,2010,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2011,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2011,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2011,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2011,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2011,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2011,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2011,18:00 - 21:00,Night,0,0.0
+Lakshadweep,2011,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2012,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2012,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2012,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2012,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2012,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2012,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2012,18:00 - 21:00,Night,0,0.0
+Lakshadweep,2012,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2013,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2013,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2013,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2013,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2013,12:00 - 15:00,Day,0,0.0
+Lakshadweep,2013,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2013,18:00 - 21:00,Night,0,0.0
+Lakshadweep,2013,21:00 - 24:00,Night,0,0.0
+Lakshadweep,2014,00:00 - 03:00,Night,0,0.0
+Lakshadweep,2014,03:00 - 06:00,Night,0,0.0
+Lakshadweep,2014,06:00 - 09:00,Day,0,0.0
+Lakshadweep,2014,09:00 - 12:00,Day,0,0.0
+Lakshadweep,2014,12:00 - 15:00,Day,1,100.0
+Lakshadweep,2014,15:00 - 18:00,Day,0,0.0
+Lakshadweep,2014,18:00 - 21:00,Night,0,0.0
+Lakshadweep,2014,21:00 - 24:00,Night,0,0.0
+Madhya Pradesh,2001,00:00 - 03:00,Night,1418,7.19
+Madhya Pradesh,2001,03:00 - 06:00,Night,1740,8.83
+Madhya Pradesh,2001,06:00 - 09:00,Day,2938,14.9
+Madhya Pradesh,2001,09:00 - 12:00,Day,3323,16.86
+Madhya Pradesh,2001,12:00 - 15:00,Day,2906,14.74
+Madhya Pradesh,2001,15:00 - 18:00,Day,2875,14.59
+Madhya Pradesh,2001,18:00 - 21:00,Night,2744,13.92
+Madhya Pradesh,2001,21:00 - 24:00,Night,1768,8.97
+Madhya Pradesh,2002,00:00 - 03:00,Night,1467,6.41
+Madhya Pradesh,2002,03:00 - 06:00,Night,2182,9.54
+Madhya Pradesh,2002,06:00 - 09:00,Day,3107,13.58
+Madhya Pradesh,2002,09:00 - 12:00,Day,3801,16.61
+Madhya Pradesh,2002,12:00 - 15:00,Day,3325,14.53
+Madhya Pradesh,2002,15:00 - 18:00,Day,3323,14.52
+Madhya Pradesh,2002,18:00 - 21:00,Night,3340,14.6
+Madhya Pradesh,2002,21:00 - 24:00,Night,2334,10.2
+Madhya Pradesh,2003,00:00 - 03:00,Night,1872,8.28
+Madhya Pradesh,2003,03:00 - 06:00,Night,2165,9.57
+Madhya Pradesh,2003,06:00 - 09:00,Day,3138,13.88
+Madhya Pradesh,2003,09:00 - 12:00,Day,3798,16.79
+Madhya Pradesh,2003,12:00 - 15:00,Day,3397,15.02
+Madhya Pradesh,2003,15:00 - 18:00,Day,3128,13.83
+Madhya Pradesh,2003,18:00 - 21:00,Night,2896,12.81
+Madhya Pradesh,2003,21:00 - 24:00,Night,2222,9.82
+Madhya Pradesh,2004,00:00 - 03:00,Night,1443,6.12
+Madhya Pradesh,2004,03:00 - 06:00,Night,1828,7.75
+Madhya Pradesh,2004,06:00 - 09:00,Day,3043,12.9
+Madhya Pradesh,2004,09:00 - 12:00,Day,4301,18.23
+Madhya Pradesh,2004,12:00 - 15:00,Day,3657,15.5
+Madhya Pradesh,2004,15:00 - 18:00,Day,3734,15.83
+Madhya Pradesh,2004,18:00 - 21:00,Night,3367,14.27
+Madhya Pradesh,2004,21:00 - 24:00,Night,2218,9.4
+Madhya Pradesh,2005,00:00 - 03:00,Night,1504,7.0
+Madhya Pradesh,2005,03:00 - 06:00,Night,1770,8.24
+Madhya Pradesh,2005,06:00 - 09:00,Day,2906,13.53
+Madhya Pradesh,2005,09:00 - 12:00,Day,3504,16.32
+Madhya Pradesh,2005,12:00 - 15:00,Day,3504,16.32
+Madhya Pradesh,2005,15:00 - 18:00,Day,3245,15.11
+Madhya Pradesh,2005,18:00 - 21:00,Night,3012,14.03
+Madhya Pradesh,2005,21:00 - 24:00,Night,2029,9.45
+Madhya Pradesh,2006,00:00 - 03:00,Night,1652,6.6
+Madhya Pradesh,2006,03:00 - 06:00,Night,1719,6.87
+Madhya Pradesh,2006,06:00 - 09:00,Day,3541,14.14
+Madhya Pradesh,2006,09:00 - 12:00,Day,4160,16.61
+Madhya Pradesh,2006,12:00 - 15:00,Day,4198,16.77
+Madhya Pradesh,2006,15:00 - 18:00,Day,3875,15.48
+Madhya Pradesh,2006,18:00 - 21:00,Night,3522,14.07
+Madhya Pradesh,2006,21:00 - 24:00,Night,2371,9.47
+Madhya Pradesh,2007,00:00 - 03:00,Night,1867,6.56
+Madhya Pradesh,2007,03:00 - 06:00,Night,1927,6.77
+Madhya Pradesh,2007,06:00 - 09:00,Day,3574,12.57
+Madhya Pradesh,2007,09:00 - 12:00,Day,4901,17.23
+Madhya Pradesh,2007,12:00 - 15:00,Day,4971,17.48
+Madhya Pradesh,2007,15:00 - 18:00,Day,4345,15.28
+Madhya Pradesh,2007,18:00 - 21:00,Night,3964,13.94
+Madhya Pradesh,2007,21:00 - 24:00,Night,2895,10.18
+Madhya Pradesh,2008,00:00 - 03:00,Night,2307,6.72
+Madhya Pradesh,2008,03:00 - 06:00,Night,2370,6.91
+Madhya Pradesh,2008,06:00 - 09:00,Day,4316,12.58
+Madhya Pradesh,2008,09:00 - 12:00,Day,5946,17.33
+Madhya Pradesh,2008,12:00 - 15:00,Day,5873,17.11
+Madhya Pradesh,2008,15:00 - 18:00,Day,5516,16.07
+Madhya Pradesh,2008,18:00 - 21:00,Night,4808,14.01
+Madhya Pradesh,2008,21:00 - 24:00,Night,3180,9.27
+Madhya Pradesh,2009,00:00 - 03:00,Night,2275,7.04
+Madhya Pradesh,2009,03:00 - 06:00,Night,2408,7.45
+Madhya Pradesh,2009,06:00 - 09:00,Day,3807,11.77
+Madhya Pradesh,2009,09:00 - 12:00,Day,5467,16.91
+Madhya Pradesh,2009,12:00 - 15:00,Day,4996,15.45
+Madhya Pradesh,2009,15:00 - 18:00,Day,5157,15.95
+Madhya Pradesh,2009,18:00 - 21:00,Night,4896,15.14
+Madhya Pradesh,2009,21:00 - 24:00,Night,3326,10.29
+Madhya Pradesh,2010,00:00 - 03:00,Night,1970,6.54
+Madhya Pradesh,2010,03:00 - 06:00,Night,2125,7.05
+Madhya Pradesh,2010,06:00 - 09:00,Day,3344,11.1
+Madhya Pradesh,2010,09:00 - 12:00,Day,4994,16.58
+Madhya Pradesh,2010,12:00 - 15:00,Day,4766,15.82
+Madhya Pradesh,2010,15:00 - 18:00,Day,4686,15.55
+Madhya Pradesh,2010,18:00 - 21:00,Night,4888,16.22
+Madhya Pradesh,2010,21:00 - 24:00,Night,3354,11.13
+Madhya Pradesh,2011,00:00 - 03:00,Night,2083,6.81
+Madhya Pradesh,2011,03:00 - 06:00,Night,2248,7.35
+Madhya Pradesh,2011,06:00 - 09:00,Day,3698,12.1
+Madhya Pradesh,2011,09:00 - 12:00,Day,4833,15.81
+Madhya Pradesh,2011,12:00 - 15:00,Day,4896,16.01
+Madhya Pradesh,2011,15:00 - 18:00,Day,4999,16.35
+Madhya Pradesh,2011,18:00 - 21:00,Night,4463,14.6
+Madhya Pradesh,2011,21:00 - 24:00,Night,3353,10.97
+Madhya Pradesh,2012,00:00 - 03:00,Night,1664,5.7
+Madhya Pradesh,2012,03:00 - 06:00,Night,1873,6.42
+Madhya Pradesh,2012,06:00 - 09:00,Day,3785,12.97
+Madhya Pradesh,2012,09:00 - 12:00,Day,5082,17.42
+Madhya Pradesh,2012,12:00 - 15:00,Day,4969,17.03
+Madhya Pradesh,2012,15:00 - 18:00,Day,5035,17.26
+Madhya Pradesh,2012,18:00 - 21:00,Night,4240,14.53
+Madhya Pradesh,2012,21:00 - 24:00,Night,2525,8.66
+Madhya Pradesh,2013,00:00 - 03:00,Night,1747,5.13
+Madhya Pradesh,2013,03:00 - 06:00,Night,2126,6.25
+Madhya Pradesh,2013,06:00 - 09:00,Day,3874,11.38
+Madhya Pradesh,2013,09:00 - 12:00,Day,6025,17.7
+Madhya Pradesh,2013,12:00 - 15:00,Day,5688,16.71
+Madhya Pradesh,2013,15:00 - 18:00,Day,5991,17.6
+Madhya Pradesh,2013,18:00 - 21:00,Night,5282,15.52
+Madhya Pradesh,2013,21:00 - 24:00,Night,3301,9.7
+Madhya Pradesh,2014,00:00 - 03:00,Night,1925,4.85
+Madhya Pradesh,2014,03:00 - 06:00,Night,2384,6.01
+Madhya Pradesh,2014,06:00 - 09:00,Day,5370,13.53
+Madhya Pradesh,2014,09:00 - 12:00,Day,7106,17.9
+Madhya Pradesh,2014,12:00 - 15:00,Day,7337,18.48
+Madhya Pradesh,2014,15:00 - 18:00,Day,7030,17.71
+Madhya Pradesh,2014,18:00 - 21:00,Night,5791,14.59
+Madhya Pradesh,2014,21:00 - 24:00,Night,2755,6.94
+Maharashtra,2001,00:00 - 03:00,Night,3483,9.35
+Maharashtra,2001,03:00 - 06:00,Night,3893,10.45
+Maharashtra,2001,06:00 - 09:00,Day,3986,10.7
+Maharashtra,2001,09:00 - 12:00,Day,5088,13.65
+Maharashtra,2001,12:00 - 15:00,Day,5099,13.68
+Maharashtra,2001,15:00 - 18:00,Day,5185,13.91
+Maharashtra,2001,18:00 - 21:00,Night,5335,14.31
+Maharashtra,2001,21:00 - 24:00,Night,5200,13.95
+Maharashtra,2002,00:00 - 03:00,Night,3411,8.62
+Maharashtra,2002,03:00 - 06:00,Night,3412,8.62
+Maharashtra,2002,06:00 - 09:00,Day,4533,11.46
+Maharashtra,2002,09:00 - 12:00,Day,5744,14.52
+Maharashtra,2002,12:00 - 15:00,Day,5622,14.21
+Maharashtra,2002,15:00 - 18:00,Day,5812,14.69
+Maharashtra,2002,18:00 - 21:00,Night,5796,14.65
+Maharashtra,2002,21:00 - 24:00,Night,5231,13.22
+Maharashtra,2003,00:00 - 03:00,Night,3698,8.6
+Maharashtra,2003,03:00 - 06:00,Night,4029,9.36
+Maharashtra,2003,06:00 - 09:00,Day,4966,11.54
+Maharashtra,2003,09:00 - 12:00,Day,5926,13.77
+Maharashtra,2003,12:00 - 15:00,Day,6287,14.61
+Maharashtra,2003,15:00 - 18:00,Day,6261,14.55
+Maharashtra,2003,18:00 - 21:00,Night,6494,15.09
+Maharashtra,2003,21:00 - 24:00,Night,5361,12.46
+Maharashtra,2004,00:00 - 03:00,Night,4082,9.17
+Maharashtra,2004,03:00 - 06:00,Night,4352,9.77
+Maharashtra,2004,06:00 - 09:00,Day,5077,11.4
+Maharashtra,2004,09:00 - 12:00,Day,6115,13.73
+Maharashtra,2004,12:00 - 15:00,Day,6380,14.32
+Maharashtra,2004,15:00 - 18:00,Day,6559,14.73
+Maharashtra,2004,18:00 - 21:00,Night,6542,14.69
+Maharashtra,2004,21:00 - 24:00,Night,5432,12.2
+Maharashtra,2005,00:00 - 03:00,Night,4140,8.89
+Maharashtra,2005,03:00 - 06:00,Night,4207,9.03
+Maharashtra,2005,06:00 - 09:00,Day,5212,11.19
+Maharashtra,2005,09:00 - 12:00,Day,6631,14.23
+Maharashtra,2005,12:00 - 15:00,Day,6737,14.46
+Maharashtra,2005,15:00 - 18:00,Day,6760,14.51
+Maharashtra,2005,18:00 - 21:00,Night,7058,15.15
+Maharashtra,2005,21:00 - 24:00,Night,5841,12.54
+Maharashtra,2006,00:00 - 03:00,Night,4653,9.52
+Maharashtra,2006,03:00 - 06:00,Night,4724,9.66
+Maharashtra,2006,06:00 - 09:00,Day,5569,11.39
+Maharashtra,2006,09:00 - 12:00,Day,6498,13.29
+Maharashtra,2006,12:00 - 15:00,Day,6735,13.78
+Maharashtra,2006,15:00 - 18:00,Day,7013,14.35
+Maharashtra,2006,18:00 - 21:00,Night,7393,15.12
+Maharashtra,2006,21:00 - 24:00,Night,6302,12.89
+Maharashtra,2007,00:00 - 03:00,Night,5132,9.87
+Maharashtra,2007,03:00 - 06:00,Night,4797,9.23
+Maharashtra,2007,06:00 - 09:00,Day,5580,10.74
+Maharashtra,2007,09:00 - 12:00,Day,7168,13.79
+Maharashtra,2007,12:00 - 15:00,Day,7385,14.21
+Maharashtra,2007,15:00 - 18:00,Day,7378,14.2
+Maharashtra,2007,18:00 - 21:00,Night,7714,14.84
+Maharashtra,2007,21:00 - 24:00,Night,6821,13.12
+Maharashtra,2008,00:00 - 03:00,Night,4349,8.75
+Maharashtra,2008,03:00 - 06:00,Night,4633,9.33
+Maharashtra,2008,06:00 - 09:00,Day,5669,11.41
+Maharashtra,2008,09:00 - 12:00,Day,6911,13.91
+Maharashtra,2008,12:00 - 15:00,Day,7019,14.13
+Maharashtra,2008,15:00 - 18:00,Day,7070,14.23
+Maharashtra,2008,18:00 - 21:00,Night,7610,15.32
+Maharashtra,2008,21:00 - 24:00,Night,6418,12.92
+Maharashtra,2009,00:00 - 03:00,Night,4400,9.0
+Maharashtra,2009,03:00 - 06:00,Night,4469,9.15
+Maharashtra,2009,06:00 - 09:00,Day,5451,11.16
+Maharashtra,2009,09:00 - 12:00,Day,6974,14.27
+Maharashtra,2009,12:00 - 15:00,Day,6718,13.75
+Maharashtra,2009,15:00 - 18:00,Day,7046,14.42
+Maharashtra,2009,18:00 - 21:00,Night,7592,15.54
+Maharashtra,2009,21:00 - 24:00,Night,6215,12.72
+Maharashtra,2010,00:00 - 03:00,Night,4324,8.54
+Maharashtra,2010,03:00 - 06:00,Night,4585,9.06
+Maharashtra,2010,06:00 - 09:00,Day,5658,11.18
+Maharashtra,2010,09:00 - 12:00,Day,7050,13.93
+Maharashtra,2010,12:00 - 15:00,Day,7233,14.29
+Maharashtra,2010,15:00 - 18:00,Day,7583,14.98
+Maharashtra,2010,18:00 - 21:00,Night,7836,15.48
+Maharashtra,2010,21:00 - 24:00,Night,6350,12.54
+Maharashtra,2011,00:00 - 03:00,Night,4334,9.2
+Maharashtra,2011,03:00 - 06:00,Night,4739,10.06
+Maharashtra,2011,06:00 - 09:00,Day,5489,11.65
+Maharashtra,2011,09:00 - 12:00,Day,6610,14.03
+Maharashtra,2011,12:00 - 15:00,Day,6677,14.17
+Maharashtra,2011,15:00 - 18:00,Day,7048,14.96
+Maharashtra,2011,18:00 - 21:00,Night,6883,14.61
+Maharashtra,2011,21:00 - 24:00,Night,5340,11.33
+Maharashtra,2012,00:00 - 03:00,Night,4125,9.12
+Maharashtra,2012,03:00 - 06:00,Night,4655,10.29
+Maharashtra,2012,06:00 - 09:00,Day,5239,11.58
+Maharashtra,2012,09:00 - 12:00,Day,6093,13.47
+Maharashtra,2012,12:00 - 15:00,Day,6176,13.65
+Maharashtra,2012,15:00 - 18:00,Day,6857,15.15
+Maharashtra,2012,18:00 - 21:00,Night,6668,14.74
+Maharashtra,2012,21:00 - 24:00,Night,5434,12.01
+Maharashtra,2013,00:00 - 03:00,Night,3647,8.31
+Maharashtra,2013,03:00 - 06:00,Night,3649,8.32
+Maharashtra,2013,06:00 - 09:00,Day,4822,10.99
+Maharashtra,2013,09:00 - 12:00,Day,5901,13.45
+Maharashtra,2013,12:00 - 15:00,Day,6211,14.16
+Maharashtra,2013,15:00 - 18:00,Day,6727,15.34
+Maharashtra,2013,18:00 - 21:00,Night,7368,16.8
+Maharashtra,2013,21:00 - 24:00,Night,5538,12.63
+Maharashtra,2014,00:00 - 03:00,Night,3376,7.61
+Maharashtra,2014,03:00 - 06:00,Night,3330,7.5
+Maharashtra,2014,06:00 - 09:00,Day,4853,10.93
+Maharashtra,2014,09:00 - 12:00,Day,6430,14.49
+Maharashtra,2014,12:00 - 15:00,Day,6522,14.7
+Maharashtra,2014,15:00 - 18:00,Day,7126,16.06
+Maharashtra,2014,18:00 - 21:00,Night,7421,16.72
+Maharashtra,2014,21:00 - 24:00,Night,5324,12.0
+Manipur,2001,00:00 - 03:00,Night,0,0.0
+Manipur,2001,03:00 - 06:00,Night,7,1.71
+Manipur,2001,06:00 - 09:00,Day,82,20.0
+Manipur,2001,09:00 - 12:00,Day,111,27.07
+Manipur,2001,12:00 - 15:00,Day,87,21.22
+Manipur,2001,15:00 - 18:00,Day,87,21.22
+Manipur,2001,18:00 - 21:00,Night,34,8.29
+Manipur,2001,21:00 - 24:00,Night,2,0.49
+Manipur,2002,00:00 - 03:00,Night,0,0.0
+Manipur,2002,03:00 - 06:00,Night,0,0.0
+Manipur,2002,06:00 - 09:00,Day,65,12.5
+Manipur,2002,09:00 - 12:00,Day,161,30.96
+Manipur,2002,12:00 - 15:00,Day,126,24.23
+Manipur,2002,15:00 - 18:00,Day,142,27.31
+Manipur,2002,18:00 - 21:00,Night,21,4.04
+Manipur,2002,21:00 - 24:00,Night,5,0.96
+Manipur,2003,00:00 - 03:00,Night,1,0.19
+Manipur,2003,03:00 - 06:00,Night,18,3.44
+Manipur,2003,06:00 - 09:00,Day,73,13.96
+Manipur,2003,09:00 - 12:00,Day,136,26.0
+Manipur,2003,12:00 - 15:00,Day,92,17.59
+Manipur,2003,15:00 - 18:00,Day,134,25.62
+Manipur,2003,18:00 - 21:00,Night,56,10.71
+Manipur,2003,21:00 - 24:00,Night,13,2.49
+Manipur,2004,00:00 - 03:00,Night,0,0.0
+Manipur,2004,03:00 - 06:00,Night,10,2.14
+Manipur,2004,06:00 - 09:00,Day,50,10.68
+Manipur,2004,09:00 - 12:00,Day,129,27.56
+Manipur,2004,12:00 - 15:00,Day,86,18.38
+Manipur,2004,15:00 - 18:00,Day,115,24.57
+Manipur,2004,18:00 - 21:00,Night,64,13.68
+Manipur,2004,21:00 - 24:00,Night,14,2.99
+Manipur,2005,00:00 - 03:00,Night,13,2.17
+Manipur,2005,03:00 - 06:00,Night,26,4.33
+Manipur,2005,06:00 - 09:00,Day,89,14.83
+Manipur,2005,09:00 - 12:00,Day,110,18.33
+Manipur,2005,12:00 - 15:00,Day,113,18.83
+Manipur,2005,15:00 - 18:00,Day,115,19.17
+Manipur,2005,18:00 - 21:00,Night,103,17.17
+Manipur,2005,21:00 - 24:00,Night,31,5.17
+Manipur,2006,00:00 - 03:00,Night,7,1.34
+Manipur,2006,03:00 - 06:00,Night,27,5.18
+Manipur,2006,06:00 - 09:00,Day,69,13.24
+Manipur,2006,09:00 - 12:00,Day,129,24.76
+Manipur,2006,12:00 - 15:00,Day,114,21.88
+Manipur,2006,15:00 - 18:00,Day,89,17.08
+Manipur,2006,18:00 - 21:00,Night,68,13.05
+Manipur,2006,21:00 - 24:00,Night,18,3.45
+Manipur,2007,00:00 - 03:00,Night,6,1.12
+Manipur,2007,03:00 - 06:00,Night,27,5.02
+Manipur,2007,06:00 - 09:00,Day,70,13.01
+Manipur,2007,09:00 - 12:00,Day,146,27.14
+Manipur,2007,12:00 - 15:00,Day,125,23.23
+Manipur,2007,15:00 - 18:00,Day,89,16.54
+Manipur,2007,18:00 - 21:00,Night,57,10.59
+Manipur,2007,21:00 - 24:00,Night,18,3.35
+Manipur,2008,00:00 - 03:00,Night,11,2.19
+Manipur,2008,03:00 - 06:00,Night,26,5.18
+Manipur,2008,06:00 - 09:00,Day,99,19.72
+Manipur,2008,09:00 - 12:00,Day,134,26.69
+Manipur,2008,12:00 - 15:00,Day,100,19.92
+Manipur,2008,15:00 - 18:00,Day,79,15.74
+Manipur,2008,18:00 - 21:00,Night,41,8.17
+Manipur,2008,21:00 - 24:00,Night,12,2.39
+Manipur,2009,00:00 - 03:00,Night,14,2.42
+Manipur,2009,03:00 - 06:00,Night,24,4.15
+Manipur,2009,06:00 - 09:00,Day,113,19.55
+Manipur,2009,09:00 - 12:00,Day,83,14.36
+Manipur,2009,12:00 - 15:00,Day,93,16.09
+Manipur,2009,15:00 - 18:00,Day,138,23.88
+Manipur,2009,18:00 - 21:00,Night,75,12.98
+Manipur,2009,21:00 - 24:00,Night,38,6.57
+Manipur,2010,00:00 - 03:00,Night,27,4.49
+Manipur,2010,03:00 - 06:00,Night,47,7.81
+Manipur,2010,06:00 - 09:00,Day,75,12.46
+Manipur,2010,09:00 - 12:00,Day,124,20.6
+Manipur,2010,12:00 - 15:00,Day,130,21.59
+Manipur,2010,15:00 - 18:00,Day,116,19.27
+Manipur,2010,18:00 - 21:00,Night,59,9.8
+Manipur,2010,21:00 - 24:00,Night,24,3.99
+Manipur,2011,00:00 - 03:00,Night,26,3.76
+Manipur,2011,03:00 - 06:00,Night,52,7.53
+Manipur,2011,06:00 - 09:00,Day,91,13.17
+Manipur,2011,09:00 - 12:00,Day,123,17.8
+Manipur,2011,12:00 - 15:00,Day,153,22.14
+Manipur,2011,15:00 - 18:00,Day,107,15.48
+Manipur,2011,18:00 - 21:00,Night,105,15.2
+Manipur,2011,21:00 - 24:00,Night,34,4.92
+Manipur,2012,00:00 - 03:00,Night,54,7.0
+Manipur,2012,03:00 - 06:00,Night,75,9.73
+Manipur,2012,06:00 - 09:00,Day,96,12.45
+Manipur,2012,09:00 - 12:00,Day,143,18.55
+Manipur,2012,12:00 - 15:00,Day,126,16.34
+Manipur,2012,15:00 - 18:00,Day,121,15.69
+Manipur,2012,18:00 - 21:00,Night,100,12.97
+Manipur,2012,21:00 - 24:00,Night,56,7.26
+Manipur,2013,00:00 - 03:00,Night,7,1.04
+Manipur,2013,03:00 - 06:00,Night,13,1.94
+Manipur,2013,06:00 - 09:00,Day,64,9.54
+Manipur,2013,09:00 - 12:00,Day,102,15.2
+Manipur,2013,12:00 - 15:00,Day,190,28.32
+Manipur,2013,15:00 - 18:00,Day,142,21.16
+Manipur,2013,18:00 - 21:00,Night,124,18.48
+Manipur,2013,21:00 - 24:00,Night,29,4.32
+Manipur,2014,00:00 - 03:00,Night,7,0.95
+Manipur,2014,03:00 - 06:00,Night,8,1.09
+Manipur,2014,06:00 - 09:00,Day,47,6.39
+Manipur,2014,09:00 - 12:00,Day,162,22.04
+Manipur,2014,12:00 - 15:00,Day,148,20.14
+Manipur,2014,15:00 - 18:00,Day,173,23.54
+Manipur,2014,18:00 - 21:00,Night,141,19.18
+Manipur,2014,21:00 - 24:00,Night,49,6.67
+Meghalaya,2001,00:00 - 03:00,Night,10,6.21
+Meghalaya,2001,03:00 - 06:00,Night,11,6.83
+Meghalaya,2001,06:00 - 09:00,Day,21,13.04
+Meghalaya,2001,09:00 - 12:00,Day,27,16.77
+Meghalaya,2001,12:00 - 15:00,Day,26,16.15
+Meghalaya,2001,15:00 - 18:00,Day,25,15.53
+Meghalaya,2001,18:00 - 21:00,Night,28,17.39
+Meghalaya,2001,21:00 - 24:00,Night,13,8.07
+Meghalaya,2002,00:00 - 03:00,Night,32,6.88
+Meghalaya,2002,03:00 - 06:00,Night,37,7.96
+Meghalaya,2002,06:00 - 09:00,Day,57,12.26
+Meghalaya,2002,09:00 - 12:00,Day,84,18.06
+Meghalaya,2002,12:00 - 15:00,Day,63,13.55
+Meghalaya,2002,15:00 - 18:00,Day,74,15.91
+Meghalaya,2002,18:00 - 21:00,Night,77,16.56
+Meghalaya,2002,21:00 - 24:00,Night,41,8.82
+Meghalaya,2003,00:00 - 03:00,Night,43,11.53
+Meghalaya,2003,03:00 - 06:00,Night,44,11.8
+Meghalaya,2003,06:00 - 09:00,Day,50,13.4
+Meghalaya,2003,09:00 - 12:00,Day,54,14.48
+Meghalaya,2003,12:00 - 15:00,Day,54,14.48
+Meghalaya,2003,15:00 - 18:00,Day,49,13.14
+Meghalaya,2003,18:00 - 21:00,Night,41,10.99
+Meghalaya,2003,21:00 - 24:00,Night,38,10.19
+Meghalaya,2004,00:00 - 03:00,Night,27,8.23
+Meghalaya,2004,03:00 - 06:00,Night,39,11.89
+Meghalaya,2004,06:00 - 09:00,Day,41,12.5
+Meghalaya,2004,09:00 - 12:00,Day,52,15.85
+Meghalaya,2004,12:00 - 15:00,Day,40,12.2
+Meghalaya,2004,15:00 - 18:00,Day,59,17.99
+Meghalaya,2004,18:00 - 21:00,Night,32,9.76
+Meghalaya,2004,21:00 - 24:00,Night,38,11.59
+Meghalaya,2005,00:00 - 03:00,Night,12,3.64
+Meghalaya,2005,03:00 - 06:00,Night,29,8.79
+Meghalaya,2005,06:00 - 09:00,Day,42,12.73
+Meghalaya,2005,09:00 - 12:00,Day,55,16.67
+Meghalaya,2005,12:00 - 15:00,Day,52,15.76
+Meghalaya,2005,15:00 - 18:00,Day,50,15.15
+Meghalaya,2005,18:00 - 21:00,Night,56,16.97
+Meghalaya,2005,21:00 - 24:00,Night,34,10.3
+Meghalaya,2006,00:00 - 03:00,Night,4,2.27
+Meghalaya,2006,03:00 - 06:00,Night,2,1.14
+Meghalaya,2006,06:00 - 09:00,Day,24,13.64
+Meghalaya,2006,09:00 - 12:00,Day,22,12.5
+Meghalaya,2006,12:00 - 15:00,Day,29,16.48
+Meghalaya,2006,15:00 - 18:00,Day,37,21.02
+Meghalaya,2006,18:00 - 21:00,Night,36,20.45
+Meghalaya,2006,21:00 - 24:00,Night,22,12.5
+Meghalaya,2007,00:00 - 03:00,Night,3,1.91
+Meghalaya,2007,03:00 - 06:00,Night,5,3.18
+Meghalaya,2007,06:00 - 09:00,Day,15,9.55
+Meghalaya,2007,09:00 - 12:00,Day,16,10.19
+Meghalaya,2007,12:00 - 15:00,Day,15,9.55
+Meghalaya,2007,15:00 - 18:00,Day,24,15.29
+Meghalaya,2007,18:00 - 21:00,Night,24,15.29
+Meghalaya,2007,21:00 - 24:00,Night,55,35.03
+Meghalaya,2008,00:00 - 03:00,Night,11,5.76
+Meghalaya,2008,03:00 - 06:00,Night,17,8.9
+Meghalaya,2008,06:00 - 09:00,Day,23,12.04
+Meghalaya,2008,09:00 - 12:00,Day,22,11.52
+Meghalaya,2008,12:00 - 15:00,Day,31,16.23
+Meghalaya,2008,15:00 - 18:00,Day,26,13.61
+Meghalaya,2008,18:00 - 21:00,Night,22,11.52
+Meghalaya,2008,21:00 - 24:00,Night,39,20.42
+Meghalaya,2009,00:00 - 03:00,Night,17,5.41
+Meghalaya,2009,03:00 - 06:00,Night,16,5.1
+Meghalaya,2009,06:00 - 09:00,Day,37,11.78
+Meghalaya,2009,09:00 - 12:00,Day,48,15.29
+Meghalaya,2009,12:00 - 15:00,Day,55,17.52
+Meghalaya,2009,15:00 - 18:00,Day,53,16.88
+Meghalaya,2009,18:00 - 21:00,Night,48,15.29
+Meghalaya,2009,21:00 - 24:00,Night,40,12.74
+Meghalaya,2010,00:00 - 03:00,Night,17,6.61
+Meghalaya,2010,03:00 - 06:00,Night,21,8.17
+Meghalaya,2010,06:00 - 09:00,Day,25,9.73
+Meghalaya,2010,09:00 - 12:00,Day,39,15.18
+Meghalaya,2010,12:00 - 15:00,Day,49,19.07
+Meghalaya,2010,15:00 - 18:00,Day,43,16.73
+Meghalaya,2010,18:00 - 21:00,Night,32,12.45
+Meghalaya,2010,21:00 - 24:00,Night,31,12.06
+Meghalaya,2011,00:00 - 03:00,Night,10,3.83
+Meghalaya,2011,03:00 - 06:00,Night,22,8.43
+Meghalaya,2011,06:00 - 09:00,Day,37,14.18
+Meghalaya,2011,09:00 - 12:00,Day,38,14.56
+Meghalaya,2011,12:00 - 15:00,Day,42,16.09
+Meghalaya,2011,15:00 - 18:00,Day,47,18.01
+Meghalaya,2011,18:00 - 21:00,Night,39,14.94
+Meghalaya,2011,21:00 - 24:00,Night,26,9.96
+Meghalaya,2012,00:00 - 03:00,Night,25,7.04
+Meghalaya,2012,03:00 - 06:00,Night,29,8.17
+Meghalaya,2012,06:00 - 09:00,Day,45,12.68
+Meghalaya,2012,09:00 - 12:00,Day,61,17.18
+Meghalaya,2012,12:00 - 15:00,Day,60,16.9
+Meghalaya,2012,15:00 - 18:00,Day,59,16.62
+Meghalaya,2012,18:00 - 21:00,Night,39,10.99
+Meghalaya,2012,21:00 - 24:00,Night,37,10.42
+Meghalaya,2013,00:00 - 03:00,Night,7,3.61
+Meghalaya,2013,03:00 - 06:00,Night,17,8.76
+Meghalaya,2013,06:00 - 09:00,Day,21,10.82
+Meghalaya,2013,09:00 - 12:00,Day,23,11.86
+Meghalaya,2013,12:00 - 15:00,Day,29,14.95
+Meghalaya,2013,15:00 - 18:00,Day,28,14.43
+Meghalaya,2013,18:00 - 21:00,Night,38,19.59
+Meghalaya,2013,21:00 - 24:00,Night,31,15.98
+Meghalaya,2014,00:00 - 03:00,Night,10,3.32
+Meghalaya,2014,03:00 - 06:00,Night,19,6.31
+Meghalaya,2014,06:00 - 09:00,Day,30,9.97
+Meghalaya,2014,09:00 - 12:00,Day,45,14.95
+Meghalaya,2014,12:00 - 15:00,Day,59,19.6
+Meghalaya,2014,15:00 - 18:00,Day,55,18.27
+Meghalaya,2014,18:00 - 21:00,Night,50,16.61
+Meghalaya,2014,21:00 - 24:00,Night,33,10.96
+Mizoram,2001,00:00 - 03:00,Night,5,6.94
+Mizoram,2001,03:00 - 06:00,Night,5,6.94
+Mizoram,2001,06:00 - 09:00,Day,10,13.89
+Mizoram,2001,09:00 - 12:00,Day,12,16.67
+Mizoram,2001,12:00 - 15:00,Day,11,15.28
+Mizoram,2001,15:00 - 18:00,Day,9,12.5
+Mizoram,2001,18:00 - 21:00,Night,14,19.44
+Mizoram,2001,21:00 - 24:00,Night,6,8.33
+Mizoram,2002,00:00 - 03:00,Night,1,2.44
+Mizoram,2002,03:00 - 06:00,Night,5,12.2
+Mizoram,2002,06:00 - 09:00,Day,4,9.76
+Mizoram,2002,09:00 - 12:00,Day,9,21.95
+Mizoram,2002,12:00 - 15:00,Day,8,19.51
+Mizoram,2002,15:00 - 18:00,Day,4,9.76
+Mizoram,2002,18:00 - 21:00,Night,3,7.32
+Mizoram,2002,21:00 - 24:00,Night,7,17.07
+Mizoram,2003,00:00 - 03:00,Night,8,11.27
+Mizoram,2003,03:00 - 06:00,Night,6,8.45
+Mizoram,2003,06:00 - 09:00,Day,8,11.27
+Mizoram,2003,09:00 - 12:00,Day,8,11.27
+Mizoram,2003,12:00 - 15:00,Day,13,18.31
+Mizoram,2003,15:00 - 18:00,Day,8,11.27
+Mizoram,2003,18:00 - 21:00,Night,9,12.68
+Mizoram,2003,21:00 - 24:00,Night,11,15.49
+Mizoram,2004,00:00 - 03:00,Night,2,5.26
+Mizoram,2004,03:00 - 06:00,Night,5,13.16
+Mizoram,2004,06:00 - 09:00,Day,4,10.53
+Mizoram,2004,09:00 - 12:00,Day,6,15.79
+Mizoram,2004,12:00 - 15:00,Day,7,18.42
+Mizoram,2004,15:00 - 18:00,Day,4,10.53
+Mizoram,2004,18:00 - 21:00,Night,3,7.89
+Mizoram,2004,21:00 - 24:00,Night,7,18.42
+Mizoram,2005,00:00 - 03:00,Night,3,4.23
+Mizoram,2005,03:00 - 06:00,Night,2,2.82
+Mizoram,2005,06:00 - 09:00,Day,5,7.04
+Mizoram,2005,09:00 - 12:00,Day,9,12.68
+Mizoram,2005,12:00 - 15:00,Day,15,21.13
+Mizoram,2005,15:00 - 18:00,Day,18,25.35
+Mizoram,2005,18:00 - 21:00,Night,16,22.54
+Mizoram,2005,21:00 - 24:00,Night,3,4.23
+Mizoram,2006,00:00 - 03:00,Night,3,4.17
+Mizoram,2006,03:00 - 06:00,Night,9,12.5
+Mizoram,2006,06:00 - 09:00,Day,7,9.72
+Mizoram,2006,09:00 - 12:00,Day,10,13.89
+Mizoram,2006,12:00 - 15:00,Day,7,9.72
+Mizoram,2006,15:00 - 18:00,Day,13,18.06
+Mizoram,2006,18:00 - 21:00,Night,13,18.06
+Mizoram,2006,21:00 - 24:00,Night,10,13.89
+Mizoram,2007,00:00 - 03:00,Night,1,1.92
+Mizoram,2007,03:00 - 06:00,Night,1,1.92
+Mizoram,2007,06:00 - 09:00,Day,3,5.77
+Mizoram,2007,09:00 - 12:00,Day,9,17.31
+Mizoram,2007,12:00 - 15:00,Day,14,26.92
+Mizoram,2007,15:00 - 18:00,Day,15,28.85
+Mizoram,2007,18:00 - 21:00,Night,8,15.38
+Mizoram,2007,21:00 - 24:00,Night,1,1.92
+Mizoram,2008,00:00 - 03:00,Night,12,13.79
+Mizoram,2008,03:00 - 06:00,Night,9,10.34
+Mizoram,2008,06:00 - 09:00,Day,9,10.34
+Mizoram,2008,09:00 - 12:00,Day,12,13.79
+Mizoram,2008,12:00 - 15:00,Day,9,10.34
+Mizoram,2008,15:00 - 18:00,Day,12,13.79
+Mizoram,2008,18:00 - 21:00,Night,16,18.39
+Mizoram,2008,21:00 - 24:00,Night,8,9.2
+Mizoram,2009,00:00 - 03:00,Night,9,12.68
+Mizoram,2009,03:00 - 06:00,Night,7,9.86
+Mizoram,2009,06:00 - 09:00,Day,9,12.68
+Mizoram,2009,09:00 - 12:00,Day,4,5.63
+Mizoram,2009,12:00 - 15:00,Day,7,9.86
+Mizoram,2009,15:00 - 18:00,Day,4,5.63
+Mizoram,2009,18:00 - 21:00,Night,16,22.54
+Mizoram,2009,21:00 - 24:00,Night,15,21.13
+Mizoram,2010,00:00 - 03:00,Night,14,11.2
+Mizoram,2010,03:00 - 06:00,Night,13,10.4
+Mizoram,2010,06:00 - 09:00,Day,24,19.2
+Mizoram,2010,09:00 - 12:00,Day,12,9.6
+Mizoram,2010,12:00 - 15:00,Day,13,10.4
+Mizoram,2010,15:00 - 18:00,Day,16,12.8
+Mizoram,2010,18:00 - 21:00,Night,20,16.0
+Mizoram,2010,21:00 - 24:00,Night,13,10.4
+Mizoram,2011,00:00 - 03:00,Night,5,5.15
+Mizoram,2011,03:00 - 06:00,Night,3,3.09
+Mizoram,2011,06:00 - 09:00,Day,10,10.31
+Mizoram,2011,09:00 - 12:00,Day,9,9.28
+Mizoram,2011,12:00 - 15:00,Day,8,8.25
+Mizoram,2011,15:00 - 18:00,Day,24,24.74
+Mizoram,2011,18:00 - 21:00,Night,20,20.62
+Mizoram,2011,21:00 - 24:00,Night,18,18.56
+Mizoram,2012,00:00 - 03:00,Night,2,1.82
+Mizoram,2012,03:00 - 06:00,Night,11,10.0
+Mizoram,2012,06:00 - 09:00,Day,16,14.55
+Mizoram,2012,09:00 - 12:00,Day,26,23.64
+Mizoram,2012,12:00 - 15:00,Day,15,13.64
+Mizoram,2012,15:00 - 18:00,Day,24,21.82
+Mizoram,2012,18:00 - 21:00,Night,9,8.18
+Mizoram,2012,21:00 - 24:00,Night,7,6.36
+Mizoram,2013,00:00 - 03:00,Night,4,3.51
+Mizoram,2013,03:00 - 06:00,Night,5,4.39
+Mizoram,2013,06:00 - 09:00,Day,9,7.89
+Mizoram,2013,09:00 - 12:00,Day,17,14.91
+Mizoram,2013,12:00 - 15:00,Day,16,14.04
+Mizoram,2013,15:00 - 18:00,Day,26,22.81
+Mizoram,2013,18:00 - 21:00,Night,20,17.54
+Mizoram,2013,21:00 - 24:00,Night,17,14.91
+Mizoram,2014,00:00 - 03:00,Night,5,5.26
+Mizoram,2014,03:00 - 06:00,Night,12,12.63
+Mizoram,2014,06:00 - 09:00,Day,11,11.58
+Mizoram,2014,09:00 - 12:00,Day,9,9.47
+Mizoram,2014,12:00 - 15:00,Day,11,11.58
+Mizoram,2014,15:00 - 18:00,Day,20,21.05
+Mizoram,2014,18:00 - 21:00,Night,15,15.79
+Mizoram,2014,21:00 - 24:00,Night,12,12.63
+Nagaland,2001,00:00 - 03:00,Night,0,0.0
+Nagaland,2001,03:00 - 06:00,Night,1,1.67
+Nagaland,2001,06:00 - 09:00,Day,3,5.0
+Nagaland,2001,09:00 - 12:00,Day,3,5.0
+Nagaland,2001,12:00 - 15:00,Day,9,15.0
+Nagaland,2001,15:00 - 18:00,Day,21,35.0
+Nagaland,2001,18:00 - 21:00,Night,19,31.67
+Nagaland,2001,21:00 - 24:00,Night,4,6.67
+Nagaland,2002,00:00 - 03:00,Night,2,5.88
+Nagaland,2002,03:00 - 06:00,Night,4,11.76
+Nagaland,2002,06:00 - 09:00,Day,4,11.76
+Nagaland,2002,09:00 - 12:00,Day,7,20.59
+Nagaland,2002,12:00 - 15:00,Day,4,11.76
+Nagaland,2002,15:00 - 18:00,Day,9,26.47
+Nagaland,2002,18:00 - 21:00,Night,3,8.82
+Nagaland,2002,21:00 - 24:00,Night,1,2.94
+Nagaland,2003,00:00 - 03:00,Night,1,1.79
+Nagaland,2003,03:00 - 06:00,Night,2,3.57
+Nagaland,2003,06:00 - 09:00,Day,8,14.29
+Nagaland,2003,09:00 - 12:00,Day,11,19.64
+Nagaland,2003,12:00 - 15:00,Day,7,12.5
+Nagaland,2003,15:00 - 18:00,Day,11,19.64
+Nagaland,2003,18:00 - 21:00,Night,13,23.21
+Nagaland,2003,21:00 - 24:00,Night,3,5.36
+Nagaland,2004,00:00 - 03:00,Night,3,4.41
+Nagaland,2004,03:00 - 06:00,Night,2,2.94
+Nagaland,2004,06:00 - 09:00,Day,7,10.29
+Nagaland,2004,09:00 - 12:00,Day,17,25.0
+Nagaland,2004,12:00 - 15:00,Day,9,13.24
+Nagaland,2004,15:00 - 18:00,Day,15,22.06
+Nagaland,2004,18:00 - 21:00,Night,11,16.18
+Nagaland,2004,21:00 - 24:00,Night,4,5.88
+Nagaland,2005,00:00 - 03:00,Night,3,5.66
+Nagaland,2005,03:00 - 06:00,Night,1,1.89
+Nagaland,2005,06:00 - 09:00,Day,6,11.32
+Nagaland,2005,09:00 - 12:00,Day,12,22.64
+Nagaland,2005,12:00 - 15:00,Day,13,24.53
+Nagaland,2005,15:00 - 18:00,Day,9,16.98
+Nagaland,2005,18:00 - 21:00,Night,7,13.21
+Nagaland,2005,21:00 - 24:00,Night,2,3.77
+Nagaland,2006,00:00 - 03:00,Night,4,5.19
+Nagaland,2006,03:00 - 06:00,Night,5,6.49
+Nagaland,2006,06:00 - 09:00,Day,10,12.99
+Nagaland,2006,09:00 - 12:00,Day,17,22.08
+Nagaland,2006,12:00 - 15:00,Day,10,12.99
+Nagaland,2006,15:00 - 18:00,Day,15,19.48
+Nagaland,2006,18:00 - 21:00,Night,11,14.29
+Nagaland,2006,21:00 - 24:00,Night,5,6.49
+Nagaland,2007,00:00 - 03:00,Night,4,5.33
+Nagaland,2007,03:00 - 06:00,Night,2,2.67
+Nagaland,2007,06:00 - 09:00,Day,13,17.33
+Nagaland,2007,09:00 - 12:00,Day,15,20.0
+Nagaland,2007,12:00 - 15:00,Day,18,24.0
+Nagaland,2007,15:00 - 18:00,Day,6,8.0
+Nagaland,2007,18:00 - 21:00,Night,10,13.33
+Nagaland,2007,21:00 - 24:00,Night,7,9.33
+Nagaland,2008,00:00 - 03:00,Night,0,0.0
+Nagaland,2008,03:00 - 06:00,Night,2,1.59
+Nagaland,2008,06:00 - 09:00,Day,12,9.52
+Nagaland,2008,09:00 - 12:00,Day,18,14.29
+Nagaland,2008,12:00 - 15:00,Day,28,22.22
+Nagaland,2008,15:00 - 18:00,Day,28,22.22
+Nagaland,2008,18:00 - 21:00,Night,26,20.63
+Nagaland,2008,21:00 - 24:00,Night,12,9.52
+Nagaland,2009,00:00 - 03:00,Night,1,2.13
+Nagaland,2009,03:00 - 06:00,Night,2,4.26
+Nagaland,2009,06:00 - 09:00,Day,7,14.89
+Nagaland,2009,09:00 - 12:00,Day,5,10.64
+Nagaland,2009,12:00 - 15:00,Day,11,23.4
+Nagaland,2009,15:00 - 18:00,Day,10,21.28
+Nagaland,2009,18:00 - 21:00,Night,3,6.38
+Nagaland,2009,21:00 - 24:00,Night,8,17.02
+Nagaland,2010,00:00 - 03:00,Night,0,0.0
+Nagaland,2010,03:00 - 06:00,Night,1,2.27
+Nagaland,2010,06:00 - 09:00,Day,6,13.64
+Nagaland,2010,09:00 - 12:00,Day,4,9.09
+Nagaland,2010,12:00 - 15:00,Day,13,29.55
+Nagaland,2010,15:00 - 18:00,Day,9,20.45
+Nagaland,2010,18:00 - 21:00,Night,3,6.82
+Nagaland,2010,21:00 - 24:00,Night,8,18.18
+Nagaland,2011,00:00 - 03:00,Night,2,6.25
+Nagaland,2011,03:00 - 06:00,Night,4,12.5
+Nagaland,2011,06:00 - 09:00,Day,2,6.25
+Nagaland,2011,09:00 - 12:00,Day,4,12.5
+Nagaland,2011,12:00 - 15:00,Day,6,18.75
+Nagaland,2011,15:00 - 18:00,Day,8,25.0
+Nagaland,2011,18:00 - 21:00,Night,3,9.38
+Nagaland,2011,21:00 - 24:00,Night,3,9.38
+Nagaland,2012,00:00 - 03:00,Night,6,14.29
+Nagaland,2012,03:00 - 06:00,Night,0,0.0
+Nagaland,2012,06:00 - 09:00,Day,3,7.14
+Nagaland,2012,09:00 - 12:00,Day,4,9.52
+Nagaland,2012,12:00 - 15:00,Day,7,16.67
+Nagaland,2012,15:00 - 18:00,Day,6,14.29
+Nagaland,2012,18:00 - 21:00,Night,7,16.67
+Nagaland,2012,21:00 - 24:00,Night,9,21.43
+Nagaland,2013,00:00 - 03:00,Night,0,0.0
+Nagaland,2013,03:00 - 06:00,Night,2,5.13
+Nagaland,2013,06:00 - 09:00,Day,5,12.82
+Nagaland,2013,09:00 - 12:00,Day,7,17.95
+Nagaland,2013,12:00 - 15:00,Day,10,25.64
+Nagaland,2013,15:00 - 18:00,Day,5,12.82
+Nagaland,2013,18:00 - 21:00,Night,6,15.38
+Nagaland,2013,21:00 - 24:00,Night,4,10.26
+Nagaland,2014,00:00 - 03:00,Night,0,0.0
+Nagaland,2014,03:00 - 06:00,Night,2,7.14
+Nagaland,2014,06:00 - 09:00,Day,3,10.71
+Nagaland,2014,09:00 - 12:00,Day,3,10.71
+Nagaland,2014,12:00 - 15:00,Day,8,28.57
+Nagaland,2014,15:00 - 18:00,Day,6,21.43
+Nagaland,2014,18:00 - 21:00,Night,5,17.86
+Nagaland,2014,21:00 - 24:00,Night,1,3.57
+Odisha,2001,00:00 - 03:00,Night,517,8.07
+Odisha,2001,03:00 - 06:00,Night,811,12.66
+Odisha,2001,06:00 - 09:00,Day,1153,18.0
+Odisha,2001,09:00 - 12:00,Day,1005,15.69
+Odisha,2001,12:00 - 15:00,Day,797,12.44
+Odisha,2001,15:00 - 18:00,Day,781,12.19
+Odisha,2001,18:00 - 21:00,Night,715,11.16
+Odisha,2001,21:00 - 24:00,Night,627,9.79
+Odisha,2002,00:00 - 03:00,Night,480,7.01
+Odisha,2002,03:00 - 06:00,Night,722,10.54
+Odisha,2002,06:00 - 09:00,Day,1086,15.85
+Odisha,2002,09:00 - 12:00,Day,1132,16.53
+Odisha,2002,12:00 - 15:00,Day,933,13.62
+Odisha,2002,15:00 - 18:00,Day,941,13.74
+Odisha,2002,18:00 - 21:00,Night,921,13.45
+Odisha,2002,21:00 - 24:00,Night,635,9.27
+Odisha,2003,00:00 - 03:00,Night,427,6.4
+Odisha,2003,03:00 - 06:00,Night,949,14.22
+Odisha,2003,06:00 - 09:00,Day,1113,16.67
+Odisha,2003,09:00 - 12:00,Day,1020,15.28
+Odisha,2003,12:00 - 15:00,Day,756,11.33
+Odisha,2003,15:00 - 18:00,Day,863,12.93
+Odisha,2003,18:00 - 21:00,Night,900,13.48
+Odisha,2003,21:00 - 24:00,Night,647,9.69
+Odisha,2004,00:00 - 03:00,Night,506,6.95
+Odisha,2004,03:00 - 06:00,Night,805,11.06
+Odisha,2004,06:00 - 09:00,Day,943,12.96
+Odisha,2004,09:00 - 12:00,Day,1126,15.47
+Odisha,2004,12:00 - 15:00,Day,844,11.6
+Odisha,2004,15:00 - 18:00,Day,1168,16.05
+Odisha,2004,18:00 - 21:00,Night,1097,15.07
+Odisha,2004,21:00 - 24:00,Night,789,10.84
+Odisha,2005,00:00 - 03:00,Night,478,6.3
+Odisha,2005,03:00 - 06:00,Night,810,10.67
+Odisha,2005,06:00 - 09:00,Day,1002,13.2
+Odisha,2005,09:00 - 12:00,Day,1317,17.34
+Odisha,2005,12:00 - 15:00,Day,981,12.92
+Odisha,2005,15:00 - 18:00,Day,1251,16.48
+Odisha,2005,18:00 - 21:00,Night,1127,14.84
+Odisha,2005,21:00 - 24:00,Night,627,8.26
+Odisha,2006,00:00 - 03:00,Night,547,7.08
+Odisha,2006,03:00 - 06:00,Night,999,12.93
+Odisha,2006,06:00 - 09:00,Day,986,12.76
+Odisha,2006,09:00 - 12:00,Day,1259,16.29
+Odisha,2006,12:00 - 15:00,Day,932,12.06
+Odisha,2006,15:00 - 18:00,Day,1230,15.91
+Odisha,2006,18:00 - 21:00,Night,1038,13.43
+Odisha,2006,21:00 - 24:00,Night,738,9.55
+Odisha,2007,00:00 - 03:00,Night,632,7.69
+Odisha,2007,03:00 - 06:00,Night,904,11.01
+Odisha,2007,06:00 - 09:00,Day,1065,12.97
+Odisha,2007,09:00 - 12:00,Day,1454,17.7
+Odisha,2007,12:00 - 15:00,Day,951,11.58
+Odisha,2007,15:00 - 18:00,Day,1324,16.12
+Odisha,2007,18:00 - 21:00,Night,1060,12.9
+Odisha,2007,21:00 - 24:00,Night,824,10.03
+Odisha,2008,00:00 - 03:00,Night,595,7.27
+Odisha,2008,03:00 - 06:00,Night,858,10.48
+Odisha,2008,06:00 - 09:00,Day,1076,13.15
+Odisha,2008,09:00 - 12:00,Day,1371,16.75
+Odisha,2008,12:00 - 15:00,Day,1075,13.14
+Odisha,2008,15:00 - 18:00,Day,1371,16.75
+Odisha,2008,18:00 - 21:00,Night,1033,12.62
+Odisha,2008,21:00 - 24:00,Night,805,9.84
+Odisha,2009,00:00 - 03:00,Night,608,6.84
+Odisha,2009,03:00 - 06:00,Night,836,9.4
+Odisha,2009,06:00 - 09:00,Day,1046,11.76
+Odisha,2009,09:00 - 12:00,Day,1501,16.88
+Odisha,2009,12:00 - 15:00,Day,1218,13.7
+Odisha,2009,15:00 - 18:00,Day,1433,16.12
+Odisha,2009,18:00 - 21:00,Night,1313,14.77
+Odisha,2009,21:00 - 24:00,Night,937,10.54
+Odisha,2010,00:00 - 03:00,Night,724,7.69
+Odisha,2010,03:00 - 06:00,Night,928,9.86
+Odisha,2010,06:00 - 09:00,Day,1031,10.95
+Odisha,2010,09:00 - 12:00,Day,1504,15.98
+Odisha,2010,12:00 - 15:00,Day,1349,14.33
+Odisha,2010,15:00 - 18:00,Day,1492,15.85
+Odisha,2010,18:00 - 21:00,Night,1416,15.04
+Odisha,2010,21:00 - 24:00,Night,969,10.29
+Odisha,2011,00:00 - 03:00,Night,756,8.04
+Odisha,2011,03:00 - 06:00,Night,1015,10.8
+Odisha,2011,06:00 - 09:00,Day,1043,11.1
+Odisha,2011,09:00 - 12:00,Day,1442,15.34
+Odisha,2011,12:00 - 15:00,Day,1179,12.55
+Odisha,2011,15:00 - 18:00,Day,1516,16.13
+Odisha,2011,18:00 - 21:00,Night,1390,14.79
+Odisha,2011,21:00 - 24:00,Night,1057,11.25
+Odisha,2012,00:00 - 03:00,Night,978,10.53
+Odisha,2012,03:00 - 06:00,Night,1289,13.88
+Odisha,2012,06:00 - 09:00,Day,950,10.23
+Odisha,2012,09:00 - 12:00,Day,1189,12.81
+Odisha,2012,12:00 - 15:00,Day,1096,11.8
+Odisha,2012,15:00 - 18:00,Day,1261,13.58
+Odisha,2012,18:00 - 21:00,Night,1509,16.25
+Odisha,2012,21:00 - 24:00,Night,1013,10.91
+Odisha,2013,00:00 - 03:00,Night,780,8.06
+Odisha,2013,03:00 - 06:00,Night,1029,10.63
+Odisha,2013,06:00 - 09:00,Day,1100,11.36
+Odisha,2013,09:00 - 12:00,Day,1452,15.0
+Odisha,2013,12:00 - 15:00,Day,1188,12.27
+Odisha,2013,15:00 - 18:00,Day,1520,15.7
+Odisha,2013,18:00 - 21:00,Night,1518,15.68
+Odisha,2013,21:00 - 24:00,Night,1093,11.29
+Odisha,2014,00:00 - 03:00,Night,661,6.86
+Odisha,2014,03:00 - 06:00,Night,880,9.13
+Odisha,2014,06:00 - 09:00,Day,1099,11.4
+Odisha,2014,09:00 - 12:00,Day,1413,14.66
+Odisha,2014,12:00 - 15:00,Day,1283,13.31
+Odisha,2014,15:00 - 18:00,Day,1651,17.13
+Odisha,2014,18:00 - 21:00,Night,1564,16.22
+Odisha,2014,21:00 - 24:00,Night,1089,11.3
+Puducherry,2001,00:00 - 03:00,Night,24,1.87
+Puducherry,2001,03:00 - 06:00,Night,53,4.12
+Puducherry,2001,06:00 - 09:00,Day,141,10.96
+Puducherry,2001,09:00 - 12:00,Day,263,20.45
+Puducherry,2001,12:00 - 15:00,Day,236,18.35
+Puducherry,2001,15:00 - 18:00,Day,255,19.83
+Puducherry,2001,18:00 - 21:00,Night,235,18.27
+Puducherry,2001,21:00 - 24:00,Night,79,6.14
+Puducherry,2002,00:00 - 03:00,Night,36,2.43
+Puducherry,2002,03:00 - 06:00,Night,44,2.96
+Puducherry,2002,06:00 - 09:00,Day,164,11.05
+Puducherry,2002,09:00 - 12:00,Day,268,18.06
+Puducherry,2002,12:00 - 15:00,Day,264,17.79
+Puducherry,2002,15:00 - 18:00,Day,283,19.07
+Puducherry,2002,18:00 - 21:00,Night,275,18.53
+Puducherry,2002,21:00 - 24:00,Night,150,10.11
+Puducherry,2003,00:00 - 03:00,Night,40,2.52
+Puducherry,2003,03:00 - 06:00,Night,44,2.77
+Puducherry,2003,06:00 - 09:00,Day,212,13.37
+Puducherry,2003,09:00 - 12:00,Day,302,19.04
+Puducherry,2003,12:00 - 15:00,Day,256,16.14
+Puducherry,2003,15:00 - 18:00,Day,285,17.97
+Puducherry,2003,18:00 - 21:00,Night,290,18.28
+Puducherry,2003,21:00 - 24:00,Night,157,9.9
+Puducherry,2004,00:00 - 03:00,Night,48,2.94
+Puducherry,2004,03:00 - 06:00,Night,53,3.25
+Puducherry,2004,06:00 - 09:00,Day,206,12.61
+Puducherry,2004,09:00 - 12:00,Day,263,16.11
+Puducherry,2004,12:00 - 15:00,Day,277,16.96
+Puducherry,2004,15:00 - 18:00,Day,309,18.92
+Puducherry,2004,18:00 - 21:00,Night,325,19.9
+Puducherry,2004,21:00 - 24:00,Night,152,9.31
+Puducherry,2005,00:00 - 03:00,Night,57,3.2
+Puducherry,2005,03:00 - 06:00,Night,81,4.55
+Puducherry,2005,06:00 - 09:00,Day,234,13.15
+Puducherry,2005,09:00 - 12:00,Day,271,15.22
+Puducherry,2005,12:00 - 15:00,Day,284,15.96
+Puducherry,2005,15:00 - 18:00,Day,302,16.97
+Puducherry,2005,18:00 - 21:00,Night,390,21.91
+Puducherry,2005,21:00 - 24:00,Night,161,9.04
+Puducherry,2006,00:00 - 03:00,Night,31,1.89
+Puducherry,2006,03:00 - 06:00,Night,18,1.1
+Puducherry,2006,06:00 - 09:00,Day,146,8.91
+Puducherry,2006,09:00 - 12:00,Day,331,20.2
+Puducherry,2006,12:00 - 15:00,Day,312,19.04
+Puducherry,2006,15:00 - 18:00,Day,285,17.39
+Puducherry,2006,18:00 - 21:00,Night,314,19.16
+Puducherry,2006,21:00 - 24:00,Night,202,12.32
+Puducherry,2007,00:00 - 03:00,Night,51,2.92
+Puducherry,2007,03:00 - 06:00,Night,72,4.13
+Puducherry,2007,06:00 - 09:00,Day,250,14.33
+Puducherry,2007,09:00 - 12:00,Day,312,17.89
+Puducherry,2007,12:00 - 15:00,Day,262,15.02
+Puducherry,2007,15:00 - 18:00,Day,301,17.26
+Puducherry,2007,18:00 - 21:00,Night,355,20.36
+Puducherry,2007,21:00 - 24:00,Night,141,8.08
+Puducherry,2008,00:00 - 03:00,Night,53,3.12
+Puducherry,2008,03:00 - 06:00,Night,49,2.89
+Puducherry,2008,06:00 - 09:00,Day,189,11.13
+Puducherry,2008,09:00 - 12:00,Day,266,15.67
+Puducherry,2008,12:00 - 15:00,Day,270,15.9
+Puducherry,2008,15:00 - 18:00,Day,287,16.9
+Puducherry,2008,18:00 - 21:00,Night,360,21.2
+Puducherry,2008,21:00 - 24:00,Night,224,13.19
+Puducherry,2009,00:00 - 03:00,Night,41,2.41
+Puducherry,2009,03:00 - 06:00,Night,48,2.83
+Puducherry,2009,06:00 - 09:00,Day,232,13.66
+Puducherry,2009,09:00 - 12:00,Day,264,15.55
+Puducherry,2009,12:00 - 15:00,Day,257,15.14
+Puducherry,2009,15:00 - 18:00,Day,295,17.37
+Puducherry,2009,18:00 - 21:00,Night,340,20.02
+Puducherry,2009,21:00 - 24:00,Night,221,13.02
+Puducherry,2010,00:00 - 03:00,Night,43,2.81
+Puducherry,2010,03:00 - 06:00,Night,61,3.99
+Puducherry,2010,06:00 - 09:00,Day,155,10.14
+Puducherry,2010,09:00 - 12:00,Day,251,16.42
+Puducherry,2010,12:00 - 15:00,Day,238,15.57
+Puducherry,2010,15:00 - 18:00,Day,272,17.79
+Puducherry,2010,18:00 - 21:00,Night,319,20.86
+Puducherry,2010,21:00 - 24:00,Night,190,12.43
+Puducherry,2011,00:00 - 03:00,Night,38,2.57
+Puducherry,2011,03:00 - 06:00,Night,66,4.46
+Puducherry,2011,06:00 - 09:00,Day,174,11.76
+Puducherry,2011,09:00 - 12:00,Day,234,15.81
+Puducherry,2011,12:00 - 15:00,Day,246,16.62
+Puducherry,2011,15:00 - 18:00,Day,285,19.26
+Puducherry,2011,18:00 - 21:00,Night,307,20.74
+Puducherry,2011,21:00 - 24:00,Night,130,8.78
+Puducherry,2012,00:00 - 03:00,Night,35,2.32
+Puducherry,2012,03:00 - 06:00,Night,66,4.37
+Puducherry,2012,06:00 - 09:00,Day,209,13.84
+Puducherry,2012,09:00 - 12:00,Day,276,18.28
+Puducherry,2012,12:00 - 15:00,Day,202,13.38
+Puducherry,2012,15:00 - 18:00,Day,229,15.17
+Puducherry,2012,18:00 - 21:00,Night,319,21.13
+Puducherry,2012,21:00 - 24:00,Night,174,11.52
+Puducherry,2013,00:00 - 03:00,Night,31,2.14
+Puducherry,2013,03:00 - 06:00,Night,58,4.0
+Puducherry,2013,06:00 - 09:00,Day,162,11.16
+Puducherry,2013,09:00 - 12:00,Day,207,14.27
+Puducherry,2013,12:00 - 15:00,Day,225,15.51
+Puducherry,2013,15:00 - 18:00,Day,267,18.4
+Puducherry,2013,18:00 - 21:00,Night,336,23.16
+Puducherry,2013,21:00 - 24:00,Night,165,11.37
+Puducherry,2014,00:00 - 03:00,Night,28,4.17
+Puducherry,2014,03:00 - 06:00,Night,23,3.43
+Puducherry,2014,06:00 - 09:00,Day,58,8.64
+Puducherry,2014,09:00 - 12:00,Day,109,16.24
+Puducherry,2014,12:00 - 15:00,Day,97,14.46
+Puducherry,2014,15:00 - 18:00,Day,179,26.68
+Puducherry,2014,18:00 - 21:00,Night,115,17.14
+Puducherry,2014,21:00 - 24:00,Night,62,9.24
+Punjab,2001,00:00 - 03:00,Night,167,9.24
+Punjab,2001,03:00 - 06:00,Night,185,10.23
+Punjab,2001,06:00 - 09:00,Day,219,12.11
+Punjab,2001,09:00 - 12:00,Day,271,14.99
+Punjab,2001,12:00 - 15:00,Day,233,12.89
+Punjab,2001,15:00 - 18:00,Day,252,13.94
+Punjab,2001,18:00 - 21:00,Night,285,15.76
+Punjab,2001,21:00 - 24:00,Night,196,10.84
+Punjab,2002,00:00 - 03:00,Night,163,10.81
+Punjab,2002,03:00 - 06:00,Night,170,11.27
+Punjab,2002,06:00 - 09:00,Day,185,12.27
+Punjab,2002,09:00 - 12:00,Day,197,13.06
+Punjab,2002,12:00 - 15:00,Day,191,12.67
+Punjab,2002,15:00 - 18:00,Day,196,13.0
+Punjab,2002,18:00 - 21:00,Night,205,13.59
+Punjab,2002,21:00 - 24:00,Night,201,13.33
+Punjab,2003,00:00 - 03:00,Night,140,8.73
+Punjab,2003,03:00 - 06:00,Night,199,12.41
+Punjab,2003,06:00 - 09:00,Day,207,12.91
+Punjab,2003,09:00 - 12:00,Day,221,13.79
+Punjab,2003,12:00 - 15:00,Day,167,10.42
+Punjab,2003,15:00 - 18:00,Day,202,12.6
+Punjab,2003,18:00 - 21:00,Night,247,15.41
+Punjab,2003,21:00 - 24:00,Night,220,13.72
+Punjab,2004,00:00 - 03:00,Night,189,9.28
+Punjab,2004,03:00 - 06:00,Night,248,12.18
+Punjab,2004,06:00 - 09:00,Day,250,12.28
+Punjab,2004,09:00 - 12:00,Day,270,13.26
+Punjab,2004,12:00 - 15:00,Day,222,10.9
+Punjab,2004,15:00 - 18:00,Day,273,13.41
+Punjab,2004,18:00 - 21:00,Night,333,16.36
+Punjab,2004,21:00 - 24:00,Night,251,12.33
+Punjab,2005,00:00 - 03:00,Night,200,9.29
+Punjab,2005,03:00 - 06:00,Night,262,12.17
+Punjab,2005,06:00 - 09:00,Day,264,12.27
+Punjab,2005,09:00 - 12:00,Day,285,13.24
+Punjab,2005,12:00 - 15:00,Day,235,10.92
+Punjab,2005,15:00 - 18:00,Day,289,13.43
+Punjab,2005,18:00 - 21:00,Night,352,16.36
+Punjab,2005,21:00 - 24:00,Night,265,12.31
+Punjab,2006,00:00 - 03:00,Night,209,9.28
+Punjab,2006,03:00 - 06:00,Night,164,7.29
+Punjab,2006,06:00 - 09:00,Day,278,12.35
+Punjab,2006,09:00 - 12:00,Day,360,15.99
+Punjab,2006,12:00 - 15:00,Day,264,11.73
+Punjab,2006,15:00 - 18:00,Day,325,14.44
+Punjab,2006,18:00 - 21:00,Night,404,17.95
+Punjab,2006,21:00 - 24:00,Night,247,10.97
+Punjab,2007,00:00 - 03:00,Night,192,8.03
+Punjab,2007,03:00 - 06:00,Night,217,9.08
+Punjab,2007,06:00 - 09:00,Day,329,13.76
+Punjab,2007,09:00 - 12:00,Day,361,15.1
+Punjab,2007,12:00 - 15:00,Day,291,12.17
+Punjab,2007,15:00 - 18:00,Day,324,13.55
+Punjab,2007,18:00 - 21:00,Night,408,17.06
+Punjab,2007,21:00 - 24:00,Night,269,11.25
+Punjab,2008,00:00 - 03:00,Night,181,7.56
+Punjab,2008,03:00 - 06:00,Night,267,11.15
+Punjab,2008,06:00 - 09:00,Day,344,14.37
+Punjab,2008,09:00 - 12:00,Day,337,14.08
+Punjab,2008,12:00 - 15:00,Day,256,10.69
+Punjab,2008,15:00 - 18:00,Day,322,13.45
+Punjab,2008,18:00 - 21:00,Night,436,18.21
+Punjab,2008,21:00 - 24:00,Night,251,10.48
+Punjab,2009,00:00 - 03:00,Night,197,7.34
+Punjab,2009,03:00 - 06:00,Night,282,10.51
+Punjab,2009,06:00 - 09:00,Day,394,14.68
+Punjab,2009,09:00 - 12:00,Day,369,13.75
+Punjab,2009,12:00 - 15:00,Day,298,11.1
+Punjab,2009,15:00 - 18:00,Day,385,14.34
+Punjab,2009,18:00 - 21:00,Night,489,18.22
+Punjab,2009,21:00 - 24:00,Night,270,10.06
+Punjab,2010,00:00 - 03:00,Night,205,8.41
+Punjab,2010,03:00 - 06:00,Night,280,11.48
+Punjab,2010,06:00 - 09:00,Day,347,14.23
+Punjab,2010,09:00 - 12:00,Day,380,15.58
+Punjab,2010,12:00 - 15:00,Day,255,10.46
+Punjab,2010,15:00 - 18:00,Day,327,13.41
+Punjab,2010,18:00 - 21:00,Night,418,17.14
+Punjab,2010,21:00 - 24:00,Night,227,9.31
+Punjab,2011,00:00 - 03:00,Night,379,5.83
+Punjab,2011,03:00 - 06:00,Night,582,8.96
+Punjab,2011,06:00 - 09:00,Day,896,13.79
+Punjab,2011,09:00 - 12:00,Day,979,15.07
+Punjab,2011,12:00 - 15:00,Day,861,13.25
+Punjab,2011,15:00 - 18:00,Day,922,14.19
+Punjab,2011,18:00 - 21:00,Night,1266,19.49
+Punjab,2011,21:00 - 24:00,Night,611,9.41
+Punjab,2012,00:00 - 03:00,Night,349,5.52
+Punjab,2012,03:00 - 06:00,Night,537,8.49
+Punjab,2012,06:00 - 09:00,Day,824,13.02
+Punjab,2012,09:00 - 12:00,Day,887,14.02
+Punjab,2012,12:00 - 15:00,Day,866,13.69
+Punjab,2012,15:00 - 18:00,Day,1089,17.21
+Punjab,2012,18:00 - 21:00,Night,1091,17.24
+Punjab,2012,21:00 - 24:00,Night,685,10.82
+Punjab,2013,00:00 - 03:00,Night,368,5.82
+Punjab,2013,03:00 - 06:00,Night,575,9.09
+Punjab,2013,06:00 - 09:00,Day,722,11.42
+Punjab,2013,09:00 - 12:00,Day,840,13.28
+Punjab,2013,12:00 - 15:00,Day,816,12.91
+Punjab,2013,15:00 - 18:00,Day,980,15.5
+Punjab,2013,18:00 - 21:00,Night,1309,20.7
+Punjab,2013,21:00 - 24:00,Night,713,11.28
+Punjab,2014,00:00 - 03:00,Night,387,6.06
+Punjab,2014,03:00 - 06:00,Night,392,6.13
+Punjab,2014,06:00 - 09:00,Day,683,10.69
+Punjab,2014,09:00 - 12:00,Day,842,13.17
+Punjab,2014,12:00 - 15:00,Day,943,14.76
+Punjab,2014,15:00 - 18:00,Day,998,15.62
+Punjab,2014,18:00 - 21:00,Night,1380,21.59
+Punjab,2014,21:00 - 24:00,Night,766,11.99
+Rajasthan,2001,00:00 - 03:00,Night,1390,6.95
+Rajasthan,2001,03:00 - 06:00,Night,2344,11.72
+Rajasthan,2001,06:00 - 09:00,Day,2880,14.4
+Rajasthan,2001,09:00 - 12:00,Day,2895,14.48
+Rajasthan,2001,12:00 - 15:00,Day,3024,15.12
+Rajasthan,2001,15:00 - 18:00,Day,3170,15.85
+Rajasthan,2001,18:00 - 21:00,Night,2690,13.45
+Rajasthan,2001,21:00 - 24:00,Night,1606,8.03
+Rajasthan,2002,00:00 - 03:00,Night,1419,6.9
+Rajasthan,2002,03:00 - 06:00,Night,1996,9.7
+Rajasthan,2002,06:00 - 09:00,Day,2657,12.92
+Rajasthan,2002,09:00 - 12:00,Day,3190,15.51
+Rajasthan,2002,12:00 - 15:00,Day,2906,14.13
+Rajasthan,2002,15:00 - 18:00,Day,3372,16.39
+Rajasthan,2002,18:00 - 21:00,Night,3087,15.01
+Rajasthan,2002,21:00 - 24:00,Night,1944,9.45
+Rajasthan,2003,00:00 - 03:00,Night,1359,6.2
+Rajasthan,2003,03:00 - 06:00,Night,1768,8.06
+Rajasthan,2003,06:00 - 09:00,Day,3264,14.88
+Rajasthan,2003,09:00 - 12:00,Day,3709,16.91
+Rajasthan,2003,12:00 - 15:00,Day,3236,14.75
+Rajasthan,2003,15:00 - 18:00,Day,3615,16.48
+Rajasthan,2003,18:00 - 21:00,Night,3013,13.74
+Rajasthan,2003,21:00 - 24:00,Night,1969,8.98
+Rajasthan,2004,00:00 - 03:00,Night,1263,5.43
+Rajasthan,2004,03:00 - 06:00,Night,1841,7.92
+Rajasthan,2004,06:00 - 09:00,Day,3134,13.48
+Rajasthan,2004,09:00 - 12:00,Day,3808,16.38
+Rajasthan,2004,12:00 - 15:00,Day,3282,14.12
+Rajasthan,2004,15:00 - 18:00,Day,3999,17.21
+Rajasthan,2004,18:00 - 21:00,Night,3818,16.43
+Rajasthan,2004,21:00 - 24:00,Night,2098,9.03
+Rajasthan,2005,00:00 - 03:00,Night,1271,5.5
+Rajasthan,2005,03:00 - 06:00,Night,1895,8.2
+Rajasthan,2005,06:00 - 09:00,Day,3243,14.03
+Rajasthan,2005,09:00 - 12:00,Day,3645,15.77
+Rajasthan,2005,12:00 - 15:00,Day,3559,15.4
+Rajasthan,2005,15:00 - 18:00,Day,3792,16.4
+Rajasthan,2005,18:00 - 21:00,Night,3721,16.1
+Rajasthan,2005,21:00 - 24:00,Night,1989,8.6
+Rajasthan,2006,00:00 - 03:00,Night,1171,5.02
+Rajasthan,2006,03:00 - 06:00,Night,1634,7.0
+Rajasthan,2006,06:00 - 09:00,Day,2874,12.31
+Rajasthan,2006,09:00 - 12:00,Day,3814,16.34
+Rajasthan,2006,12:00 - 15:00,Day,3795,16.25
+Rajasthan,2006,15:00 - 18:00,Day,4159,17.81
+Rajasthan,2006,18:00 - 21:00,Night,3948,16.91
+Rajasthan,2006,21:00 - 24:00,Night,1953,8.36
+Rajasthan,2007,00:00 - 03:00,Night,1359,5.69
+Rajasthan,2007,03:00 - 06:00,Night,1735,7.26
+Rajasthan,2007,06:00 - 09:00,Day,3078,12.89
+Rajasthan,2007,09:00 - 12:00,Day,4064,17.01
+Rajasthan,2007,12:00 - 15:00,Day,3672,15.37
+Rajasthan,2007,15:00 - 18:00,Day,3658,15.32
+Rajasthan,2007,18:00 - 21:00,Night,3698,15.48
+Rajasthan,2007,21:00 - 24:00,Night,2621,10.97
+Rajasthan,2008,00:00 - 03:00,Night,1399,5.9
+Rajasthan,2008,03:00 - 06:00,Night,1654,6.98
+Rajasthan,2008,06:00 - 09:00,Day,3048,12.86
+Rajasthan,2008,09:00 - 12:00,Day,3670,15.48
+Rajasthan,2008,12:00 - 15:00,Day,3630,15.31
+Rajasthan,2008,15:00 - 18:00,Day,3875,16.35
+Rajasthan,2008,18:00 - 21:00,Night,3775,15.93
+Rajasthan,2008,21:00 - 24:00,Night,2653,11.19
+Rajasthan,2009,00:00 - 03:00,Night,1426,5.68
+Rajasthan,2009,03:00 - 06:00,Night,1825,7.27
+Rajasthan,2009,06:00 - 09:00,Day,2933,11.68
+Rajasthan,2009,09:00 - 12:00,Day,3666,14.6
+Rajasthan,2009,12:00 - 15:00,Day,3908,15.56
+Rajasthan,2009,15:00 - 18:00,Day,4291,17.09
+Rajasthan,2009,18:00 - 21:00,Night,4389,17.48
+Rajasthan,2009,21:00 - 24:00,Night,2676,10.66
+Rajasthan,2010,00:00 - 03:00,Night,1558,6.41
+Rajasthan,2010,03:00 - 06:00,Night,1869,7.69
+Rajasthan,2010,06:00 - 09:00,Day,2862,11.78
+Rajasthan,2010,09:00 - 12:00,Day,3391,13.95
+Rajasthan,2010,12:00 - 15:00,Day,3793,15.61
+Rajasthan,2010,15:00 - 18:00,Day,4335,17.84
+Rajasthan,2010,18:00 - 21:00,Night,4133,17.01
+Rajasthan,2010,21:00 - 24:00,Night,2361,9.72
+Rajasthan,2011,00:00 - 03:00,Night,1358,5.84
+Rajasthan,2011,03:00 - 06:00,Night,2152,9.26
+Rajasthan,2011,06:00 - 09:00,Day,2576,11.08
+Rajasthan,2011,09:00 - 12:00,Day,3216,13.84
+Rajasthan,2011,12:00 - 15:00,Day,3693,15.89
+Rajasthan,2011,15:00 - 18:00,Day,4125,17.75
+Rajasthan,2011,18:00 - 21:00,Night,3913,16.83
+Rajasthan,2011,21:00 - 24:00,Night,2212,9.52
+Rajasthan,2012,00:00 - 03:00,Night,1094,4.76
+Rajasthan,2012,03:00 - 06:00,Night,1729,7.53
+Rajasthan,2012,06:00 - 09:00,Day,2589,11.27
+Rajasthan,2012,09:00 - 12:00,Day,3434,14.95
+Rajasthan,2012,12:00 - 15:00,Day,3709,16.15
+Rajasthan,2012,15:00 - 18:00,Day,4191,18.25
+Rajasthan,2012,18:00 - 21:00,Night,3912,17.03
+Rajasthan,2012,21:00 - 24:00,Night,2311,10.06
+Rajasthan,2013,00:00 - 03:00,Night,1061,4.5
+Rajasthan,2013,03:00 - 06:00,Night,1519,6.44
+Rajasthan,2013,06:00 - 09:00,Day,2638,11.18
+Rajasthan,2013,09:00 - 12:00,Day,3867,16.4
+Rajasthan,2013,12:00 - 15:00,Day,3863,16.38
+Rajasthan,2013,15:00 - 18:00,Day,4281,18.15
+Rajasthan,2013,18:00 - 21:00,Night,4143,17.57
+Rajasthan,2013,21:00 - 24:00,Night,2214,9.39
+Rajasthan,2014,00:00 - 03:00,Night,1128,4.58
+Rajasthan,2014,03:00 - 06:00,Night,1428,5.8
+Rajasthan,2014,06:00 - 09:00,Day,2622,10.64
+Rajasthan,2014,09:00 - 12:00,Day,3706,15.04
+Rajasthan,2014,12:00 - 15:00,Day,4234,17.18
+Rajasthan,2014,15:00 - 18:00,Day,4841,19.65
+Rajasthan,2014,18:00 - 21:00,Night,4215,17.11
+Rajasthan,2014,21:00 - 24:00,Night,2465,10.0
+Sikkim,2001,00:00 - 03:00,Night,0,0.0
+Sikkim,2001,03:00 - 06:00,Night,2,3.64
+Sikkim,2001,06:00 - 09:00,Day,11,20.0
+Sikkim,2001,09:00 - 12:00,Day,8,14.55
+Sikkim,2001,12:00 - 15:00,Day,15,27.27
+Sikkim,2001,15:00 - 18:00,Day,6,10.91
+Sikkim,2001,18:00 - 21:00,Night,10,18.18
+Sikkim,2001,21:00 - 24:00,Night,3,5.45
+Sikkim,2002,00:00 - 03:00,Night,0,0.0
+Sikkim,2002,03:00 - 06:00,Night,0,0.0
+Sikkim,2002,06:00 - 09:00,Day,169,48.15
+Sikkim,2002,09:00 - 12:00,Day,0,0.0
+Sikkim,2002,12:00 - 15:00,Day,126,35.9
+Sikkim,2002,15:00 - 18:00,Day,0,0.0
+Sikkim,2002,18:00 - 21:00,Night,56,15.95
+Sikkim,2002,21:00 - 24:00,Night,0,0.0
+Sikkim,2003,00:00 - 03:00,Night,0,0.0
+Sikkim,2003,03:00 - 06:00,Night,0,0.0
+Sikkim,2003,06:00 - 09:00,Day,14,10.69
+Sikkim,2003,09:00 - 12:00,Day,24,18.32
+Sikkim,2003,12:00 - 15:00,Day,14,10.69
+Sikkim,2003,15:00 - 18:00,Day,35,26.72
+Sikkim,2003,18:00 - 21:00,Night,37,28.24
+Sikkim,2003,21:00 - 24:00,Night,7,5.34
+Sikkim,2004,00:00 - 03:00,Night,0,0.0
+Sikkim,2004,03:00 - 06:00,Night,12,7.55
+Sikkim,2004,06:00 - 09:00,Day,18,11.32
+Sikkim,2004,09:00 - 12:00,Day,24,15.09
+Sikkim,2004,12:00 - 15:00,Day,34,21.38
+Sikkim,2004,15:00 - 18:00,Day,31,19.5
+Sikkim,2004,18:00 - 21:00,Night,33,20.75
+Sikkim,2004,21:00 - 24:00,Night,7,4.4
+Sikkim,2005,00:00 - 03:00,Night,5,2.65
+Sikkim,2005,03:00 - 06:00,Night,11,5.82
+Sikkim,2005,06:00 - 09:00,Day,35,18.52
+Sikkim,2005,09:00 - 12:00,Day,32,16.93
+Sikkim,2005,12:00 - 15:00,Day,29,15.34
+Sikkim,2005,15:00 - 18:00,Day,42,22.22
+Sikkim,2005,18:00 - 21:00,Night,20,10.58
+Sikkim,2005,21:00 - 24:00,Night,15,7.94
+Sikkim,2006,00:00 - 03:00,Night,1,2.56
+Sikkim,2006,03:00 - 06:00,Night,5,12.82
+Sikkim,2006,06:00 - 09:00,Day,6,15.38
+Sikkim,2006,09:00 - 12:00,Day,3,7.69
+Sikkim,2006,12:00 - 15:00,Day,8,20.51
+Sikkim,2006,15:00 - 18:00,Day,8,20.51
+Sikkim,2006,18:00 - 21:00,Night,5,12.82
+Sikkim,2006,21:00 - 24:00,Night,3,7.69
+Sikkim,2007,00:00 - 03:00,Night,6,4.0
+Sikkim,2007,03:00 - 06:00,Night,3,2.0
+Sikkim,2007,06:00 - 09:00,Day,19,12.67
+Sikkim,2007,09:00 - 12:00,Day,25,16.67
+Sikkim,2007,12:00 - 15:00,Day,39,26.0
+Sikkim,2007,15:00 - 18:00,Day,34,22.67
+Sikkim,2007,18:00 - 21:00,Night,16,10.67
+Sikkim,2007,21:00 - 24:00,Night,8,5.33
+Sikkim,2008,00:00 - 03:00,Night,6,3.06
+Sikkim,2008,03:00 - 06:00,Night,19,9.69
+Sikkim,2008,06:00 - 09:00,Day,26,13.27
+Sikkim,2008,09:00 - 12:00,Day,34,17.35
+Sikkim,2008,12:00 - 15:00,Day,46,23.47
+Sikkim,2008,15:00 - 18:00,Day,30,15.31
+Sikkim,2008,18:00 - 21:00,Night,22,11.22
+Sikkim,2008,21:00 - 24:00,Night,13,6.63
+Sikkim,2009,00:00 - 03:00,Night,49,8.69
+Sikkim,2009,03:00 - 06:00,Night,56,9.93
+Sikkim,2009,06:00 - 09:00,Day,58,10.28
+Sikkim,2009,09:00 - 12:00,Day,107,18.97
+Sikkim,2009,12:00 - 15:00,Day,87,15.43
+Sikkim,2009,15:00 - 18:00,Day,127,22.52
+Sikkim,2009,18:00 - 21:00,Night,51,9.04
+Sikkim,2009,21:00 - 24:00,Night,29,5.14
+Sikkim,2010,00:00 - 03:00,Night,6,3.23
+Sikkim,2010,03:00 - 06:00,Night,10,5.38
+Sikkim,2010,06:00 - 09:00,Day,18,9.68
+Sikkim,2010,09:00 - 12:00,Day,38,20.43
+Sikkim,2010,12:00 - 15:00,Day,19,10.22
+Sikkim,2010,15:00 - 18:00,Day,28,15.05
+Sikkim,2010,18:00 - 21:00,Night,28,15.05
+Sikkim,2010,21:00 - 24:00,Night,39,20.97
+Sikkim,2011,00:00 - 03:00,Night,10,7.75
+Sikkim,2011,03:00 - 06:00,Night,12,9.3
+Sikkim,2011,06:00 - 09:00,Day,17,13.18
+Sikkim,2011,09:00 - 12:00,Day,19,14.73
+Sikkim,2011,12:00 - 15:00,Day,16,12.4
+Sikkim,2011,15:00 - 18:00,Day,17,13.18
+Sikkim,2011,18:00 - 21:00,Night,21,16.28
+Sikkim,2011,21:00 - 24:00,Night,17,13.18
+Sikkim,2012,00:00 - 03:00,Night,0,0.0
+Sikkim,2012,03:00 - 06:00,Night,18,14.63
+Sikkim,2012,06:00 - 09:00,Day,12,9.76
+Sikkim,2012,09:00 - 12:00,Day,20,16.26
+Sikkim,2012,12:00 - 15:00,Day,8,6.5
+Sikkim,2012,15:00 - 18:00,Day,11,8.94
+Sikkim,2012,18:00 - 21:00,Night,27,21.95
+Sikkim,2012,21:00 - 24:00,Night,27,21.95
+Sikkim,2013,00:00 - 03:00,Night,5,2.05
+Sikkim,2013,03:00 - 06:00,Night,9,3.69
+Sikkim,2013,06:00 - 09:00,Day,21,8.61
+Sikkim,2013,09:00 - 12:00,Day,29,11.89
+Sikkim,2013,12:00 - 15:00,Day,77,31.56
+Sikkim,2013,15:00 - 18:00,Day,62,25.41
+Sikkim,2013,18:00 - 21:00,Night,38,15.57
+Sikkim,2013,21:00 - 24:00,Night,3,1.23
+Sikkim,2014,00:00 - 03:00,Night,6,4.62
+Sikkim,2014,03:00 - 06:00,Night,8,6.15
+Sikkim,2014,06:00 - 09:00,Day,15,11.54
+Sikkim,2014,09:00 - 12:00,Day,17,13.08
+Sikkim,2014,12:00 - 15:00,Day,12,9.23
+Sikkim,2014,15:00 - 18:00,Day,27,20.77
+Sikkim,2014,18:00 - 21:00,Night,29,22.31
+Sikkim,2014,21:00 - 24:00,Night,16,12.31
+Tamil Nadu,2001,00:00 - 03:00,Night,4020,7.73
+Tamil Nadu,2001,03:00 - 06:00,Night,4672,8.99
+Tamil Nadu,2001,06:00 - 09:00,Day,7280,14.01
+Tamil Nadu,2001,09:00 - 12:00,Day,7775,14.96
+Tamil Nadu,2001,12:00 - 15:00,Day,7770,14.95
+Tamil Nadu,2001,15:00 - 18:00,Day,7887,15.17
+Tamil Nadu,2001,18:00 - 21:00,Night,7495,14.42
+Tamil Nadu,2001,21:00 - 24:00,Night,5079,9.77
+Tamil Nadu,2002,00:00 - 03:00,Night,5060,9.46
+Tamil Nadu,2002,03:00 - 06:00,Night,4939,9.23
+Tamil Nadu,2002,06:00 - 09:00,Day,7072,13.22
+Tamil Nadu,2002,09:00 - 12:00,Day,7806,14.59
+Tamil Nadu,2002,12:00 - 15:00,Day,7269,13.59
+Tamil Nadu,2002,15:00 - 18:00,Day,8181,15.29
+Tamil Nadu,2002,18:00 - 21:00,Night,7530,14.07
+Tamil Nadu,2002,21:00 - 24:00,Night,5646,10.55
+Tamil Nadu,2003,00:00 - 03:00,Night,4174,8.18
+Tamil Nadu,2003,03:00 - 06:00,Night,4805,9.42
+Tamil Nadu,2003,06:00 - 09:00,Day,6660,13.05
+Tamil Nadu,2003,09:00 - 12:00,Day,7648,14.99
+Tamil Nadu,2003,12:00 - 15:00,Day,6944,13.61
+Tamil Nadu,2003,15:00 - 18:00,Day,7809,15.3
+Tamil Nadu,2003,18:00 - 21:00,Night,7246,14.2
+Tamil Nadu,2003,21:00 - 24:00,Night,5739,11.25
+Tamil Nadu,2004,00:00 - 03:00,Night,3857,7.35
+Tamil Nadu,2004,03:00 - 06:00,Night,4660,8.87
+Tamil Nadu,2004,06:00 - 09:00,Day,6556,12.49
+Tamil Nadu,2004,09:00 - 12:00,Day,8099,15.42
+Tamil Nadu,2004,12:00 - 15:00,Day,7545,14.37
+Tamil Nadu,2004,15:00 - 18:00,Day,8098,15.42
+Tamil Nadu,2004,18:00 - 21:00,Night,7791,14.84
+Tamil Nadu,2004,21:00 - 24:00,Night,5902,11.24
+Tamil Nadu,2005,00:00 - 03:00,Night,6020,7.98
+Tamil Nadu,2005,03:00 - 06:00,Night,6545,8.67
+Tamil Nadu,2005,06:00 - 09:00,Day,8236,10.91
+Tamil Nadu,2005,09:00 - 12:00,Day,14568,19.3
+Tamil Nadu,2005,12:00 - 15:00,Day,11089,14.69
+Tamil Nadu,2005,15:00 - 18:00,Day,13789,18.27
+Tamil Nadu,2005,18:00 - 21:00,Night,8765,11.61
+Tamil Nadu,2005,21:00 - 24:00,Night,6468,8.57
+Tamil Nadu,2006,00:00 - 03:00,Night,5180,9.39
+Tamil Nadu,2006,03:00 - 06:00,Night,6046,10.96
+Tamil Nadu,2006,06:00 - 09:00,Day,6784,12.3
+Tamil Nadu,2006,09:00 - 12:00,Day,7200,13.06
+Tamil Nadu,2006,12:00 - 15:00,Day,7241,13.13
+Tamil Nadu,2006,15:00 - 18:00,Day,7997,14.5
+Tamil Nadu,2006,18:00 - 21:00,Night,7896,14.32
+Tamil Nadu,2006,21:00 - 24:00,Night,6801,12.33
+Tamil Nadu,2007,00:00 - 03:00,Night,5773,9.77
+Tamil Nadu,2007,03:00 - 06:00,Night,4850,8.2
+Tamil Nadu,2007,06:00 - 09:00,Day,5948,10.06
+Tamil Nadu,2007,09:00 - 12:00,Day,6938,11.74
+Tamil Nadu,2007,12:00 - 15:00,Day,8175,13.83
+Tamil Nadu,2007,15:00 - 18:00,Day,9777,16.54
+Tamil Nadu,2007,18:00 - 21:00,Night,9690,16.39
+Tamil Nadu,2007,21:00 - 24:00,Night,7966,13.47
+Tamil Nadu,2008,00:00 - 03:00,Night,5898,9.76
+Tamil Nadu,2008,03:00 - 06:00,Night,4956,8.2
+Tamil Nadu,2008,06:00 - 09:00,Day,6078,10.06
+Tamil Nadu,2008,09:00 - 12:00,Day,7090,11.74
+Tamil Nadu,2008,12:00 - 15:00,Day,8354,13.83
+Tamil Nadu,2008,15:00 - 18:00,Day,9991,16.54
+Tamil Nadu,2008,18:00 - 21:00,Night,9902,16.39
+Tamil Nadu,2008,21:00 - 24:00,Night,8140,13.47
+Tamil Nadu,2009,00:00 - 03:00,Night,4201,6.91
+Tamil Nadu,2009,03:00 - 06:00,Night,4520,7.43
+Tamil Nadu,2009,06:00 - 09:00,Day,7118,11.71
+Tamil Nadu,2009,09:00 - 12:00,Day,8662,14.25
+Tamil Nadu,2009,12:00 - 15:00,Day,8749,14.39
+Tamil Nadu,2009,15:00 - 18:00,Day,10262,16.88
+Tamil Nadu,2009,18:00 - 21:00,Night,6918,11.38
+Tamil Nadu,2009,21:00 - 24:00,Night,10364,17.05
+Tamil Nadu,2010,00:00 - 03:00,Night,3376,5.19
+Tamil Nadu,2010,03:00 - 06:00,Night,5141,7.91
+Tamil Nadu,2010,06:00 - 09:00,Day,7896,12.15
+Tamil Nadu,2010,09:00 - 12:00,Day,9021,13.88
+Tamil Nadu,2010,12:00 - 15:00,Day,9526,14.66
+Tamil Nadu,2010,15:00 - 18:00,Day,10756,16.55
+Tamil Nadu,2010,18:00 - 21:00,Night,11881,18.28
+Tamil Nadu,2010,21:00 - 24:00,Night,7399,11.38
+Tamil Nadu,2011,00:00 - 03:00,Night,3716,5.64
+Tamil Nadu,2011,03:00 - 06:00,Night,4915,7.46
+Tamil Nadu,2011,06:00 - 09:00,Day,7542,11.45
+Tamil Nadu,2011,09:00 - 12:00,Day,9319,14.15
+Tamil Nadu,2011,12:00 - 15:00,Day,9579,14.54
+Tamil Nadu,2011,15:00 - 18:00,Day,11485,17.44
+Tamil Nadu,2011,18:00 - 21:00,Night,11915,18.09
+Tamil Nadu,2011,21:00 - 24:00,Night,7402,11.24
+Tamil Nadu,2012,00:00 - 03:00,Night,3199,4.72
+Tamil Nadu,2012,03:00 - 06:00,Night,4560,6.73
+Tamil Nadu,2012,06:00 - 09:00,Day,8241,12.16
+Tamil Nadu,2012,09:00 - 12:00,Day,9490,14.01
+Tamil Nadu,2012,12:00 - 15:00,Day,9806,14.47
+Tamil Nadu,2012,15:00 - 18:00,Day,11905,17.57
+Tamil Nadu,2012,18:00 - 21:00,Night,13020,19.22
+Tamil Nadu,2012,21:00 - 24:00,Night,7536,11.12
+Tamil Nadu,2013,00:00 - 03:00,Night,2796,4.22
+Tamil Nadu,2013,03:00 - 06:00,Night,4047,6.11
+Tamil Nadu,2013,06:00 - 09:00,Day,7503,11.33
+Tamil Nadu,2013,09:00 - 12:00,Day,9515,14.36
+Tamil Nadu,2013,12:00 - 15:00,Day,10014,15.12
+Tamil Nadu,2013,15:00 - 18:00,Day,11761,17.76
+Tamil Nadu,2013,18:00 - 21:00,Night,13330,20.12
+Tamil Nadu,2013,21:00 - 24:00,Night,7272,10.98
+Tamil Nadu,2014,00:00 - 03:00,Night,2685,3.99
+Tamil Nadu,2014,03:00 - 06:00,Night,4057,6.03
+Tamil Nadu,2014,06:00 - 09:00,Day,7973,11.86
+Tamil Nadu,2014,09:00 - 12:00,Day,9593,14.26
+Tamil Nadu,2014,12:00 - 15:00,Day,9955,14.8
+Tamil Nadu,2014,15:00 - 18:00,Day,11902,17.7
+Tamil Nadu,2014,18:00 - 21:00,Night,13927,20.71
+Tamil Nadu,2014,21:00 - 24:00,Night,7158,10.64
+Tripura,2001,00:00 - 03:00,Night,4,0.74
+Tripura,2001,03:00 - 06:00,Night,8,1.47
+Tripura,2001,06:00 - 09:00,Day,79,14.52
+Tripura,2001,09:00 - 12:00,Day,198,36.4
+Tripura,2001,12:00 - 15:00,Day,106,19.49
+Tripura,2001,15:00 - 18:00,Day,119,21.88
+Tripura,2001,18:00 - 21:00,Night,22,4.04
+Tripura,2001,21:00 - 24:00,Night,8,1.47
+Tripura,2002,00:00 - 03:00,Night,0,0.0
+Tripura,2002,03:00 - 06:00,Night,0,0.0
+Tripura,2002,06:00 - 09:00,Day,84,13.46
+Tripura,2002,09:00 - 12:00,Day,164,26.28
+Tripura,2002,12:00 - 15:00,Day,82,13.14
+Tripura,2002,15:00 - 18:00,Day,122,19.55
+Tripura,2002,18:00 - 21:00,Night,113,18.11
+Tripura,2002,21:00 - 24:00,Night,59,9.46
+Tripura,2003,00:00 - 03:00,Night,1,0.15
+Tripura,2003,03:00 - 06:00,Night,1,0.15
+Tripura,2003,06:00 - 09:00,Day,99,14.64
+Tripura,2003,09:00 - 12:00,Day,174,25.74
+Tripura,2003,12:00 - 15:00,Day,152,22.49
+Tripura,2003,15:00 - 18:00,Day,163,24.11
+Tripura,2003,18:00 - 21:00,Night,73,10.8
+Tripura,2003,21:00 - 24:00,Night,13,1.92
+Tripura,2004,00:00 - 03:00,Night,0,0.0
+Tripura,2004,03:00 - 06:00,Night,10,1.55
+Tripura,2004,06:00 - 09:00,Day,112,17.36
+Tripura,2004,09:00 - 12:00,Day,159,24.65
+Tripura,2004,12:00 - 15:00,Day,106,16.43
+Tripura,2004,15:00 - 18:00,Day,130,20.16
+Tripura,2004,18:00 - 21:00,Night,88,13.64
+Tripura,2004,21:00 - 24:00,Night,40,6.2
+Tripura,2005,00:00 - 03:00,Night,11,1.66
+Tripura,2005,03:00 - 06:00,Night,3,0.45
+Tripura,2005,06:00 - 09:00,Day,90,13.6
+Tripura,2005,09:00 - 12:00,Day,185,27.95
+Tripura,2005,12:00 - 15:00,Day,142,21.45
+Tripura,2005,15:00 - 18:00,Day,145,21.9
+Tripura,2005,18:00 - 21:00,Night,76,11.48
+Tripura,2005,21:00 - 24:00,Night,10,1.51
+Tripura,2006,00:00 - 03:00,Night,12,1.51
+Tripura,2006,03:00 - 06:00,Night,34,4.29
+Tripura,2006,06:00 - 09:00,Day,191,24.09
+Tripura,2006,09:00 - 12:00,Day,219,27.62
+Tripura,2006,12:00 - 15:00,Day,184,23.2
+Tripura,2006,15:00 - 18:00,Day,90,11.35
+Tripura,2006,18:00 - 21:00,Night,42,5.3
+Tripura,2006,21:00 - 24:00,Night,21,2.65
+Tripura,2007,00:00 - 03:00,Night,7,0.87
+Tripura,2007,03:00 - 06:00,Night,5,0.62
+Tripura,2007,06:00 - 09:00,Day,165,20.6
+Tripura,2007,09:00 - 12:00,Day,199,24.84
+Tripura,2007,12:00 - 15:00,Day,213,26.59
+Tripura,2007,15:00 - 18:00,Day,132,16.48
+Tripura,2007,18:00 - 21:00,Night,59,7.37
+Tripura,2007,21:00 - 24:00,Night,21,2.62
+Tripura,2008,00:00 - 03:00,Night,17,2.22
+Tripura,2008,03:00 - 06:00,Night,26,3.39
+Tripura,2008,06:00 - 09:00,Day,78,10.17
+Tripura,2008,09:00 - 12:00,Day,187,24.38
+Tripura,2008,12:00 - 15:00,Day,166,21.64
+Tripura,2008,15:00 - 18:00,Day,143,18.64
+Tripura,2008,18:00 - 21:00,Night,114,14.86
+Tripura,2008,21:00 - 24:00,Night,36,4.69
+Tripura,2009,00:00 - 03:00,Night,10,1.16
+Tripura,2009,03:00 - 06:00,Night,13,1.5
+Tripura,2009,06:00 - 09:00,Day,101,11.68
+Tripura,2009,09:00 - 12:00,Day,179,20.69
+Tripura,2009,12:00 - 15:00,Day,185,21.39
+Tripura,2009,15:00 - 18:00,Day,215,24.86
+Tripura,2009,18:00 - 21:00,Night,105,12.14
+Tripura,2009,21:00 - 24:00,Night,57,6.59
+Tripura,2010,00:00 - 03:00,Night,8,0.89
+Tripura,2010,03:00 - 06:00,Night,17,1.89
+Tripura,2010,06:00 - 09:00,Day,113,12.54
+Tripura,2010,09:00 - 12:00,Day,205,22.75
+Tripura,2010,12:00 - 15:00,Day,175,19.42
+Tripura,2010,15:00 - 18:00,Day,183,20.31
+Tripura,2010,18:00 - 21:00,Night,130,14.43
+Tripura,2010,21:00 - 24:00,Night,70,7.77
+Tripura,2011,00:00 - 03:00,Night,4,0.48
+Tripura,2011,03:00 - 06:00,Night,13,1.56
+Tripura,2011,06:00 - 09:00,Day,88,10.55
+Tripura,2011,09:00 - 12:00,Day,157,18.82
+Tripura,2011,12:00 - 15:00,Day,194,23.26
+Tripura,2011,15:00 - 18:00,Day,183,21.94
+Tripura,2011,18:00 - 21:00,Night,141,16.91
+Tripura,2011,21:00 - 24:00,Night,54,6.47
+Tripura,2012,00:00 - 03:00,Night,10,1.13
+Tripura,2012,03:00 - 06:00,Night,18,2.03
+Tripura,2012,06:00 - 09:00,Day,88,9.91
+Tripura,2012,09:00 - 12:00,Day,195,21.96
+Tripura,2012,12:00 - 15:00,Day,160,18.02
+Tripura,2012,15:00 - 18:00,Day,205,23.09
+Tripura,2012,18:00 - 21:00,Night,147,16.55
+Tripura,2012,21:00 - 24:00,Night,65,7.32
+Tripura,2013,00:00 - 03:00,Night,20,2.44
+Tripura,2013,03:00 - 06:00,Night,22,2.69
+Tripura,2013,06:00 - 09:00,Day,92,11.25
+Tripura,2013,09:00 - 12:00,Day,174,21.27
+Tripura,2013,12:00 - 15:00,Day,122,14.91
+Tripura,2013,15:00 - 18:00,Day,176,21.52
+Tripura,2013,18:00 - 21:00,Night,151,18.46
+Tripura,2013,21:00 - 24:00,Night,61,7.46
+Tripura,2014,00:00 - 03:00,Night,15,2.09
+Tripura,2014,03:00 - 06:00,Night,21,2.93
+Tripura,2014,06:00 - 09:00,Day,53,7.4
+Tripura,2014,09:00 - 12:00,Day,199,27.79
+Tripura,2014,12:00 - 15:00,Day,123,17.18
+Tripura,2014,15:00 - 18:00,Day,161,22.49
+Tripura,2014,18:00 - 21:00,Night,96,13.41
+Tripura,2014,21:00 - 24:00,Night,48,6.7
+Uttar Pradesh,2001,00:00 - 03:00,Night,2324,12.97
+Uttar Pradesh,2001,03:00 - 06:00,Night,3659,20.42
+Uttar Pradesh,2001,06:00 - 09:00,Day,2336,13.03
+Uttar Pradesh,2001,09:00 - 12:00,Day,2243,12.52
+Uttar Pradesh,2001,12:00 - 15:00,Day,1971,11.0
+Uttar Pradesh,2001,15:00 - 18:00,Day,2075,11.58
+Uttar Pradesh,2001,18:00 - 21:00,Night,2002,11.17
+Uttar Pradesh,2001,21:00 - 24:00,Night,1311,7.32
+Uttar Pradesh,2002,00:00 - 03:00,Night,1444,9.99
+Uttar Pradesh,2002,03:00 - 06:00,Night,1716,11.87
+Uttar Pradesh,2002,06:00 - 09:00,Day,1440,9.96
+Uttar Pradesh,2002,09:00 - 12:00,Day,2197,15.2
+Uttar Pradesh,2002,12:00 - 15:00,Day,2015,13.94
+Uttar Pradesh,2002,15:00 - 18:00,Day,2098,14.51
+Uttar Pradesh,2002,18:00 - 21:00,Night,2072,14.33
+Uttar Pradesh,2002,21:00 - 24:00,Night,1475,10.2
+Uttar Pradesh,2003,00:00 - 03:00,Night,1087,9.57
+Uttar Pradesh,2003,03:00 - 06:00,Night,1322,11.64
+Uttar Pradesh,2003,06:00 - 09:00,Day,1764,15.54
+Uttar Pradesh,2003,09:00 - 12:00,Day,1721,15.16
+Uttar Pradesh,2003,12:00 - 15:00,Day,1365,12.02
+Uttar Pradesh,2003,15:00 - 18:00,Day,1448,12.75
+Uttar Pradesh,2003,18:00 - 21:00,Night,1497,13.18
+Uttar Pradesh,2003,21:00 - 24:00,Night,1150,10.13
+Uttar Pradesh,2004,00:00 - 03:00,Night,1262,8.78
+Uttar Pradesh,2004,03:00 - 06:00,Night,1645,11.44
+Uttar Pradesh,2004,06:00 - 09:00,Day,1970,13.71
+Uttar Pradesh,2004,09:00 - 12:00,Day,2000,13.91
+Uttar Pradesh,2004,12:00 - 15:00,Day,1838,12.79
+Uttar Pradesh,2004,15:00 - 18:00,Day,1933,13.45
+Uttar Pradesh,2004,18:00 - 21:00,Night,2072,14.41
+Uttar Pradesh,2004,21:00 - 24:00,Night,1654,11.51
+Uttar Pradesh,2005,00:00 - 03:00,Night,1226,8.35
+Uttar Pradesh,2005,03:00 - 06:00,Night,1598,10.88
+Uttar Pradesh,2005,06:00 - 09:00,Day,2145,14.6
+Uttar Pradesh,2005,09:00 - 12:00,Day,2233,15.2
+Uttar Pradesh,2005,12:00 - 15:00,Day,1956,13.32
+Uttar Pradesh,2005,15:00 - 18:00,Day,2052,13.97
+Uttar Pradesh,2005,18:00 - 21:00,Night,1951,13.28
+Uttar Pradesh,2005,21:00 - 24:00,Night,1528,10.4
+Uttar Pradesh,2006,00:00 - 03:00,Night,1860,11.48
+Uttar Pradesh,2006,03:00 - 06:00,Night,1731,10.68
+Uttar Pradesh,2006,06:00 - 09:00,Day,2252,13.9
+Uttar Pradesh,2006,09:00 - 12:00,Day,2506,15.46
+Uttar Pradesh,2006,12:00 - 15:00,Day,1951,12.04
+Uttar Pradesh,2006,15:00 - 18:00,Day,2189,13.51
+Uttar Pradesh,2006,18:00 - 21:00,Night,2035,12.56
+Uttar Pradesh,2006,21:00 - 24:00,Night,1683,10.38
+Uttar Pradesh,2007,00:00 - 03:00,Night,1615,8.96
+Uttar Pradesh,2007,03:00 - 06:00,Night,1793,9.94
+Uttar Pradesh,2007,06:00 - 09:00,Day,2790,15.47
+Uttar Pradesh,2007,09:00 - 12:00,Day,2835,15.72
+Uttar Pradesh,2007,12:00 - 15:00,Day,2282,12.66
+Uttar Pradesh,2007,15:00 - 18:00,Day,2509,13.91
+Uttar Pradesh,2007,18:00 - 21:00,Night,2351,13.04
+Uttar Pradesh,2007,21:00 - 24:00,Night,1856,10.29
+Uttar Pradesh,2008,00:00 - 03:00,Night,1791,9.39
+Uttar Pradesh,2008,03:00 - 06:00,Night,2236,11.73
+Uttar Pradesh,2008,06:00 - 09:00,Day,2572,13.49
+Uttar Pradesh,2008,09:00 - 12:00,Day,2723,14.28
+Uttar Pradesh,2008,12:00 - 15:00,Day,2467,12.94
+Uttar Pradesh,2008,15:00 - 18:00,Day,2672,14.02
+Uttar Pradesh,2008,18:00 - 21:00,Night,2592,13.6
+Uttar Pradesh,2008,21:00 - 24:00,Night,2011,10.55
+Uttar Pradesh,2009,00:00 - 03:00,Night,2219,10.09
+Uttar Pradesh,2009,03:00 - 06:00,Night,2894,13.16
+Uttar Pradesh,2009,06:00 - 09:00,Day,1338,6.09
+Uttar Pradesh,2009,09:00 - 12:00,Day,3478,15.82
+Uttar Pradesh,2009,12:00 - 15:00,Day,2989,13.6
+Uttar Pradesh,2009,15:00 - 18:00,Day,3074,13.98
+Uttar Pradesh,2009,18:00 - 21:00,Night,3404,15.48
+Uttar Pradesh,2009,21:00 - 24:00,Night,2589,11.78
+Uttar Pradesh,2010,00:00 - 03:00,Night,2232,8.78
+Uttar Pradesh,2010,03:00 - 06:00,Night,2924,11.5
+Uttar Pradesh,2010,06:00 - 09:00,Day,3602,14.17
+Uttar Pradesh,2010,09:00 - 12:00,Day,3588,14.12
+Uttar Pradesh,2010,12:00 - 15:00,Day,3208,12.62
+Uttar Pradesh,2010,15:00 - 18:00,Day,3194,12.57
+Uttar Pradesh,2010,18:00 - 21:00,Night,3573,14.06
+Uttar Pradesh,2010,21:00 - 24:00,Night,3095,12.18
+Uttar Pradesh,2011,00:00 - 03:00,Night,2096,8.55
+Uttar Pradesh,2011,03:00 - 06:00,Night,3012,12.29
+Uttar Pradesh,2011,06:00 - 09:00,Day,3009,12.28
+Uttar Pradesh,2011,09:00 - 12:00,Day,3501,14.28
+Uttar Pradesh,2011,12:00 - 15:00,Day,3137,12.8
+Uttar Pradesh,2011,15:00 - 18:00,Day,3450,14.07
+Uttar Pradesh,2011,18:00 - 21:00,Night,3617,14.76
+Uttar Pradesh,2011,21:00 - 24:00,Night,2691,10.98
+Uttar Pradesh,2012,00:00 - 03:00,Night,1994,8.15
+Uttar Pradesh,2012,03:00 - 06:00,Night,2708,11.06
+Uttar Pradesh,2012,06:00 - 09:00,Day,3424,13.99
+Uttar Pradesh,2012,09:00 - 12:00,Day,3600,14.71
+Uttar Pradesh,2012,12:00 - 15:00,Day,3128,12.78
+Uttar Pradesh,2012,15:00 - 18:00,Day,3619,14.78
+Uttar Pradesh,2012,18:00 - 21:00,Night,3620,14.79
+Uttar Pradesh,2012,21:00 - 24:00,Night,2385,9.74
+Uttar Pradesh,2013,00:00 - 03:00,Night,2134,8.22
+Uttar Pradesh,2013,03:00 - 06:00,Night,2796,10.76
+Uttar Pradesh,2013,06:00 - 09:00,Day,3604,13.87
+Uttar Pradesh,2013,09:00 - 12:00,Day,3861,14.86
+Uttar Pradesh,2013,12:00 - 15:00,Day,3469,13.36
+Uttar Pradesh,2013,15:00 - 18:00,Day,3674,14.14
+Uttar Pradesh,2013,18:00 - 21:00,Night,3883,14.95
+Uttar Pradesh,2013,21:00 - 24:00,Night,2554,9.83
+Uttar Pradesh,2014,00:00 - 03:00,Night,2106,8.08
+Uttar Pradesh,2014,03:00 - 06:00,Night,2824,10.83
+Uttar Pradesh,2014,06:00 - 09:00,Day,3376,12.95
+Uttar Pradesh,2014,09:00 - 12:00,Day,3547,13.61
+Uttar Pradesh,2014,12:00 - 15:00,Day,3522,13.51
+Uttar Pradesh,2014,15:00 - 18:00,Day,3929,15.07
+Uttar Pradesh,2014,18:00 - 21:00,Night,4099,15.73
+Uttar Pradesh,2014,21:00 - 24:00,Night,2661,10.21
+Uttarakhand,2001,00:00 - 03:00,Night,94,9.37
+Uttarakhand,2001,03:00 - 06:00,Night,152,15.15
+Uttarakhand,2001,06:00 - 09:00,Day,138,13.76
+Uttarakhand,2001,09:00 - 12:00,Day,130,12.96
+Uttarakhand,2001,12:00 - 15:00,Day,124,12.36
+Uttarakhand,2001,15:00 - 18:00,Day,118,11.76
+Uttarakhand,2001,18:00 - 21:00,Night,141,14.06
+Uttarakhand,2001,21:00 - 24:00,Night,106,10.57
+Uttarakhand,2002,00:00 - 03:00,Night,33,2.95
+Uttarakhand,2002,03:00 - 06:00,Night,65,5.82
+Uttarakhand,2002,06:00 - 09:00,Day,153,13.7
+Uttarakhand,2002,09:00 - 12:00,Day,231,20.68
+Uttarakhand,2002,12:00 - 15:00,Day,222,19.87
+Uttarakhand,2002,15:00 - 18:00,Day,240,21.49
+Uttarakhand,2002,18:00 - 21:00,Night,104,9.31
+Uttarakhand,2002,21:00 - 24:00,Night,69,6.18
+Uttarakhand,2003,00:00 - 03:00,Night,47,3.96
+Uttarakhand,2003,03:00 - 06:00,Night,40,3.37
+Uttarakhand,2003,06:00 - 09:00,Day,143,12.06
+Uttarakhand,2003,09:00 - 12:00,Day,259,21.84
+Uttarakhand,2003,12:00 - 15:00,Day,264,22.26
+Uttarakhand,2003,15:00 - 18:00,Day,194,16.36
+Uttarakhand,2003,18:00 - 21:00,Night,156,13.15
+Uttarakhand,2003,21:00 - 24:00,Night,83,7.0
+Uttarakhand,2004,00:00 - 03:00,Night,49,3.91
+Uttarakhand,2004,03:00 - 06:00,Night,38,3.04
+Uttarakhand,2004,06:00 - 09:00,Day,152,12.14
+Uttarakhand,2004,09:00 - 12:00,Day,214,17.09
+Uttarakhand,2004,12:00 - 15:00,Day,247,19.73
+Uttarakhand,2004,15:00 - 18:00,Day,281,22.44
+Uttarakhand,2004,18:00 - 21:00,Night,178,14.22
+Uttarakhand,2004,21:00 - 24:00,Night,93,7.43
+Uttarakhand,2005,00:00 - 03:00,Night,36,2.7
+Uttarakhand,2005,03:00 - 06:00,Night,45,3.38
+Uttarakhand,2005,06:00 - 09:00,Day,146,10.96
+Uttarakhand,2005,09:00 - 12:00,Day,234,17.57
+Uttarakhand,2005,12:00 - 15:00,Day,268,20.12
+Uttarakhand,2005,15:00 - 18:00,Day,252,18.92
+Uttarakhand,2005,18:00 - 21:00,Night,228,17.12
+Uttarakhand,2005,21:00 - 24:00,Night,123,9.23
+Uttarakhand,2006,00:00 - 03:00,Night,39,2.67
+Uttarakhand,2006,03:00 - 06:00,Night,44,3.01
+Uttarakhand,2006,06:00 - 09:00,Day,187,12.8
+Uttarakhand,2006,09:00 - 12:00,Day,245,16.77
+Uttarakhand,2006,12:00 - 15:00,Day,268,18.34
+Uttarakhand,2006,15:00 - 18:00,Day,299,20.47
+Uttarakhand,2006,18:00 - 21:00,Night,238,16.29
+Uttarakhand,2006,21:00 - 24:00,Night,141,9.65
+Uttarakhand,2007,00:00 - 03:00,Night,42,2.76
+Uttarakhand,2007,03:00 - 06:00,Night,53,3.48
+Uttarakhand,2007,06:00 - 09:00,Day,226,14.85
+Uttarakhand,2007,09:00 - 12:00,Day,303,19.91
+Uttarakhand,2007,12:00 - 15:00,Day,336,22.08
+Uttarakhand,2007,15:00 - 18:00,Day,241,15.83
+Uttarakhand,2007,18:00 - 21:00,Night,197,12.94
+Uttarakhand,2007,21:00 - 24:00,Night,124,8.15
+Uttarakhand,2008,00:00 - 03:00,Night,73,5.18
+Uttarakhand,2008,03:00 - 06:00,Night,86,6.1
+Uttarakhand,2008,06:00 - 09:00,Day,173,12.28
+Uttarakhand,2008,09:00 - 12:00,Day,209,14.83
+Uttarakhand,2008,12:00 - 15:00,Day,237,16.82
+Uttarakhand,2008,15:00 - 18:00,Day,271,19.23
+Uttarakhand,2008,18:00 - 21:00,Night,213,15.12
+Uttarakhand,2008,21:00 - 24:00,Night,147,10.43
+Uttarakhand,2009,00:00 - 03:00,Night,47,3.4
+Uttarakhand,2009,03:00 - 06:00,Night,67,4.84
+Uttarakhand,2009,06:00 - 09:00,Day,210,15.18
+Uttarakhand,2009,09:00 - 12:00,Day,254,18.37
+Uttarakhand,2009,12:00 - 15:00,Day,234,16.92
+Uttarakhand,2009,15:00 - 18:00,Day,284,20.54
+Uttarakhand,2009,18:00 - 21:00,Night,186,13.45
+Uttarakhand,2009,21:00 - 24:00,Night,101,7.3
+Uttarakhand,2010,00:00 - 03:00,Night,51,3.45
+Uttarakhand,2010,03:00 - 06:00,Night,107,7.23
+Uttarakhand,2010,06:00 - 09:00,Day,179,12.1
+Uttarakhand,2010,09:00 - 12:00,Day,214,14.47
+Uttarakhand,2010,12:00 - 15:00,Day,275,18.59
+Uttarakhand,2010,15:00 - 18:00,Day,308,20.82
+Uttarakhand,2010,18:00 - 21:00,Night,202,13.66
+Uttarakhand,2010,21:00 - 24:00,Night,143,9.67
+Uttarakhand,2011,00:00 - 03:00,Night,35,2.34
+Uttarakhand,2011,03:00 - 06:00,Night,43,2.88
+Uttarakhand,2011,06:00 - 09:00,Day,183,12.24
+Uttarakhand,2011,09:00 - 12:00,Day,288,19.26
+Uttarakhand,2011,12:00 - 15:00,Day,280,18.73
+Uttarakhand,2011,15:00 - 18:00,Day,288,19.26
+Uttarakhand,2011,18:00 - 21:00,Night,241,16.12
+Uttarakhand,2011,21:00 - 24:00,Night,137,9.16
+Uttarakhand,2012,00:00 - 03:00,Night,36,2.47
+Uttarakhand,2012,03:00 - 06:00,Night,80,5.5
+Uttarakhand,2012,06:00 - 09:00,Day,171,11.75
+Uttarakhand,2012,09:00 - 12:00,Day,283,19.45
+Uttarakhand,2012,12:00 - 15:00,Day,205,14.09
+Uttarakhand,2012,15:00 - 18:00,Day,275,18.9
+Uttarakhand,2012,18:00 - 21:00,Night,308,21.17
+Uttarakhand,2012,21:00 - 24:00,Night,97,6.67
+Uttarakhand,2013,00:00 - 03:00,Night,39,3.01
+Uttarakhand,2013,03:00 - 06:00,Night,67,5.17
+Uttarakhand,2013,06:00 - 09:00,Day,191,14.73
+Uttarakhand,2013,09:00 - 12:00,Day,222,17.12
+Uttarakhand,2013,12:00 - 15:00,Day,191,14.73
+Uttarakhand,2013,15:00 - 18:00,Day,230,17.73
+Uttarakhand,2013,18:00 - 21:00,Night,235,18.12
+Uttarakhand,2013,21:00 - 24:00,Night,122,9.41
+Uttarakhand,2014,00:00 - 03:00,Night,61,7.62
+Uttarakhand,2014,03:00 - 06:00,Night,81,10.11
+Uttarakhand,2014,06:00 - 09:00,Day,95,11.86
+Uttarakhand,2014,09:00 - 12:00,Day,122,15.23
+Uttarakhand,2014,12:00 - 15:00,Day,117,14.61
+Uttarakhand,2014,15:00 - 18:00,Day,137,17.1
+Uttarakhand,2014,18:00 - 21:00,Night,113,14.11
+Uttarakhand,2014,21:00 - 24:00,Night,75,9.36
+West Bengal,2001,00:00 - 03:00,Night,832,7.28
+West Bengal,2001,03:00 - 06:00,Night,1161,10.16
+West Bengal,2001,06:00 - 09:00,Day,1372,12.0
+West Bengal,2001,09:00 - 12:00,Day,1862,16.29
+West Bengal,2001,12:00 - 15:00,Day,1759,15.39
+West Bengal,2001,15:00 - 18:00,Day,1677,14.67
+West Bengal,2001,18:00 - 21:00,Night,1808,15.82
+West Bengal,2001,21:00 - 24:00,Night,959,8.39
+West Bengal,2002,00:00 - 03:00,Night,776,6.91
+West Bengal,2002,03:00 - 06:00,Night,1240,11.03
+West Bengal,2002,06:00 - 09:00,Day,1461,13.0
+West Bengal,2002,09:00 - 12:00,Day,1907,16.97
+West Bengal,2002,12:00 - 15:00,Day,1782,15.86
+West Bengal,2002,15:00 - 18:00,Day,1497,13.32
+West Bengal,2002,18:00 - 21:00,Night,1549,13.78
+West Bengal,2002,21:00 - 24:00,Night,1025,9.12
+West Bengal,2003,00:00 - 03:00,Night,726,6.38
+West Bengal,2003,03:00 - 06:00,Night,1182,10.39
+West Bengal,2003,06:00 - 09:00,Day,1442,12.68
+West Bengal,2003,09:00 - 12:00,Day,1989,17.49
+West Bengal,2003,12:00 - 15:00,Day,1726,15.17
+West Bengal,2003,15:00 - 18:00,Day,1644,14.45
+West Bengal,2003,18:00 - 21:00,Night,1624,14.28
+West Bengal,2003,21:00 - 24:00,Night,1042,9.16
+West Bengal,2004,00:00 - 03:00,Night,1117,9.19
+West Bengal,2004,03:00 - 06:00,Night,1388,11.42
+West Bengal,2004,06:00 - 09:00,Day,1582,13.02
+West Bengal,2004,09:00 - 12:00,Day,2061,16.96
+West Bengal,2004,12:00 - 15:00,Day,1774,14.6
+West Bengal,2004,15:00 - 18:00,Day,1848,15.21
+West Bengal,2004,18:00 - 21:00,Night,1258,10.35
+West Bengal,2004,21:00 - 24:00,Night,1124,9.25
+West Bengal,2005,00:00 - 03:00,Night,1067,8.76
+West Bengal,2005,03:00 - 06:00,Night,1284,10.54
+West Bengal,2005,06:00 - 09:00,Day,1626,13.35
+West Bengal,2005,09:00 - 12:00,Day,2005,16.46
+West Bengal,2005,12:00 - 15:00,Day,1709,14.03
+West Bengal,2005,15:00 - 18:00,Day,1846,15.15
+West Bengal,2005,18:00 - 21:00,Night,1629,13.37
+West Bengal,2005,21:00 - 24:00,Night,1015,8.33
+West Bengal,2006,00:00 - 03:00,Night,1143,8.74
+West Bengal,2006,03:00 - 06:00,Night,1470,11.23
+West Bengal,2006,06:00 - 09:00,Day,1772,13.54
+West Bengal,2006,09:00 - 12:00,Day,2033,15.54
+West Bengal,2006,12:00 - 15:00,Day,1897,14.5
+West Bengal,2006,15:00 - 18:00,Day,1929,14.74
+West Bengal,2006,18:00 - 21:00,Night,1825,13.95
+West Bengal,2006,21:00 - 24:00,Night,1016,7.76
+West Bengal,2007,00:00 - 03:00,Night,1203,8.62
+West Bengal,2007,03:00 - 06:00,Night,1567,11.23
+West Bengal,2007,06:00 - 09:00,Day,1621,11.62
+West Bengal,2007,09:00 - 12:00,Day,2179,15.62
+West Bengal,2007,12:00 - 15:00,Day,2106,15.09
+West Bengal,2007,15:00 - 18:00,Day,2201,15.77
+West Bengal,2007,18:00 - 21:00,Night,1752,12.56
+West Bengal,2007,21:00 - 24:00,Night,1325,9.5
+West Bengal,2008,00:00 - 03:00,Night,888,7.69
+West Bengal,2008,03:00 - 06:00,Night,1150,9.96
+West Bengal,2008,06:00 - 09:00,Day,1600,13.86
+West Bengal,2008,09:00 - 12:00,Day,1960,16.97
+West Bengal,2008,12:00 - 15:00,Day,1756,15.21
+West Bengal,2008,15:00 - 18:00,Day,1689,14.63
+West Bengal,2008,18:00 - 21:00,Night,1554,13.46
+West Bengal,2008,21:00 - 24:00,Night,950,8.23
+West Bengal,2009,00:00 - 03:00,Night,942,6.75
+West Bengal,2009,03:00 - 06:00,Night,1353,9.69
+West Bengal,2009,06:00 - 09:00,Day,1771,12.69
+West Bengal,2009,09:00 - 12:00,Day,2427,17.39
+West Bengal,2009,12:00 - 15:00,Day,2158,15.46
+West Bengal,2009,15:00 - 18:00,Day,2256,16.16
+West Bengal,2009,18:00 - 21:00,Night,1791,12.83
+West Bengal,2009,21:00 - 24:00,Night,1261,9.03
+West Bengal,2010,00:00 - 03:00,Night,1241,8.43
+West Bengal,2010,03:00 - 06:00,Night,1397,9.49
+West Bengal,2010,06:00 - 09:00,Day,1721,11.69
+West Bengal,2010,09:00 - 12:00,Day,2508,17.03
+West Bengal,2010,12:00 - 15:00,Day,2272,15.43
+West Bengal,2010,15:00 - 18:00,Day,2296,15.59
+West Bengal,2010,18:00 - 21:00,Night,1831,12.43
+West Bengal,2010,21:00 - 24:00,Night,1459,9.91
+West Bengal,2011,00:00 - 03:00,Night,1200,8.29
+West Bengal,2011,03:00 - 06:00,Night,1493,10.32
+West Bengal,2011,06:00 - 09:00,Day,1687,11.66
+West Bengal,2011,09:00 - 12:00,Day,2553,17.65
+West Bengal,2011,12:00 - 15:00,Day,2182,15.08
+West Bengal,2011,15:00 - 18:00,Day,2196,15.18
+West Bengal,2011,18:00 - 21:00,Night,1812,12.52
+West Bengal,2011,21:00 - 24:00,Night,1345,9.3
+West Bengal,2012,00:00 - 03:00,Night,1346,8.62
+West Bengal,2012,03:00 - 06:00,Night,1511,9.68
+West Bengal,2012,06:00 - 09:00,Day,1837,11.77
+West Bengal,2012,09:00 - 12:00,Day,2831,18.14
+West Bengal,2012,12:00 - 15:00,Day,2328,14.92
+West Bengal,2012,15:00 - 18:00,Day,2268,14.53
+West Bengal,2012,18:00 - 21:00,Night,1966,12.6
+West Bengal,2012,21:00 - 24:00,Night,1521,9.75
+West Bengal,2013,00:00 - 03:00,Night,1442,8.71
+West Bengal,2013,03:00 - 06:00,Night,1911,11.55
+West Bengal,2013,06:00 - 09:00,Day,2136,12.91
+West Bengal,2013,09:00 - 12:00,Day,2900,17.52
+West Bengal,2013,12:00 - 15:00,Day,2246,13.57
+West Bengal,2013,15:00 - 18:00,Day,2366,14.3
+West Bengal,2013,18:00 - 21:00,Night,2137,12.91
+West Bengal,2013,21:00 - 24:00,Night,1411,8.53
+West Bengal,2014,00:00 - 03:00,Night,1455,8.51
+West Bengal,2014,03:00 - 06:00,Night,1634,9.55
+West Bengal,2014,06:00 - 09:00,Day,2022,11.82
+West Bengal,2014,09:00 - 12:00,Day,2998,17.53
+West Bengal,2014,12:00 - 15:00,Day,2570,15.02
+West Bengal,2014,15:00 - 18:00,Day,2458,14.37
+West Bengal,2014,18:00 - 21:00,Night,2132,12.46
+West Bengal,2014,21:00 - 24:00,Night,1836,10.73

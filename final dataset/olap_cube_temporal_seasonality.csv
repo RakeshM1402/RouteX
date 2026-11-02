@@ -1,0 +1,3333 @@
+region,state_name,year,season,quarter,total_accidents,avg_monthly_accidents,min_monthly_accidents,max_monthly_accidents
+Central,Chhattisgarh,2001,Monsoon,Q2,425,425.0,425,425
+Central,Chhattisgarh,2001,Monsoon,Q3,1138,379.33,367,400
+Central,Chhattisgarh,2001,Post-Monsoon,Q4,818,409.0,393,425
+Central,Chhattisgarh,2001,Pre-Monsoon/Summer,Q1,403,403.0,403,403
+Central,Chhattisgarh,2001,Pre-Monsoon/Summer,Q2,952,476.0,448,504
+Central,Chhattisgarh,2001,Winter,Q1,813,406.5,385,428
+Central,Chhattisgarh,2001,Winter,Q4,438,438.0,438,438
+Central,Chhattisgarh,2002,Monsoon,Q2,468,468.0,468,468
+Central,Chhattisgarh,2002,Monsoon,Q3,1326,442.0,434,448
+Central,Chhattisgarh,2002,Post-Monsoon,Q4,968,484.0,453,515
+Central,Chhattisgarh,2002,Pre-Monsoon/Summer,Q1,522,522.0,522,522
+Central,Chhattisgarh,2002,Pre-Monsoon/Summer,Q2,1095,547.5,511,584
+Central,Chhattisgarh,2002,Winter,Q1,916,458.0,439,477
+Central,Chhattisgarh,2002,Winter,Q4,506,506.0,506,506
+Central,Chhattisgarh,2003,Monsoon,Q2,613,613.0,613,613
+Central,Chhattisgarh,2003,Monsoon,Q3,1611,537.0,501,586
+Central,Chhattisgarh,2003,Post-Monsoon,Q4,1138,569.0,543,595
+Central,Chhattisgarh,2003,Pre-Monsoon/Summer,Q1,589,589.0,589,589
+Central,Chhattisgarh,2003,Pre-Monsoon/Summer,Q2,1276,638.0,629,647
+Central,Chhattisgarh,2003,Winter,Q1,1214,607.0,565,649
+Central,Chhattisgarh,2003,Winter,Q4,582,582.0,582,582
+Central,Chhattisgarh,2004,Monsoon,Q2,501,501.0,501,501
+Central,Chhattisgarh,2004,Monsoon,Q3,1285,428.33,409,439
+Central,Chhattisgarh,2004,Post-Monsoon,Q4,1015,507.5,483,532
+Central,Chhattisgarh,2004,Pre-Monsoon/Summer,Q1,534,534.0,534,534
+Central,Chhattisgarh,2004,Pre-Monsoon/Summer,Q2,1178,589.0,586,592
+Central,Chhattisgarh,2004,Winter,Q1,1085,542.5,532,553
+Central,Chhattisgarh,2004,Winter,Q4,477,477.0,477,477
+Central,Chhattisgarh,2005,Monsoon,Q2,530,530.0,530,530
+Central,Chhattisgarh,2005,Monsoon,Q3,1414,471.33,421,558
+Central,Chhattisgarh,2005,Post-Monsoon,Q4,979,489.5,483,496
+Central,Chhattisgarh,2005,Pre-Monsoon/Summer,Q1,537,537.0,537,537
+Central,Chhattisgarh,2005,Pre-Monsoon/Summer,Q2,1079,539.5,513,566
+Central,Chhattisgarh,2005,Winter,Q1,985,492.5,472,513
+Central,Chhattisgarh,2005,Winter,Q4,472,472.0,472,472
+Central,Chhattisgarh,2006,Monsoon,Q2,598,598.0,598,598
+Central,Chhattisgarh,2006,Monsoon,Q3,1575,525.0,507,534
+Central,Chhattisgarh,2006,Post-Monsoon,Q4,1182,591.0,575,607
+Central,Chhattisgarh,2006,Pre-Monsoon/Summer,Q1,607,607.0,607,607
+Central,Chhattisgarh,2006,Pre-Monsoon/Summer,Q2,1341,670.5,631,710
+Central,Chhattisgarh,2006,Winter,Q1,1235,617.5,611,624
+Central,Chhattisgarh,2006,Winter,Q4,573,573.0,573,573
+Central,Chhattisgarh,2007,Monsoon,Q2,630,630.0,630,630
+Central,Chhattisgarh,2007,Monsoon,Q3,1805,601.67,544,642
+Central,Chhattisgarh,2007,Post-Monsoon,Q4,1259,629.5,599,660
+Central,Chhattisgarh,2007,Pre-Monsoon/Summer,Q1,638,638.0,638,638
+Central,Chhattisgarh,2007,Pre-Monsoon/Summer,Q2,1430,715.0,701,729
+Central,Chhattisgarh,2007,Winter,Q1,1419,709.5,632,787
+Central,Chhattisgarh,2007,Winter,Q4,656,656.0,656,656
+Central,Chhattisgarh,2008,Monsoon,Q2,704,704.0,704,704
+Central,Chhattisgarh,2008,Monsoon,Q3,1954,651.33,589,706
+Central,Chhattisgarh,2008,Post-Monsoon,Q4,1438,719.0,655,783
+Central,Chhattisgarh,2008,Pre-Monsoon/Summer,Q1,746,746.0,746,746
+Central,Chhattisgarh,2008,Pre-Monsoon/Summer,Q2,1707,853.5,848,859
+Central,Chhattisgarh,2008,Winter,Q1,1485,742.5,712,773
+Central,Chhattisgarh,2008,Winter,Q4,735,735.0,735,735
+Central,Chhattisgarh,2009,Monsoon,Q2,670,670.0,670,670
+Central,Chhattisgarh,2009,Monsoon,Q3,1851,617.0,595,639
+Central,Chhattisgarh,2009,Post-Monsoon,Q4,1301,650.5,642,659
+Central,Chhattisgarh,2009,Pre-Monsoon/Summer,Q1,643,643.0,643,643
+Central,Chhattisgarh,2009,Pre-Monsoon/Summer,Q2,1399,699.5,689,710
+Central,Chhattisgarh,2009,Winter,Q1,1410,705.0,689,721
+Central,Chhattisgarh,2009,Winter,Q4,639,639.0,639,639
+Central,Chhattisgarh,2010,Monsoon,Q2,612,612.0,612,612
+Central,Chhattisgarh,2010,Monsoon,Q3,1866,622.0,605,655
+Central,Chhattisgarh,2010,Post-Monsoon,Q4,1339,669.5,655,684
+Central,Chhattisgarh,2010,Pre-Monsoon/Summer,Q1,671,671.0,671,671
+Central,Chhattisgarh,2010,Pre-Monsoon/Summer,Q2,1357,678.5,652,705
+Central,Chhattisgarh,2010,Winter,Q1,1297,648.5,627,670
+Central,Chhattisgarh,2010,Winter,Q4,660,660.0,660,660
+Central,Chhattisgarh,2011,Monsoon,Q2,793,793.0,793,793
+Central,Chhattisgarh,2011,Monsoon,Q3,2043,681.0,636,747
+Central,Chhattisgarh,2011,Post-Monsoon,Q4,1493,746.5,723,770
+Central,Chhattisgarh,2011,Pre-Monsoon/Summer,Q1,804,804.0,804,804
+Central,Chhattisgarh,2011,Pre-Monsoon/Summer,Q2,1628,814.0,725,903
+Central,Chhattisgarh,2011,Winter,Q1,1663,831.5,795,868
+Central,Chhattisgarh,2011,Winter,Q4,771,771.0,771,771
+Central,Chhattisgarh,2012,Monsoon,Q2,1121,1121.0,1121,1121
+Central,Chhattisgarh,2012,Monsoon,Q3,3109,1036.33,990,1103
+Central,Chhattisgarh,2012,Post-Monsoon,Q4,2191,1095.5,1084,1107
+Central,Chhattisgarh,2012,Pre-Monsoon/Summer,Q1,1175,1175.0,1175,1175
+Central,Chhattisgarh,2012,Pre-Monsoon/Summer,Q2,2370,1185.0,1182,1188
+Central,Chhattisgarh,2012,Winter,Q1,2414,1207.0,1161,1253
+Central,Chhattisgarh,2012,Winter,Q4,1131,1131.0,1131,1131
+Central,Chhattisgarh,2013,Monsoon,Q2,1131,1131.0,1131,1131
+Central,Chhattisgarh,2013,Monsoon,Q3,3059,1019.67,1005,1029
+Central,Chhattisgarh,2013,Post-Monsoon,Q4,2088,1044.0,1042,1046
+Central,Chhattisgarh,2013,Pre-Monsoon/Summer,Q1,1288,1288.0,1288,1288
+Central,Chhattisgarh,2013,Pre-Monsoon/Summer,Q2,2348,1174.0,1139,1209
+Central,Chhattisgarh,2013,Winter,Q1,2653,1326.5,1269,1384
+Central,Chhattisgarh,2013,Winter,Q4,1090,1090.0,1090,1090
+Central,Chhattisgarh,2014,Monsoon,Q2,1051,1051.0,1051,1051
+Central,Chhattisgarh,2014,Monsoon,Q3,2721,907.0,877,934
+Central,Chhattisgarh,2014,Post-Monsoon,Q4,1978,989.0,973,1005
+Central,Chhattisgarh,2014,Pre-Monsoon/Summer,Q1,1000,1000.0,1000,1000
+Central,Chhattisgarh,2014,Pre-Monsoon/Summer,Q2,2169,1084.5,1020,1149
+Central,Chhattisgarh,2014,Winter,Q1,2277,1138.5,1110,1167
+Central,Chhattisgarh,2014,Winter,Q4,944,944.0,944,944
+Central,Madhya Pradesh,2001,Monsoon,Q2,1649,1649.0,1649,1649
+Central,Madhya Pradesh,2001,Monsoon,Q3,4344,1448.0,1372,1544
+Central,Madhya Pradesh,2001,Post-Monsoon,Q4,3361,1680.5,1650,1711
+Central,Madhya Pradesh,2001,Pre-Monsoon/Summer,Q1,1764,1764.0,1764,1764
+Central,Madhya Pradesh,2001,Pre-Monsoon/Summer,Q2,3708,1854.0,1728,1980
+Central,Madhya Pradesh,2001,Winter,Q1,3310,1655.0,1584,1726
+Central,Madhya Pradesh,2001,Winter,Q4,1576,1576.0,1576,1576
+Central,Madhya Pradesh,2002,Monsoon,Q2,1987,1987.0,1987,1987
+Central,Madhya Pradesh,2002,Monsoon,Q3,5081,1693.67,1649,1776
+Central,Madhya Pradesh,2002,Post-Monsoon,Q4,4015,2007.5,1927,2088
+Central,Madhya Pradesh,2002,Pre-Monsoon/Summer,Q1,1921,1921.0,1921,1921
+Central,Madhya Pradesh,2002,Pre-Monsoon/Summer,Q2,4172,2086.0,1894,2278
+Central,Madhya Pradesh,2002,Winter,Q1,3744,1872.0,1871,1873
+Central,Madhya Pradesh,2002,Winter,Q4,1959,1959.0,1959,1959
+Central,Madhya Pradesh,2003,Monsoon,Q2,2064,2064.0,2064,2064
+Central,Madhya Pradesh,2003,Monsoon,Q3,5116,1705.33,1644,1779
+Central,Madhya Pradesh,2003,Post-Monsoon,Q4,3809,1904.5,1886,1923
+Central,Madhya Pradesh,2003,Pre-Monsoon/Summer,Q1,1891,1891.0,1891,1891
+Central,Madhya Pradesh,2003,Pre-Monsoon/Summer,Q2,4156,2078.0,1965,2191
+Central,Madhya Pradesh,2003,Winter,Q1,3690,1845.0,1763,1927
+Central,Madhya Pradesh,2003,Winter,Q4,1890,1890.0,1890,1890
+Central,Madhya Pradesh,2004,Monsoon,Q2,1970,1970.0,1970,1970
+Central,Madhya Pradesh,2004,Monsoon,Q3,5396,1798.67,1672,1868
+Central,Madhya Pradesh,2004,Post-Monsoon,Q4,3921,1960.5,1882,2039
+Central,Madhya Pradesh,2004,Pre-Monsoon/Summer,Q1,2002,2002.0,2002,2002
+Central,Madhya Pradesh,2004,Pre-Monsoon/Summer,Q2,4266,2133.0,2100,2166
+Central,Madhya Pradesh,2004,Winter,Q1,4152,2076.0,2048,2104
+Central,Madhya Pradesh,2004,Winter,Q4,1884,1884.0,1884,1884
+Central,Madhya Pradesh,2005,Monsoon,Q2,1931,1931.0,1931,1931
+Central,Madhya Pradesh,2005,Monsoon,Q3,4791,1597.0,1553,1637
+Central,Madhya Pradesh,2005,Post-Monsoon,Q4,3651,1825.5,1749,1902
+Central,Madhya Pradesh,2005,Pre-Monsoon/Summer,Q1,1830,1830.0,1830,1830
+Central,Madhya Pradesh,2005,Pre-Monsoon/Summer,Q2,4042,2021.0,1771,2271
+Central,Madhya Pradesh,2005,Winter,Q1,3565,1782.5,1768,1797
+Central,Madhya Pradesh,2005,Winter,Q4,1664,1664.0,1664,1664
+Central,Madhya Pradesh,2006,Monsoon,Q2,2159,2159.0,2159,2159
+Central,Madhya Pradesh,2006,Monsoon,Q3,5511,1837.0,1723,1929
+Central,Madhya Pradesh,2006,Post-Monsoon,Q4,4261,2130.5,2050,2211
+Central,Madhya Pradesh,2006,Pre-Monsoon/Summer,Q1,2144,2144.0,2144,2144
+Central,Madhya Pradesh,2006,Pre-Monsoon/Summer,Q2,4794,2397.0,2278,2516
+Central,Madhya Pradesh,2006,Winter,Q1,4147,2073.5,1967,2180
+Central,Madhya Pradesh,2006,Winter,Q4,2022,2022.0,2022,2022
+Central,Madhya Pradesh,2007,Monsoon,Q2,2482,2482.0,2482,2482
+Central,Madhya Pradesh,2007,Monsoon,Q3,6355,2118.33,2080,2161
+Central,Madhya Pradesh,2007,Post-Monsoon,Q4,4707,2353.5,2323,2384
+Central,Madhya Pradesh,2007,Pre-Monsoon/Summer,Q1,2409,2409.0,2409,2409
+Central,Madhya Pradesh,2007,Pre-Monsoon/Summer,Q2,5466,2733.0,2690,2776
+Central,Madhya Pradesh,2007,Winter,Q1,4778,2389.0,2288,2490
+Central,Madhya Pradesh,2007,Winter,Q4,2247,2247.0,2247,2247
+Central,Madhya Pradesh,2008,Monsoon,Q2,2718,2718.0,2718,2718
+Central,Madhya Pradesh,2008,Monsoon,Q3,8486,2828.67,2564,3223
+Central,Madhya Pradesh,2008,Post-Monsoon,Q4,5407,2703.5,2449,2958
+Central,Madhya Pradesh,2008,Pre-Monsoon/Summer,Q1,2917,2917.0,2917,2917
+Central,Madhya Pradesh,2008,Pre-Monsoon/Summer,Q2,6376,3188.0,3126,3250
+Central,Madhya Pradesh,2008,Winter,Q1,5920,2960.0,2883,3037
+Central,Madhya Pradesh,2008,Winter,Q4,2492,2492.0,2492,2492
+Central,Madhya Pradesh,2009,Monsoon,Q2,2742,2742.0,2742,2742
+Central,Madhya Pradesh,2009,Monsoon,Q3,7294,2431.33,2335,2510
+Central,Madhya Pradesh,2009,Post-Monsoon,Q4,5378,2689.0,2549,2829
+Central,Madhya Pradesh,2009,Pre-Monsoon/Summer,Q1,2723,2723.0,2723,2723
+Central,Madhya Pradesh,2009,Pre-Monsoon/Summer,Q2,5941,2970.5,2822,3119
+Central,Madhya Pradesh,2009,Winter,Q1,5593,2796.5,2742,2851
+Central,Madhya Pradesh,2009,Winter,Q4,2661,2661.0,2661,2661
+Central,Madhya Pradesh,2010,Monsoon,Q2,2682,2682.0,2682,2682
+Central,Madhya Pradesh,2010,Monsoon,Q3,6899,2299.67,2226,2428
+Central,Madhya Pradesh,2010,Post-Monsoon,Q4,5218,2609.0,2583,2635
+Central,Madhya Pradesh,2010,Pre-Monsoon/Summer,Q1,2435,2435.0,2435,2435
+Central,Madhya Pradesh,2010,Pre-Monsoon/Summer,Q2,5438,2719.0,2548,2890
+Central,Madhya Pradesh,2010,Winter,Q1,4997,2498.5,2494,2503
+Central,Madhya Pradesh,2010,Winter,Q4,2458,2458.0,2458,2458
+Central,Madhya Pradesh,2011,Monsoon,Q2,2533,2533.0,2533,2533
+Central,Madhya Pradesh,2011,Monsoon,Q3,6718,2239.33,2128,2370
+Central,Madhya Pradesh,2011,Post-Monsoon,Q4,5070,2535.0,2526,2544
+Central,Madhya Pradesh,2011,Pre-Monsoon/Summer,Q1,2722,2722.0,2722,2722
+Central,Madhya Pradesh,2011,Pre-Monsoon/Summer,Q2,5675,2837.5,2564,3111
+Central,Madhya Pradesh,2011,Winter,Q1,5439,2719.5,2547,2892
+Central,Madhya Pradesh,2011,Winter,Q4,2416,2416.0,2416,2416
+Central,Madhya Pradesh,2012,Monsoon,Q2,2631,2631.0,2631,2631
+Central,Madhya Pradesh,2012,Monsoon,Q3,6241,2080.33,1992,2146
+Central,Madhya Pradesh,2012,Post-Monsoon,Q4,4942,2471.0,2420,2522
+Central,Madhya Pradesh,2012,Pre-Monsoon/Summer,Q1,2413,2413.0,2413,2413
+Central,Madhya Pradesh,2012,Pre-Monsoon/Summer,Q2,5640,2820.0,2799,2841
+Central,Madhya Pradesh,2012,Winter,Q1,5093,2546.5,2475,2618
+Central,Madhya Pradesh,2012,Winter,Q4,2213,2213.0,2213,2213
+Central,Madhya Pradesh,2013,Monsoon,Q2,3026,3026.0,3026,3026
+Central,Madhya Pradesh,2013,Monsoon,Q3,7570,2523.33,2448,2587
+Central,Madhya Pradesh,2013,Post-Monsoon,Q4,5362,2681.0,2621,2741
+Central,Madhya Pradesh,2013,Pre-Monsoon/Summer,Q1,2953,2953.0,2953,2953
+Central,Madhya Pradesh,2013,Pre-Monsoon/Summer,Q2,6730,3365.0,2952,3778
+Central,Madhya Pradesh,2013,Winter,Q1,5760,2880.0,2801,2959
+Central,Madhya Pradesh,2013,Winter,Q4,2633,2633.0,2633,2633
+Central,Madhya Pradesh,2014,Monsoon,Q2,3637,3637.0,3637,3637
+Central,Madhya Pradesh,2014,Monsoon,Q3,9001,3000.33,2946,3104
+Central,Madhya Pradesh,2014,Post-Monsoon,Q4,6549,3274.5,3261,3288
+Central,Madhya Pradesh,2014,Pre-Monsoon/Summer,Q1,3470,3470.0,3470,3470
+Central,Madhya Pradesh,2014,Pre-Monsoon/Summer,Q2,7452,3726.0,3345,4107
+Central,Madhya Pradesh,2014,Winter,Q1,6529,3264.5,3154,3375
+Central,Madhya Pradesh,2014,Winter,Q4,3060,3060.0,3060,3060
+Central,Uttar Pradesh,2001,Monsoon,Q2,1027,1027.0,1027,1027
+Central,Uttar Pradesh,2001,Monsoon,Q3,4414,1471.33,1310,1626
+Central,Uttar Pradesh,2001,Post-Monsoon,Q4,2670,1335.0,1231,1439
+Central,Uttar Pradesh,2001,Pre-Monsoon/Summer,Q1,1652,1652.0,1652,1652
+Central,Uttar Pradesh,2001,Pre-Monsoon/Summer,Q2,3396,1698.0,1663,1733
+Central,Uttar Pradesh,2001,Winter,Q1,3432,1716.0,1695,1737
+Central,Uttar Pradesh,2001,Winter,Q4,1330,1330.0,1330,1330
+Central,Uttar Pradesh,2002,Monsoon,Q2,1363,1363.0,1363,1363
+Central,Uttar Pradesh,2002,Monsoon,Q3,3381,1127.0,1099,1169
+Central,Uttar Pradesh,2002,Post-Monsoon,Q4,2333,1166.5,1100,1233
+Central,Uttar Pradesh,2002,Pre-Monsoon/Summer,Q1,1270,1270.0,1270,1270
+Central,Uttar Pradesh,2002,Pre-Monsoon/Summer,Q2,2543,1271.5,1194,1349
+Central,Uttar Pradesh,2002,Winter,Q1,2401,1200.5,1164,1237
+Central,Uttar Pradesh,2002,Winter,Q4,1166,1166.0,1166,1166
+Central,Uttar Pradesh,2003,Monsoon,Q2,908,908.0,908,908
+Central,Uttar Pradesh,2003,Monsoon,Q3,2482,827.33,794,873
+Central,Uttar Pradesh,2003,Post-Monsoon,Q4,2003,1001.5,938,1065
+Central,Uttar Pradesh,2003,Pre-Monsoon/Summer,Q1,911,911.0,911,911
+Central,Uttar Pradesh,2003,Pre-Monsoon/Summer,Q2,1864,932.0,868,996
+Central,Uttar Pradesh,2003,Winter,Q1,2004,1002.0,955,1049
+Central,Uttar Pradesh,2003,Winter,Q4,1182,1182.0,1182,1182
+Central,Uttar Pradesh,2004,Monsoon,Q2,1062,1062.0,1062,1062
+Central,Uttar Pradesh,2004,Monsoon,Q3,3484,1161.33,1093,1227
+Central,Uttar Pradesh,2004,Post-Monsoon,Q4,2399,1199.5,1198,1201
+Central,Uttar Pradesh,2004,Pre-Monsoon/Summer,Q1,1285,1285.0,1285,1285
+Central,Uttar Pradesh,2004,Pre-Monsoon/Summer,Q2,2178,1089.0,1004,1174
+Central,Uttar Pradesh,2004,Winter,Q1,2618,1309.0,1309,1309
+Central,Uttar Pradesh,2004,Winter,Q4,1348,1348.0,1348,1348
+Central,Uttar Pradesh,2005,Monsoon,Q2,1302,1302.0,1302,1302
+Central,Uttar Pradesh,2005,Monsoon,Q3,3513,1171.0,1080,1251
+Central,Uttar Pradesh,2005,Post-Monsoon,Q4,2260,1130.0,1107,1153
+Central,Uttar Pradesh,2005,Pre-Monsoon/Summer,Q1,1334,1334.0,1334,1334
+Central,Uttar Pradesh,2005,Pre-Monsoon/Summer,Q2,2536,1268.0,1114,1422
+Central,Uttar Pradesh,2005,Winter,Q1,2486,1243.0,1220,1266
+Central,Uttar Pradesh,2005,Winter,Q4,1258,1258.0,1258,1258
+Central,Uttar Pradesh,2006,Monsoon,Q2,1343,1343.0,1343,1343
+Central,Uttar Pradesh,2006,Monsoon,Q3,3679,1226.33,1201,1252
+Central,Uttar Pradesh,2006,Post-Monsoon,Q4,2431,1215.5,1204,1227
+Central,Uttar Pradesh,2006,Pre-Monsoon/Summer,Q1,1389,1389.0,1389,1389
+Central,Uttar Pradesh,2006,Pre-Monsoon/Summer,Q2,2440,1220.0,1160,1280
+Central,Uttar Pradesh,2006,Winter,Q1,3213,1606.5,1605,1608
+Central,Uttar Pradesh,2006,Winter,Q4,1712,1712.0,1712,1712
+Central,Uttar Pradesh,2007,Monsoon,Q2,1461,1461.0,1461,1461
+Central,Uttar Pradesh,2007,Monsoon,Q3,4229,1409.67,1392,1443
+Central,Uttar Pradesh,2007,Post-Monsoon,Q4,2907,1453.5,1393,1514
+Central,Uttar Pradesh,2007,Pre-Monsoon/Summer,Q1,1568,1568.0,1568,1568
+Central,Uttar Pradesh,2007,Pre-Monsoon/Summer,Q2,3006,1503.0,1495,1511
+Central,Uttar Pradesh,2007,Winter,Q1,3217,1608.5,1570,1647
+Central,Uttar Pradesh,2007,Winter,Q4,1643,1643.0,1643,1643
+Central,Uttar Pradesh,2008,Monsoon,Q2,1483,1483.0,1483,1483
+Central,Uttar Pradesh,2008,Monsoon,Q3,4428,1476.0,1411,1528
+Central,Uttar Pradesh,2008,Post-Monsoon,Q4,3200,1600.0,1569,1631
+Central,Uttar Pradesh,2008,Pre-Monsoon/Summer,Q1,1664,1664.0,1664,1664
+Central,Uttar Pradesh,2008,Pre-Monsoon/Summer,Q2,3033,1516.5,1478,1555
+Central,Uttar Pradesh,2008,Winter,Q1,3423,1711.5,1624,1799
+Central,Uttar Pradesh,2008,Winter,Q4,1833,1833.0,1833,1833
+Central,Uttar Pradesh,2009,Monsoon,Q2,1747,1747.0,1747,1747
+Central,Uttar Pradesh,2009,Monsoon,Q3,5131,1710.33,1683,1754
+Central,Uttar Pradesh,2009,Post-Monsoon,Q4,3862,1931.0,1791,2071
+Central,Uttar Pradesh,2009,Pre-Monsoon/Summer,Q1,1834,1834.0,1834,1834
+Central,Uttar Pradesh,2009,Pre-Monsoon/Summer,Q2,3714,1857.0,1802,1912
+Central,Uttar Pradesh,2009,Winter,Q1,3768,1884.0,1758,2010
+Central,Uttar Pradesh,2009,Winter,Q4,1929,1929.0,1929,1929
+Central,Uttar Pradesh,2010,Monsoon,Q2,2320,2320.0,2320,2320
+Central,Uttar Pradesh,2010,Monsoon,Q3,5798,1932.67,1862,2022
+Central,Uttar Pradesh,2010,Post-Monsoon,Q4,4060,2030.0,1929,2131
+Central,Uttar Pradesh,2010,Pre-Monsoon/Summer,Q1,2284,2284.0,2284,2284
+Central,Uttar Pradesh,2010,Pre-Monsoon/Summer,Q2,4231,2115.5,2060,2171
+Central,Uttar Pradesh,2010,Winter,Q1,4336,2168.0,2123,2213
+Central,Uttar Pradesh,2010,Winter,Q4,2387,2387.0,2387,2387
+Central,Uttar Pradesh,2011,Monsoon,Q2,2189,2189.0,2189,2189
+Central,Uttar Pradesh,2011,Monsoon,Q3,5669,1889.67,1842,1948
+Central,Uttar Pradesh,2011,Post-Monsoon,Q4,4059,2029.5,1909,2150
+Central,Uttar Pradesh,2011,Pre-Monsoon/Summer,Q1,2145,2145.0,2145,2145
+Central,Uttar Pradesh,2011,Pre-Monsoon/Summer,Q2,4083,2041.5,1905,2178
+Central,Uttar Pradesh,2011,Winter,Q1,4133,2066.5,2045,2088
+Central,Uttar Pradesh,2011,Winter,Q4,2235,2235.0,2235,2235
+Central,Uttar Pradesh,2012,Monsoon,Q2,2167,2167.0,2167,2167
+Central,Uttar Pradesh,2012,Monsoon,Q3,5466,1822.0,1670,2037
+Central,Uttar Pradesh,2012,Post-Monsoon,Q4,3858,1929.0,1803,2055
+Central,Uttar Pradesh,2012,Pre-Monsoon/Summer,Q1,2100,2100.0,2100,2100
+Central,Uttar Pradesh,2012,Pre-Monsoon/Summer,Q2,4446,2223.0,2066,2380
+Central,Uttar Pradesh,2012,Winter,Q1,4131,2065.5,2030,2101
+Central,Uttar Pradesh,2012,Winter,Q4,2310,2310.0,2310,2310
+Central,Uttar Pradesh,2013,Monsoon,Q2,2227,2227.0,2227,2227
+Central,Uttar Pradesh,2013,Monsoon,Q3,5857,1952.33,1871,2035
+Central,Uttar Pradesh,2013,Post-Monsoon,Q4,4071,2035.5,1922,2149
+Central,Uttar Pradesh,2013,Pre-Monsoon/Summer,Q1,2235,2235.0,2235,2235
+Central,Uttar Pradesh,2013,Pre-Monsoon/Summer,Q2,4779,2389.5,2225,2554
+Central,Uttar Pradesh,2013,Winter,Q1,4440,2220.0,2150,2290
+Central,Uttar Pradesh,2013,Winter,Q4,2366,2366.0,2366,2366
+Central,Uttar Pradesh,2014,Monsoon,Q2,2209,2209.0,2209,2209
+Central,Uttar Pradesh,2014,Monsoon,Q3,5927,1975.67,1824,2086
+Central,Uttar Pradesh,2014,Post-Monsoon,Q4,4193,2096.5,2023,2170
+Central,Uttar Pradesh,2014,Pre-Monsoon/Summer,Q1,2217,2217.0,2217,2217
+Central,Uttar Pradesh,2014,Pre-Monsoon/Summer,Q2,4332,2166.0,2067,2265
+Central,Uttar Pradesh,2014,Winter,Q1,4861,2430.5,2311,2550
+Central,Uttar Pradesh,2014,Winter,Q4,2325,2325.0,2325,2325
+East,Bihar,2001,Monsoon,Q2,417,417.0,417,417
+East,Bihar,2001,Monsoon,Q3,982,327.33,317,336
+East,Bihar,2001,Post-Monsoon,Q4,606,303.0,289,317
+East,Bihar,2001,Pre-Monsoon/Summer,Q1,474,474.0,474,474
+East,Bihar,2001,Pre-Monsoon/Summer,Q2,864,432.0,336,528
+East,Bihar,2001,Winter,Q1,686,343.0,325,361
+East,Bihar,2001,Winter,Q4,305,305.0,305,305
+East,Bihar,2002,Monsoon,Q2,477,477.0,477,477
+East,Bihar,2002,Monsoon,Q3,892,297.33,227,362
+East,Bihar,2002,Post-Monsoon,Q4,616,308.0,290,326
+East,Bihar,2002,Pre-Monsoon/Summer,Q1,401,401.0,401,401
+East,Bihar,2002,Pre-Monsoon/Summer,Q2,951,475.5,391,560
+East,Bihar,2002,Winter,Q1,746,373.0,366,380
+East,Bihar,2002,Winter,Q4,289,289.0,289,289
+East,Bihar,2003,Monsoon,Q2,429,429.0,429,429
+East,Bihar,2003,Monsoon,Q3,822,274.0,241,326
+East,Bihar,2003,Post-Monsoon,Q4,521,260.5,258,263
+East,Bihar,2003,Pre-Monsoon/Summer,Q1,368,368.0,368,368
+East,Bihar,2003,Pre-Monsoon/Summer,Q2,799,399.5,359,440
+East,Bihar,2003,Winter,Q1,677,338.5,337,340
+East,Bihar,2003,Winter,Q4,286,286.0,286,286
+East,Bihar,2004,Monsoon,Q2,392,392.0,392,392
+East,Bihar,2004,Monsoon,Q3,831,277.0,253,320
+East,Bihar,2004,Post-Monsoon,Q4,587,293.5,290,297
+East,Bihar,2004,Pre-Monsoon/Summer,Q1,407,407.0,407,407
+East,Bihar,2004,Pre-Monsoon/Summer,Q2,721,360.5,308,413
+East,Bihar,2004,Winter,Q1,645,322.5,296,349
+East,Bihar,2004,Winter,Q4,307,307.0,307,307
+East,Bihar,2005,Monsoon,Q2,381,381.0,381,381
+East,Bihar,2005,Monsoon,Q3,814,271.33,241,310
+East,Bihar,2005,Post-Monsoon,Q4,556,278.0,255,301
+East,Bihar,2005,Pre-Monsoon/Summer,Q1,354,354.0,354,354
+East,Bihar,2005,Pre-Monsoon/Summer,Q2,803,401.5,340,463
+East,Bihar,2005,Winter,Q1,516,258.0,254,262
+East,Bihar,2005,Winter,Q4,322,322.0,322,322
+East,Bihar,2006,Monsoon,Q2,386,386.0,386,386
+East,Bihar,2006,Monsoon,Q3,1024,341.33,320,363
+East,Bihar,2006,Post-Monsoon,Q4,761,380.5,380,381
+East,Bihar,2006,Pre-Monsoon/Summer,Q1,395,395.0,395,395
+East,Bihar,2006,Pre-Monsoon/Summer,Q2,828,414.0,389,439
+East,Bihar,2006,Winter,Q1,654,327.0,306,348
+East,Bihar,2006,Winter,Q4,334,334.0,334,334
+East,Bihar,2007,Monsoon,Q2,551,551.0,551,551
+East,Bihar,2007,Monsoon,Q3,1160,386.67,347,438
+East,Bihar,2007,Post-Monsoon,Q4,911,455.5,427,484
+East,Bihar,2007,Pre-Monsoon/Summer,Q1,505,505.0,505,505
+East,Bihar,2007,Pre-Monsoon/Summer,Q2,1153,576.5,518,635
+East,Bihar,2007,Winter,Q1,907,453.5,443,464
+East,Bihar,2007,Winter,Q4,444,444.0,444,444
+East,Bihar,2008,Monsoon,Q2,529,529.0,529,529
+East,Bihar,2008,Monsoon,Q3,1328,442.67,422,465
+East,Bihar,2008,Post-Monsoon,Q4,1078,539.0,487,591
+East,Bihar,2008,Pre-Monsoon/Summer,Q1,612,612.0,612,612
+East,Bihar,2008,Pre-Monsoon/Summer,Q2,1204,602.0,583,621
+East,Bihar,2008,Winter,Q1,932,466.0,447,485
+East,Bihar,2008,Winter,Q4,497,497.0,497,497
+East,Bihar,2009,Monsoon,Q2,911,911.0,911,911
+East,Bihar,2009,Monsoon,Q3,1878,626.0,574,712
+East,Bihar,2009,Post-Monsoon,Q4,1333,666.5,634,699
+East,Bihar,2009,Pre-Monsoon/Summer,Q1,754,754.0,754,754
+East,Bihar,2009,Pre-Monsoon/Summer,Q2,1520,760.0,595,925
+East,Bihar,2009,Winter,Q1,1249,624.5,543,706
+East,Bihar,2009,Winter,Q4,721,721.0,721,721
+East,Bihar,2010,Monsoon,Q2,1034,1034.0,1034,1034
+East,Bihar,2010,Monsoon,Q3,1958,652.67,546,723
+East,Bihar,2010,Post-Monsoon,Q4,1271,635.5,606,665
+East,Bihar,2010,Pre-Monsoon/Summer,Q1,722,722.0,722,722
+East,Bihar,2010,Pre-Monsoon/Summer,Q2,1483,741.5,650,833
+East,Bihar,2010,Winter,Q1,1308,654.0,610,698
+East,Bihar,2010,Winter,Q4,665,665.0,665,665
+East,Bihar,2011,Monsoon,Q2,880,880.0,880,880
+East,Bihar,2011,Monsoon,Q3,2031,677.0,618,769
+East,Bihar,2011,Post-Monsoon,Q4,1532,766.0,759,773
+East,Bihar,2011,Pre-Monsoon/Summer,Q1,964,964.0,964,964
+East,Bihar,2011,Pre-Monsoon/Summer,Q2,1701,850.5,737,964
+East,Bihar,2011,Winter,Q1,1558,779.0,750,808
+East,Bihar,2011,Winter,Q4,689,689.0,689,689
+East,Bihar,2012,Monsoon,Q2,1003,1003.0,1003,1003
+East,Bihar,2012,Monsoon,Q3,2337,779.0,728,822
+East,Bihar,2012,Post-Monsoon,Q4,1600,800.0,763,837
+East,Bihar,2012,Pre-Monsoon/Summer,Q1,915,915.0,915,915
+East,Bihar,2012,Pre-Monsoon/Summer,Q2,1936,968.0,909,1027
+East,Bihar,2012,Winter,Q1,1704,852.0,799,905
+East,Bihar,2012,Winter,Q4,825,825.0,825,825
+East,Bihar,2013,Monsoon,Q2,913,913.0,913,913
+East,Bihar,2013,Monsoon,Q3,2375,791.67,735,882
+East,Bihar,2013,Post-Monsoon,Q4,1610,805.0,765,845
+East,Bihar,2013,Pre-Monsoon/Summer,Q1,815,815.0,815,815
+East,Bihar,2013,Pre-Monsoon/Summer,Q2,2082,1041.0,813,1269
+East,Bihar,2013,Winter,Q1,1592,796.0,792,800
+East,Bihar,2013,Winter,Q4,811,811.0,811,811
+East,Bihar,2014,Monsoon,Q2,1002,1002.0,1002,1002
+East,Bihar,2014,Monsoon,Q3,2104,701.33,662,757
+East,Bihar,2014,Post-Monsoon,Q4,1549,774.5,720,829
+East,Bihar,2014,Pre-Monsoon/Summer,Q1,852,852.0,852,852
+East,Bihar,2014,Pre-Monsoon/Summer,Q2,1699,849.5,714,985
+East,Bihar,2014,Winter,Q1,1519,759.5,742,777
+East,Bihar,2014,Winter,Q4,806,806.0,806,806
+East,Jharkhand,2001,Monsoon,Q2,70,70.0,70,70
+East,Jharkhand,2001,Monsoon,Q3,245,81.67,78,88
+East,Jharkhand,2001,Post-Monsoon,Q4,167,83.5,81,86
+East,Jharkhand,2001,Pre-Monsoon/Summer,Q1,88,88.0,88,88
+East,Jharkhand,2001,Pre-Monsoon/Summer,Q2,189,94.5,94,95
+East,Jharkhand,2001,Winter,Q1,159,79.5,76,83
+East,Jharkhand,2001,Winter,Q4,77,77.0,77,77
+East,Jharkhand,2002,Monsoon,Q2,69,69.0,69,69
+East,Jharkhand,2002,Monsoon,Q3,226,75.33,67,80
+East,Jharkhand,2002,Post-Monsoon,Q4,143,71.5,68,75
+East,Jharkhand,2002,Pre-Monsoon/Summer,Q1,70,70.0,70,70
+East,Jharkhand,2002,Pre-Monsoon/Summer,Q2,171,85.5,80,91
+East,Jharkhand,2002,Winter,Q1,126,63.0,41,85
+East,Jharkhand,2002,Winter,Q4,75,75.0,75,75
+East,Jharkhand,2003,Monsoon,Q2,70,70.0,70,70
+East,Jharkhand,2003,Monsoon,Q3,226,75.33,68,89
+East,Jharkhand,2003,Post-Monsoon,Q4,139,69.5,69,70
+East,Jharkhand,2003,Pre-Monsoon/Summer,Q1,72,72.0,72,72
+East,Jharkhand,2003,Pre-Monsoon/Summer,Q2,175,87.5,85,90
+East,Jharkhand,2003,Winter,Q1,122,61.0,42,80
+East,Jharkhand,2003,Winter,Q4,76,76.0,76,76
+East,Jharkhand,2004,Monsoon,Q2,102,102.0,102,102
+East,Jharkhand,2004,Monsoon,Q3,302,100.67,73,125
+East,Jharkhand,2004,Post-Monsoon,Q4,212,106.0,106,106
+East,Jharkhand,2004,Pre-Monsoon/Summer,Q1,105,105.0,105,105
+East,Jharkhand,2004,Pre-Monsoon/Summer,Q2,250,125.0,122,128
+East,Jharkhand,2004,Winter,Q1,215,107.5,99,116
+East,Jharkhand,2004,Winter,Q4,109,109.0,109,109
+East,Jharkhand,2005,Monsoon,Q2,236,236.0,236,236
+East,Jharkhand,2005,Monsoon,Q3,586,195.33,165,220
+East,Jharkhand,2005,Post-Monsoon,Q4,425,212.5,193,232
+East,Jharkhand,2005,Pre-Monsoon/Summer,Q1,295,295.0,295,295
+East,Jharkhand,2005,Pre-Monsoon/Summer,Q2,578,289.0,253,325
+East,Jharkhand,2005,Winter,Q1,407,203.5,179,228
+East,Jharkhand,2005,Winter,Q4,212,212.0,212,212
+East,Jharkhand,2006,Monsoon,Q2,395,395.0,395,395
+East,Jharkhand,2006,Monsoon,Q3,1036,345.33,312,400
+East,Jharkhand,2006,Post-Monsoon,Q4,683,341.5,324,359
+East,Jharkhand,2006,Pre-Monsoon/Summer,Q1,400,400.0,400,400
+East,Jharkhand,2006,Pre-Monsoon/Summer,Q2,727,363.5,335,392
+East,Jharkhand,2006,Winter,Q1,701,350.5,322,379
+East,Jharkhand,2006,Winter,Q4,359,359.0,359,359
+East,Jharkhand,2007,Monsoon,Q2,412,412.0,412,412
+East,Jharkhand,2007,Monsoon,Q3,941,313.67,310,320
+East,Jharkhand,2007,Post-Monsoon,Q4,675,337.5,312,363
+East,Jharkhand,2007,Pre-Monsoon/Summer,Q1,398,398.0,398,398
+East,Jharkhand,2007,Pre-Monsoon/Summer,Q2,906,453.0,393,513
+East,Jharkhand,2007,Winter,Q1,797,398.5,368,429
+East,Jharkhand,2007,Winter,Q4,375,375.0,375,375
+East,Jharkhand,2008,Monsoon,Q2,333,333.0,333,333
+East,Jharkhand,2008,Monsoon,Q3,742,247.33,201,276
+East,Jharkhand,2008,Post-Monsoon,Q4,596,298.0,297,299
+East,Jharkhand,2008,Pre-Monsoon/Summer,Q1,225,225.0,225,225
+East,Jharkhand,2008,Pre-Monsoon/Summer,Q2,633,316.5,278,355
+East,Jharkhand,2008,Winter,Q1,433,216.5,203,230
+East,Jharkhand,2008,Winter,Q4,297,297.0,297,297
+East,Jharkhand,2009,Monsoon,Q2,427,427.0,427,427
+East,Jharkhand,2009,Monsoon,Q3,1039,346.33,327,372
+East,Jharkhand,2009,Post-Monsoon,Q4,728,364.0,354,374
+East,Jharkhand,2009,Pre-Monsoon/Summer,Q1,457,457.0,457,457
+East,Jharkhand,2009,Pre-Monsoon/Summer,Q2,838,419.0,360,478
+East,Jharkhand,2009,Winter,Q1,669,334.5,327,342
+East,Jharkhand,2009,Winter,Q4,378,378.0,378,378
+East,Jharkhand,2010,Monsoon,Q2,436,436.0,436,436
+East,Jharkhand,2010,Monsoon,Q3,1020,340.0,322,365
+East,Jharkhand,2010,Post-Monsoon,Q4,689,344.5,336,353
+East,Jharkhand,2010,Pre-Monsoon/Summer,Q1,357,357.0,357,357
+East,Jharkhand,2010,Pre-Monsoon/Summer,Q2,734,367.0,351,383
+East,Jharkhand,2010,Winter,Q1,612,306.0,252,360
+East,Jharkhand,2010,Winter,Q4,380,380.0,380,380
+East,Jharkhand,2011,Monsoon,Q2,356,356.0,356,356
+East,Jharkhand,2011,Monsoon,Q3,882,294.0,279,316
+East,Jharkhand,2011,Post-Monsoon,Q4,613,306.5,297,316
+East,Jharkhand,2011,Pre-Monsoon/Summer,Q1,338,338.0,338,338
+East,Jharkhand,2011,Pre-Monsoon/Summer,Q2,772,386.0,364,408
+East,Jharkhand,2011,Winter,Q1,649,324.5,323,326
+East,Jharkhand,2011,Winter,Q4,291,291.0,291,291
+East,Jharkhand,2012,Monsoon,Q2,396,396.0,396,396
+East,Jharkhand,2012,Monsoon,Q3,1074,358.0,346,373
+East,Jharkhand,2012,Post-Monsoon,Q4,772,386.0,381,391
+East,Jharkhand,2012,Pre-Monsoon/Summer,Q1,387,387.0,387,387
+East,Jharkhand,2012,Pre-Monsoon/Summer,Q2,821,410.5,364,457
+East,Jharkhand,2012,Winter,Q1,743,371.5,369,374
+East,Jharkhand,2012,Winter,Q4,432,432.0,432,432
+East,Jharkhand,2013,Monsoon,Q2,429,429.0,429,429
+East,Jharkhand,2013,Monsoon,Q3,1183,394.33,352,440
+East,Jharkhand,2013,Post-Monsoon,Q4,834,417.0,406,428
+East,Jharkhand,2013,Pre-Monsoon/Summer,Q1,440,440.0,440,440
+East,Jharkhand,2013,Pre-Monsoon/Summer,Q2,977,488.5,427,550
+East,Jharkhand,2013,Winter,Q1,872,436.0,423,449
+East,Jharkhand,2013,Winter,Q4,426,426.0,426,426
+East,Jharkhand,2014,Monsoon,Q2,414,414.0,414,414
+East,Jharkhand,2014,Monsoon,Q3,1116,372.0,341,391
+East,Jharkhand,2014,Post-Monsoon,Q4,792,396.0,373,419
+East,Jharkhand,2014,Pre-Monsoon/Summer,Q1,418,418.0,418,418
+East,Jharkhand,2014,Pre-Monsoon/Summer,Q2,879,439.5,425,454
+East,Jharkhand,2014,Winter,Q1,833,416.5,399,434
+East,Jharkhand,2014,Winter,Q4,453,453.0,453,453
+East,Odisha,2001,Monsoon,Q2,528,528.0,528,528
+East,Odisha,2001,Monsoon,Q3,1411,470.33,449,502
+East,Odisha,2001,Post-Monsoon,Q4,1041,520.5,486,555
+East,Odisha,2001,Pre-Monsoon/Summer,Q1,575,575.0,575,575
+East,Odisha,2001,Pre-Monsoon/Summer,Q2,1224,612.0,593,631
+East,Odisha,2001,Winter,Q1,1119,559.5,546,573
+East,Odisha,2001,Winter,Q4,508,508.0,508,508
+East,Odisha,2002,Monsoon,Q2,592,592.0,592,592
+East,Odisha,2002,Monsoon,Q3,1572,524.0,495,559
+East,Odisha,2002,Post-Monsoon,Q4,1122,561.0,554,568
+East,Odisha,2002,Pre-Monsoon/Summer,Q1,643,643.0,643,643
+East,Odisha,2002,Pre-Monsoon/Summer,Q2,1251,625.5,595,656
+East,Odisha,2002,Winter,Q1,1083,541.5,520,563
+East,Odisha,2002,Winter,Q4,587,587.0,587,587
+East,Odisha,2003,Monsoon,Q2,567,567.0,567,567
+East,Odisha,2003,Monsoon,Q3,1559,519.67,493,566
+East,Odisha,2003,Post-Monsoon,Q4,1040,520.0,510,530
+East,Odisha,2003,Pre-Monsoon/Summer,Q1,594,594.0,594,594
+East,Odisha,2003,Pre-Monsoon/Summer,Q2,1192,596.0,573,619
+East,Odisha,2003,Winter,Q1,1141,570.5,558,583
+East,Odisha,2003,Winter,Q4,582,582.0,582,582
+East,Odisha,2004,Monsoon,Q2,624,624.0,624,624
+East,Odisha,2004,Monsoon,Q3,1601,533.67,476,577
+East,Odisha,2004,Post-Monsoon,Q4,1206,603.0,579,627
+East,Odisha,2004,Pre-Monsoon/Summer,Q1,684,684.0,684,684
+East,Odisha,2004,Pre-Monsoon/Summer,Q2,1214,607.0,578,636
+East,Odisha,2004,Winter,Q1,1260,630.0,611,649
+East,Odisha,2004,Winter,Q4,689,689.0,689,689
+East,Odisha,2005,Monsoon,Q2,594,594.0,594,594
+East,Odisha,2005,Monsoon,Q3,1699,566.33,544,609
+East,Odisha,2005,Post-Monsoon,Q4,1171,585.5,538,633
+East,Odisha,2005,Pre-Monsoon/Summer,Q1,684,684.0,684,684
+East,Odisha,2005,Pre-Monsoon/Summer,Q2,1499,749.5,679,820
+East,Odisha,2005,Winter,Q1,1354,677.0,670,684
+East,Odisha,2005,Winter,Q4,592,592.0,592,592
+East,Odisha,2006,Monsoon,Q2,651,651.0,651,651
+East,Odisha,2006,Monsoon,Q3,1654,551.33,522,599
+East,Odisha,2006,Post-Monsoon,Q4,1134,567.0,534,600
+East,Odisha,2006,Pre-Monsoon/Summer,Q1,702,702.0,702,702
+East,Odisha,2006,Pre-Monsoon/Summer,Q2,1351,675.5,651,700
+East,Odisha,2006,Winter,Q1,1445,722.5,614,831
+East,Odisha,2006,Winter,Q4,792,792.0,792,792
+East,Odisha,2007,Monsoon,Q2,638,638.0,638,638
+East,Odisha,2007,Monsoon,Q3,1813,604.33,569,671
+East,Odisha,2007,Post-Monsoon,Q4,1415,707.5,696,719
+East,Odisha,2007,Pre-Monsoon/Summer,Q1,722,722.0,722,722
+East,Odisha,2007,Pre-Monsoon/Summer,Q2,1439,719.5,719,720
+East,Odisha,2007,Winter,Q1,1408,704.0,573,835
+East,Odisha,2007,Winter,Q4,779,779.0,779,779
+East,Odisha,2008,Monsoon,Q2,651,651.0,651,651
+East,Odisha,2008,Monsoon,Q3,1791,597.0,570,644
+East,Odisha,2008,Post-Monsoon,Q4,1198,599.0,598,600
+East,Odisha,2008,Pre-Monsoon/Summer,Q1,771,771.0,771,771
+East,Odisha,2008,Pre-Monsoon/Summer,Q2,1578,789.0,784,794
+East,Odisha,2008,Winter,Q1,1468,734.0,716,752
+East,Odisha,2008,Winter,Q4,727,727.0,727,727
+East,Odisha,2009,Monsoon,Q2,846,846.0,846,846
+East,Odisha,2009,Monsoon,Q3,1942,647.33,582,685
+East,Odisha,2009,Post-Monsoon,Q4,1465,732.5,702,763
+East,Odisha,2009,Pre-Monsoon/Summer,Q1,745,745.0,745,745
+East,Odisha,2009,Pre-Monsoon/Summer,Q2,1516,758.0,740,776
+East,Odisha,2009,Winter,Q1,1523,761.5,756,767
+East,Odisha,2009,Winter,Q4,855,855.0,855,855
+East,Odisha,2010,Monsoon,Q2,816,816.0,816,816
+East,Odisha,2010,Monsoon,Q3,2145,715.0,698,728
+East,Odisha,2010,Post-Monsoon,Q4,1523,761.5,745,778
+East,Odisha,2010,Pre-Monsoon/Summer,Q1,827,827.0,827,827
+East,Odisha,2010,Pre-Monsoon/Summer,Q2,1615,807.5,729,886
+East,Odisha,2010,Winter,Q1,1664,832.0,804,860
+East,Odisha,2010,Winter,Q4,823,823.0,823,823
+East,Odisha,2011,Monsoon,Q2,825,825.0,825,825
+East,Odisha,2011,Monsoon,Q3,2021,673.67,547,763
+East,Odisha,2011,Post-Monsoon,Q4,1446,723.0,710,736
+East,Odisha,2011,Pre-Monsoon/Summer,Q1,890,890.0,890,890
+East,Odisha,2011,Pre-Monsoon/Summer,Q2,1711,855.5,779,932
+East,Odisha,2011,Winter,Q1,1648,824.0,807,841
+East,Odisha,2011,Winter,Q4,857,857.0,857,857
+East,Odisha,2012,Monsoon,Q2,786,786.0,786,786
+East,Odisha,2012,Monsoon,Q3,2092,697.33,665,756
+East,Odisha,2012,Post-Monsoon,Q4,1482,741.0,727,755
+East,Odisha,2012,Pre-Monsoon/Summer,Q1,839,839.0,839,839
+East,Odisha,2012,Pre-Monsoon/Summer,Q2,1599,799.5,781,818
+East,Odisha,2012,Winter,Q1,1556,778.0,745,811
+East,Odisha,2012,Winter,Q4,931,931.0,931,931
+East,Odisha,2013,Monsoon,Q2,809,809.0,809,809
+East,Odisha,2013,Monsoon,Q3,2141,713.67,677,757
+East,Odisha,2013,Post-Monsoon,Q4,1418,709.0,619,799
+East,Odisha,2013,Pre-Monsoon/Summer,Q1,912,912.0,912,912
+East,Odisha,2013,Pre-Monsoon/Summer,Q2,1764,882.0,765,999
+East,Odisha,2013,Winter,Q1,1717,858.5,806,911
+East,Odisha,2013,Winter,Q4,919,919.0,919,919
+East,Odisha,2014,Monsoon,Q2,828,828.0,828,828
+East,Odisha,2014,Monsoon,Q3,2109,703.0,660,756
+East,Odisha,2014,Post-Monsoon,Q4,1630,815.0,776,854
+East,Odisha,2014,Pre-Monsoon/Summer,Q1,851,851.0,851,851
+East,Odisha,2014,Pre-Monsoon/Summer,Q2,1578,789.0,726,852
+East,Odisha,2014,Winter,Q1,1722,861.0,826,896
+East,Odisha,2014,Winter,Q4,922,922.0,922,922
+East,West Bengal,2001,Monsoon,Q2,972,972.0,972,972
+East,West Bengal,2001,Monsoon,Q3,2858,952.67,915,990
+East,West Bengal,2001,Post-Monsoon,Q4,1758,879.0,823,935
+East,West Bengal,2001,Pre-Monsoon/Summer,Q1,948,948.0,948,948
+East,West Bengal,2001,Pre-Monsoon/Summer,Q2,1991,995.5,952,1039
+East,West Bengal,2001,Winter,Q1,1805,902.5,897,908
+East,West Bengal,2001,Winter,Q4,1098,1098.0,1098,1098
+East,West Bengal,2002,Monsoon,Q2,854,854.0,854,854
+East,West Bengal,2002,Monsoon,Q3,2756,918.67,915,922
+East,West Bengal,2002,Post-Monsoon,Q4,1901,950.5,940,961
+East,West Bengal,2002,Pre-Monsoon/Summer,Q1,942,942.0,942,942
+East,West Bengal,2002,Pre-Monsoon/Summer,Q2,1952,976.0,911,1041
+East,West Bengal,2002,Winter,Q1,1826,913.0,894,932
+East,West Bengal,2002,Winter,Q4,1006,1006.0,1006,1006
+East,West Bengal,2003,Monsoon,Q2,980,980.0,980,980
+East,West Bengal,2003,Monsoon,Q3,2933,977.67,934,1054
+East,West Bengal,2003,Post-Monsoon,Q4,1665,832.5,823,842
+East,West Bengal,2003,Pre-Monsoon/Summer,Q1,1084,1084.0,1084,1084
+East,West Bengal,2003,Pre-Monsoon/Summer,Q2,1884,942.0,909,975
+East,West Bengal,2003,Winter,Q1,1846,923.0,916,930
+East,West Bengal,2003,Winter,Q4,983,983.0,983,983
+East,West Bengal,2004,Monsoon,Q2,1043,1043.0,1043,1043
+East,West Bengal,2004,Monsoon,Q3,2733,911.0,869,964
+East,West Bengal,2004,Post-Monsoon,Q4,1875,937.5,898,977
+East,West Bengal,2004,Pre-Monsoon/Summer,Q1,1197,1197.0,1197,1197
+East,West Bengal,2004,Pre-Monsoon/Summer,Q2,2171,1085.5,1085,1086
+East,West Bengal,2004,Winter,Q1,2045,1022.5,1001,1044
+East,West Bengal,2004,Winter,Q4,1088,1088.0,1088,1088
+East,West Bengal,2005,Monsoon,Q2,1049,1049.0,1049,1049
+East,West Bengal,2005,Monsoon,Q3,2811,937.0,887,998
+East,West Bengal,2005,Post-Monsoon,Q4,1954,977.0,975,979
+East,West Bengal,2005,Pre-Monsoon/Summer,Q1,1084,1084.0,1084,1084
+East,West Bengal,2005,Pre-Monsoon/Summer,Q2,2131,1065.5,1035,1096
+East,West Bengal,2005,Winter,Q1,2097,1048.5,1036,1061
+East,West Bengal,2005,Winter,Q4,1055,1055.0,1055,1055
+East,West Bengal,2006,Monsoon,Q2,1153,1153.0,1153,1153
+East,West Bengal,2006,Monsoon,Q3,3125,1041.67,1009,1105
+East,West Bengal,2006,Post-Monsoon,Q4,2107,1053.5,1026,1081
+East,West Bengal,2006,Pre-Monsoon/Summer,Q1,1187,1187.0,1187,1187
+East,West Bengal,2006,Pre-Monsoon/Summer,Q2,2177,1088.5,1053,1124
+East,West Bengal,2006,Winter,Q1,2205,1102.5,1093,1112
+East,West Bengal,2006,Winter,Q4,1131,1131.0,1131,1131
+East,West Bengal,2007,Monsoon,Q2,1269,1269.0,1269,1269
+East,West Bengal,2007,Monsoon,Q3,3391,1130.33,1050,1176
+East,West Bengal,2007,Post-Monsoon,Q4,2201,1100.5,1068,1133
+East,West Bengal,2007,Pre-Monsoon/Summer,Q1,1275,1275.0,1275,1275
+East,West Bengal,2007,Pre-Monsoon/Summer,Q2,2397,1198.5,1157,1240
+East,West Bengal,2007,Winter,Q1,2185,1092.5,1051,1134
+East,West Bengal,2007,Winter,Q4,1236,1236.0,1236,1236
+East,West Bengal,2008,Monsoon,Q2,1000,1000.0,1000,1000
+East,West Bengal,2008,Monsoon,Q3,2707,902.33,875,924
+East,West Bengal,2008,Post-Monsoon,Q4,1821,910.5,880,941
+East,West Bengal,2008,Pre-Monsoon/Summer,Q1,1097,1097.0,1097,1097
+East,West Bengal,2008,Pre-Monsoon/Summer,Q2,2082,1041.0,1013,1069
+East,West Bengal,2008,Winter,Q1,1893,946.5,919,974
+East,West Bengal,2008,Winter,Q4,947,947.0,947,947
+East,West Bengal,2009,Monsoon,Q2,1180,1180.0,1180,1180
+East,West Bengal,2009,Monsoon,Q3,3437,1145.67,1104,1171
+East,West Bengal,2009,Post-Monsoon,Q4,2337,1168.5,1161,1176
+East,West Bengal,2009,Pre-Monsoon/Summer,Q1,1183,1183.0,1183,1183
+East,West Bengal,2009,Pre-Monsoon/Summer,Q2,2259,1129.5,1101,1158
+East,West Bengal,2009,Winter,Q1,2381,1190.5,1150,1231
+East,West Bengal,2009,Winter,Q4,1182,1182.0,1182,1182
+East,West Bengal,2010,Monsoon,Q2,1284,1284.0,1284,1284
+East,West Bengal,2010,Monsoon,Q3,3549,1183.0,1128,1231
+East,West Bengal,2010,Post-Monsoon,Q4,2478,1239.0,1227,1251
+East,West Bengal,2010,Pre-Monsoon/Summer,Q1,1349,1349.0,1349,1349
+East,West Bengal,2010,Pre-Monsoon/Summer,Q2,2418,1209.0,1172,1246
+East,West Bengal,2010,Winter,Q1,2395,1197.5,1150,1245
+East,West Bengal,2010,Winter,Q4,1252,1252.0,1252,1252
+East,West Bengal,2011,Monsoon,Q2,1241,1241.0,1241,1241
+East,West Bengal,2011,Monsoon,Q3,3371,1123.67,1074,1185
+East,West Bengal,2011,Post-Monsoon,Q4,2375,1187.5,1161,1214
+East,West Bengal,2011,Pre-Monsoon/Summer,Q1,1314,1314.0,1314,1314
+East,West Bengal,2011,Pre-Monsoon/Summer,Q2,2368,1184.0,1148,1220
+East,West Bengal,2011,Winter,Q1,2529,1264.5,1179,1350
+East,West Bengal,2011,Winter,Q4,1270,1270.0,1270,1270
+East,West Bengal,2012,Monsoon,Q2,1434,1434.0,1434,1434
+East,West Bengal,2012,Monsoon,Q3,3665,1221.67,1112,1349
+East,West Bengal,2012,Post-Monsoon,Q4,2430,1215.0,1179,1251
+East,West Bengal,2012,Pre-Monsoon/Summer,Q1,1357,1357.0,1357,1357
+East,West Bengal,2012,Pre-Monsoon/Summer,Q2,2622,1311.0,1270,1352
+East,West Bengal,2012,Winter,Q1,2729,1364.5,1346,1383
+East,West Bengal,2012,Winter,Q4,1371,1371.0,1371,1371
+East,West Bengal,2013,Monsoon,Q2,1391,1391.0,1391,1391
+East,West Bengal,2013,Monsoon,Q3,3751,1250.33,1208,1315
+East,West Bengal,2013,Post-Monsoon,Q4,2634,1317.0,1299,1335
+East,West Bengal,2013,Pre-Monsoon/Summer,Q1,1474,1474.0,1474,1474
+East,West Bengal,2013,Pre-Monsoon/Summer,Q2,3021,1510.5,1392,1629
+East,West Bengal,2013,Winter,Q1,2946,1473.0,1382,1564
+East,West Bengal,2013,Winter,Q4,1332,1332.0,1332,1332
+East,West Bengal,2014,Monsoon,Q2,1439,1439.0,1439,1439
+East,West Bengal,2014,Monsoon,Q3,4163,1387.67,1356,1416
+East,West Bengal,2014,Post-Monsoon,Q4,2810,1405.0,1395,1415
+East,West Bengal,2014,Pre-Monsoon/Summer,Q1,1473,1473.0,1473,1473
+East,West Bengal,2014,Pre-Monsoon/Summer,Q2,2912,1456.0,1385,1527
+East,West Bengal,2014,Winter,Q1,2914,1457.0,1398,1516
+East,West Bengal,2014,Winter,Q4,1394,1394.0,1394,1394
+North,Chandigarh,2001,Monsoon,Q2,46,46.0,46,46
+North,Chandigarh,2001,Monsoon,Q3,118,39.33,31,53
+North,Chandigarh,2001,Post-Monsoon,Q4,75,37.5,37,38
+North,Chandigarh,2001,Pre-Monsoon/Summer,Q1,34,34.0,34,34
+North,Chandigarh,2001,Pre-Monsoon/Summer,Q2,95,47.5,47,48
+North,Chandigarh,2001,Winter,Q1,73,36.5,25,48
+North,Chandigarh,2001,Winter,Q4,52,52.0,52,52
+North,Chandigarh,2002,Monsoon,Q2,34,34.0,34,34
+North,Chandigarh,2002,Monsoon,Q3,130,43.33,39,46
+North,Chandigarh,2002,Post-Monsoon,Q4,79,39.5,38,41
+North,Chandigarh,2002,Pre-Monsoon/Summer,Q1,47,47.0,47,47
+North,Chandigarh,2002,Pre-Monsoon/Summer,Q2,81,40.5,39,42
+North,Chandigarh,2002,Winter,Q1,75,37.5,33,42
+North,Chandigarh,2002,Winter,Q4,48,48.0,48,48
+North,Chandigarh,2003,Monsoon,Q2,32,32.0,32,32
+North,Chandigarh,2003,Monsoon,Q3,104,34.67,29,39
+North,Chandigarh,2003,Post-Monsoon,Q4,84,42.0,41,43
+North,Chandigarh,2003,Pre-Monsoon/Summer,Q1,38,38.0,38,38
+North,Chandigarh,2003,Pre-Monsoon/Summer,Q2,76,38.0,36,40
+North,Chandigarh,2003,Winter,Q1,78,39.0,35,43
+North,Chandigarh,2003,Winter,Q4,31,31.0,31,31
+North,Chandigarh,2004,Monsoon,Q2,26,26.0,26,26
+North,Chandigarh,2004,Monsoon,Q3,103,34.33,29,40
+North,Chandigarh,2004,Post-Monsoon,Q4,82,41.0,37,45
+North,Chandigarh,2004,Pre-Monsoon/Summer,Q1,40,40.0,40,40
+North,Chandigarh,2004,Pre-Monsoon/Summer,Q2,59,29.5,23,36
+North,Chandigarh,2004,Winter,Q1,63,31.5,27,36
+North,Chandigarh,2004,Winter,Q4,38,38.0,38,38
+North,Chandigarh,2005,Monsoon,Q2,44,44.0,44,44
+North,Chandigarh,2005,Monsoon,Q3,147,49.0,41,56
+North,Chandigarh,2005,Post-Monsoon,Q4,107,53.5,52,55
+North,Chandigarh,2005,Pre-Monsoon/Summer,Q1,32,32.0,32,32
+North,Chandigarh,2005,Pre-Monsoon/Summer,Q2,70,35.0,27,43
+North,Chandigarh,2005,Winter,Q1,84,42.0,38,46
+North,Chandigarh,2005,Winter,Q4,44,44.0,44,44
+North,Chandigarh,2006,Monsoon,Q2,42,42.0,42,42
+North,Chandigarh,2006,Monsoon,Q3,119,39.67,31,45
+North,Chandigarh,2006,Post-Monsoon,Q4,80,40.0,34,46
+North,Chandigarh,2006,Pre-Monsoon/Summer,Q1,43,43.0,43,43
+North,Chandigarh,2006,Pre-Monsoon/Summer,Q2,93,46.5,42,51
+North,Chandigarh,2006,Winter,Q1,94,47.0,42,52
+North,Chandigarh,2006,Winter,Q4,50,50.0,50,50
+North,Chandigarh,2007,Monsoon,Q2,35,35.0,35,35
+North,Chandigarh,2007,Monsoon,Q3,148,49.33,45,55
+North,Chandigarh,2007,Post-Monsoon,Q4,108,54.0,48,60
+North,Chandigarh,2007,Pre-Monsoon/Summer,Q1,50,50.0,50,50
+North,Chandigarh,2007,Pre-Monsoon/Summer,Q2,87,43.5,39,48
+North,Chandigarh,2007,Winter,Q1,75,37.5,36,39
+North,Chandigarh,2007,Winter,Q4,33,33.0,33,33
+North,Chandigarh,2008,Monsoon,Q2,39,39.0,39,39
+North,Chandigarh,2008,Monsoon,Q3,120,40.0,36,46
+North,Chandigarh,2008,Post-Monsoon,Q4,76,38.0,34,42
+North,Chandigarh,2008,Pre-Monsoon/Summer,Q1,46,46.0,46,46
+North,Chandigarh,2008,Pre-Monsoon/Summer,Q2,87,43.5,42,45
+North,Chandigarh,2008,Winter,Q1,72,36.0,34,38
+North,Chandigarh,2008,Winter,Q4,37,37.0,37,37
+North,Chandigarh,2009,Monsoon,Q2,29,29.0,29,29
+North,Chandigarh,2009,Monsoon,Q3,122,40.67,35,50
+North,Chandigarh,2009,Post-Monsoon,Q4,78,39.0,38,40
+North,Chandigarh,2009,Pre-Monsoon/Summer,Q1,41,41.0,41,41
+North,Chandigarh,2009,Pre-Monsoon/Summer,Q2,51,25.5,25,26
+North,Chandigarh,2009,Winter,Q1,67,33.5,32,35
+North,Chandigarh,2009,Winter,Q4,36,36.0,36,36
+North,Chandigarh,2010,Monsoon,Q2,33,33.0,33,33
+North,Chandigarh,2010,Monsoon,Q3,97,32.33,30,36
+North,Chandigarh,2010,Post-Monsoon,Q4,98,49.0,44,54
+North,Chandigarh,2010,Pre-Monsoon/Summer,Q1,40,40.0,40,40
+North,Chandigarh,2010,Pre-Monsoon/Summer,Q2,66,33.0,31,35
+North,Chandigarh,2010,Winter,Q1,70,35.0,31,39
+North,Chandigarh,2010,Winter,Q4,52,52.0,52,52
+North,Chandigarh,2011,Monsoon,Q2,35,35.0,35,35
+North,Chandigarh,2011,Monsoon,Q3,88,29.33,26,35
+North,Chandigarh,2011,Post-Monsoon,Q4,69,34.5,24,45
+North,Chandigarh,2011,Pre-Monsoon/Summer,Q1,40,40.0,40,40
+North,Chandigarh,2011,Pre-Monsoon/Summer,Q2,86,43.0,37,49
+North,Chandigarh,2011,Winter,Q1,73,36.5,27,46
+North,Chandigarh,2011,Winter,Q4,50,50.0,50,50
+North,Chandigarh,2012,Monsoon,Q2,30,30.0,30,30
+North,Chandigarh,2012,Monsoon,Q3,109,36.33,30,43
+North,Chandigarh,2012,Post-Monsoon,Q4,70,35.0,35,35
+North,Chandigarh,2012,Pre-Monsoon/Summer,Q1,29,29.0,29,29
+North,Chandigarh,2012,Pre-Monsoon/Summer,Q2,66,33.0,26,40
+North,Chandigarh,2012,Winter,Q1,75,37.5,34,41
+North,Chandigarh,2012,Winter,Q4,33,33.0,33,33
+North,Chandigarh,2013,Monsoon,Q2,34,34.0,34,34
+North,Chandigarh,2013,Monsoon,Q3,99,33.0,30,38
+North,Chandigarh,2013,Post-Monsoon,Q4,68,34.0,31,37
+North,Chandigarh,2013,Pre-Monsoon/Summer,Q1,38,38.0,38,38
+North,Chandigarh,2013,Pre-Monsoon/Summer,Q2,83,41.5,40,43
+North,Chandigarh,2013,Winter,Q1,63,31.5,27,36
+North,Chandigarh,2013,Winter,Q4,24,24.0,24,24
+North,Chandigarh,2014,Monsoon,Q2,25,25.0,25,25
+North,Chandigarh,2014,Monsoon,Q3,92,30.67,22,38
+North,Chandigarh,2014,Post-Monsoon,Q4,59,29.5,28,31
+North,Chandigarh,2014,Pre-Monsoon/Summer,Q1,31,31.0,31,31
+North,Chandigarh,2014,Pre-Monsoon/Summer,Q2,72,36.0,32,40
+North,Chandigarh,2014,Winter,Q1,57,28.5,22,35
+North,Chandigarh,2014,Winter,Q4,30,30.0,30,30
+North,Delhi,2001,Monsoon,Q2,779,779.0,779,779
+North,Delhi,2001,Monsoon,Q3,2354,784.67,763,811
+North,Delhi,2001,Post-Monsoon,Q4,1619,809.5,798,821
+North,Delhi,2001,Pre-Monsoon/Summer,Q1,786,786.0,786,786
+North,Delhi,2001,Pre-Monsoon/Summer,Q2,1572,786.0,762,810
+North,Delhi,2001,Winter,Q1,1388,694.0,681,707
+North,Delhi,2001,Winter,Q4,784,784.0,784,784
+North,Delhi,2002,Monsoon,Q2,665,665.0,665,665
+North,Delhi,2002,Monsoon,Q3,2275,758.33,706,801
+North,Delhi,2002,Post-Monsoon,Q4,1393,696.5,669,724
+North,Delhi,2002,Pre-Monsoon/Summer,Q1,847,847.0,847,847
+North,Delhi,2002,Pre-Monsoon/Summer,Q2,1400,700.0,698,702
+North,Delhi,2002,Winter,Q1,1405,702.5,695,710
+North,Delhi,2002,Winter,Q4,725,725.0,725,725
+North,Delhi,2003,Monsoon,Q2,747,747.0,747,747
+North,Delhi,2003,Monsoon,Q3,2379,793.0,785,803
+North,Delhi,2003,Post-Monsoon,Q4,1637,818.5,778,859
+North,Delhi,2003,Pre-Monsoon/Summer,Q1,689,689.0,689,689
+North,Delhi,2003,Pre-Monsoon/Summer,Q2,1433,716.5,714,719
+North,Delhi,2003,Winter,Q1,1283,641.5,638,645
+North,Delhi,2003,Winter,Q4,701,701.0,701,701
+North,Delhi,2004,Monsoon,Q2,766,766.0,766,766
+North,Delhi,2004,Monsoon,Q3,2281,760.33,727,793
+North,Delhi,2004,Post-Monsoon,Q4,1621,810.5,778,843
+North,Delhi,2004,Pre-Monsoon/Summer,Q1,755,755.0,755,755
+North,Delhi,2004,Pre-Monsoon/Summer,Q2,1466,733.0,719,747
+North,Delhi,2004,Winter,Q1,1476,738.0,730,746
+North,Delhi,2004,Winter,Q4,745,745.0,745,745
+North,Delhi,2005,Monsoon,Q2,773,773.0,773,773
+North,Delhi,2005,Monsoon,Q3,2537,845.67,806,900
+North,Delhi,2005,Post-Monsoon,Q4,1615,807.5,780,835
+North,Delhi,2005,Pre-Monsoon/Summer,Q1,850,850.0,850,850
+North,Delhi,2005,Pre-Monsoon/Summer,Q2,1513,756.5,698,815
+North,Delhi,2005,Winter,Q1,1499,749.5,722,777
+North,Delhi,2005,Winter,Q4,793,793.0,793,793
+North,Delhi,2006,Monsoon,Q2,754,754.0,754,754
+North,Delhi,2006,Monsoon,Q3,2513,837.67,804,863
+North,Delhi,2006,Post-Monsoon,Q4,1697,848.5,832,865
+North,Delhi,2006,Pre-Monsoon/Summer,Q1,868,868.0,868,868
+North,Delhi,2006,Pre-Monsoon/Summer,Q2,1575,787.5,779,796
+North,Delhi,2006,Winter,Q1,1444,722.0,718,726
+North,Delhi,2006,Winter,Q4,848,848.0,848,848
+North,Delhi,2007,Monsoon,Q2,757,757.0,757,757
+North,Delhi,2007,Monsoon,Q3,2435,811.67,768,834
+North,Delhi,2007,Post-Monsoon,Q4,2117,1058.5,921,1196
+North,Delhi,2007,Pre-Monsoon/Summer,Q1,839,839.0,839,839
+North,Delhi,2007,Pre-Monsoon/Summer,Q2,1538,769.0,752,786
+North,Delhi,2007,Winter,Q1,1627,813.5,809,818
+North,Delhi,2007,Winter,Q4,1215,1215.0,1215,1215
+North,Delhi,2008,Monsoon,Q2,691,691.0,691,691
+North,Delhi,2008,Monsoon,Q3,2159,719.67,707,731
+North,Delhi,2008,Post-Monsoon,Q4,1375,687.5,671,704
+North,Delhi,2008,Pre-Monsoon/Summer,Q1,780,780.0,780,780
+North,Delhi,2008,Pre-Monsoon/Summer,Q2,1460,730.0,713,747
+North,Delhi,2008,Winter,Q1,1394,697.0,696,698
+North,Delhi,2008,Winter,Q4,707,707.0,707,707
+North,Delhi,2009,Monsoon,Q2,565,565.0,565,565
+North,Delhi,2009,Monsoon,Q3,1926,642.0,609,707
+North,Delhi,2009,Post-Monsoon,Q4,1281,640.5,639,642
+North,Delhi,2009,Pre-Monsoon/Summer,Q1,644,644.0,644,644
+North,Delhi,2009,Pre-Monsoon/Summer,Q2,1303,651.5,646,657
+North,Delhi,2009,Winter,Q1,1239,619.5,607,632
+North,Delhi,2009,Winter,Q4,656,656.0,656,656
+North,Delhi,2010,Monsoon,Q2,545,545.0,545,545
+North,Delhi,2010,Monsoon,Q3,1814,604.67,574,640
+North,Delhi,2010,Post-Monsoon,Q4,1266,633.0,614,652
+North,Delhi,2010,Pre-Monsoon/Summer,Q1,616,616.0,616,616
+North,Delhi,2010,Pre-Monsoon/Summer,Q2,1208,604.0,569,639
+North,Delhi,2010,Winter,Q1,1133,566.5,559,574
+North,Delhi,2010,Winter,Q4,638,638.0,638,638
+North,Delhi,2011,Monsoon,Q2,570,570.0,570,570
+North,Delhi,2011,Monsoon,Q3,1859,619.67,589,637
+North,Delhi,2011,Post-Monsoon,Q4,1278,639.0,593,685
+North,Delhi,2011,Pre-Monsoon/Summer,Q1,631,631.0,631,631
+North,Delhi,2011,Pre-Monsoon/Summer,Q2,1181,590.5,575,606
+North,Delhi,2011,Winter,Q1,1181,590.5,562,619
+North,Delhi,2011,Winter,Q4,580,580.0,580,580
+North,Delhi,2012,Monsoon,Q2,556,556.0,556,556
+North,Delhi,2012,Monsoon,Q3,1783,594.33,554,658
+North,Delhi,2012,Post-Monsoon,Q4,1228,614.0,603,625
+North,Delhi,2012,Pre-Monsoon/Summer,Q1,570,570.0,570,570
+North,Delhi,2012,Pre-Monsoon/Summer,Q2,1110,555.0,554,556
+North,Delhi,2012,Winter,Q1,1084,542.0,540,544
+North,Delhi,2012,Winter,Q4,606,606.0,606,606
+North,Delhi,2013,Monsoon,Q2,612,612.0,612,612
+North,Delhi,2013,Monsoon,Q3,1859,619.67,593,644
+North,Delhi,2013,Post-Monsoon,Q4,1390,695.0,687,703
+North,Delhi,2013,Pre-Monsoon/Summer,Q1,613,613.0,613,613
+North,Delhi,2013,Pre-Monsoon/Summer,Q2,1224,612.0,589,635
+North,Delhi,2013,Winter,Q1,1143,571.5,553,590
+North,Delhi,2013,Winter,Q4,728,728.0,728,728
+North,Delhi,2014,Monsoon,Q2,658,658.0,658,658
+North,Delhi,2014,Monsoon,Q3,2110,703.33,624,744
+North,Delhi,2014,Post-Monsoon,Q4,1407,703.5,687,720
+North,Delhi,2014,Pre-Monsoon/Summer,Q1,801,801.0,801,801
+North,Delhi,2014,Pre-Monsoon/Summer,Q2,1293,646.5,632,661
+North,Delhi,2014,Winter,Q1,1341,670.5,643,698
+North,Delhi,2014,Winter,Q4,700,700.0,700,700
+North,Haryana,2001,Monsoon,Q2,520,520.0,520,520
+North,Haryana,2001,Monsoon,Q3,1589,529.67,509,540
+North,Haryana,2001,Post-Monsoon,Q4,1113,556.5,542,571
+North,Haryana,2001,Pre-Monsoon/Summer,Q1,517,517.0,517,517
+North,Haryana,2001,Pre-Monsoon/Summer,Q2,1086,543.0,543,543
+North,Haryana,2001,Winter,Q1,987,493.5,481,506
+North,Haryana,2001,Winter,Q4,561,561.0,561,561
+North,Haryana,2002,Monsoon,Q2,641,641.0,641,641
+North,Haryana,2002,Monsoon,Q3,1741,580.33,559,596
+North,Haryana,2002,Post-Monsoon,Q4,1272,636.0,615,657
+North,Haryana,2002,Pre-Monsoon/Summer,Q1,595,595.0,595,595
+North,Haryana,2002,Pre-Monsoon/Summer,Q2,1176,588.0,583,593
+North,Haryana,2002,Winter,Q1,1037,518.5,513,524
+North,Haryana,2002,Winter,Q4,625,625.0,625,625
+North,Haryana,2003,Monsoon,Q2,480,480.0,480,480
+North,Haryana,2003,Monsoon,Q3,1580,526.67,493,545
+North,Haryana,2003,Post-Monsoon,Q4,1230,615.0,568,662
+North,Haryana,2003,Pre-Monsoon/Summer,Q1,534,534.0,534,534
+North,Haryana,2003,Pre-Monsoon/Summer,Q2,1109,554.5,528,581
+North,Haryana,2003,Winter,Q1,980,490.0,468,512
+North,Haryana,2003,Winter,Q4,511,511.0,511,511
+North,Haryana,2004,Monsoon,Q2,673,673.0,673,673
+North,Haryana,2004,Monsoon,Q3,1983,661.0,655,669
+North,Haryana,2004,Post-Monsoon,Q4,1377,688.5,685,692
+North,Haryana,2004,Pre-Monsoon/Summer,Q1,658,658.0,658,658
+North,Haryana,2004,Pre-Monsoon/Summer,Q2,1262,631.0,629,633
+North,Haryana,2004,Winter,Q1,1248,624.0,591,657
+North,Haryana,2004,Winter,Q4,707,707.0,707,707
+North,Haryana,2005,Monsoon,Q2,634,634.0,634,634
+North,Haryana,2005,Monsoon,Q3,1911,637.0,565,682
+North,Haryana,2005,Post-Monsoon,Q4,1407,703.5,703,704
+North,Haryana,2005,Pre-Monsoon/Summer,Q1,604,604.0,604,604
+North,Haryana,2005,Pre-Monsoon/Summer,Q2,1290,645.0,598,692
+North,Haryana,2005,Winter,Q1,1140,570.0,514,626
+North,Haryana,2005,Winter,Q4,696,696.0,696,696
+North,Haryana,2006,Monsoon,Q2,858,858.0,858,858
+North,Haryana,2006,Monsoon,Q3,2531,843.67,823,861
+North,Haryana,2006,Post-Monsoon,Q4,1817,908.5,878,939
+North,Haryana,2006,Pre-Monsoon/Summer,Q1,854,854.0,854,854
+North,Haryana,2006,Pre-Monsoon/Summer,Q2,1731,865.5,855,876
+North,Haryana,2006,Winter,Q1,1528,764.0,736,792
+North,Haryana,2006,Winter,Q4,943,943.0,943,943
+North,Haryana,2007,Monsoon,Q2,871,871.0,871,871
+North,Haryana,2007,Monsoon,Q3,2641,880.33,859,909
+North,Haryana,2007,Post-Monsoon,Q4,1738,869.0,834,904
+North,Haryana,2007,Pre-Monsoon/Summer,Q1,839,839.0,839,839
+North,Haryana,2007,Pre-Monsoon/Summer,Q2,1720,860.0,839,881
+North,Haryana,2007,Winter,Q1,1605,802.5,780,825
+North,Haryana,2007,Winter,Q4,902,902.0,902,902
+North,Haryana,2008,Monsoon,Q2,847,847.0,847,847
+North,Haryana,2008,Monsoon,Q3,2718,906.0,899,910
+North,Haryana,2008,Post-Monsoon,Q4,1991,995.5,939,1052
+North,Haryana,2008,Pre-Monsoon/Summer,Q1,1001,1001.0,1001,1001
+North,Haryana,2008,Pre-Monsoon/Summer,Q2,1949,974.5,951,998
+North,Haryana,2008,Winter,Q1,1780,890.0,869,911
+North,Haryana,2008,Winter,Q4,955,955.0,955,955
+North,Haryana,2009,Monsoon,Q2,977,977.0,977,977
+North,Haryana,2009,Monsoon,Q3,2735,911.67,875,931
+North,Haryana,2009,Post-Monsoon,Q4,2046,1023.0,966,1080
+North,Haryana,2009,Pre-Monsoon/Summer,Q1,982,982.0,982,982
+North,Haryana,2009,Pre-Monsoon/Summer,Q2,1901,950.5,928,973
+North,Haryana,2009,Winter,Q1,1771,885.5,808,963
+North,Haryana,2009,Winter,Q4,1015,1015.0,1015,1015
+North,Haryana,2010,Monsoon,Q2,933,933.0,933,933
+North,Haryana,2010,Monsoon,Q3,2633,877.67,816,925
+North,Haryana,2010,Post-Monsoon,Q4,1937,968.5,939,998
+North,Haryana,2010,Pre-Monsoon/Summer,Q1,1035,1035.0,1035,1035
+North,Haryana,2010,Pre-Monsoon/Summer,Q2,1868,934.0,932,936
+North,Haryana,2010,Winter,Q1,1780,890.0,883,897
+North,Haryana,2010,Winter,Q4,975,975.0,975,975
+North,Haryana,2011,Monsoon,Q2,869,869.0,869,869
+North,Haryana,2011,Monsoon,Q3,2545,848.33,829,874
+North,Haryana,2011,Post-Monsoon,Q4,1889,944.5,911,978
+North,Haryana,2011,Pre-Monsoon/Summer,Q1,891,891.0,891,891
+North,Haryana,2011,Pre-Monsoon/Summer,Q2,1717,858.5,818,899
+North,Haryana,2011,Winter,Q1,1726,863.0,830,896
+North,Haryana,2011,Winter,Q4,916,916.0,916,916
+North,Haryana,2012,Monsoon,Q2,791,791.0,791,791
+North,Haryana,2012,Monsoon,Q3,2351,783.67,761,799
+North,Haryana,2012,Post-Monsoon,Q4,1732,866.0,862,870
+North,Haryana,2012,Pre-Monsoon/Summer,Q1,865,865.0,865,865
+North,Haryana,2012,Pre-Monsoon/Summer,Q2,1682,841.0,841,841
+North,Haryana,2012,Winter,Q1,1578,789.0,759,819
+North,Haryana,2012,Winter,Q4,972,972.0,972,972
+North,Haryana,2013,Monsoon,Q2,799,799.0,799,799
+North,Haryana,2013,Monsoon,Q3,2519,839.67,784,888
+North,Haryana,2013,Post-Monsoon,Q4,1984,992.0,959,1025
+North,Haryana,2013,Pre-Monsoon/Summer,Q1,891,891.0,891,891
+North,Haryana,2013,Pre-Monsoon/Summer,Q2,1781,890.5,861,920
+North,Haryana,2013,Winter,Q1,1530,765.0,711,819
+North,Haryana,2013,Winter,Q4,969,969.0,969,969
+North,Haryana,2014,Monsoon,Q2,906,906.0,906,906
+North,Haryana,2014,Monsoon,Q3,2742,914.0,871,955
+North,Haryana,2014,Post-Monsoon,Q4,1853,926.5,891,962
+North,Haryana,2014,Pre-Monsoon/Summer,Q1,963,963.0,963,963
+North,Haryana,2014,Pre-Monsoon/Summer,Q2,1850,925.0,911,939
+North,Haryana,2014,Winter,Q1,1773,886.5,881,892
+North,Haryana,2014,Winter,Q4,956,956.0,956,956
+North,Himachal Pradesh,2001,Monsoon,Q2,207,207.0,207,207
+North,Himachal Pradesh,2001,Monsoon,Q3,563,187.67,167,201
+North,Himachal Pradesh,2001,Post-Monsoon,Q4,403,201.5,176,227
+North,Himachal Pradesh,2001,Pre-Monsoon/Summer,Q1,164,164.0,164,164
+North,Himachal Pradesh,2001,Pre-Monsoon/Summer,Q2,340,170.0,156,184
+North,Himachal Pradesh,2001,Winter,Q1,268,134.0,131,137
+North,Himachal Pradesh,2001,Winter,Q4,165,165.0,165,165
+North,Himachal Pradesh,2002,Monsoon,Q2,241,241.0,241,241
+North,Himachal Pradesh,2002,Monsoon,Q3,625,208.33,189,220
+North,Himachal Pradesh,2002,Post-Monsoon,Q4,360,180.0,176,184
+North,Himachal Pradesh,2002,Pre-Monsoon/Summer,Q1,183,183.0,183,183
+North,Himachal Pradesh,2002,Pre-Monsoon/Summer,Q2,406,203.0,176,230
+North,Himachal Pradesh,2002,Winter,Q1,273,136.5,135,138
+North,Himachal Pradesh,2002,Winter,Q4,193,193.0,193,193
+North,Himachal Pradesh,2003,Monsoon,Q2,207,207.0,207,207
+North,Himachal Pradesh,2003,Monsoon,Q3,732,244.0,234,259
+North,Himachal Pradesh,2003,Post-Monsoon,Q4,406,203.0,189,217
+North,Himachal Pradesh,2003,Pre-Monsoon/Summer,Q1,159,159.0,159,159
+North,Himachal Pradesh,2003,Pre-Monsoon/Summer,Q2,365,182.5,160,205
+North,Himachal Pradesh,2003,Winter,Q1,294,147.0,145,149
+North,Himachal Pradesh,2003,Winter,Q4,196,196.0,196,196
+North,Himachal Pradesh,2004,Monsoon,Q2,231,231.0,231,231
+North,Himachal Pradesh,2004,Monsoon,Q3,673,224.33,208,239
+North,Himachal Pradesh,2004,Post-Monsoon,Q4,444,222.0,214,230
+North,Himachal Pradesh,2004,Pre-Monsoon/Summer,Q1,191,191.0,191,191
+North,Himachal Pradesh,2004,Pre-Monsoon/Summer,Q2,432,216.0,207,225
+North,Himachal Pradesh,2004,Winter,Q1,356,178.0,173,183
+North,Himachal Pradesh,2004,Winter,Q4,188,188.0,188,188
+North,Himachal Pradesh,2005,Monsoon,Q2,241,241.0,241,241
+North,Himachal Pradesh,2005,Monsoon,Q3,678,226.0,203,261
+North,Himachal Pradesh,2005,Post-Monsoon,Q4,433,216.5,215,218
+North,Himachal Pradesh,2005,Pre-Monsoon/Summer,Q1,185,185.0,185,185
+North,Himachal Pradesh,2005,Pre-Monsoon/Summer,Q2,379,189.5,166,213
+North,Himachal Pradesh,2005,Winter,Q1,305,152.5,143,162
+North,Himachal Pradesh,2005,Winter,Q4,180,180.0,180,180
+North,Himachal Pradesh,2006,Monsoon,Q2,209,209.0,209,209
+North,Himachal Pradesh,2006,Monsoon,Q3,595,198.33,193,203
+North,Himachal Pradesh,2006,Post-Monsoon,Q4,407,203.5,183,224
+North,Himachal Pradesh,2006,Pre-Monsoon/Summer,Q1,215,215.0,215,215
+North,Himachal Pradesh,2006,Pre-Monsoon/Summer,Q2,469,234.5,229,240
+North,Himachal Pradesh,2006,Winter,Q1,322,161.0,161,161
+North,Himachal Pradesh,2006,Winter,Q4,199,199.0,199,199
+North,Himachal Pradesh,2007,Monsoon,Q2,227,227.0,227,227
+North,Himachal Pradesh,2007,Monsoon,Q3,722,240.67,220,256
+North,Himachal Pradesh,2007,Post-Monsoon,Q4,478,239.0,222,256
+North,Himachal Pradesh,2007,Pre-Monsoon/Summer,Q1,183,183.0,183,183
+North,Himachal Pradesh,2007,Pre-Monsoon/Summer,Q2,429,214.5,207,222
+North,Himachal Pradesh,2007,Winter,Q1,348,174.0,167,181
+North,Himachal Pradesh,2007,Winter,Q4,195,195.0,195,195
+North,Himachal Pradesh,2008,Monsoon,Q2,174,174.0,174,174
+North,Himachal Pradesh,2008,Monsoon,Q3,501,167.0,157,178
+North,Himachal Pradesh,2008,Post-Monsoon,Q4,379,189.5,169,210
+North,Himachal Pradesh,2008,Pre-Monsoon/Summer,Q1,135,135.0,135,135
+North,Himachal Pradesh,2008,Pre-Monsoon/Summer,Q2,330,165.0,151,179
+North,Himachal Pradesh,2008,Winter,Q1,298,149.0,132,166
+North,Himachal Pradesh,2008,Winter,Q4,165,165.0,165,165
+North,Himachal Pradesh,2009,Monsoon,Q2,299,299.0,299,299
+North,Himachal Pradesh,2009,Monsoon,Q3,792,264.0,250,285
+North,Himachal Pradesh,2009,Post-Monsoon,Q4,535,267.5,263,272
+North,Himachal Pradesh,2009,Pre-Monsoon/Summer,Q1,233,233.0,233,233
+North,Himachal Pradesh,2009,Pre-Monsoon/Summer,Q2,519,259.5,236,283
+North,Himachal Pradesh,2009,Winter,Q1,465,232.5,213,252
+North,Himachal Pradesh,2009,Winter,Q4,235,235.0,235,235
+North,Himachal Pradesh,2010,Monsoon,Q2,310,310.0,310,310
+North,Himachal Pradesh,2010,Monsoon,Q3,788,262.67,256,275
+North,Himachal Pradesh,2010,Post-Monsoon,Q4,543,271.5,246,297
+North,Himachal Pradesh,2010,Pre-Monsoon/Summer,Q1,239,239.0,239,239
+North,Himachal Pradesh,2010,Pre-Monsoon/Summer,Q2,531,265.5,253,278
+North,Himachal Pradesh,2010,Winter,Q1,421,210.5,205,216
+North,Himachal Pradesh,2010,Winter,Q4,245,245.0,245,245
+North,Himachal Pradesh,2011,Monsoon,Q2,283,283.0,283,283
+North,Himachal Pradesh,2011,Monsoon,Q3,769,256.33,249,267
+North,Himachal Pradesh,2011,Post-Monsoon,Q4,553,276.5,272,281
+North,Himachal Pradesh,2011,Pre-Monsoon/Summer,Q1,261,261.0,261,261
+North,Himachal Pradesh,2011,Pre-Monsoon/Summer,Q2,514,257.0,245,269
+North,Himachal Pradesh,2011,Winter,Q1,437,218.5,215,222
+North,Himachal Pradesh,2011,Winter,Q4,282,282.0,282,282
+North,Himachal Pradesh,2012,Monsoon,Q2,274,274.0,274,274
+North,Himachal Pradesh,2012,Monsoon,Q3,739,246.33,233,270
+North,Himachal Pradesh,2012,Post-Monsoon,Q4,511,255.5,219,292
+North,Himachal Pradesh,2012,Pre-Monsoon/Summer,Q1,256,256.0,256,256
+North,Himachal Pradesh,2012,Pre-Monsoon/Summer,Q2,497,248.5,243,254
+North,Himachal Pradesh,2012,Winter,Q1,405,202.5,191,214
+North,Himachal Pradesh,2012,Winter,Q4,217,217.0,217,217
+North,Himachal Pradesh,2013,Monsoon,Q2,234,234.0,234,234
+North,Himachal Pradesh,2013,Monsoon,Q3,774,258.0,235,276
+North,Himachal Pradesh,2013,Post-Monsoon,Q4,549,274.5,273,276
+North,Himachal Pradesh,2013,Pre-Monsoon/Summer,Q1,216,216.0,216,216
+North,Himachal Pradesh,2013,Pre-Monsoon/Summer,Q2,520,260.0,254,266
+North,Himachal Pradesh,2013,Winter,Q1,411,205.5,202,209
+North,Himachal Pradesh,2013,Winter,Q4,277,277.0,277,277
+North,Himachal Pradesh,2014,Monsoon,Q2,295,295.0,295,295
+North,Himachal Pradesh,2014,Monsoon,Q3,893,297.67,272,329
+North,Himachal Pradesh,2014,Post-Monsoon,Q4,615,307.5,302,313
+North,Himachal Pradesh,2014,Pre-Monsoon/Summer,Q1,260,260.0,260,260
+North,Himachal Pradesh,2014,Pre-Monsoon/Summer,Q2,523,261.5,234,289
+North,Himachal Pradesh,2014,Winter,Q1,437,218.5,191,246
+North,Himachal Pradesh,2014,Winter,Q4,302,302.0,302,302
+North,Jammu and Kashmir,2001,Monsoon,Q2,448,448.0,448,448
+North,Jammu and Kashmir,2001,Monsoon,Q3,1244,414.67,405,429
+North,Jammu and Kashmir,2001,Post-Monsoon,Q4,817,408.5,394,423
+North,Jammu and Kashmir,2001,Pre-Monsoon/Summer,Q1,392,392.0,392,392
+North,Jammu and Kashmir,2001,Pre-Monsoon/Summer,Q2,855,427.5,372,483
+North,Jammu and Kashmir,2001,Winter,Q1,847,423.5,362,485
+North,Jammu and Kashmir,2001,Winter,Q4,408,408.0,408,408
+North,Jammu and Kashmir,2002,Monsoon,Q2,500,500.0,500,500
+North,Jammu and Kashmir,2002,Monsoon,Q3,1465,488.33,425,544
+North,Jammu and Kashmir,2002,Post-Monsoon,Q4,948,474.0,453,495
+North,Jammu and Kashmir,2002,Pre-Monsoon/Summer,Q1,427,427.0,427,427
+North,Jammu and Kashmir,2002,Pre-Monsoon/Summer,Q2,914,457.0,452,462
+North,Jammu and Kashmir,2002,Winter,Q1,699,349.5,336,363
+North,Jammu and Kashmir,2002,Winter,Q4,420,420.0,420,420
+North,Jammu and Kashmir,2003,Monsoon,Q2,550,550.0,550,550
+North,Jammu and Kashmir,2003,Monsoon,Q3,1695,565.0,509,635
+North,Jammu and Kashmir,2003,Post-Monsoon,Q4,1015,507.5,498,517
+North,Jammu and Kashmir,2003,Pre-Monsoon/Summer,Q1,423,423.0,423,423
+North,Jammu and Kashmir,2003,Pre-Monsoon/Summer,Q2,1003,501.5,468,535
+North,Jammu and Kashmir,2003,Winter,Q1,781,390.5,380,401
+North,Jammu and Kashmir,2003,Winter,Q4,421,421.0,421,421
+North,Jammu and Kashmir,2004,Monsoon,Q2,588,588.0,588,588
+North,Jammu and Kashmir,2004,Monsoon,Q3,1728,576.0,512,657
+North,Jammu and Kashmir,2004,Post-Monsoon,Q4,1057,528.5,526,531
+North,Jammu and Kashmir,2004,Pre-Monsoon/Summer,Q1,509,509.0,509,509
+North,Jammu and Kashmir,2004,Pre-Monsoon/Summer,Q2,992,496.0,489,503
+North,Jammu and Kashmir,2004,Winter,Q1,902,451.0,439,463
+North,Jammu and Kashmir,2004,Winter,Q4,505,505.0,505,505
+North,Jammu and Kashmir,2005,Monsoon,Q2,573,573.0,573,573
+North,Jammu and Kashmir,2005,Monsoon,Q3,1583,527.67,499,559
+North,Jammu and Kashmir,2005,Post-Monsoon,Q4,1026,513.0,508,518
+North,Jammu and Kashmir,2005,Pre-Monsoon/Summer,Q1,384,384.0,384,384
+North,Jammu and Kashmir,2005,Pre-Monsoon/Summer,Q2,896,448.0,412,484
+North,Jammu and Kashmir,2005,Winter,Q1,735,367.5,291,444
+North,Jammu and Kashmir,2005,Winter,Q4,472,472.0,472,472
+North,Jammu and Kashmir,2006,Monsoon,Q2,520,520.0,520,520
+North,Jammu and Kashmir,2006,Monsoon,Q3,1490,496.67,448,541
+North,Jammu and Kashmir,2006,Post-Monsoon,Q4,950,475.0,455,495
+North,Jammu and Kashmir,2006,Pre-Monsoon/Summer,Q1,467,467.0,467,467
+North,Jammu and Kashmir,2006,Pre-Monsoon/Summer,Q2,990,495.0,474,516
+North,Jammu and Kashmir,2006,Winter,Q1,719,359.5,332,387
+North,Jammu and Kashmir,2006,Winter,Q4,473,473.0,473,473
+North,Jammu and Kashmir,2007,Monsoon,Q2,573,573.0,573,573
+North,Jammu and Kashmir,2007,Monsoon,Q3,1569,523.0,505,537
+North,Jammu and Kashmir,2007,Post-Monsoon,Q4,969,484.5,461,508
+North,Jammu and Kashmir,2007,Pre-Monsoon/Summer,Q1,466,466.0,466,466
+North,Jammu and Kashmir,2007,Pre-Monsoon/Summer,Q2,990,495.0,485,505
+North,Jammu and Kashmir,2007,Winter,Q1,856,428.0,409,447
+North,Jammu and Kashmir,2007,Winter,Q4,451,451.0,451,451
+North,Jammu and Kashmir,2008,Monsoon,Q2,537,537.0,537,537
+North,Jammu and Kashmir,2008,Monsoon,Q3,1223,407.67,306,502
+North,Jammu and Kashmir,2008,Post-Monsoon,Q4,1033,516.5,498,535
+North,Jammu and Kashmir,2008,Pre-Monsoon/Summer,Q1,459,459.0,459,459
+North,Jammu and Kashmir,2008,Pre-Monsoon/Summer,Q2,961,480.5,475,486
+North,Jammu and Kashmir,2008,Winter,Q1,780,390.0,376,404
+North,Jammu and Kashmir,2008,Winter,Q4,433,433.0,433,433
+North,Jammu and Kashmir,2009,Monsoon,Q2,503,503.0,503,503
+North,Jammu and Kashmir,2009,Monsoon,Q3,1680,560.0,557,563
+North,Jammu and Kashmir,2009,Post-Monsoon,Q4,1115,557.5,515,600
+North,Jammu and Kashmir,2009,Pre-Monsoon/Summer,Q1,514,514.0,514,514
+North,Jammu and Kashmir,2009,Pre-Monsoon/Summer,Q2,1018,509.0,460,558
+North,Jammu and Kashmir,2009,Winter,Q1,731,365.5,364,367
+North,Jammu and Kashmir,2009,Winter,Q4,451,451.0,451,451
+North,Jammu and Kashmir,2010,Monsoon,Q2,539,539.0,539,539
+North,Jammu and Kashmir,2010,Monsoon,Q3,1520,506.67,470,552
+North,Jammu and Kashmir,2010,Post-Monsoon,Q4,1103,551.5,527,576
+North,Jammu and Kashmir,2010,Pre-Monsoon/Summer,Q1,553,553.0,553,553
+North,Jammu and Kashmir,2010,Pre-Monsoon/Summer,Q2,1074,537.0,535,539
+North,Jammu and Kashmir,2010,Winter,Q1,860,430.0,408,452
+North,Jammu and Kashmir,2010,Winter,Q4,493,493.0,493,493
+North,Jammu and Kashmir,2011,Monsoon,Q2,657,657.0,657,657
+North,Jammu and Kashmir,2011,Monsoon,Q3,1870,623.33,610,648
+North,Jammu and Kashmir,2011,Post-Monsoon,Q4,1187,593.5,565,622
+North,Jammu and Kashmir,2011,Pre-Monsoon/Summer,Q1,500,500.0,500,500
+North,Jammu and Kashmir,2011,Pre-Monsoon/Summer,Q2,1093,546.5,448,645
+North,Jammu and Kashmir,2011,Winter,Q1,824,412.0,394,430
+North,Jammu and Kashmir,2011,Winter,Q4,534,534.0,534,534
+North,Jammu and Kashmir,2012,Monsoon,Q2,631,631.0,631,631
+North,Jammu and Kashmir,2012,Monsoon,Q3,1851,617.0,555,706
+North,Jammu and Kashmir,2012,Post-Monsoon,Q4,1154,577.0,557,597
+North,Jammu and Kashmir,2012,Pre-Monsoon/Summer,Q1,531,531.0,531,531
+North,Jammu and Kashmir,2012,Pre-Monsoon/Summer,Q2,1134,567.0,533,601
+North,Jammu and Kashmir,2012,Winter,Q1,873,436.5,413,460
+North,Jammu and Kashmir,2012,Winter,Q4,463,463.0,463,463
+North,Jammu and Kashmir,2013,Monsoon,Q2,617,617.0,617,617
+North,Jammu and Kashmir,2013,Monsoon,Q3,1712,570.67,542,596
+North,Jammu and Kashmir,2013,Post-Monsoon,Q4,1234,617.0,582,652
+North,Jammu and Kashmir,2013,Pre-Monsoon/Summer,Q1,464,464.0,464,464
+North,Jammu and Kashmir,2013,Pre-Monsoon/Summer,Q2,1176,588.0,530,646
+North,Jammu and Kashmir,2013,Winter,Q1,773,386.5,355,418
+North,Jammu and Kashmir,2013,Winter,Q4,479,479.0,479,479
+North,Jammu and Kashmir,2014,Monsoon,Q2,594,594.0,594,594
+North,Jammu and Kashmir,2014,Monsoon,Q3,1493,497.67,415,563
+North,Jammu and Kashmir,2014,Post-Monsoon,Q4,1061,530.5,517,544
+North,Jammu and Kashmir,2014,Pre-Monsoon/Summer,Q1,424,424.0,424,424
+North,Jammu and Kashmir,2014,Pre-Monsoon/Summer,Q2,939,469.5,433,506
+North,Jammu and Kashmir,2014,Winter,Q1,829,414.5,414,415
+North,Jammu and Kashmir,2014,Winter,Q4,438,438.0,438,438
+North,Punjab,2001,Monsoon,Q2,135,135.0,135,135
+North,Punjab,2001,Monsoon,Q3,425,141.67,135,146
+North,Punjab,2001,Post-Monsoon,Q4,321,160.5,156,165
+North,Punjab,2001,Pre-Monsoon/Summer,Q1,162,162.0,162,162
+North,Punjab,2001,Pre-Monsoon/Summer,Q2,313,156.5,154,159
+North,Punjab,2001,Winter,Q1,290,145.0,130,160
+North,Punjab,2001,Winter,Q4,162,162.0,162,162
+North,Punjab,2002,Monsoon,Q2,130,130.0,130,130
+North,Punjab,2002,Monsoon,Q3,395,131.67,123,138
+North,Punjab,2002,Post-Monsoon,Q4,251,125.5,118,133
+North,Punjab,2002,Pre-Monsoon/Summer,Q1,122,122.0,122,122
+North,Punjab,2002,Pre-Monsoon/Summer,Q2,225,112.5,110,115
+North,Punjab,2002,Winter,Q1,258,129.0,128,130
+North,Punjab,2002,Winter,Q4,127,127.0,127,127
+North,Punjab,2003,Monsoon,Q2,142,142.0,142,142
+North,Punjab,2003,Monsoon,Q3,448,149.33,147,152
+North,Punjab,2003,Post-Monsoon,Q4,318,159.0,151,167
+North,Punjab,2003,Pre-Monsoon/Summer,Q1,107,107.0,107,107
+North,Punjab,2003,Pre-Monsoon/Summer,Q2,259,129.5,124,135
+North,Punjab,2003,Winter,Q1,186,93.0,85,101
+North,Punjab,2003,Winter,Q4,143,143.0,143,143
+North,Punjab,2004,Monsoon,Q2,163,163.0,163,163
+North,Punjab,2004,Monsoon,Q3,521,173.67,160,195
+North,Punjab,2004,Post-Monsoon,Q4,358,179.0,170,188
+North,Punjab,2004,Pre-Monsoon/Summer,Q1,163,163.0,163,163
+North,Punjab,2004,Pre-Monsoon/Summer,Q2,322,161.0,160,162
+North,Punjab,2004,Winter,Q1,348,174.0,167,181
+North,Punjab,2004,Winter,Q4,161,161.0,161,161
+North,Punjab,2005,Monsoon,Q2,157,157.0,157,157
+North,Punjab,2005,Monsoon,Q3,575,191.67,151,243
+North,Punjab,2005,Post-Monsoon,Q4,388,194.0,178,210
+North,Punjab,2005,Pre-Monsoon/Summer,Q1,175,175.0,175,175
+North,Punjab,2005,Pre-Monsoon/Summer,Q2,326,163.0,159,167
+North,Punjab,2005,Winter,Q1,311,155.5,115,196
+North,Punjab,2005,Winter,Q4,220,220.0,220,220
+North,Punjab,2006,Monsoon,Q2,200,200.0,200,200
+North,Punjab,2006,Monsoon,Q3,567,189.0,173,207
+North,Punjab,2006,Post-Monsoon,Q4,398,199.0,187,211
+North,Punjab,2006,Pre-Monsoon/Summer,Q1,165,165.0,165,165
+North,Punjab,2006,Pre-Monsoon/Summer,Q2,345,172.5,163,182
+North,Punjab,2006,Winter,Q1,367,183.5,182,185
+North,Punjab,2006,Winter,Q4,209,209.0,209,209
+North,Punjab,2007,Monsoon,Q2,190,190.0,190,190
+North,Punjab,2007,Monsoon,Q3,618,206.0,183,232
+North,Punjab,2007,Post-Monsoon,Q4,427,213.5,213,214
+North,Punjab,2007,Pre-Monsoon/Summer,Q1,192,192.0,192,192
+North,Punjab,2007,Pre-Monsoon/Summer,Q2,367,183.5,180,187
+North,Punjab,2007,Winter,Q1,390,195.0,179,211
+North,Punjab,2007,Winter,Q4,207,207.0,207,207
+North,Punjab,2008,Monsoon,Q2,191,191.0,191,191
+North,Punjab,2008,Monsoon,Q3,551,183.67,177,190
+North,Punjab,2008,Post-Monsoon,Q4,446,223.0,221,225
+North,Punjab,2008,Pre-Monsoon/Summer,Q1,176,176.0,176,176
+North,Punjab,2008,Pre-Monsoon/Summer,Q2,421,210.5,197,224
+North,Punjab,2008,Winter,Q1,421,210.5,191,230
+North,Punjab,2008,Winter,Q4,188,188.0,188,188
+North,Punjab,2009,Monsoon,Q2,238,238.0,238,238
+North,Punjab,2009,Monsoon,Q3,632,210.67,206,217
+North,Punjab,2009,Post-Monsoon,Q4,492,246.0,236,256
+North,Punjab,2009,Pre-Monsoon/Summer,Q1,214,214.0,214,214
+North,Punjab,2009,Pre-Monsoon/Summer,Q2,412,206.0,191,221
+North,Punjab,2009,Winter,Q1,462,231.0,225,237
+North,Punjab,2009,Winter,Q4,234,234.0,234,234
+North,Punjab,2010,Monsoon,Q2,200,200.0,200,200
+North,Punjab,2010,Monsoon,Q3,568,189.33,180,201
+North,Punjab,2010,Post-Monsoon,Q4,410,205.0,196,214
+North,Punjab,2010,Pre-Monsoon/Summer,Q1,209,209.0,209,209
+North,Punjab,2010,Pre-Monsoon/Summer,Q2,419,209.5,200,219
+North,Punjab,2010,Winter,Q1,414,207.0,195,219
+North,Punjab,2010,Winter,Q4,219,219.0,219,219
+North,Punjab,2011,Monsoon,Q2,521,521.0,521,521
+North,Punjab,2011,Monsoon,Q3,1549,516.33,491,536
+North,Punjab,2011,Post-Monsoon,Q4,1157,578.5,572,585
+North,Punjab,2011,Pre-Monsoon/Summer,Q1,531,531.0,531,531
+North,Punjab,2011,Pre-Monsoon/Summer,Q2,1046,523.0,510,536
+North,Punjab,2011,Winter,Q1,1119,559.5,517,602
+North,Punjab,2011,Winter,Q4,573,573.0,573,573
+North,Punjab,2012,Monsoon,Q2,535,535.0,535,535
+North,Punjab,2012,Monsoon,Q3,1468,489.33,480,505
+North,Punjab,2012,Post-Monsoon,Q4,1129,564.5,519,610
+North,Punjab,2012,Pre-Monsoon/Summer,Q1,529,529.0,529,529
+North,Punjab,2012,Pre-Monsoon/Summer,Q2,1029,514.5,502,527
+North,Punjab,2012,Winter,Q1,1075,537.5,525,550
+North,Punjab,2012,Winter,Q4,563,563.0,563,563
+North,Punjab,2013,Monsoon,Q2,487,487.0,487,487
+North,Punjab,2013,Monsoon,Q3,1407,469.0,458,482
+North,Punjab,2013,Post-Monsoon,Q4,1238,619.0,573,665
+North,Punjab,2013,Pre-Monsoon/Summer,Q1,555,555.0,555,555
+North,Punjab,2013,Pre-Monsoon/Summer,Q2,1085,542.5,533,552
+North,Punjab,2013,Winter,Q1,967,483.5,464,503
+North,Punjab,2013,Winter,Q4,584,584.0,584,584
+North,Punjab,2014,Monsoon,Q2,535,535.0,535,535
+North,Punjab,2014,Monsoon,Q3,1499,499.67,489,519
+North,Punjab,2014,Post-Monsoon,Q4,1163,581.5,568,595
+North,Punjab,2014,Pre-Monsoon/Summer,Q1,555,555.0,555,555
+North,Punjab,2014,Pre-Monsoon/Summer,Q2,1087,543.5,524,563
+North,Punjab,2014,Winter,Q1,988,494.0,493,495
+North,Punjab,2014,Winter,Q4,564,564.0,564,564
+North,Rajasthan,2001,Monsoon,Q2,1778,1778.0,1778,1778
+North,Rajasthan,2001,Monsoon,Q3,4653,1551.0,1485,1606
+North,Rajasthan,2001,Post-Monsoon,Q4,3209,1604.5,1583,1626
+North,Rajasthan,2001,Pre-Monsoon/Summer,Q1,1755,1755.0,1755,1755
+North,Rajasthan,2001,Pre-Monsoon/Summer,Q2,3687,1843.5,1750,1937
+North,Rajasthan,2001,Winter,Q1,3411,1705.5,1678,1733
+North,Rajasthan,2001,Winter,Q4,1506,1506.0,1506,1506
+North,Rajasthan,2002,Monsoon,Q2,1878,1878.0,1878,1878
+North,Rajasthan,2002,Monsoon,Q3,5215,1738.33,1632,1836
+North,Rajasthan,2002,Post-Monsoon,Q4,3412,1706.0,1696,1716
+North,Rajasthan,2002,Pre-Monsoon/Summer,Q1,1707,1707.0,1707,1707
+North,Rajasthan,2002,Pre-Monsoon/Summer,Q2,3716,1858.0,1738,1978
+North,Rajasthan,2002,Winter,Q1,3073,1536.5,1506,1567
+North,Rajasthan,2002,Winter,Q4,1570,1570.0,1570,1570
+North,Rajasthan,2003,Monsoon,Q2,1967,1967.0,1967,1967
+North,Rajasthan,2003,Monsoon,Q3,5456,1818.67,1779,1840
+North,Rajasthan,2003,Post-Monsoon,Q4,3884,1942.0,1907,1977
+North,Rajasthan,2003,Pre-Monsoon/Summer,Q1,1707,1707.0,1707,1707
+North,Rajasthan,2003,Pre-Monsoon/Summer,Q2,3863,1931.5,1762,2101
+North,Rajasthan,2003,Winter,Q1,3459,1729.5,1664,1795
+North,Rajasthan,2003,Winter,Q4,1597,1597.0,1597,1597
+North,Rajasthan,2004,Monsoon,Q2,2021,2021.0,2021,2021
+North,Rajasthan,2004,Monsoon,Q3,5456,1818.67,1697,1944
+North,Rajasthan,2004,Post-Monsoon,Q4,3946,1973.0,1889,2057
+North,Rajasthan,2004,Pre-Monsoon/Summer,Q1,1999,1999.0,1999,1999
+North,Rajasthan,2004,Pre-Monsoon/Summer,Q2,4285,2142.5,2124,2161
+North,Rajasthan,2004,Winter,Q1,3872,1936.0,1933,1939
+North,Rajasthan,2004,Winter,Q4,1664,1664.0,1664,1664
+North,Rajasthan,2005,Monsoon,Q2,2123,2123.0,2123,2123
+North,Rajasthan,2005,Monsoon,Q3,5607,1869.0,1843,1920
+North,Rajasthan,2005,Post-Monsoon,Q4,3975,1987.5,1920,2055
+North,Rajasthan,2005,Pre-Monsoon/Summer,Q1,1971,1971.0,1971,1971
+North,Rajasthan,2005,Pre-Monsoon/Summer,Q2,4393,2196.5,1964,2429
+North,Rajasthan,2005,Winter,Q1,3519,1759.5,1715,1804
+North,Rajasthan,2005,Winter,Q4,1527,1527.0,1527,1527
+North,Rajasthan,2006,Monsoon,Q2,1998,1998.0,1998,1998
+North,Rajasthan,2006,Monsoon,Q3,5403,1801.0,1726,1901
+North,Rajasthan,2006,Post-Monsoon,Q4,3839,1919.5,1855,1984
+North,Rajasthan,2006,Pre-Monsoon/Summer,Q1,2052,2052.0,2052,2052
+North,Rajasthan,2006,Pre-Monsoon/Summer,Q2,4548,2274.0,2110,2438
+North,Rajasthan,2006,Winter,Q1,3874,1937.0,1926,1948
+North,Rajasthan,2006,Winter,Q4,1634,1634.0,1634,1634
+North,Rajasthan,2007,Monsoon,Q2,1931,1931.0,1931,1931
+North,Rajasthan,2007,Monsoon,Q3,5702,1900.67,1822,1945
+North,Rajasthan,2007,Post-Monsoon,Q4,4102,2051.0,2018,2084
+North,Rajasthan,2007,Pre-Monsoon/Summer,Q1,2054,2054.0,2054,2054
+North,Rajasthan,2007,Pre-Monsoon/Summer,Q2,4522,2261.0,2252,2270
+North,Rajasthan,2007,Winter,Q1,3969,1984.5,1918,2051
+North,Rajasthan,2007,Winter,Q4,1605,1605.0,1605,1605
+North,Rajasthan,2008,Monsoon,Q2,1936,1936.0,1936,1936
+North,Rajasthan,2008,Monsoon,Q3,5817,1939.0,1829,2132
+North,Rajasthan,2008,Post-Monsoon,Q4,4190,2095.0,2055,2135
+North,Rajasthan,2008,Pre-Monsoon/Summer,Q1,1872,1872.0,1872,1872
+North,Rajasthan,2008,Pre-Monsoon/Summer,Q2,4354,2177.0,2111,2243
+North,Rajasthan,2008,Winter,Q1,3955,1977.5,1935,2020
+North,Rajasthan,2008,Winter,Q4,1580,1580.0,1580,1580
+North,Rajasthan,2009,Monsoon,Q2,2285,2285.0,2285,2285
+North,Rajasthan,2009,Monsoon,Q3,6143,2047.67,2026,2084
+North,Rajasthan,2009,Post-Monsoon,Q4,4132,2066.0,2011,2121
+North,Rajasthan,2009,Pre-Monsoon/Summer,Q1,2172,2172.0,2172,2172
+North,Rajasthan,2009,Pre-Monsoon/Summer,Q2,4673,2336.5,2235,2438
+North,Rajasthan,2009,Winter,Q1,3997,1998.5,1983,2014
+North,Rajasthan,2009,Winter,Q4,1712,1712.0,1712,1712
+North,Rajasthan,2010,Monsoon,Q2,2163,2163.0,2163,2163
+North,Rajasthan,2010,Monsoon,Q3,5555,1851.67,1782,1974
+North,Rajasthan,2010,Post-Monsoon,Q4,4051,2025.5,1961,2090
+North,Rajasthan,2010,Pre-Monsoon/Summer,Q1,2138,2138.0,2138,2138
+North,Rajasthan,2010,Pre-Monsoon/Summer,Q2,4438,2219.0,2140,2298
+North,Rajasthan,2010,Winter,Q1,4098,2049.0,2024,2074
+North,Rajasthan,2010,Winter,Q4,1859,1859.0,1859,1859
+North,Rajasthan,2011,Monsoon,Q2,2026,2026.0,2026,2026
+North,Rajasthan,2011,Monsoon,Q3,5495,1831.67,1815,1859
+North,Rajasthan,2011,Post-Monsoon,Q4,3863,1931.5,1906,1957
+North,Rajasthan,2011,Pre-Monsoon/Summer,Q1,2006,2006.0,2006,2006
+North,Rajasthan,2011,Pre-Monsoon/Summer,Q2,4327,2163.5,1986,2341
+North,Rajasthan,2011,Winter,Q1,3926,1963.0,1881,2045
+North,Rajasthan,2011,Winter,Q4,1602,1602.0,1602,1602
+North,Rajasthan,2012,Monsoon,Q2,2043,2043.0,2043,2043
+North,Rajasthan,2012,Monsoon,Q3,5415,1805.0,1670,1972
+North,Rajasthan,2012,Post-Monsoon,Q4,3786,1893.0,1873,1913
+North,Rajasthan,2012,Pre-Monsoon/Summer,Q1,1972,1972.0,1972,1972
+North,Rajasthan,2012,Pre-Monsoon/Summer,Q2,4094,2047.0,1978,2116
+North,Rajasthan,2012,Winter,Q1,3962,1981.0,1914,2048
+North,Rajasthan,2012,Winter,Q4,1697,1697.0,1697,1697
+North,Rajasthan,2013,Monsoon,Q2,2109,2109.0,2109,2109
+North,Rajasthan,2013,Monsoon,Q3,5445,1815.0,1679,1944
+North,Rajasthan,2013,Post-Monsoon,Q4,4108,2054.0,2013,2095
+North,Rajasthan,2013,Pre-Monsoon/Summer,Q1,1963,1963.0,1963,1963
+North,Rajasthan,2013,Pre-Monsoon/Summer,Q2,4351,2175.5,2046,2305
+North,Rajasthan,2013,Winter,Q1,3855,1927.5,1821,2034
+North,Rajasthan,2013,Winter,Q4,1755,1755.0,1755,1755
+North,Rajasthan,2014,Monsoon,Q2,2213,2213.0,2213,2213
+North,Rajasthan,2014,Monsoon,Q3,5703,1901.0,1839,1976
+North,Rajasthan,2014,Post-Monsoon,Q4,4139,2069.5,2035,2104
+North,Rajasthan,2014,Pre-Monsoon/Summer,Q1,2130,2130.0,2130,2130
+North,Rajasthan,2014,Pre-Monsoon/Summer,Q2,4537,2268.5,2053,2484
+North,Rajasthan,2014,Winter,Q1,4094,2047.0,1951,2143
+North,Rajasthan,2014,Winter,Q4,1823,1823.0,1823,1823
+North,Uttarakhand,2001,Monsoon,Q2,84,84.0,84,84
+North,Uttarakhand,2001,Monsoon,Q3,249,83.0,81,86
+North,Uttarakhand,2001,Post-Monsoon,Q4,158,79.0,74,84
+North,Uttarakhand,2001,Pre-Monsoon/Summer,Q1,83,83.0,83,83
+North,Uttarakhand,2001,Pre-Monsoon/Summer,Q2,168,84.0,74,94
+North,Uttarakhand,2001,Winter,Q1,166,83.0,78,88
+North,Uttarakhand,2001,Winter,Q4,95,95.0,95,95
+North,Uttarakhand,2002,Monsoon,Q2,121,121.0,121,121
+North,Uttarakhand,2002,Monsoon,Q3,250,83.33,68,97
+North,Uttarakhand,2002,Post-Monsoon,Q4,190,95.0,94,96
+North,Uttarakhand,2002,Pre-Monsoon/Summer,Q1,79,79.0,79,79
+North,Uttarakhand,2002,Pre-Monsoon/Summer,Q2,217,108.5,106,111
+North,Uttarakhand,2002,Winter,Q1,163,81.5,76,87
+North,Uttarakhand,2002,Winter,Q4,97,97.0,97,97
+North,Uttarakhand,2003,Monsoon,Q2,106,106.0,106,106
+North,Uttarakhand,2003,Monsoon,Q3,303,101.0,84,113
+North,Uttarakhand,2003,Post-Monsoon,Q4,211,105.5,105,106
+North,Uttarakhand,2003,Pre-Monsoon/Summer,Q1,78,78.0,78,78
+North,Uttarakhand,2003,Pre-Monsoon/Summer,Q2,211,105.5,91,120
+North,Uttarakhand,2003,Winter,Q1,167,83.5,80,87
+North,Uttarakhand,2003,Winter,Q4,110,110.0,110,110
+North,Uttarakhand,2004,Monsoon,Q2,122,122.0,122,122
+North,Uttarakhand,2004,Monsoon,Q3,272,90.67,81,110
+North,Uttarakhand,2004,Post-Monsoon,Q4,219,109.5,105,114
+North,Uttarakhand,2004,Pre-Monsoon/Summer,Q1,103,103.0,103,103
+North,Uttarakhand,2004,Pre-Monsoon/Summer,Q2,212,106.0,97,115
+North,Uttarakhand,2004,Winter,Q1,212,106.0,99,113
+North,Uttarakhand,2004,Winter,Q4,112,112.0,112,112
+North,Uttarakhand,2005,Monsoon,Q2,141,141.0,141,141
+North,Uttarakhand,2005,Monsoon,Q3,311,103.67,93,112
+North,Uttarakhand,2005,Post-Monsoon,Q4,223,111.5,99,124
+North,Uttarakhand,2005,Pre-Monsoon/Summer,Q1,96,96.0,96,96
+North,Uttarakhand,2005,Pre-Monsoon/Summer,Q2,218,109.0,89,129
+North,Uttarakhand,2005,Winter,Q1,214,107.0,94,120
+North,Uttarakhand,2005,Winter,Q4,129,129.0,129,129
+North,Uttarakhand,2006,Monsoon,Q2,116,116.0,116,116
+North,Uttarakhand,2006,Monsoon,Q3,349,116.33,110,124
+North,Uttarakhand,2006,Post-Monsoon,Q4,251,125.5,116,135
+North,Uttarakhand,2006,Pre-Monsoon/Summer,Q1,149,149.0,149,149
+North,Uttarakhand,2006,Pre-Monsoon/Summer,Q2,224,112.0,100,124
+North,Uttarakhand,2006,Winter,Q1,226,113.0,108,118
+North,Uttarakhand,2006,Winter,Q4,146,146.0,146,146
+North,Uttarakhand,2007,Monsoon,Q2,136,136.0,136,136
+North,Uttarakhand,2007,Monsoon,Q3,368,122.67,118,131
+North,Uttarakhand,2007,Post-Monsoon,Q4,220,110.0,104,116
+North,Uttarakhand,2007,Pre-Monsoon/Summer,Q1,124,124.0,124,124
+North,Uttarakhand,2007,Pre-Monsoon/Summer,Q2,282,141.0,134,148
+North,Uttarakhand,2007,Winter,Q1,249,124.5,116,133
+North,Uttarakhand,2007,Winter,Q4,143,143.0,143,143
+North,Uttarakhand,2008,Monsoon,Q2,125,125.0,125,125
+North,Uttarakhand,2008,Monsoon,Q3,297,99.0,73,143
+North,Uttarakhand,2008,Post-Monsoon,Q4,224,112.0,108,116
+North,Uttarakhand,2008,Pre-Monsoon/Summer,Q1,138,138.0,138,138
+North,Uttarakhand,2008,Pre-Monsoon/Summer,Q2,252,126.0,119,133
+North,Uttarakhand,2008,Winter,Q1,264,132.0,126,138
+North,Uttarakhand,2008,Winter,Q4,109,109.0,109,109
+North,Uttarakhand,2009,Monsoon,Q2,137,137.0,137,137
+North,Uttarakhand,2009,Monsoon,Q3,316,105.33,91,124
+North,Uttarakhand,2009,Post-Monsoon,Q4,232,116.0,99,133
+North,Uttarakhand,2009,Pre-Monsoon/Summer,Q1,101,101.0,101,101
+North,Uttarakhand,2009,Pre-Monsoon/Summer,Q2,249,124.5,115,134
+North,Uttarakhand,2009,Winter,Q1,211,105.5,99,112
+North,Uttarakhand,2009,Winter,Q4,137,137.0,137,137
+North,Uttarakhand,2010,Monsoon,Q2,145,145.0,145,145
+North,Uttarakhand,2010,Monsoon,Q3,371,123.67,95,148
+North,Uttarakhand,2010,Post-Monsoon,Q4,265,132.5,129,136
+North,Uttarakhand,2010,Pre-Monsoon/Summer,Q1,128,128.0,128,128
+North,Uttarakhand,2010,Pre-Monsoon/Summer,Q2,252,126.0,125,127
+North,Uttarakhand,2010,Winter,Q1,194,97.0,86,108
+North,Uttarakhand,2010,Winter,Q4,124,124.0,124,124
+North,Uttarakhand,2011,Monsoon,Q2,133,133.0,133,133
+North,Uttarakhand,2011,Monsoon,Q3,327,109.0,100,115
+North,Uttarakhand,2011,Post-Monsoon,Q4,274,137.0,125,149
+North,Uttarakhand,2011,Pre-Monsoon/Summer,Q1,119,119.0,119,119
+North,Uttarakhand,2011,Pre-Monsoon/Summer,Q2,259,129.5,124,135
+North,Uttarakhand,2011,Winter,Q1,232,116.0,114,118
+North,Uttarakhand,2011,Winter,Q4,151,151.0,151,151
+North,Uttarakhand,2012,Monsoon,Q2,138,138.0,138,138
+North,Uttarakhand,2012,Monsoon,Q3,313,104.33,82,123
+North,Uttarakhand,2012,Post-Monsoon,Q4,243,121.5,118,125
+North,Uttarakhand,2012,Pre-Monsoon/Summer,Q1,122,122.0,122,122
+North,Uttarakhand,2012,Pre-Monsoon/Summer,Q2,264,132.0,127,137
+North,Uttarakhand,2012,Winter,Q1,264,132.0,112,152
+North,Uttarakhand,2012,Winter,Q4,111,111.0,111,111
+North,Uttarakhand,2013,Monsoon,Q2,120,120.0,120,120
+North,Uttarakhand,2013,Monsoon,Q3,279,93.0,81,104
+North,Uttarakhand,2013,Post-Monsoon,Q4,209,104.5,97,112
+North,Uttarakhand,2013,Pre-Monsoon/Summer,Q1,118,118.0,118,118
+North,Uttarakhand,2013,Pre-Monsoon/Summer,Q2,269,134.5,102,167
+North,Uttarakhand,2013,Winter,Q1,175,87.5,84,91
+North,Uttarakhand,2013,Winter,Q4,127,127.0,127,127
+North,Uttarakhand,2014,Monsoon,Q2,62,62.0,62,62
+North,Uttarakhand,2014,Monsoon,Q3,202,67.33,61,72
+North,Uttarakhand,2014,Post-Monsoon,Q4,159,79.5,76,83
+North,Uttarakhand,2014,Pre-Monsoon/Summer,Q1,65,65.0,65,65
+North,Uttarakhand,2014,Pre-Monsoon/Summer,Q2,141,70.5,64,77
+North,Uttarakhand,2014,Winter,Q1,101,50.5,43,58
+North,Uttarakhand,2014,Winter,Q4,71,71.0,71,71
+North-East,Arunachal Pradesh,2001,Monsoon,Q2,14,14.0,14,14
+North-East,Arunachal Pradesh,2001,Monsoon,Q3,58,19.33,14,23
+North-East,Arunachal Pradesh,2001,Post-Monsoon,Q4,47,23.5,17,30
+North-East,Arunachal Pradesh,2001,Pre-Monsoon/Summer,Q1,21,21.0,21,21
+North-East,Arunachal Pradesh,2001,Pre-Monsoon/Summer,Q2,35,17.5,16,19
+North-East,Arunachal Pradesh,2001,Winter,Q1,36,18.0,17,19
+North-East,Arunachal Pradesh,2001,Winter,Q4,25,25.0,25,25
+North-East,Arunachal Pradesh,2002,Monsoon,Q2,19,19.0,19,19
+North-East,Arunachal Pradesh,2002,Monsoon,Q3,46,15.33,11,18
+North-East,Arunachal Pradesh,2002,Post-Monsoon,Q4,46,23.0,21,25
+North-East,Arunachal Pradesh,2002,Pre-Monsoon/Summer,Q1,21,21.0,21,21
+North-East,Arunachal Pradesh,2002,Pre-Monsoon/Summer,Q2,39,19.5,16,23
+North-East,Arunachal Pradesh,2002,Winter,Q1,41,20.5,16,25
+North-East,Arunachal Pradesh,2002,Winter,Q4,23,23.0,23,23
+North-East,Arunachal Pradesh,2003,Monsoon,Q2,17,17.0,17,17
+North-East,Arunachal Pradesh,2003,Monsoon,Q3,63,21.0,19,23
+North-East,Arunachal Pradesh,2003,Post-Monsoon,Q4,34,17.0,16,18
+North-East,Arunachal Pradesh,2003,Pre-Monsoon/Summer,Q1,22,22.0,22,22
+North-East,Arunachal Pradesh,2003,Pre-Monsoon/Summer,Q2,31,15.5,13,18
+North-East,Arunachal Pradesh,2003,Winter,Q1,40,20.0,16,24
+North-East,Arunachal Pradesh,2003,Winter,Q4,22,22.0,22,22
+North-East,Arunachal Pradesh,2004,Monsoon,Q2,11,11.0,11,11
+North-East,Arunachal Pradesh,2004,Monsoon,Q3,43,14.33,8,21
+North-East,Arunachal Pradesh,2004,Post-Monsoon,Q4,46,23.0,17,29
+North-East,Arunachal Pradesh,2004,Pre-Monsoon/Summer,Q1,23,23.0,23,23
+North-East,Arunachal Pradesh,2004,Pre-Monsoon/Summer,Q2,26,13.0,11,15
+North-East,Arunachal Pradesh,2004,Winter,Q1,47,23.5,23,24
+North-East,Arunachal Pradesh,2004,Winter,Q4,21,21.0,21,21
+North-East,Arunachal Pradesh,2005,Monsoon,Q2,20,20.0,20,20
+North-East,Arunachal Pradesh,2005,Monsoon,Q3,53,17.67,14,20
+North-East,Arunachal Pradesh,2005,Post-Monsoon,Q4,45,22.5,21,24
+North-East,Arunachal Pradesh,2005,Pre-Monsoon/Summer,Q1,29,29.0,29,29
+North-East,Arunachal Pradesh,2005,Pre-Monsoon/Summer,Q2,29,14.5,12,17
+North-East,Arunachal Pradesh,2005,Winter,Q1,40,20.0,14,26
+North-East,Arunachal Pradesh,2005,Winter,Q4,21,21.0,21,21
+North-East,Arunachal Pradesh,2006,Monsoon,Q2,31,31.0,31,31
+North-East,Arunachal Pradesh,2006,Monsoon,Q3,54,18.0,11,25
+North-East,Arunachal Pradesh,2006,Post-Monsoon,Q4,46,23.0,21,25
+North-East,Arunachal Pradesh,2006,Pre-Monsoon/Summer,Q1,17,17.0,17,17
+North-East,Arunachal Pradesh,2006,Pre-Monsoon/Summer,Q2,39,19.5,19,20
+North-East,Arunachal Pradesh,2006,Winter,Q1,34,17.0,14,20
+North-East,Arunachal Pradesh,2006,Winter,Q4,22,22.0,22,22
+North-East,Arunachal Pradesh,2007,Monsoon,Q2,19,19.0,19,19
+North-East,Arunachal Pradesh,2007,Monsoon,Q3,51,17.0,14,22
+North-East,Arunachal Pradesh,2007,Post-Monsoon,Q4,29,14.5,11,18
+North-East,Arunachal Pradesh,2007,Pre-Monsoon/Summer,Q1,26,26.0,26,26
+North-East,Arunachal Pradesh,2007,Pre-Monsoon/Summer,Q2,44,22.0,19,25
+North-East,Arunachal Pradesh,2007,Winter,Q1,42,21.0,20,22
+North-East,Arunachal Pradesh,2007,Winter,Q4,19,19.0,19,19
+North-East,Arunachal Pradesh,2008,Monsoon,Q2,24,24.0,24,24
+North-East,Arunachal Pradesh,2008,Monsoon,Q3,58,19.33,13,27
+North-East,Arunachal Pradesh,2008,Post-Monsoon,Q4,44,22.0,20,24
+North-East,Arunachal Pradesh,2008,Pre-Monsoon/Summer,Q1,18,18.0,18,18
+North-East,Arunachal Pradesh,2008,Pre-Monsoon/Summer,Q2,49,24.5,16,33
+North-East,Arunachal Pradesh,2008,Winter,Q1,41,20.5,20,21
+North-East,Arunachal Pradesh,2008,Winter,Q4,27,27.0,27,27
+North-East,Arunachal Pradesh,2009,Monsoon,Q2,24,24.0,24,24
+North-East,Arunachal Pradesh,2009,Monsoon,Q3,58,19.33,13,27
+North-East,Arunachal Pradesh,2009,Post-Monsoon,Q4,44,22.0,20,24
+North-East,Arunachal Pradesh,2009,Pre-Monsoon/Summer,Q1,18,18.0,18,18
+North-East,Arunachal Pradesh,2009,Pre-Monsoon/Summer,Q2,49,24.5,16,33
+North-East,Arunachal Pradesh,2009,Winter,Q1,41,20.5,20,21
+North-East,Arunachal Pradesh,2009,Winter,Q4,27,27.0,27,27
+North-East,Arunachal Pradesh,2010,Monsoon,Q2,23,23.0,23,23
+North-East,Arunachal Pradesh,2010,Monsoon,Q3,47,15.67,14,18
+North-East,Arunachal Pradesh,2010,Post-Monsoon,Q4,43,21.5,20,23
+North-East,Arunachal Pradesh,2010,Pre-Monsoon/Summer,Q1,20,20.0,20,20
+North-East,Arunachal Pradesh,2010,Pre-Monsoon/Summer,Q2,54,27.0,26,28
+North-East,Arunachal Pradesh,2010,Winter,Q1,64,32.0,31,33
+North-East,Arunachal Pradesh,2010,Winter,Q4,29,29.0,29,29
+North-East,Arunachal Pradesh,2011,Monsoon,Q2,9,9.0,9,9
+North-East,Arunachal Pradesh,2011,Monsoon,Q3,66,22.0,16,28
+North-East,Arunachal Pradesh,2011,Post-Monsoon,Q4,40,20.0,15,25
+North-East,Arunachal Pradesh,2011,Pre-Monsoon/Summer,Q1,30,30.0,30,30
+North-East,Arunachal Pradesh,2011,Pre-Monsoon/Summer,Q2,51,25.5,22,29
+North-East,Arunachal Pradesh,2011,Winter,Q1,46,23.0,22,24
+North-East,Arunachal Pradesh,2011,Winter,Q4,21,21.0,21,21
+North-East,Arunachal Pradesh,2012,Monsoon,Q2,13,13.0,13,13
+North-East,Arunachal Pradesh,2012,Monsoon,Q3,52,17.33,14,20
+North-East,Arunachal Pradesh,2012,Post-Monsoon,Q4,36,18.0,16,20
+North-East,Arunachal Pradesh,2012,Pre-Monsoon/Summer,Q1,24,24.0,24,24
+North-East,Arunachal Pradesh,2012,Pre-Monsoon/Summer,Q2,27,13.5,11,16
+North-East,Arunachal Pradesh,2012,Winter,Q1,38,19.0,17,21
+North-East,Arunachal Pradesh,2012,Winter,Q4,14,14.0,14,14
+North-East,Arunachal Pradesh,2013,Monsoon,Q2,27,27.0,27,27
+North-East,Arunachal Pradesh,2013,Monsoon,Q3,79,26.33,24,28
+North-East,Arunachal Pradesh,2013,Post-Monsoon,Q4,54,27.0,25,29
+North-East,Arunachal Pradesh,2013,Pre-Monsoon/Summer,Q1,16,16.0,16,16
+North-East,Arunachal Pradesh,2013,Pre-Monsoon/Summer,Q2,48,24.0,23,25
+North-East,Arunachal Pradesh,2013,Winter,Q1,56,28.0,23,33
+North-East,Arunachal Pradesh,2013,Winter,Q4,28,28.0,28,28
+North-East,Arunachal Pradesh,2014,Monsoon,Q2,12,12.0,12,12
+North-East,Arunachal Pradesh,2014,Monsoon,Q3,41,13.67,13,14
+North-East,Arunachal Pradesh,2014,Post-Monsoon,Q4,37,18.5,15,22
+North-East,Arunachal Pradesh,2014,Pre-Monsoon/Summer,Q1,10,10.0,10,10
+North-East,Arunachal Pradesh,2014,Pre-Monsoon/Summer,Q2,30,15.0,9,21
+North-East,Arunachal Pradesh,2014,Winter,Q1,38,19.0,10,28
+North-East,Arunachal Pradesh,2014,Winter,Q4,17,17.0,17,17
+North-East,Assam,2001,Monsoon,Q2,137,137.0,137,137
+North-East,Assam,2001,Monsoon,Q3,432,144.0,132,160
+North-East,Assam,2001,Post-Monsoon,Q4,272,136.0,132,140
+North-East,Assam,2001,Pre-Monsoon/Summer,Q1,202,202.0,202,202
+North-East,Assam,2001,Pre-Monsoon/Summer,Q2,349,174.5,173,176
+North-East,Assam,2001,Winter,Q1,268,134.0,127,141
+North-East,Assam,2001,Winter,Q4,146,146.0,146,146
+North-East,Assam,2002,Monsoon,Q2,163,163.0,163,163
+North-East,Assam,2002,Monsoon,Q3,561,187.0,144,237
+North-East,Assam,2002,Post-Monsoon,Q4,402,201.0,180,222
+North-East,Assam,2002,Pre-Monsoon/Summer,Q1,185,185.0,185,185
+North-East,Assam,2002,Pre-Monsoon/Summer,Q2,341,170.5,159,182
+North-East,Assam,2002,Winter,Q1,406,203.0,196,210
+North-East,Assam,2002,Winter,Q4,185,185.0,185,185
+North-East,Assam,2003,Monsoon,Q2,180,180.0,180,180
+North-East,Assam,2003,Monsoon,Q3,534,178.0,162,205
+North-East,Assam,2003,Post-Monsoon,Q4,368,184.0,180,188
+North-East,Assam,2003,Pre-Monsoon/Summer,Q1,193,193.0,193,193
+North-East,Assam,2003,Pre-Monsoon/Summer,Q2,349,174.5,169,180
+North-East,Assam,2003,Winter,Q1,337,168.5,143,194
+North-East,Assam,2003,Winter,Q4,184,184.0,184,184
+North-East,Assam,2004,Monsoon,Q2,168,168.0,168,168
+North-East,Assam,2004,Monsoon,Q3,445,148.33,118,170
+North-East,Assam,2004,Post-Monsoon,Q4,349,174.5,167,182
+North-East,Assam,2004,Pre-Monsoon/Summer,Q1,170,170.0,170,170
+North-East,Assam,2004,Pre-Monsoon/Summer,Q2,336,168.0,160,176
+North-East,Assam,2004,Winter,Q1,355,177.5,172,183
+North-East,Assam,2004,Winter,Q4,179,179.0,179,179
+North-East,Assam,2005,Monsoon,Q2,308,308.0,308,308
+North-East,Assam,2005,Monsoon,Q3,937,312.33,286,354
+North-East,Assam,2005,Post-Monsoon,Q4,598,299.0,287,311
+North-East,Assam,2005,Pre-Monsoon/Summer,Q1,317,317.0,317,317
+North-East,Assam,2005,Pre-Monsoon/Summer,Q2,593,296.5,287,306
+North-East,Assam,2005,Winter,Q1,641,320.5,307,334
+North-East,Assam,2005,Winter,Q4,262,262.0,262,262
+North-East,Assam,2006,Monsoon,Q2,352,352.0,352,352
+North-East,Assam,2006,Monsoon,Q3,994,331.33,289,370
+North-East,Assam,2006,Post-Monsoon,Q4,703,351.5,325,378
+North-East,Assam,2006,Pre-Monsoon/Summer,Q1,365,365.0,365,365
+North-East,Assam,2006,Pre-Monsoon/Summer,Q2,681,340.5,318,363
+North-East,Assam,2006,Winter,Q1,630,315.0,297,333
+North-East,Assam,2006,Winter,Q4,355,355.0,355,355
+North-East,Assam,2007,Monsoon,Q2,331,331.0,331,331
+North-East,Assam,2007,Monsoon,Q3,900,300.0,296,305
+North-East,Assam,2007,Post-Monsoon,Q4,583,291.5,275,308
+North-East,Assam,2007,Pre-Monsoon/Summer,Q1,392,392.0,392,392
+North-East,Assam,2007,Pre-Monsoon/Summer,Q2,770,385.0,375,395
+North-East,Assam,2007,Winter,Q1,741,370.5,358,383
+North-East,Assam,2007,Winter,Q4,278,278.0,278,278
+North-East,Assam,2008,Monsoon,Q2,326,326.0,326,326
+North-East,Assam,2008,Monsoon,Q3,1085,361.67,344,371
+North-East,Assam,2008,Post-Monsoon,Q4,654,327.0,308,346
+North-East,Assam,2008,Pre-Monsoon/Summer,Q1,399,399.0,399,399
+North-East,Assam,2008,Pre-Monsoon/Summer,Q2,702,351.0,339,363
+North-East,Assam,2008,Winter,Q1,756,378.0,375,381
+North-East,Assam,2008,Winter,Q4,340,340.0,340,340
+North-East,Assam,2009,Monsoon,Q2,376,376.0,376,376
+North-East,Assam,2009,Monsoon,Q3,1111,370.33,331,393
+North-East,Assam,2009,Post-Monsoon,Q4,772,386.0,367,405
+North-East,Assam,2009,Pre-Monsoon/Summer,Q1,400,400.0,400,400
+North-East,Assam,2009,Pre-Monsoon/Summer,Q2,771,385.5,377,394
+North-East,Assam,2009,Winter,Q1,773,386.5,385,388
+North-East,Assam,2009,Winter,Q4,382,382.0,382,382
+North-East,Assam,2010,Monsoon,Q2,416,416.0,416,416
+North-East,Assam,2010,Monsoon,Q3,1413,471.0,454,504
+North-East,Assam,2010,Post-Monsoon,Q4,976,488.0,451,525
+North-East,Assam,2010,Pre-Monsoon/Summer,Q1,496,496.0,496,496
+North-East,Assam,2010,Pre-Monsoon/Summer,Q2,848,424.0,396,452
+North-East,Assam,2010,Winter,Q1,868,434.0,418,450
+North-East,Assam,2010,Winter,Q4,468,468.0,468,468
+North-East,Assam,2011,Monsoon,Q2,557,557.0,557,557
+North-East,Assam,2011,Monsoon,Q3,1549,516.33,502,532
+North-East,Assam,2011,Post-Monsoon,Q4,1141,570.5,551,590
+North-East,Assam,2011,Pre-Monsoon/Summer,Q1,607,607.0,607,607
+North-East,Assam,2011,Pre-Monsoon/Summer,Q2,1033,516.5,515,518
+North-East,Assam,2011,Winter,Q1,1099,549.5,545,554
+North-East,Assam,2011,Winter,Q4,583,583.0,583,583
+North-East,Assam,2012,Monsoon,Q2,536,536.0,536,536
+North-East,Assam,2012,Monsoon,Q3,1362,454.0,418,486
+North-East,Assam,2012,Post-Monsoon,Q4,1087,543.5,543,544
+North-East,Assam,2012,Pre-Monsoon/Summer,Q1,605,605.0,605,605
+North-East,Assam,2012,Pre-Monsoon/Summer,Q2,1168,584.0,567,601
+North-East,Assam,2012,Winter,Q1,1189,594.5,590,599
+North-East,Assam,2012,Winter,Q4,588,588.0,588,588
+North-East,Assam,2013,Monsoon,Q2,580,580.0,580,580
+North-East,Assam,2013,Monsoon,Q3,1688,562.67,535,601
+North-East,Assam,2013,Post-Monsoon,Q4,1332,666.0,635,697
+North-East,Assam,2013,Pre-Monsoon/Summer,Q1,603,603.0,603,603
+North-East,Assam,2013,Pre-Monsoon/Summer,Q2,1227,613.5,595,632
+North-East,Assam,2013,Winter,Q1,1189,594.5,555,634
+North-East,Assam,2013,Winter,Q4,592,592.0,592,592
+North-East,Assam,2014,Monsoon,Q2,531,531.0,531,531
+North-East,Assam,2014,Monsoon,Q3,1561,520.33,460,573
+North-East,Assam,2014,Post-Monsoon,Q4,1308,654.0,638,670
+North-East,Assam,2014,Pre-Monsoon/Summer,Q1,689,689.0,689,689
+North-East,Assam,2014,Pre-Monsoon/Summer,Q2,1178,589.0,566,612
+North-East,Assam,2014,Winter,Q1,1273,636.5,615,658
+North-East,Assam,2014,Winter,Q4,604,604.0,604,604
+North-East,Manipur,2001,Monsoon,Q2,14,14.0,14,14
+North-East,Manipur,2001,Monsoon,Q3,85,28.33,21,38
+North-East,Manipur,2001,Post-Monsoon,Q4,72,36.0,31,41
+North-East,Manipur,2001,Pre-Monsoon/Summer,Q1,40,40.0,40,40
+North-East,Manipur,2001,Pre-Monsoon/Summer,Q2,88,44.0,40,48
+North-East,Manipur,2001,Winter,Q1,70,35.0,31,39
+North-East,Manipur,2001,Winter,Q4,41,41.0,41,41
+North-East,Manipur,2002,Monsoon,Q2,36,36.0,36,36
+North-East,Manipur,2002,Monsoon,Q3,134,44.67,42,50
+North-East,Manipur,2002,Post-Monsoon,Q4,88,44.0,39,49
+North-East,Manipur,2002,Pre-Monsoon/Summer,Q1,44,44.0,44,44
+North-East,Manipur,2002,Pre-Monsoon/Summer,Q2,78,39.0,37,41
+North-East,Manipur,2002,Winter,Q1,100,50.0,49,51
+North-East,Manipur,2002,Winter,Q4,40,40.0,40,40
+North-East,Manipur,2003,Monsoon,Q2,44,44.0,44,44
+North-East,Manipur,2003,Monsoon,Q3,133,44.33,36,49
+North-East,Manipur,2003,Post-Monsoon,Q4,89,44.5,44,45
+North-East,Manipur,2003,Pre-Monsoon/Summer,Q1,48,48.0,48,48
+North-East,Manipur,2003,Pre-Monsoon/Summer,Q2,85,42.5,42,43
+North-East,Manipur,2003,Winter,Q1,83,41.5,40,43
+North-East,Manipur,2003,Winter,Q4,41,41.0,41,41
+North-East,Manipur,2004,Monsoon,Q2,42,42.0,42,42
+North-East,Manipur,2004,Monsoon,Q3,93,31.0,20,37
+North-East,Manipur,2004,Post-Monsoon,Q4,75,37.5,30,45
+North-East,Manipur,2004,Pre-Monsoon/Summer,Q1,41,41.0,41,41
+North-East,Manipur,2004,Pre-Monsoon/Summer,Q2,82,41.0,40,42
+North-East,Manipur,2004,Winter,Q1,77,38.5,34,43
+North-East,Manipur,2004,Winter,Q4,58,58.0,58,58
+North-East,Manipur,2005,Monsoon,Q2,45,45.0,45,45
+North-East,Manipur,2005,Monsoon,Q3,134,44.67,38,51
+North-East,Manipur,2005,Post-Monsoon,Q4,98,49.0,47,51
+North-East,Manipur,2005,Pre-Monsoon/Summer,Q1,58,58.0,58,58
+North-East,Manipur,2005,Pre-Monsoon/Summer,Q2,98,49.0,48,50
+North-East,Manipur,2005,Winter,Q1,112,56.0,55,57
+North-East,Manipur,2005,Winter,Q4,55,55.0,55,55
+North-East,Manipur,2006,Monsoon,Q2,26,26.0,26,26
+North-East,Manipur,2006,Monsoon,Q3,108,36.0,35,37
+North-East,Manipur,2006,Post-Monsoon,Q4,104,52.0,43,61
+North-East,Manipur,2006,Pre-Monsoon/Summer,Q1,51,51.0,51,51
+North-East,Manipur,2006,Pre-Monsoon/Summer,Q2,88,44.0,44,44
+North-East,Manipur,2006,Winter,Q1,95,47.5,45,50
+North-East,Manipur,2006,Winter,Q4,49,49.0,49,49
+North-East,Manipur,2007,Monsoon,Q2,42,42.0,42,42
+North-East,Manipur,2007,Monsoon,Q3,110,36.67,31,44
+North-East,Manipur,2007,Post-Monsoon,Q4,82,41.0,38,44
+North-East,Manipur,2007,Pre-Monsoon/Summer,Q1,57,57.0,57,57
+North-East,Manipur,2007,Pre-Monsoon/Summer,Q2,95,47.5,44,51
+North-East,Manipur,2007,Winter,Q1,93,46.5,46,47
+North-East,Manipur,2007,Winter,Q4,59,59.0,59,59
+North-East,Manipur,2008,Monsoon,Q2,46,46.0,46,46
+North-East,Manipur,2008,Monsoon,Q3,108,36.0,31,45
+North-East,Manipur,2008,Post-Monsoon,Q4,90,45.0,42,48
+North-East,Manipur,2008,Pre-Monsoon/Summer,Q1,39,39.0,39,39
+North-East,Manipur,2008,Pre-Monsoon/Summer,Q2,73,36.5,34,39
+North-East,Manipur,2008,Winter,Q1,97,48.5,41,56
+North-East,Manipur,2008,Winter,Q4,49,49.0,49,49
+North-East,Manipur,2009,Monsoon,Q2,39,39.0,39,39
+North-East,Manipur,2009,Monsoon,Q3,140,46.67,37,58
+North-East,Manipur,2009,Post-Monsoon,Q4,115,57.5,57,58
+North-East,Manipur,2009,Pre-Monsoon/Summer,Q1,51,51.0,51,51
+North-East,Manipur,2009,Pre-Monsoon/Summer,Q2,80,40.0,39,41
+North-East,Manipur,2009,Winter,Q1,94,47.0,40,54
+North-East,Manipur,2009,Winter,Q4,59,59.0,59,59
+North-East,Manipur,2010,Monsoon,Q2,30,30.0,30,30
+North-East,Manipur,2010,Monsoon,Q3,135,45.0,37,54
+North-East,Manipur,2010,Post-Monsoon,Q4,119,59.5,57,62
+North-East,Manipur,2010,Pre-Monsoon/Summer,Q1,49,49.0,49,49
+North-East,Manipur,2010,Pre-Monsoon/Summer,Q2,87,43.5,41,46
+North-East,Manipur,2010,Winter,Q1,120,60.0,46,74
+North-East,Manipur,2010,Winter,Q4,62,62.0,62,62
+North-East,Manipur,2011,Monsoon,Q2,58,58.0,58,58
+North-East,Manipur,2011,Monsoon,Q3,161,53.67,52,55
+North-East,Manipur,2011,Post-Monsoon,Q4,109,54.5,50,59
+North-East,Manipur,2011,Pre-Monsoon/Summer,Q1,62,62.0,62,62
+North-East,Manipur,2011,Pre-Monsoon/Summer,Q2,115,57.5,52,63
+North-East,Manipur,2011,Winter,Q1,130,65.0,64,66
+North-East,Manipur,2011,Winter,Q4,56,56.0,56,56
+North-East,Manipur,2012,Monsoon,Q2,72,72.0,72,72
+North-East,Manipur,2012,Monsoon,Q3,180,60.0,58,62
+North-East,Manipur,2012,Post-Monsoon,Q4,122,61.0,58,64
+North-East,Manipur,2012,Pre-Monsoon/Summer,Q1,64,64.0,64,64
+North-East,Manipur,2012,Pre-Monsoon/Summer,Q2,126,63.0,57,69
+North-East,Manipur,2012,Winter,Q1,137,68.5,67,70
+North-East,Manipur,2012,Winter,Q4,70,70.0,70,70
+North-East,Manipur,2013,Monsoon,Q2,46,46.0,46,46
+North-East,Manipur,2013,Monsoon,Q3,142,47.33,39,63
+North-East,Manipur,2013,Post-Monsoon,Q4,134,67.0,67,67
+North-East,Manipur,2013,Pre-Monsoon/Summer,Q1,57,57.0,57,57
+North-East,Manipur,2013,Pre-Monsoon/Summer,Q2,103,51.5,45,58
+North-East,Manipur,2013,Winter,Q1,105,52.5,46,59
+North-East,Manipur,2013,Winter,Q4,84,84.0,84,84
+North-East,Manipur,2014,Monsoon,Q2,49,49.0,49,49
+North-East,Manipur,2014,Monsoon,Q3,175,58.33,49,73
+North-East,Manipur,2014,Post-Monsoon,Q4,131,65.5,59,72
+North-East,Manipur,2014,Pre-Monsoon/Summer,Q1,66,66.0,66,66
+North-East,Manipur,2014,Pre-Monsoon/Summer,Q2,121,60.5,59,62
+North-East,Manipur,2014,Winter,Q1,120,60.0,59,61
+North-East,Manipur,2014,Winter,Q4,73,73.0,73,73
+North-East,Meghalaya,2001,Monsoon,Q2,11,11.0,11,11
+North-East,Meghalaya,2001,Monsoon,Q3,36,12.0,9,15
+North-East,Meghalaya,2001,Post-Monsoon,Q4,33,16.5,12,21
+North-East,Meghalaya,2001,Pre-Monsoon/Summer,Q1,13,13.0,13,13
+North-East,Meghalaya,2001,Pre-Monsoon/Summer,Q2,32,16.0,12,20
+North-East,Meghalaya,2001,Winter,Q1,26,13.0,11,15
+North-East,Meghalaya,2001,Winter,Q4,10,10.0,10,10
+North-East,Meghalaya,2002,Monsoon,Q2,31,31.0,31,31
+North-East,Meghalaya,2002,Monsoon,Q3,104,34.67,28,43
+North-East,Meghalaya,2002,Post-Monsoon,Q4,107,53.5,51,56
+North-East,Meghalaya,2002,Pre-Monsoon/Summer,Q1,43,43.0,43,43
+North-East,Meghalaya,2002,Pre-Monsoon/Summer,Q2,79,39.5,39,40
+North-East,Meghalaya,2002,Winter,Q1,57,28.5,26,31
+North-East,Meghalaya,2002,Winter,Q4,44,44.0,44,44
+North-East,Meghalaya,2003,Monsoon,Q2,37,37.0,37,37
+North-East,Meghalaya,2003,Monsoon,Q3,91,30.33,26,33
+North-East,Meghalaya,2003,Post-Monsoon,Q4,56,28.0,27,29
+North-East,Meghalaya,2003,Pre-Monsoon/Summer,Q1,31,31.0,31,31
+North-East,Meghalaya,2003,Pre-Monsoon/Summer,Q2,65,32.5,31,34
+North-East,Meghalaya,2003,Winter,Q1,64,32.0,31,33
+North-East,Meghalaya,2003,Winter,Q4,29,29.0,29,29
+North-East,Meghalaya,2004,Monsoon,Q2,21,21.0,21,21
+North-East,Meghalaya,2004,Monsoon,Q3,89,29.67,27,32
+North-East,Meghalaya,2004,Post-Monsoon,Q4,71,35.5,28,43
+North-East,Meghalaya,2004,Pre-Monsoon/Summer,Q1,29,29.0,29,29
+North-East,Meghalaya,2004,Pre-Monsoon/Summer,Q2,55,27.5,24,31
+North-East,Meghalaya,2004,Winter,Q1,43,21.5,21,22
+North-East,Meghalaya,2004,Winter,Q4,20,20.0,20,20
+North-East,Meghalaya,2005,Monsoon,Q2,26,26.0,26,26
+North-East,Meghalaya,2005,Monsoon,Q3,73,24.33,23,25
+North-East,Meghalaya,2005,Post-Monsoon,Q4,50,25.0,17,33
+North-East,Meghalaya,2005,Pre-Monsoon/Summer,Q1,38,38.0,38,38
+North-East,Meghalaya,2005,Pre-Monsoon/Summer,Q2,45,22.5,18,27
+North-East,Meghalaya,2005,Winter,Q1,68,34.0,30,38
+North-East,Meghalaya,2005,Winter,Q4,30,30.0,30,30
+North-East,Meghalaya,2006,Monsoon,Q2,16,16.0,16,16
+North-East,Meghalaya,2006,Monsoon,Q3,46,15.33,10,21
+North-East,Meghalaya,2006,Post-Monsoon,Q4,31,15.5,13,18
+North-East,Meghalaya,2006,Pre-Monsoon/Summer,Q1,17,17.0,17,17
+North-East,Meghalaya,2006,Pre-Monsoon/Summer,Q2,24,12.0,10,14
+North-East,Meghalaya,2006,Winter,Q1,26,13.0,10,16
+North-East,Meghalaya,2006,Winter,Q4,16,16.0,16,16
+North-East,Meghalaya,2007,Monsoon,Q2,10,10.0,10,10
+North-East,Meghalaya,2007,Monsoon,Q3,40,13.33,9,18
+North-East,Meghalaya,2007,Post-Monsoon,Q4,20,10.0,5,15
+North-East,Meghalaya,2007,Pre-Monsoon/Summer,Q1,13,13.0,13,13
+North-East,Meghalaya,2007,Pre-Monsoon/Summer,Q2,25,12.5,12,13
+North-East,Meghalaya,2007,Winter,Q1,38,19.0,19,19
+North-East,Meghalaya,2007,Winter,Q4,11,11.0,11,11
+North-East,Meghalaya,2008,Monsoon,Q2,16,16.0,16,16
+North-East,Meghalaya,2008,Monsoon,Q3,41,13.67,11,18
+North-East,Meghalaya,2008,Post-Monsoon,Q4,27,13.5,12,15
+North-East,Meghalaya,2008,Pre-Monsoon/Summer,Q1,21,21.0,21,21
+North-East,Meghalaya,2008,Pre-Monsoon/Summer,Q2,49,24.5,24,25
+North-East,Meghalaya,2008,Winter,Q1,22,11.0,9,13
+North-East,Meghalaya,2008,Winter,Q4,15,15.0,15,15
+North-East,Meghalaya,2009,Monsoon,Q2,23,23.0,23,23
+North-East,Meghalaya,2009,Monsoon,Q3,60,20.0,18,23
+North-East,Meghalaya,2009,Post-Monsoon,Q4,44,22.0,19,25
+North-East,Meghalaya,2009,Pre-Monsoon/Summer,Q1,36,36.0,36,36
+North-East,Meghalaya,2009,Pre-Monsoon/Summer,Q2,61,30.5,24,37
+North-East,Meghalaya,2009,Winter,Q1,52,26.0,24,28
+North-East,Meghalaya,2009,Winter,Q4,38,38.0,38,38
+North-East,Meghalaya,2010,Monsoon,Q2,23,23.0,23,23
+North-East,Meghalaya,2010,Monsoon,Q3,60,20.0,20,20
+North-East,Meghalaya,2010,Post-Monsoon,Q4,33,16.5,14,19
+North-East,Meghalaya,2010,Pre-Monsoon/Summer,Q1,31,31.0,31,31
+North-East,Meghalaya,2010,Pre-Monsoon/Summer,Q2,44,22.0,20,24
+North-East,Meghalaya,2010,Winter,Q1,45,22.5,22,23
+North-East,Meghalaya,2010,Winter,Q4,21,21.0,21,21
+North-East,Meghalaya,2011,Monsoon,Q2,20,20.0,20,20
+North-East,Meghalaya,2011,Monsoon,Q3,64,21.33,12,30
+North-East,Meghalaya,2011,Post-Monsoon,Q4,38,19.0,13,25
+North-East,Meghalaya,2011,Pre-Monsoon/Summer,Q1,33,33.0,33,33
+North-East,Meghalaya,2011,Pre-Monsoon/Summer,Q2,38,19.0,18,20
+North-East,Meghalaya,2011,Winter,Q1,49,24.5,24,25
+North-East,Meghalaya,2011,Winter,Q4,19,19.0,19,19
+North-East,Meghalaya,2012,Monsoon,Q2,31,31.0,31,31
+North-East,Meghalaya,2012,Monsoon,Q3,112,37.33,22,61
+North-East,Meghalaya,2012,Post-Monsoon,Q4,39,19.5,14,25
+North-East,Meghalaya,2012,Pre-Monsoon/Summer,Q1,28,28.0,28,28
+North-East,Meghalaya,2012,Pre-Monsoon/Summer,Q2,68,34.0,30,38
+North-East,Meghalaya,2012,Winter,Q1,64,32.0,31,33
+North-East,Meghalaya,2012,Winter,Q4,13,13.0,13,13
+North-East,Meghalaya,2013,Monsoon,Q2,21,21.0,21,21
+North-East,Meghalaya,2013,Monsoon,Q3,36,12.0,9,16
+North-East,Meghalaya,2013,Post-Monsoon,Q4,27,13.5,13,14
+North-East,Meghalaya,2013,Pre-Monsoon/Summer,Q1,20,20.0,20,20
+North-East,Meghalaya,2013,Pre-Monsoon/Summer,Q2,34,17.0,14,20
+North-East,Meghalaya,2013,Winter,Q1,44,22.0,20,24
+North-East,Meghalaya,2013,Winter,Q4,12,12.0,12,12
+North-East,Meghalaya,2014,Monsoon,Q2,28,28.0,28,28
+North-East,Meghalaya,2014,Monsoon,Q3,79,26.33,24,29
+North-East,Meghalaya,2014,Post-Monsoon,Q4,41,20.5,19,22
+North-East,Meghalaya,2014,Pre-Monsoon/Summer,Q1,20,20.0,20,20
+North-East,Meghalaya,2014,Pre-Monsoon/Summer,Q2,52,26.0,25,27
+North-East,Meghalaya,2014,Winter,Q1,57,28.5,27,30
+North-East,Meghalaya,2014,Winter,Q4,24,24.0,24,24
+North-East,Mizoram,2001,Monsoon,Q2,5,5.0,5,5
+North-East,Mizoram,2001,Monsoon,Q3,19,6.33,4,8
+North-East,Mizoram,2001,Post-Monsoon,Q4,8,4.0,3,5
+North-East,Mizoram,2001,Pre-Monsoon/Summer,Q1,9,9.0,9,9
+North-East,Mizoram,2001,Pre-Monsoon/Summer,Q2,13,6.5,4,9
+North-East,Mizoram,2001,Winter,Q1,12,6.0,5,7
+North-East,Mizoram,2001,Winter,Q4,6,6.0,6,6
+North-East,Mizoram,2002,Monsoon,Q2,2,2.0,2,2
+North-East,Mizoram,2002,Monsoon,Q3,9,3.0,2,4
+North-East,Mizoram,2002,Post-Monsoon,Q4,2,1.0,0,2
+North-East,Mizoram,2002,Pre-Monsoon/Summer,Q1,4,4.0,4,4
+North-East,Mizoram,2002,Pre-Monsoon/Summer,Q2,12,6.0,3,9
+North-East,Mizoram,2002,Winter,Q1,6,3.0,0,6
+North-East,Mizoram,2002,Winter,Q4,6,6.0,6,6
+North-East,Mizoram,2003,Monsoon,Q2,5,5.0,5,5
+North-East,Mizoram,2003,Monsoon,Q3,15,5.0,4,6
+North-East,Mizoram,2003,Post-Monsoon,Q4,12,6.0,3,9
+North-East,Mizoram,2003,Pre-Monsoon/Summer,Q1,3,3.0,3,3
+North-East,Mizoram,2003,Pre-Monsoon/Summer,Q2,13,6.5,5,8
+North-East,Mizoram,2003,Winter,Q1,13,6.5,5,8
+North-East,Mizoram,2003,Winter,Q4,10,10.0,10,10
+North-East,Mizoram,2004,Monsoon,Q2,2,2.0,2,2
+North-East,Mizoram,2004,Monsoon,Q3,7,2.33,2,3
+North-East,Mizoram,2004,Post-Monsoon,Q4,2,1.0,0,2
+North-East,Mizoram,2004,Pre-Monsoon/Summer,Q1,4,4.0,4,4
+North-East,Mizoram,2004,Pre-Monsoon/Summer,Q2,11,5.5,3,8
+North-East,Mizoram,2004,Winter,Q1,6,3.0,0,6
+North-East,Mizoram,2004,Winter,Q4,6,6.0,6,6
+North-East,Mizoram,2005,Monsoon,Q2,3,3.0,3,3
+North-East,Mizoram,2005,Monsoon,Q3,12,4.0,2,5
+North-East,Mizoram,2005,Post-Monsoon,Q4,12,6.0,5,7
+North-East,Mizoram,2005,Pre-Monsoon/Summer,Q1,4,4.0,4,4
+North-East,Mizoram,2005,Pre-Monsoon/Summer,Q2,5,2.5,2,3
+North-East,Mizoram,2005,Winter,Q1,20,10.0,8,12
+North-East,Mizoram,2005,Winter,Q4,15,15.0,15,15
+North-East,Mizoram,2006,Monsoon,Q2,5,5.0,5,5
+North-East,Mizoram,2006,Monsoon,Q3,11,3.67,2,6
+North-East,Mizoram,2006,Post-Monsoon,Q4,12,6.0,3,9
+North-East,Mizoram,2006,Pre-Monsoon/Summer,Q1,7,7.0,7,7
+North-East,Mizoram,2006,Pre-Monsoon/Summer,Q2,12,6.0,6,6
+North-East,Mizoram,2006,Winter,Q1,15,7.5,4,11
+North-East,Mizoram,2006,Winter,Q4,10,10.0,10,10
+North-East,Mizoram,2007,Monsoon,Q2,5,5.0,5,5
+North-East,Mizoram,2007,Monsoon,Q3,20,6.67,3,10
+North-East,Mizoram,2007,Post-Monsoon,Q4,6,3.0,2,4
+North-East,Mizoram,2007,Pre-Monsoon/Summer,Q1,4,4.0,4,4
+North-East,Mizoram,2007,Pre-Monsoon/Summer,Q2,7,3.5,3,4
+North-East,Mizoram,2007,Winter,Q1,8,4.0,4,4
+North-East,Mizoram,2007,Winter,Q4,2,2.0,2,2
+North-East,Mizoram,2008,Monsoon,Q2,9,9.0,9,9
+North-East,Mizoram,2008,Monsoon,Q3,18,6.0,5,8
+North-East,Mizoram,2008,Post-Monsoon,Q4,18,9.0,6,12
+North-East,Mizoram,2008,Pre-Monsoon/Summer,Q1,8,8.0,8,8
+North-East,Mizoram,2008,Pre-Monsoon/Summer,Q2,13,6.5,6,7
+North-East,Mizoram,2008,Winter,Q1,13,6.5,6,7
+North-East,Mizoram,2008,Winter,Q4,8,8.0,8,8
+North-East,Mizoram,2009,Monsoon,Q2,8,8.0,8,8
+North-East,Mizoram,2009,Monsoon,Q3,21,7.0,7,7
+North-East,Mizoram,2009,Post-Monsoon,Q4,13,6.5,5,8
+North-East,Mizoram,2009,Pre-Monsoon/Summer,Q1,6,6.0,6,6
+North-East,Mizoram,2009,Pre-Monsoon/Summer,Q2,4,2.0,1,3
+North-East,Mizoram,2009,Winter,Q1,12,6.0,4,8
+North-East,Mizoram,2009,Winter,Q4,7,7.0,7,7
+North-East,Mizoram,2010,Monsoon,Q2,9,9.0,9,9
+North-East,Mizoram,2010,Monsoon,Q3,21,7.0,6,9
+North-East,Mizoram,2010,Post-Monsoon,Q4,14,7.0,6,8
+North-East,Mizoram,2010,Pre-Monsoon/Summer,Q1,20,20.0,20,20
+North-East,Mizoram,2010,Pre-Monsoon/Summer,Q2,21,10.5,8,13
+North-East,Mizoram,2010,Winter,Q1,32,16.0,14,18
+North-East,Mizoram,2010,Winter,Q4,8,8.0,8,8
+North-East,Mizoram,2011,Monsoon,Q2,3,3.0,3,3
+North-East,Mizoram,2011,Monsoon,Q3,18,6.0,4,9
+North-East,Mizoram,2011,Post-Monsoon,Q4,18,9.0,8,10
+North-East,Mizoram,2011,Pre-Monsoon/Summer,Q1,14,14.0,14,14
+North-East,Mizoram,2011,Pre-Monsoon/Summer,Q2,16,8.0,3,13
+North-East,Mizoram,2011,Winter,Q1,13,6.5,5,8
+North-East,Mizoram,2011,Winter,Q4,15,15.0,15,15
+North-East,Mizoram,2012,Monsoon,Q2,2,2.0,2,2
+North-East,Mizoram,2012,Monsoon,Q3,36,12.0,4,20
+North-East,Mizoram,2012,Post-Monsoon,Q4,19,9.5,6,13
+North-East,Mizoram,2012,Pre-Monsoon/Summer,Q1,7,7.0,7,7
+North-East,Mizoram,2012,Pre-Monsoon/Summer,Q2,14,7.0,6,8
+North-East,Mizoram,2012,Winter,Q1,17,8.5,7,10
+North-East,Mizoram,2012,Winter,Q4,15,15.0,15,15
+North-East,Mizoram,2013,Monsoon,Q2,8,8.0,8,8
+North-East,Mizoram,2013,Monsoon,Q3,24,8.0,6,10
+North-East,Mizoram,2013,Post-Monsoon,Q4,15,7.5,7,8
+North-East,Mizoram,2013,Pre-Monsoon/Summer,Q1,18,18.0,18,18
+North-East,Mizoram,2013,Pre-Monsoon/Summer,Q2,23,11.5,9,14
+North-East,Mizoram,2013,Winter,Q1,18,9.0,7,11
+North-East,Mizoram,2013,Winter,Q4,8,8.0,8,8
+North-East,Mizoram,2014,Monsoon,Q2,4,4.0,4,4
+North-East,Mizoram,2014,Monsoon,Q3,21,7.0,5,10
+North-East,Mizoram,2014,Post-Monsoon,Q4,10,5.0,3,7
+North-East,Mizoram,2014,Pre-Monsoon/Summer,Q1,15,15.0,15,15
+North-East,Mizoram,2014,Pre-Monsoon/Summer,Q2,21,10.5,10,11
+North-East,Mizoram,2014,Winter,Q1,16,8.0,6,10
+North-East,Mizoram,2014,Winter,Q4,8,8.0,8,8
+North-East,Nagaland,2001,Monsoon,Q2,8,8.0,8,8
+North-East,Nagaland,2001,Monsoon,Q3,11,3.67,2,5
+North-East,Nagaland,2001,Post-Monsoon,Q4,4,2.0,1,3
+North-East,Nagaland,2001,Pre-Monsoon/Summer,Q1,7,7.0,7,7
+North-East,Nagaland,2001,Pre-Monsoon/Summer,Q2,15,7.5,6,9
+North-East,Nagaland,2001,Winter,Q1,9,4.5,4,5
+North-East,Nagaland,2001,Winter,Q4,6,6.0,6,6
+North-East,Nagaland,2002,Monsoon,Q2,4,4.0,4,4
+North-East,Nagaland,2002,Monsoon,Q3,6,2.0,1,3
+North-East,Nagaland,2002,Post-Monsoon,Q4,4,2.0,2,2
+North-East,Nagaland,2002,Pre-Monsoon/Summer,Q1,1,1.0,1,1
+North-East,Nagaland,2002,Pre-Monsoon/Summer,Q2,6,3.0,3,3
+North-East,Nagaland,2002,Winter,Q1,6,3.0,1,5
+North-East,Nagaland,2002,Winter,Q4,7,7.0,7,7
+North-East,Nagaland,2003,Monsoon,Q2,4,4.0,4,4
+North-East,Nagaland,2003,Monsoon,Q3,10,3.33,2,5
+North-East,Nagaland,2003,Post-Monsoon,Q4,9,4.5,4,5
+North-East,Nagaland,2003,Pre-Monsoon/Summer,Q1,4,4.0,4,4
+North-East,Nagaland,2003,Pre-Monsoon/Summer,Q2,13,6.5,5,8
+North-East,Nagaland,2003,Winter,Q1,12,6.0,4,8
+North-East,Nagaland,2003,Winter,Q4,4,4.0,4,4
+North-East,Nagaland,2004,Monsoon,Q2,3,3.0,3,3
+North-East,Nagaland,2004,Monsoon,Q3,21,7.0,3,12
+North-East,Nagaland,2004,Post-Monsoon,Q4,13,6.5,6,7
+North-East,Nagaland,2004,Pre-Monsoon/Summer,Q1,5,5.0,5,5
+North-East,Nagaland,2004,Pre-Monsoon/Summer,Q2,7,3.5,0,7
+North-East,Nagaland,2004,Winter,Q1,15,7.5,7,8
+North-East,Nagaland,2004,Winter,Q4,4,4.0,4,4
+North-East,Nagaland,2005,Monsoon,Q2,8,8.0,8,8
+North-East,Nagaland,2005,Monsoon,Q3,12,4.0,3,5
+North-East,Nagaland,2005,Post-Monsoon,Q4,12,6.0,2,10
+North-East,Nagaland,2005,Pre-Monsoon/Summer,Q1,5,5.0,5,5
+North-East,Nagaland,2005,Pre-Monsoon/Summer,Q2,4,2.0,0,4
+North-East,Nagaland,2005,Winter,Q1,9,4.5,1,8
+North-East,Nagaland,2005,Winter,Q4,3,3.0,3,3
+North-East,Nagaland,2006,Monsoon,Q2,9,9.0,9,9
+North-East,Nagaland,2006,Monsoon,Q3,17,5.67,5,6
+North-East,Nagaland,2006,Post-Monsoon,Q4,9,4.5,4,5
+North-East,Nagaland,2006,Pre-Monsoon/Summer,Q1,8,8.0,8,8
+North-East,Nagaland,2006,Pre-Monsoon/Summer,Q2,13,6.5,6,7
+North-East,Nagaland,2006,Winter,Q1,13,6.5,6,7
+North-East,Nagaland,2006,Winter,Q4,8,8.0,8,8
+North-East,Nagaland,2007,Monsoon,Q2,4,4.0,4,4
+North-East,Nagaland,2007,Monsoon,Q3,13,4.33,1,6
+North-East,Nagaland,2007,Post-Monsoon,Q4,11,5.5,3,8
+North-East,Nagaland,2007,Pre-Monsoon/Summer,Q1,10,10.0,10,10
+North-East,Nagaland,2007,Pre-Monsoon/Summer,Q2,14,7.0,7,7
+North-East,Nagaland,2007,Winter,Q1,14,7.0,7,7
+North-East,Nagaland,2007,Winter,Q4,9,9.0,9,9
+North-East,Nagaland,2008,Monsoon,Q2,13,13.0,13,13
+North-East,Nagaland,2008,Monsoon,Q3,29,9.67,3,16
+North-East,Nagaland,2008,Post-Monsoon,Q4,22,11.0,10,12
+North-East,Nagaland,2008,Pre-Monsoon/Summer,Q1,12,12.0,12,12
+North-East,Nagaland,2008,Pre-Monsoon/Summer,Q2,18,9.0,8,10
+North-East,Nagaland,2008,Winter,Q1,18,9.0,8,10
+North-East,Nagaland,2008,Winter,Q4,14,14.0,14,14
+North-East,Nagaland,2009,Monsoon,Q2,6,6.0,6,6
+North-East,Nagaland,2009,Monsoon,Q3,13,4.33,1,8
+North-East,Nagaland,2009,Post-Monsoon,Q4,8,4.0,1,7
+North-East,Nagaland,2009,Pre-Monsoon/Summer,Q1,3,3.0,3,3
+North-East,Nagaland,2009,Pre-Monsoon/Summer,Q2,6,3.0,1,5
+North-East,Nagaland,2009,Winter,Q1,7,3.5,3,4
+North-East,Nagaland,2009,Winter,Q4,4,4.0,4,4
+North-East,Nagaland,2010,Monsoon,Q2,6,6.0,6,6
+North-East,Nagaland,2010,Monsoon,Q3,8,2.67,1,5
+North-East,Nagaland,2010,Post-Monsoon,Q4,4,2.0,1,3
+North-East,Nagaland,2010,Pre-Monsoon/Summer,Q1,2,2.0,2,2
+North-East,Nagaland,2010,Pre-Monsoon/Summer,Q2,3,1.5,1,2
+North-East,Nagaland,2010,Winter,Q1,20,10.0,10,10
+North-East,Nagaland,2010,Winter,Q4,1,1.0,1,1
+North-East,Nagaland,2011,Monsoon,Q2,2,2.0,2,2
+North-East,Nagaland,2011,Monsoon,Q3,3,1.0,0,2
+North-East,Nagaland,2011,Post-Monsoon,Q4,6,3.0,2,4
+North-East,Nagaland,2011,Pre-Monsoon/Summer,Q1,7,7.0,7,7
+North-East,Nagaland,2011,Pre-Monsoon/Summer,Q2,7,3.5,3,4
+North-East,Nagaland,2011,Winter,Q1,6,3.0,3,3
+North-East,Nagaland,2011,Winter,Q4,1,1.0,1,1
+North-East,Nagaland,2012,Monsoon,Q2,4,4.0,4,4
+North-East,Nagaland,2012,Monsoon,Q3,5,1.67,1,3
+North-East,Nagaland,2012,Post-Monsoon,Q4,8,4.0,3,5
+North-East,Nagaland,2012,Pre-Monsoon/Summer,Q1,4,4.0,4,4
+North-East,Nagaland,2012,Pre-Monsoon/Summer,Q2,8,4.0,4,4
+North-East,Nagaland,2012,Winter,Q1,9,4.5,4,5
+North-East,Nagaland,2012,Winter,Q4,4,4.0,4,4
+North-East,Nagaland,2013,Monsoon,Q2,4,4.0,4,4
+North-East,Nagaland,2013,Monsoon,Q3,13,4.33,3,6
+North-East,Nagaland,2013,Post-Monsoon,Q4,5,2.5,2,3
+North-East,Nagaland,2013,Pre-Monsoon/Summer,Q1,2,2.0,2,2
+North-East,Nagaland,2013,Pre-Monsoon/Summer,Q2,5,2.5,2,3
+North-East,Nagaland,2013,Winter,Q1,10,5.0,4,6
+North-East,Nagaland,2013,Winter,Q4,0,0.0,0,0
+North-East,Nagaland,2014,Monsoon,Q2,0,0.0,0,0
+North-East,Nagaland,2014,Monsoon,Q3,4,1.33,0,3
+North-East,Nagaland,2014,Post-Monsoon,Q4,4,2.0,0,4
+North-East,Nagaland,2014,Pre-Monsoon/Summer,Q1,2,2.0,2,2
+North-East,Nagaland,2014,Pre-Monsoon/Summer,Q2,6,3.0,2,4
+North-East,Nagaland,2014,Winter,Q1,5,2.5,2,3
+North-East,Nagaland,2014,Winter,Q4,7,7.0,7,7
+North-East,Sikkim,2001,Monsoon,Q2,5,5.0,5,5
+North-East,Sikkim,2001,Monsoon,Q3,12,4.0,0,6
+North-East,Sikkim,2001,Post-Monsoon,Q4,12,6.0,5,7
+North-East,Sikkim,2001,Pre-Monsoon/Summer,Q1,6,6.0,6,6
+North-East,Sikkim,2001,Pre-Monsoon/Summer,Q2,8,4.0,3,5
+North-East,Sikkim,2001,Winter,Q1,10,5.0,1,9
+North-East,Sikkim,2001,Winter,Q4,2,2.0,2,2
+North-East,Sikkim,2002,Monsoon,Q2,40,40.0,40,40
+North-East,Sikkim,2002,Monsoon,Q3,71,23.67,17,29
+North-East,Sikkim,2002,Post-Monsoon,Q4,48,24.0,24,24
+North-East,Sikkim,2002,Pre-Monsoon/Summer,Q1,50,50.0,50,50
+North-East,Sikkim,2002,Pre-Monsoon/Summer,Q2,45,22.5,11,34
+North-East,Sikkim,2002,Winter,Q1,66,33.0,23,43
+North-East,Sikkim,2002,Winter,Q4,31,31.0,31,31
+North-East,Sikkim,2003,Monsoon,Q2,16,16.0,16,16
+North-East,Sikkim,2003,Monsoon,Q3,29,9.67,8,13
+North-East,Sikkim,2003,Post-Monsoon,Q4,18,9.0,7,11
+North-East,Sikkim,2003,Pre-Monsoon/Summer,Q1,8,8.0,8,8
+North-East,Sikkim,2003,Pre-Monsoon/Summer,Q2,27,13.5,11,16
+North-East,Sikkim,2003,Winter,Q1,20,10.0,10,10
+North-East,Sikkim,2003,Winter,Q4,13,13.0,13,13
+North-East,Sikkim,2004,Monsoon,Q2,22,22.0,22,22
+North-East,Sikkim,2004,Monsoon,Q3,29,9.67,7,11
+North-East,Sikkim,2004,Post-Monsoon,Q4,36,18.0,11,25
+North-East,Sikkim,2004,Pre-Monsoon/Summer,Q1,12,12.0,12,12
+North-East,Sikkim,2004,Pre-Monsoon/Summer,Q2,23,11.5,8,15
+North-East,Sikkim,2004,Winter,Q1,23,11.5,8,15
+North-East,Sikkim,2004,Winter,Q4,14,14.0,14,14
+North-East,Sikkim,2005,Monsoon,Q2,16,16.0,16,16
+North-East,Sikkim,2005,Monsoon,Q3,43,14.33,8,23
+North-East,Sikkim,2005,Post-Monsoon,Q4,41,20.5,20,21
+North-East,Sikkim,2005,Pre-Monsoon/Summer,Q1,13,13.0,13,13
+North-East,Sikkim,2005,Pre-Monsoon/Summer,Q2,32,16.0,15,17
+North-East,Sikkim,2005,Winter,Q1,29,14.5,10,19
+North-East,Sikkim,2005,Winter,Q4,15,15.0,15,15
+North-East,Sikkim,2006,Monsoon,Q2,1,1.0,1,1
+North-East,Sikkim,2006,Monsoon,Q3,7,2.33,1,3
+North-East,Sikkim,2006,Post-Monsoon,Q4,9,4.5,3,6
+North-East,Sikkim,2006,Pre-Monsoon/Summer,Q1,6,6.0,6,6
+North-East,Sikkim,2006,Pre-Monsoon/Summer,Q2,4,2.0,1,3
+North-East,Sikkim,2006,Winter,Q1,9,4.5,4,5
+North-East,Sikkim,2006,Winter,Q4,3,3.0,3,3
+North-East,Sikkim,2007,Monsoon,Q2,12,12.0,12,12
+North-East,Sikkim,2007,Monsoon,Q3,30,10.0,8,12
+North-East,Sikkim,2007,Post-Monsoon,Q4,28,14.0,12,16
+North-East,Sikkim,2007,Pre-Monsoon/Summer,Q1,21,21.0,21,21
+North-East,Sikkim,2007,Pre-Monsoon/Summer,Q2,19,9.5,7,12
+North-East,Sikkim,2007,Winter,Q1,17,8.5,7,10
+North-East,Sikkim,2007,Winter,Q4,23,23.0,23,23
+North-East,Sikkim,2008,Monsoon,Q2,13,13.0,13,13
+North-East,Sikkim,2008,Monsoon,Q3,45,15.0,6,26
+North-East,Sikkim,2008,Post-Monsoon,Q4,51,25.5,25,26
+North-East,Sikkim,2008,Pre-Monsoon/Summer,Q1,16,16.0,16,16
+North-East,Sikkim,2008,Pre-Monsoon/Summer,Q2,18,9.0,8,10
+North-East,Sikkim,2008,Winter,Q1,41,20.5,13,28
+North-East,Sikkim,2008,Winter,Q4,12,12.0,12,12
+North-East,Sikkim,2009,Monsoon,Q2,47,47.0,47,47
+North-East,Sikkim,2009,Monsoon,Q3,116,38.67,29,46
+North-East,Sikkim,2009,Post-Monsoon,Q4,84,42.0,34,50
+North-East,Sikkim,2009,Pre-Monsoon/Summer,Q1,28,28.0,28,28
+North-East,Sikkim,2009,Pre-Monsoon/Summer,Q2,143,71.5,43,100
+North-East,Sikkim,2009,Winter,Q1,96,48.0,39,57
+North-East,Sikkim,2009,Winter,Q4,50,50.0,50,50
+North-East,Sikkim,2010,Monsoon,Q2,18,18.0,18,18
+North-East,Sikkim,2010,Monsoon,Q3,44,14.67,11,18
+North-East,Sikkim,2010,Post-Monsoon,Q4,31,15.5,10,21
+North-East,Sikkim,2010,Pre-Monsoon/Summer,Q1,18,18.0,18,18
+North-East,Sikkim,2010,Pre-Monsoon/Summer,Q2,30,15.0,11,19
+North-East,Sikkim,2010,Winter,Q1,33,16.5,16,17
+North-East,Sikkim,2010,Winter,Q4,12,12.0,12,12
+North-East,Sikkim,2011,Monsoon,Q2,7,7.0,7,7
+North-East,Sikkim,2011,Monsoon,Q3,27,9.0,8,11
+North-East,Sikkim,2011,Post-Monsoon,Q4,18,9.0,6,12
+North-East,Sikkim,2011,Pre-Monsoon/Summer,Q1,22,22.0,22,22
+North-East,Sikkim,2011,Pre-Monsoon/Summer,Q2,22,11.0,3,19
+North-East,Sikkim,2011,Winter,Q1,26,13.0,9,17
+North-East,Sikkim,2011,Winter,Q4,7,7.0,7,7
+North-East,Sikkim,2012,Monsoon,Q2,15,15.0,15,15
+North-East,Sikkim,2012,Monsoon,Q3,31,10.33,10,11
+North-East,Sikkim,2012,Post-Monsoon,Q4,22,11.0,10,12
+North-East,Sikkim,2012,Pre-Monsoon/Summer,Q1,8,8.0,8,8
+North-East,Sikkim,2012,Pre-Monsoon/Summer,Q2,19,9.5,9,10
+North-East,Sikkim,2012,Winter,Q1,21,10.5,7,14
+North-East,Sikkim,2012,Winter,Q4,7,7.0,7,7
+North-East,Sikkim,2013,Monsoon,Q2,17,17.0,17,17
+North-East,Sikkim,2013,Monsoon,Q3,56,18.67,17,21
+North-East,Sikkim,2013,Post-Monsoon,Q4,36,18.0,16,20
+North-East,Sikkim,2013,Pre-Monsoon/Summer,Q1,33,33.0,33,33
+North-East,Sikkim,2013,Pre-Monsoon/Summer,Q2,48,24.0,24,24
+North-East,Sikkim,2013,Winter,Q1,33,16.5,16,17
+North-East,Sikkim,2013,Winter,Q4,21,21.0,21,21
+North-East,Sikkim,2014,Monsoon,Q2,11,11.0,11,11
+North-East,Sikkim,2014,Monsoon,Q3,44,14.67,11,19
+North-East,Sikkim,2014,Post-Monsoon,Q4,15,7.5,6,9
+North-East,Sikkim,2014,Pre-Monsoon/Summer,Q1,15,15.0,15,15
+North-East,Sikkim,2014,Pre-Monsoon/Summer,Q2,26,13.0,13,13
+North-East,Sikkim,2014,Winter,Q1,15,7.5,6,9
+North-East,Sikkim,2014,Winter,Q4,4,4.0,4,4
+North-East,Tripura,2001,Monsoon,Q2,55,55.0,55,55
+North-East,Tripura,2001,Monsoon,Q3,123,41.0,36,50
+North-East,Tripura,2001,Post-Monsoon,Q4,76,38.0,35,41
+North-East,Tripura,2001,Pre-Monsoon/Summer,Q1,63,63.0,63,63
+North-East,Tripura,2001,Pre-Monsoon/Summer,Q2,80,40.0,36,44
+North-East,Tripura,2001,Winter,Q1,105,52.5,52,53
+North-East,Tripura,2001,Winter,Q4,42,42.0,42,42
+North-East,Tripura,2002,Monsoon,Q2,54,54.0,54,54
+North-East,Tripura,2002,Monsoon,Q3,170,56.67,51,65
+North-East,Tripura,2002,Post-Monsoon,Q4,101,50.5,42,59
+North-East,Tripura,2002,Pre-Monsoon/Summer,Q1,56,56.0,56,56
+North-East,Tripura,2002,Pre-Monsoon/Summer,Q2,104,52.0,44,60
+North-East,Tripura,2002,Winter,Q1,85,42.5,38,47
+North-East,Tripura,2002,Winter,Q4,54,54.0,54,54
+North-East,Tripura,2003,Monsoon,Q2,52,52.0,52,52
+North-East,Tripura,2003,Monsoon,Q3,172,57.33,51,61
+North-East,Tripura,2003,Post-Monsoon,Q4,125,62.5,61,64
+North-East,Tripura,2003,Pre-Monsoon/Summer,Q1,51,51.0,51,51
+North-East,Tripura,2003,Pre-Monsoon/Summer,Q2,102,51.0,45,57
+North-East,Tripura,2003,Winter,Q1,124,62.0,51,73
+North-East,Tripura,2003,Winter,Q4,50,50.0,50,50
+North-East,Tripura,2004,Monsoon,Q2,58,58.0,58,58
+North-East,Tripura,2004,Monsoon,Q3,146,48.67,39,54
+North-East,Tripura,2004,Post-Monsoon,Q4,129,64.5,63,66
+North-East,Tripura,2004,Pre-Monsoon/Summer,Q1,57,57.0,57,57
+North-East,Tripura,2004,Pre-Monsoon/Summer,Q2,100,50.0,44,56
+North-East,Tripura,2004,Winter,Q1,91,45.5,42,49
+North-East,Tripura,2004,Winter,Q4,64,64.0,64,64
+North-East,Tripura,2005,Monsoon,Q2,65,65.0,65,65
+North-East,Tripura,2005,Monsoon,Q3,165,55.0,52,59
+North-East,Tripura,2005,Post-Monsoon,Q4,109,54.5,48,61
+North-East,Tripura,2005,Pre-Monsoon/Summer,Q1,53,53.0,53,53
+North-East,Tripura,2005,Pre-Monsoon/Summer,Q2,96,48.0,42,54
+North-East,Tripura,2005,Winter,Q1,112,56.0,55,57
+North-East,Tripura,2005,Winter,Q4,62,62.0,62,62
+North-East,Tripura,2006,Monsoon,Q2,52,52.0,52,52
+North-East,Tripura,2006,Monsoon,Q3,192,64.0,55,69
+North-East,Tripura,2006,Post-Monsoon,Q4,153,76.5,73,80
+North-East,Tripura,2006,Pre-Monsoon/Summer,Q1,62,62.0,62,62
+North-East,Tripura,2006,Pre-Monsoon/Summer,Q2,141,70.5,67,74
+North-East,Tripura,2006,Winter,Q1,120,60.0,50,70
+North-East,Tripura,2006,Winter,Q4,73,73.0,73,73
+North-East,Tripura,2007,Monsoon,Q2,67,67.0,67,67
+North-East,Tripura,2007,Monsoon,Q3,180,60.0,51,71
+North-East,Tripura,2007,Post-Monsoon,Q4,118,59.0,58,60
+North-East,Tripura,2007,Pre-Monsoon/Summer,Q1,70,70.0,70,70
+North-East,Tripura,2007,Pre-Monsoon/Summer,Q2,135,67.5,66,69
+North-East,Tripura,2007,Winter,Q1,144,72.0,59,85
+North-East,Tripura,2007,Winter,Q4,87,87.0,87,87
+North-East,Tripura,2008,Monsoon,Q2,55,55.0,55,55
+North-East,Tripura,2008,Monsoon,Q3,216,72.0,64,78
+North-East,Tripura,2008,Post-Monsoon,Q4,122,61.0,57,65
+North-East,Tripura,2008,Pre-Monsoon/Summer,Q1,66,66.0,66,66
+North-East,Tripura,2008,Pre-Monsoon/Summer,Q2,142,71.0,70,72
+North-East,Tripura,2008,Winter,Q1,107,53.5,51,56
+North-East,Tripura,2008,Winter,Q4,59,59.0,59,59
+North-East,Tripura,2009,Monsoon,Q2,63,63.0,63,63
+North-East,Tripura,2009,Monsoon,Q3,196,65.33,55,76
+North-East,Tripura,2009,Post-Monsoon,Q4,135,67.5,63,72
+North-East,Tripura,2009,Pre-Monsoon/Summer,Q1,78,78.0,78,78
+North-East,Tripura,2009,Pre-Monsoon/Summer,Q2,138,69.0,61,77
+North-East,Tripura,2009,Winter,Q1,161,80.5,68,93
+North-East,Tripura,2009,Winter,Q4,94,94.0,94,94
+North-East,Tripura,2010,Monsoon,Q2,68,68.0,68,68
+North-East,Tripura,2010,Monsoon,Q3,235,78.33,72,86
+North-East,Tripura,2010,Post-Monsoon,Q4,155,77.5,72,83
+North-East,Tripura,2010,Pre-Monsoon/Summer,Q1,81,81.0,81,81
+North-East,Tripura,2010,Pre-Monsoon/Summer,Q2,142,71.0,65,77
+North-East,Tripura,2010,Winter,Q1,142,71.0,66,76
+North-East,Tripura,2010,Winter,Q4,78,78.0,78,78
+North-East,Tripura,2011,Monsoon,Q2,67,67.0,67,67
+North-East,Tripura,2011,Monsoon,Q3,176,58.67,50,72
+North-East,Tripura,2011,Post-Monsoon,Q4,157,78.5,78,79
+North-East,Tripura,2011,Pre-Monsoon/Summer,Q1,81,81.0,81,81
+North-East,Tripura,2011,Pre-Monsoon/Summer,Q2,119,59.5,55,64
+North-East,Tripura,2011,Winter,Q1,142,71.0,57,85
+North-East,Tripura,2011,Winter,Q4,92,92.0,92,92
+North-East,Tripura,2012,Monsoon,Q2,66,66.0,66,66
+North-East,Tripura,2012,Monsoon,Q3,210,70.0,65,75
+North-East,Tripura,2012,Post-Monsoon,Q4,140,70.0,64,76
+North-East,Tripura,2012,Pre-Monsoon/Summer,Q1,69,69.0,69,69
+North-East,Tripura,2012,Pre-Monsoon/Summer,Q2,154,77.0,72,82
+North-East,Tripura,2012,Winter,Q1,168,84.0,83,85
+North-East,Tripura,2012,Winter,Q4,81,81.0,81,81
+North-East,Tripura,2013,Monsoon,Q2,70,70.0,70,70
+North-East,Tripura,2013,Monsoon,Q3,198,66.0,61,69
+North-East,Tripura,2013,Post-Monsoon,Q4,157,78.5,76,81
+North-East,Tripura,2013,Pre-Monsoon/Summer,Q1,63,63.0,63,63
+North-East,Tripura,2013,Pre-Monsoon/Summer,Q2,136,68.0,64,72
+North-East,Tripura,2013,Winter,Q1,116,58.0,50,66
+North-East,Tripura,2013,Winter,Q4,78,78.0,78,78
+North-East,Tripura,2014,Monsoon,Q2,46,46.0,46,46
+North-East,Tripura,2014,Monsoon,Q3,171,57.0,53,64
+North-East,Tripura,2014,Post-Monsoon,Q4,98,49.0,38,60
+North-East,Tripura,2014,Pre-Monsoon/Summer,Q1,81,81.0,81,81
+North-East,Tripura,2014,Pre-Monsoon/Summer,Q2,135,67.5,63,72
+North-East,Tripura,2014,Winter,Q1,139,69.5,65,74
+North-East,Tripura,2014,Winter,Q4,46,46.0,46,46
+South,Andaman and Nicobar Islands,2001,Monsoon,Q2,19,19.0,19,19
+South,Andaman and Nicobar Islands,2001,Monsoon,Q3,40,13.33,7,19
+South,Andaman and Nicobar Islands,2001,Post-Monsoon,Q4,25,12.5,12,13
+South,Andaman and Nicobar Islands,2001,Pre-Monsoon/Summer,Q1,15,15.0,15,15
+South,Andaman and Nicobar Islands,2001,Pre-Monsoon/Summer,Q2,29,14.5,14,15
+South,Andaman and Nicobar Islands,2001,Winter,Q1,31,15.5,8,23
+South,Andaman and Nicobar Islands,2001,Winter,Q4,22,22.0,22,22
+South,Andaman and Nicobar Islands,2002,Monsoon,Q2,7,7.0,7,7
+South,Andaman and Nicobar Islands,2002,Monsoon,Q3,50,16.67,11,23
+South,Andaman and Nicobar Islands,2002,Post-Monsoon,Q4,32,16.0,11,21
+South,Andaman and Nicobar Islands,2002,Pre-Monsoon/Summer,Q1,14,14.0,14,14
+South,Andaman and Nicobar Islands,2002,Pre-Monsoon/Summer,Q2,26,13.0,10,16
+South,Andaman and Nicobar Islands,2002,Winter,Q1,22,11.0,10,12
+South,Andaman and Nicobar Islands,2002,Winter,Q4,17,17.0,17,17
+South,Andaman and Nicobar Islands,2003,Monsoon,Q2,12,12.0,12,12
+South,Andaman and Nicobar Islands,2003,Monsoon,Q3,41,13.67,8,17
+South,Andaman and Nicobar Islands,2003,Post-Monsoon,Q4,39,19.5,14,25
+South,Andaman and Nicobar Islands,2003,Pre-Monsoon/Summer,Q1,15,15.0,15,15
+South,Andaman and Nicobar Islands,2003,Pre-Monsoon/Summer,Q2,26,13.0,13,13
+South,Andaman and Nicobar Islands,2003,Winter,Q1,32,16.0,13,19
+South,Andaman and Nicobar Islands,2003,Winter,Q4,15,15.0,15,15
+South,Andaman and Nicobar Islands,2004,Monsoon,Q2,18,18.0,18,18
+South,Andaman and Nicobar Islands,2004,Monsoon,Q3,51,17.0,16,19
+South,Andaman and Nicobar Islands,2004,Post-Monsoon,Q4,35,17.5,15,20
+South,Andaman and Nicobar Islands,2004,Pre-Monsoon/Summer,Q1,22,22.0,22,22
+South,Andaman and Nicobar Islands,2004,Pre-Monsoon/Summer,Q2,30,15.0,13,17
+South,Andaman and Nicobar Islands,2004,Winter,Q1,35,17.5,14,21
+South,Andaman and Nicobar Islands,2004,Winter,Q4,24,24.0,24,24
+South,Andaman and Nicobar Islands,2005,Monsoon,Q2,19,19.0,19,19
+South,Andaman and Nicobar Islands,2005,Monsoon,Q3,50,16.67,14,21
+South,Andaman and Nicobar Islands,2005,Post-Monsoon,Q4,29,14.5,10,19
+South,Andaman and Nicobar Islands,2005,Pre-Monsoon/Summer,Q1,22,22.0,22,22
+South,Andaman and Nicobar Islands,2005,Pre-Monsoon/Summer,Q2,30,15.0,13,17
+South,Andaman and Nicobar Islands,2005,Winter,Q1,40,20.0,19,21
+South,Andaman and Nicobar Islands,2005,Winter,Q4,16,16.0,16,16
+South,Andaman and Nicobar Islands,2006,Monsoon,Q2,14,14.0,14,14
+South,Andaman and Nicobar Islands,2006,Monsoon,Q3,34,11.33,8,14
+South,Andaman and Nicobar Islands,2006,Post-Monsoon,Q4,20,10.0,6,14
+South,Andaman and Nicobar Islands,2006,Pre-Monsoon/Summer,Q1,4,4.0,4,4
+South,Andaman and Nicobar Islands,2006,Pre-Monsoon/Summer,Q2,31,15.5,9,22
+South,Andaman and Nicobar Islands,2006,Winter,Q1,34,17.0,13,21
+South,Andaman and Nicobar Islands,2006,Winter,Q4,18,18.0,18,18
+South,Andaman and Nicobar Islands,2007,Monsoon,Q2,14,14.0,14,14
+South,Andaman and Nicobar Islands,2007,Monsoon,Q3,29,9.67,8,11
+South,Andaman and Nicobar Islands,2007,Post-Monsoon,Q4,18,9.0,7,11
+South,Andaman and Nicobar Islands,2007,Pre-Monsoon/Summer,Q1,12,12.0,12,12
+South,Andaman and Nicobar Islands,2007,Pre-Monsoon/Summer,Q2,34,17.0,12,22
+South,Andaman and Nicobar Islands,2007,Winter,Q1,33,16.5,16,17
+South,Andaman and Nicobar Islands,2007,Winter,Q4,12,12.0,12,12
+South,Andaman and Nicobar Islands,2008,Monsoon,Q2,17,17.0,17,17
+South,Andaman and Nicobar Islands,2008,Monsoon,Q3,37,12.33,11,13
+South,Andaman and Nicobar Islands,2008,Post-Monsoon,Q4,28,14.0,11,17
+South,Andaman and Nicobar Islands,2008,Pre-Monsoon/Summer,Q1,15,15.0,15,15
+South,Andaman and Nicobar Islands,2008,Pre-Monsoon/Summer,Q2,31,15.5,15,16
+South,Andaman and Nicobar Islands,2008,Winter,Q1,39,19.5,17,22
+South,Andaman and Nicobar Islands,2008,Winter,Q4,24,24.0,24,24
+South,Andaman and Nicobar Islands,2009,Monsoon,Q2,19,19.0,19,19
+South,Andaman and Nicobar Islands,2009,Monsoon,Q3,80,26.67,24,31
+South,Andaman and Nicobar Islands,2009,Post-Monsoon,Q4,42,21.0,20,22
+South,Andaman and Nicobar Islands,2009,Pre-Monsoon/Summer,Q1,23,23.0,23,23
+South,Andaman and Nicobar Islands,2009,Pre-Monsoon/Summer,Q2,42,21.0,21,21
+South,Andaman and Nicobar Islands,2009,Winter,Q1,39,19.5,16,23
+South,Andaman and Nicobar Islands,2009,Winter,Q4,26,26.0,26,26
+South,Andaman and Nicobar Islands,2010,Monsoon,Q2,24,24.0,24,24
+South,Andaman and Nicobar Islands,2010,Monsoon,Q3,65,21.67,18,25
+South,Andaman and Nicobar Islands,2010,Post-Monsoon,Q4,57,28.5,27,30
+South,Andaman and Nicobar Islands,2010,Pre-Monsoon/Summer,Q1,28,28.0,28,28
+South,Andaman and Nicobar Islands,2010,Pre-Monsoon/Summer,Q2,44,22.0,15,29
+South,Andaman and Nicobar Islands,2010,Winter,Q1,46,23.0,16,30
+South,Andaman and Nicobar Islands,2010,Winter,Q4,21,21.0,21,21
+South,Andaman and Nicobar Islands,2011,Monsoon,Q2,28,28.0,28,28
+South,Andaman and Nicobar Islands,2011,Monsoon,Q3,60,20.0,17,25
+South,Andaman and Nicobar Islands,2011,Post-Monsoon,Q4,35,17.5,17,18
+South,Andaman and Nicobar Islands,2011,Pre-Monsoon/Summer,Q1,19,19.0,19,19
+South,Andaman and Nicobar Islands,2011,Pre-Monsoon/Summer,Q2,37,18.5,13,24
+South,Andaman and Nicobar Islands,2011,Winter,Q1,34,17.0,10,24
+South,Andaman and Nicobar Islands,2011,Winter,Q4,22,22.0,22,22
+South,Andaman and Nicobar Islands,2012,Monsoon,Q2,16,16.0,16,16
+South,Andaman and Nicobar Islands,2012,Monsoon,Q3,53,17.67,17,18
+South,Andaman and Nicobar Islands,2012,Post-Monsoon,Q4,42,21.0,17,25
+South,Andaman and Nicobar Islands,2012,Pre-Monsoon/Summer,Q1,24,24.0,24,24
+South,Andaman and Nicobar Islands,2012,Pre-Monsoon/Summer,Q2,42,21.0,18,24
+South,Andaman and Nicobar Islands,2012,Winter,Q1,40,20.0,15,25
+South,Andaman and Nicobar Islands,2012,Winter,Q4,19,19.0,19,19
+South,Andaman and Nicobar Islands,2013,Monsoon,Q2,16,16.0,16,16
+South,Andaman and Nicobar Islands,2013,Monsoon,Q3,53,17.67,14,25
+South,Andaman and Nicobar Islands,2013,Post-Monsoon,Q4,29,14.5,14,15
+South,Andaman and Nicobar Islands,2013,Pre-Monsoon/Summer,Q1,16,16.0,16,16
+South,Andaman and Nicobar Islands,2013,Pre-Monsoon/Summer,Q2,28,14.0,13,15
+South,Andaman and Nicobar Islands,2013,Winter,Q1,47,23.5,23,24
+South,Andaman and Nicobar Islands,2013,Winter,Q4,11,11.0,11,11
+South,Andaman and Nicobar Islands,2014,Monsoon,Q2,15,15.0,15,15
+South,Andaman and Nicobar Islands,2014,Monsoon,Q3,46,15.33,15,16
+South,Andaman and Nicobar Islands,2014,Post-Monsoon,Q4,41,20.5,18,23
+South,Andaman and Nicobar Islands,2014,Pre-Monsoon/Summer,Q1,19,19.0,19,19
+South,Andaman and Nicobar Islands,2014,Pre-Monsoon/Summer,Q2,37,18.5,18,19
+South,Andaman and Nicobar Islands,2014,Winter,Q1,38,19.0,13,25
+South,Andaman and Nicobar Islands,2014,Winter,Q4,22,22.0,22,22
+South,Andhra Pradesh,2001,Monsoon,Q2,2284,2284.0,2284,2284
+South,Andhra Pradesh,2001,Monsoon,Q3,6172,2057.33,2025,2077
+South,Andhra Pradesh,2001,Post-Monsoon,Q4,4398,2199.0,2122,2276
+South,Andhra Pradesh,2001,Pre-Monsoon/Summer,Q1,2405,2405.0,2405,2405
+South,Andhra Pradesh,2001,Pre-Monsoon/Summer,Q2,4901,2450.5,2351,2550
+South,Andhra Pradesh,2001,Winter,Q1,4641,2320.5,2204,2437
+South,Andhra Pradesh,2001,Winter,Q4,2387,2387.0,2387,2387
+South,Andhra Pradesh,2002,Monsoon,Q2,2880,2880.0,2880,2880
+South,Andhra Pradesh,2002,Monsoon,Q3,7807,2602.33,2555,2645
+South,Andhra Pradesh,2002,Post-Monsoon,Q4,5270,2635.0,2624,2646
+South,Andhra Pradesh,2002,Pre-Monsoon/Summer,Q1,2835,2835.0,2835,2835
+South,Andhra Pradesh,2002,Pre-Monsoon/Summer,Q2,5981,2990.5,2786,3195
+South,Andhra Pradesh,2002,Winter,Q1,4945,2472.5,2453,2492
+South,Andhra Pradesh,2002,Winter,Q4,2859,2859.0,2859,2859
+South,Andhra Pradesh,2003,Monsoon,Q2,2924,2924.0,2924,2924
+South,Andhra Pradesh,2003,Monsoon,Q3,8358,2786.0,2657,2934
+South,Andhra Pradesh,2003,Post-Monsoon,Q4,5918,2959.0,2881,3037
+South,Andhra Pradesh,2003,Pre-Monsoon/Summer,Q1,2870,2870.0,2870,2870
+South,Andhra Pradesh,2003,Pre-Monsoon/Summer,Q2,5900,2950.0,2635,3265
+South,Andhra Pradesh,2003,Winter,Q1,5352,2676.0,2569,2783
+South,Andhra Pradesh,2003,Winter,Q4,3215,3215.0,3215,3215
+South,Andhra Pradesh,2004,Monsoon,Q2,2942,2942.0,2942,2942
+South,Andhra Pradesh,2004,Monsoon,Q3,8878,2959.33,2827,3079
+South,Andhra Pradesh,2004,Post-Monsoon,Q4,6170,3085.0,3041,3129
+South,Andhra Pradesh,2004,Pre-Monsoon/Summer,Q1,3211,3211.0,3211,3211
+South,Andhra Pradesh,2004,Pre-Monsoon/Summer,Q2,6357,3178.5,3100,3257
+South,Andhra Pradesh,2004,Winter,Q1,6150,3075.0,3019,3131
+South,Andhra Pradesh,2004,Winter,Q4,3370,3370.0,3370,3370
+South,Andhra Pradesh,2005,Monsoon,Q2,3247,3247.0,3247,3247
+South,Andhra Pradesh,2005,Monsoon,Q3,8677,2892.33,2742,3028
+South,Andhra Pradesh,2005,Post-Monsoon,Q4,5903,2951.5,2928,2975
+South,Andhra Pradesh,2005,Pre-Monsoon/Summer,Q1,3182,3182.0,3182,3182
+South,Andhra Pradesh,2005,Pre-Monsoon/Summer,Q2,6668,3334.0,3056,3612
+South,Andhra Pradesh,2005,Winter,Q1,6382,3191.0,3189,3193
+South,Andhra Pradesh,2005,Winter,Q4,3230,3230.0,3230,3230
+South,Andhra Pradesh,2006,Monsoon,Q2,3400,3400.0,3400,3400
+South,Andhra Pradesh,2006,Monsoon,Q3,9877,3292.33,3232,3334
+South,Andhra Pradesh,2006,Post-Monsoon,Q4,6574,3287.0,3268,3306
+South,Andhra Pradesh,2006,Pre-Monsoon/Summer,Q1,3496,3496.0,3496,3496
+South,Andhra Pradesh,2006,Pre-Monsoon/Summer,Q2,7596,3798.0,3634,3962
+South,Andhra Pradesh,2006,Winter,Q1,6792,3396.0,3224,3568
+South,Andhra Pradesh,2006,Winter,Q4,3588,3588.0,3588,3588
+South,Andhra Pradesh,2007,Monsoon,Q2,3594,3594.0,3594,3594
+South,Andhra Pradesh,2007,Monsoon,Q3,10113,3371.0,3246,3519
+South,Andhra Pradesh,2007,Post-Monsoon,Q4,7064,3532.0,3447,3617
+South,Andhra Pradesh,2007,Pre-Monsoon/Summer,Q1,3728,3728.0,3728,3728
+South,Andhra Pradesh,2007,Pre-Monsoon/Summer,Q2,7941,3970.5,3842,4099
+South,Andhra Pradesh,2007,Winter,Q1,7508,3754.0,3530,3978
+South,Andhra Pradesh,2007,Winter,Q4,3646,3646.0,3646,3646
+South,Andhra Pradesh,2008,Monsoon,Q2,3391,3391.0,3391,3391
+South,Andhra Pradesh,2008,Monsoon,Q3,9753,3251.0,3169,3324
+South,Andhra Pradesh,2008,Post-Monsoon,Q4,6671,3335.5,3319,3352
+South,Andhra Pradesh,2008,Pre-Monsoon/Summer,Q1,3848,3848.0,3848,3848
+South,Andhra Pradesh,2008,Pre-Monsoon/Summer,Q2,7778,3889.0,3811,3967
+South,Andhra Pradesh,2008,Winter,Q1,7062,3531.0,3468,3594
+South,Andhra Pradesh,2008,Winter,Q4,3603,3603.0,3603,3603
+South,Andhra Pradesh,2009,Monsoon,Q2,3763,3763.0,3763,3763
+South,Andhra Pradesh,2009,Monsoon,Q3,9917,3305.67,3017,3488
+South,Andhra Pradesh,2009,Post-Monsoon,Q4,6551,3275.5,3253,3298
+South,Andhra Pradesh,2009,Pre-Monsoon/Summer,Q1,3775,3775.0,3775,3775
+South,Andhra Pradesh,2009,Pre-Monsoon/Summer,Q2,7498,3749.0,3450,4048
+South,Andhra Pradesh,2009,Winter,Q1,7176,3588.0,3494,3682
+South,Andhra Pradesh,2009,Winter,Q4,3331,3331.0,3331,3331
+South,Andhra Pradesh,2010,Monsoon,Q2,3765,3765.0,3765,3765
+South,Andhra Pradesh,2010,Monsoon,Q3,9737,3245.67,3115,3416
+South,Andhra Pradesh,2010,Post-Monsoon,Q4,6836,3418.0,3397,3439
+South,Andhra Pradesh,2010,Pre-Monsoon/Summer,Q1,3749,3749.0,3749,3749
+South,Andhra Pradesh,2010,Pre-Monsoon/Summer,Q2,7817,3908.5,3857,3960
+South,Andhra Pradesh,2010,Winter,Q1,6949,3474.5,3434,3515
+South,Andhra Pradesh,2010,Winter,Q4,3575,3575.0,3575,3575
+South,Andhra Pradesh,2011,Monsoon,Q2,3793,3793.0,3793,3793
+South,Andhra Pradesh,2011,Monsoon,Q3,9410,3136.67,3067,3237
+South,Andhra Pradesh,2011,Post-Monsoon,Q4,6840,3420.0,3398,3442
+South,Andhra Pradesh,2011,Pre-Monsoon/Summer,Q1,3584,3584.0,3584,3584
+South,Andhra Pradesh,2011,Pre-Monsoon/Summer,Q2,7312,3656.0,3396,3916
+South,Andhra Pradesh,2011,Winter,Q1,6735,3367.5,3195,3540
+South,Andhra Pradesh,2011,Winter,Q4,3392,3392.0,3392,3392
+South,Andhra Pradesh,2012,Monsoon,Q2,3187,3187.0,3187,3187
+South,Andhra Pradesh,2012,Monsoon,Q3,9230,3076.67,2893,3177
+South,Andhra Pradesh,2012,Post-Monsoon,Q4,6190,3095.0,2985,3205
+South,Andhra Pradesh,2012,Pre-Monsoon/Summer,Q1,3693,3693.0,3693,3693
+South,Andhra Pradesh,2012,Pre-Monsoon/Summer,Q2,6839,3419.5,3250,3589
+South,Andhra Pradesh,2012,Winter,Q1,6737,3368.5,3347,3390
+South,Andhra Pradesh,2012,Winter,Q4,3468,3468.0,3468,3468
+South,Andhra Pradesh,2013,Monsoon,Q2,3736,3736.0,3736,3736
+South,Andhra Pradesh,2013,Monsoon,Q3,9933,3311.0,3018,3465
+South,Andhra Pradesh,2013,Post-Monsoon,Q4,6569,3284.5,3137,3432
+South,Andhra Pradesh,2013,Pre-Monsoon/Summer,Q1,3715,3715.0,3715,3715
+South,Andhra Pradesh,2013,Pre-Monsoon/Summer,Q2,8179,4089.5,3648,4531
+South,Andhra Pradesh,2013,Winter,Q1,7214,3607.0,3482,3732
+South,Andhra Pradesh,2013,Winter,Q4,3702,3702.0,3702,3702
+South,Andhra Pradesh,2014,Monsoon,Q2,3664,3664.0,3664,3664
+South,Andhra Pradesh,2014,Monsoon,Q3,9979,3326.33,3167,3587
+South,Andhra Pradesh,2014,Post-Monsoon,Q4,6756,3378.0,3346,3410
+South,Andhra Pradesh,2014,Pre-Monsoon/Summer,Q1,3641,3641.0,3641,3641
+South,Andhra Pradesh,2014,Pre-Monsoon/Summer,Q2,7568,3784.0,3582,3986
+South,Andhra Pradesh,2014,Winter,Q1,7466,3733.0,3657,3809
+South,Andhra Pradesh,2014,Winter,Q4,4158,4158.0,4158,4158
+South,Karnataka,2001,Monsoon,Q2,2783,2783.0,2783,2783
+South,Karnataka,2001,Monsoon,Q3,7632,2544.0,2437,2656
+South,Karnataka,2001,Post-Monsoon,Q4,5326,2663.0,2582,2744
+South,Karnataka,2001,Pre-Monsoon/Summer,Q1,2704,2704.0,2704,2704
+South,Karnataka,2001,Pre-Monsoon/Summer,Q2,6031,3015.5,2816,3215
+South,Karnataka,2001,Winter,Q1,5306,2653.0,2600,2706
+South,Karnataka,2001,Winter,Q4,3078,3078.0,3078,3078
+South,Karnataka,2002,Monsoon,Q2,2987,2987.0,2987,2987
+South,Karnataka,2002,Monsoon,Q3,8502,2834.0,2812,2875
+South,Karnataka,2002,Post-Monsoon,Q4,5862,2931.0,2908,2954
+South,Karnataka,2002,Pre-Monsoon/Summer,Q1,2906,2906.0,2906,2906
+South,Karnataka,2002,Pre-Monsoon/Summer,Q2,6410,3205.0,2995,3415
+South,Karnataka,2002,Winter,Q1,5745,2872.5,2860,2885
+South,Karnataka,2002,Winter,Q4,3249,3249.0,3249,3249
+South,Karnataka,2003,Monsoon,Q2,3199,3199.0,3199,3199
+South,Karnataka,2003,Monsoon,Q3,8994,2998.0,2994,3001
+South,Karnataka,2003,Post-Monsoon,Q4,6451,3225.5,3147,3304
+South,Karnataka,2003,Pre-Monsoon/Summer,Q1,2947,2947.0,2947,2947
+South,Karnataka,2003,Pre-Monsoon/Summer,Q2,6396,3198.0,2940,3456
+South,Karnataka,2003,Winter,Q1,6049,3024.5,2986,3063
+South,Karnataka,2003,Winter,Q4,3475,3475.0,3475,3475
+South,Karnataka,2004,Monsoon,Q2,3066,3066.0,3066,3066
+South,Karnataka,2004,Monsoon,Q3,9026,3008.67,2893,3093
+South,Karnataka,2004,Post-Monsoon,Q4,6320,3160.0,3011,3309
+South,Karnataka,2004,Pre-Monsoon/Summer,Q1,3358,3358.0,3358,3358
+South,Karnataka,2004,Pre-Monsoon/Summer,Q2,6509,3254.5,3180,3329
+South,Karnataka,2004,Winter,Q1,6746,3373.0,3357,3389
+South,Karnataka,2004,Winter,Q4,3726,3726.0,3726,3726
+South,Karnataka,2005,Monsoon,Q2,3354,3354.0,3354,3354
+South,Karnataka,2005,Monsoon,Q3,9353,3117.67,3018,3184
+South,Karnataka,2005,Post-Monsoon,Q4,6414,3207.0,3177,3237
+South,Karnataka,2005,Pre-Monsoon/Summer,Q1,3566,3566.0,3566,3566
+South,Karnataka,2005,Pre-Monsoon/Summer,Q2,7414,3707.0,3339,4075
+South,Karnataka,2005,Winter,Q1,6653,3326.5,3196,3457
+South,Karnataka,2005,Winter,Q4,3519,3519.0,3519,3519
+South,Karnataka,2006,Monsoon,Q2,3356,3356.0,3356,3356
+South,Karnataka,2006,Monsoon,Q3,10353,3451.0,3361,3519
+South,Karnataka,2006,Post-Monsoon,Q4,7129,3564.5,3508,3621
+South,Karnataka,2006,Pre-Monsoon/Summer,Q1,3766,3766.0,3766,3766
+South,Karnataka,2006,Pre-Monsoon/Summer,Q2,7825,3912.5,3693,4132
+South,Karnataka,2006,Winter,Q1,6896,3448.0,3278,3618
+South,Karnataka,2006,Winter,Q4,3955,3955.0,3955,3955
+South,Karnataka,2007,Monsoon,Q2,3878,3878.0,3878,3878
+South,Karnataka,2007,Monsoon,Q3,10747,3582.33,3499,3629
+South,Karnataka,2007,Post-Monsoon,Q4,7539,3769.5,3709,3830
+South,Karnataka,2007,Pre-Monsoon/Summer,Q1,3932,3932.0,3932,3932
+South,Karnataka,2007,Pre-Monsoon/Summer,Q2,8714,4357.0,4274,4440
+South,Karnataka,2007,Winter,Q1,7414,3707.0,3613,3801
+South,Karnataka,2007,Winter,Q4,4110,4110.0,4110,4110
+South,Karnataka,2008,Monsoon,Q2,3792,3792.0,3792,3792
+South,Karnataka,2008,Monsoon,Q3,10613,3537.67,3424,3634
+South,Karnataka,2008,Post-Monsoon,Q4,7268,3634.0,3540,3728
+South,Karnataka,2008,Pre-Monsoon/Summer,Q1,4203,4203.0,4203,4203
+South,Karnataka,2008,Pre-Monsoon/Summer,Q2,8531,4265.5,4236,4295
+South,Karnataka,2008,Winter,Q1,8014,4007.0,3922,4092
+South,Karnataka,2008,Winter,Q4,3831,3831.0,3831,3831
+South,Karnataka,2009,Monsoon,Q2,3906,3906.0,3906,3906
+South,Karnataka,2009,Monsoon,Q3,10579,3526.33,3501,3551
+South,Karnataka,2009,Post-Monsoon,Q4,7314,3657.0,3527,3787
+South,Karnataka,2009,Pre-Monsoon/Summer,Q1,3898,3898.0,3898,3898
+South,Karnataka,2009,Pre-Monsoon/Summer,Q2,8055,4027.5,3843,4212
+South,Karnataka,2009,Winter,Q1,7268,3634.0,3525,3743
+South,Karnataka,2009,Winter,Q4,4170,4170.0,4170,4170
+South,Karnataka,2010,Monsoon,Q2,3942,3942.0,3942,3942
+South,Karnataka,2010,Monsoon,Q3,10461,3487.0,3382,3648
+South,Karnataka,2010,Post-Monsoon,Q4,7245,3622.5,3512,3733
+South,Karnataka,2010,Pre-Monsoon/Summer,Q1,4212,4212.0,4212,4212
+South,Karnataka,2010,Pre-Monsoon/Summer,Q2,8643,4321.5,4105,4538
+South,Karnataka,2010,Winter,Q1,7985,3992.5,3972,4013
+South,Karnataka,2010,Winter,Q4,3732,3732.0,3732,3732
+South,Karnataka,2011,Monsoon,Q2,3781,3781.0,3781,3781
+South,Karnataka,2011,Monsoon,Q3,10465,3488.33,3437,3577
+South,Karnataka,2011,Post-Monsoon,Q4,7169,3584.5,3566,3603
+South,Karnataka,2011,Pre-Monsoon/Summer,Q1,3775,3775.0,3775,3775
+South,Karnataka,2011,Pre-Monsoon/Summer,Q2,8016,4008.0,3707,4309
+South,Karnataka,2011,Winter,Q1,7612,3806.0,3676,3936
+South,Karnataka,2011,Winter,Q4,3878,3878.0,3878,3878
+South,Karnataka,2012,Monsoon,Q2,3687,3687.0,3687,3687
+South,Karnataka,2012,Monsoon,Q3,10396,3465.33,3375,3561
+South,Karnataka,2012,Post-Monsoon,Q4,7132,3566.0,3519,3613
+South,Karnataka,2012,Pre-Monsoon/Summer,Q1,3715,3715.0,3715,3715
+South,Karnataka,2012,Pre-Monsoon/Summer,Q2,7834,3917.0,3871,3963
+South,Karnataka,2012,Winter,Q1,7655,3827.5,3749,3906
+South,Karnataka,2012,Winter,Q4,4029,4029.0,4029,4029
+South,Karnataka,2013,Monsoon,Q2,3247,3247.0,3247,3247
+South,Karnataka,2013,Monsoon,Q3,8958,2986.0,2964,3013
+South,Karnataka,2013,Post-Monsoon,Q4,6452,3226.0,3185,3267
+South,Karnataka,2013,Pre-Monsoon/Summer,Q1,3437,3437.0,3437,3437
+South,Karnataka,2013,Pre-Monsoon/Summer,Q2,7135,3567.5,3403,3732
+South,Karnataka,2013,Winter,Q1,6829,3414.5,3322,3507
+South,Karnataka,2013,Winter,Q4,3533,3533.0,3533,3533
+South,Karnataka,2014,Monsoon,Q2,3772,3772.0,3772,3772
+South,Karnataka,2014,Monsoon,Q3,10103,3367.67,3254,3428
+South,Karnataka,2014,Post-Monsoon,Q4,6959,3479.5,3442,3517
+South,Karnataka,2014,Pre-Monsoon/Summer,Q1,3805,3805.0,3805,3805
+South,Karnataka,2014,Pre-Monsoon/Summer,Q2,7630,3815.0,3577,4053
+South,Karnataka,2014,Winter,Q1,7564,3782.0,3649,3915
+South,Karnataka,2014,Winter,Q4,3861,3861.0,3861,3861
+South,Kerala,2001,Monsoon,Q2,2829,2829.0,2829,2829
+South,Kerala,2001,Monsoon,Q3,8917,2972.33,2845,3060
+South,Kerala,2001,Post-Monsoon,Q4,6295,3147.5,3048,3247
+South,Kerala,2001,Pre-Monsoon/Summer,Q1,2972,2972.0,2972,2972
+South,Kerala,2001,Pre-Monsoon/Summer,Q2,5799,2899.5,2887,2912
+South,Kerala,2001,Winter,Q1,6134,3067.0,2935,3199
+South,Kerala,2001,Winter,Q4,3493,3493.0,3493,3493
+South,Kerala,2002,Monsoon,Q2,2754,2754.0,2754,2754
+South,Kerala,2002,Monsoon,Q3,8254,2751.33,2688,2835
+South,Kerala,2002,Post-Monsoon,Q4,5805,2902.5,2897,2908
+South,Kerala,2002,Pre-Monsoon/Summer,Q1,2643,2643.0,2643,2643
+South,Kerala,2002,Pre-Monsoon/Summer,Q2,6209,3104.5,3096,3113
+South,Kerala,2002,Winter,Q1,5811,2905.5,2739,3072
+South,Kerala,2002,Winter,Q4,3058,3058.0,3058,3058
+South,Kerala,2003,Monsoon,Q2,2526,2526.0,2526,2526
+South,Kerala,2003,Monsoon,Q3,7715,2571.67,2534,2612
+South,Kerala,2003,Post-Monsoon,Q4,5651,2825.5,2799,2852
+South,Kerala,2003,Pre-Monsoon/Summer,Q1,2495,2495.0,2495,2495
+South,Kerala,2003,Pre-Monsoon/Summer,Q2,5184,2592.0,2570,2614
+South,Kerala,2003,Winter,Q1,5379,2689.5,2485,2894
+South,Kerala,2003,Winter,Q4,2997,2997.0,2997,2997
+South,Kerala,2004,Monsoon,Q2,3306,3306.0,3306,3306
+South,Kerala,2004,Monsoon,Q3,9897,3299.0,3164,3399
+South,Kerala,2004,Post-Monsoon,Q4,6957,3478.5,3425,3532
+South,Kerala,2004,Pre-Monsoon/Summer,Q1,3477,3477.0,3477,3477
+South,Kerala,2004,Pre-Monsoon/Summer,Q2,6650,3325.0,3239,3411
+South,Kerala,2004,Winter,Q1,7054,3527.0,3393,3661
+South,Kerala,2004,Winter,Q4,3762,3762.0,3762,3762
+South,Kerala,2005,Monsoon,Q2,3410,3410.0,3410,3410
+South,Kerala,2005,Monsoon,Q3,9733,3244.33,3109,3452
+South,Kerala,2005,Post-Monsoon,Q4,7069,3534.5,3467,3602
+South,Kerala,2005,Pre-Monsoon/Summer,Q1,3672,3672.0,3672,3672
+South,Kerala,2005,Pre-Monsoon/Summer,Q2,7464,3732.0,3594,3870
+South,Kerala,2005,Winter,Q1,7219,3609.5,3435,3784
+South,Kerala,2005,Winter,Q4,3728,3728.0,3728,3728
+South,Kerala,2006,Monsoon,Q2,3229,3229.0,3229,3229
+South,Kerala,2006,Monsoon,Q3,9921,3307.0,3139,3398
+South,Kerala,2006,Post-Monsoon,Q4,6939,3469.5,3423,3516
+South,Kerala,2006,Pre-Monsoon/Summer,Q1,3711,3711.0,3711,3711
+South,Kerala,2006,Pre-Monsoon/Summer,Q2,6960,3480.0,3360,3600
+South,Kerala,2006,Winter,Q1,7295,3647.5,3394,3901
+South,Kerala,2006,Winter,Q4,3673,3673.0,3673,3673
+South,Kerala,2007,Monsoon,Q2,3145,3145.0,3145,3145
+South,Kerala,2007,Monsoon,Q3,8835,2945.0,2793,3107
+South,Kerala,2007,Post-Monsoon,Q4,6418,3209.0,3207,3211
+South,Kerala,2007,Pre-Monsoon/Summer,Q1,3529,3529.0,3529,3529
+South,Kerala,2007,Pre-Monsoon/Summer,Q2,7148,3574.0,3481,3667
+South,Kerala,2007,Winter,Q1,7217,3608.5,3459,3758
+South,Kerala,2007,Winter,Q4,3569,3569.0,3569,3569
+South,Kerala,2008,Monsoon,Q2,2911,2911.0,2911,2911
+South,Kerala,2008,Monsoon,Q3,8855,2951.67,2874,3077
+South,Kerala,2008,Post-Monsoon,Q4,6126,3063.0,3034,3092
+South,Kerala,2008,Pre-Monsoon/Summer,Q1,3121,3121.0,3121,3121
+South,Kerala,2008,Pre-Monsoon/Summer,Q2,6415,3207.5,3205,3210
+South,Kerala,2008,Winter,Q1,6605,3302.5,3172,3433
+South,Kerala,2008,Winter,Q4,3205,3205.0,3205,3205
+South,Kerala,2009,Monsoon,Q2,2967,2967.0,2967,2967
+South,Kerala,2009,Monsoon,Q3,8303,2767.67,2707,2851
+South,Kerala,2009,Post-Monsoon,Q4,5869,2934.5,2910,2959
+South,Kerala,2009,Pre-Monsoon/Summer,Q1,3072,3072.0,3072,3072
+South,Kerala,2009,Pre-Monsoon/Summer,Q2,6010,3005.0,2877,3133
+South,Kerala,2009,Winter,Q1,6075,3037.5,2933,3142
+South,Kerala,2009,Winter,Q4,3161,3161.0,3161,3161
+South,Kerala,2010,Monsoon,Q2,2743,2743.0,2743,2743
+South,Kerala,2010,Monsoon,Q3,8247,2749.0,2641,2861
+South,Kerala,2010,Post-Monsoon,Q4,5499,2749.5,2602,2897
+South,Kerala,2010,Pre-Monsoon/Summer,Q1,3180,3180.0,3180,3180
+South,Kerala,2010,Pre-Monsoon/Summer,Q2,6222,3111.0,3073,3149
+South,Kerala,2010,Winter,Q1,6188,3094.0,2967,3221
+South,Kerala,2010,Winter,Q4,3003,3003.0,3003,3003
+South,Kerala,2011,Monsoon,Q2,2767,2767.0,2767,2767
+South,Kerala,2011,Monsoon,Q3,8319,2773.0,2688,2844
+South,Kerala,2011,Post-Monsoon,Q4,5358,2679.0,2476,2882
+South,Kerala,2011,Pre-Monsoon/Summer,Q1,3622,3622.0,3622,3622
+South,Kerala,2011,Pre-Monsoon/Summer,Q2,5949,2974.5,2805,3144
+South,Kerala,2011,Winter,Q1,6075,3037.5,2929,3146
+South,Kerala,2011,Winter,Q4,3126,3126.0,3126,3126
+South,Kerala,2012,Monsoon,Q2,2866,2866.0,2866,2866
+South,Kerala,2012,Monsoon,Q3,8802,2934.0,2848,3025
+South,Kerala,2012,Post-Monsoon,Q4,5951,2975.5,2960,2991
+South,Kerala,2012,Pre-Monsoon/Summer,Q1,2960,2960.0,2960,2960
+South,Kerala,2012,Pre-Monsoon/Summer,Q2,6101,3050.5,2942,3159
+South,Kerala,2012,Winter,Q1,6301,3150.5,3039,3262
+South,Kerala,2012,Winter,Q4,3193,3193.0,3193,3193
+South,Kerala,2013,Monsoon,Q2,2712,2712.0,2712,2712
+South,Kerala,2013,Monsoon,Q3,8155,2718.33,2595,2788
+South,Kerala,2013,Post-Monsoon,Q4,5517,2758.5,2728,2789
+South,Kerala,2013,Pre-Monsoon/Summer,Q1,3090,3090.0,3090,3090
+South,Kerala,2013,Pre-Monsoon/Summer,Q2,6344,3172.0,3113,3231
+South,Kerala,2013,Winter,Q1,6274,3137.0,3023,3251
+South,Kerala,2013,Winter,Q4,3123,3123.0,3123,3123
+South,Kerala,2014,Monsoon,Q2,2805,2805.0,2805,2805
+South,Kerala,2014,Monsoon,Q3,8658,2886.0,2834,2913
+South,Kerala,2014,Post-Monsoon,Q4,5874,2937.0,2911,2963
+South,Kerala,2014,Pre-Monsoon/Summer,Q1,3005,3005.0,3005,3005
+South,Kerala,2014,Pre-Monsoon/Summer,Q2,5947,2973.5,2785,3162
+South,Kerala,2014,Winter,Q1,6241,3120.5,2909,3332
+South,Kerala,2014,Winter,Q4,3342,3342.0,3342,3342
+South,Lakshadweep,2001,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2001,Monsoon,Q3,2,0.67,0,2
+South,Lakshadweep,2001,Post-Monsoon,Q4,2,1.0,1,1
+South,Lakshadweep,2001,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2001,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2001,Winter,Q1,2,1.0,0,2
+South,Lakshadweep,2001,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2002,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2002,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2002,Post-Monsoon,Q4,0,0.0,0,0
+South,Lakshadweep,2002,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2002,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2002,Winter,Q1,0,0.0,0,0
+South,Lakshadweep,2002,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2003,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2003,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2003,Post-Monsoon,Q4,1,0.5,0,1
+South,Lakshadweep,2003,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2003,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2003,Winter,Q1,0,0.0,0,0
+South,Lakshadweep,2003,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2004,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2004,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2004,Post-Monsoon,Q4,1,0.5,0,1
+South,Lakshadweep,2004,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2004,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2004,Winter,Q1,1,0.5,0,1
+South,Lakshadweep,2004,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2005,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2005,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2005,Post-Monsoon,Q4,0,0.0,0,0
+South,Lakshadweep,2005,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2005,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2005,Winter,Q1,0,0.0,0,0
+South,Lakshadweep,2005,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2006,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2006,Monsoon,Q3,1,0.33,0,1
+South,Lakshadweep,2006,Post-Monsoon,Q4,0,0.0,0,0
+South,Lakshadweep,2006,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2006,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2006,Winter,Q1,0,0.0,0,0
+South,Lakshadweep,2006,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2007,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2007,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2007,Post-Monsoon,Q4,0,0.0,0,0
+South,Lakshadweep,2007,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2007,Pre-Monsoon/Summer,Q2,1,0.5,0,1
+South,Lakshadweep,2007,Winter,Q1,1,0.5,0,1
+South,Lakshadweep,2007,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2008,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2008,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2008,Post-Monsoon,Q4,0,0.0,0,0
+South,Lakshadweep,2008,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2008,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2008,Winter,Q1,0,0.0,0,0
+South,Lakshadweep,2008,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2009,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2009,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2009,Post-Monsoon,Q4,0,0.0,0,0
+South,Lakshadweep,2009,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2009,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2009,Winter,Q1,1,0.5,0,1
+South,Lakshadweep,2009,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2010,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2010,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2010,Post-Monsoon,Q4,0,0.0,0,0
+South,Lakshadweep,2010,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2010,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2010,Winter,Q1,0,0.0,0,0
+South,Lakshadweep,2010,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2011,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2011,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2011,Post-Monsoon,Q4,0,0.0,0,0
+South,Lakshadweep,2011,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2011,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2011,Winter,Q1,0,0.0,0,0
+South,Lakshadweep,2011,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2012,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2012,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2012,Post-Monsoon,Q4,0,0.0,0,0
+South,Lakshadweep,2012,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2012,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2012,Winter,Q1,0,0.0,0,0
+South,Lakshadweep,2012,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2013,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2013,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2013,Post-Monsoon,Q4,0,0.0,0,0
+South,Lakshadweep,2013,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2013,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2013,Winter,Q1,0,0.0,0,0
+South,Lakshadweep,2013,Winter,Q4,0,0.0,0,0
+South,Lakshadweep,2014,Monsoon,Q2,0,0.0,0,0
+South,Lakshadweep,2014,Monsoon,Q3,0,0.0,0,0
+South,Lakshadweep,2014,Post-Monsoon,Q4,1,0.5,0,1
+South,Lakshadweep,2014,Pre-Monsoon/Summer,Q1,0,0.0,0,0
+South,Lakshadweep,2014,Pre-Monsoon/Summer,Q2,0,0.0,0,0
+South,Lakshadweep,2014,Winter,Q1,0,0.0,0,0
+South,Lakshadweep,2014,Winter,Q4,0,0.0,0,0
+South,Puducherry,2001,Monsoon,Q2,106,106.0,106,106
+South,Puducherry,2001,Monsoon,Q3,311,103.67,97,107
+South,Puducherry,2001,Post-Monsoon,Q4,216,108.0,105,111
+South,Puducherry,2001,Pre-Monsoon/Summer,Q1,122,122.0,122,122
+South,Puducherry,2001,Pre-Monsoon/Summer,Q2,229,114.5,107,122
+South,Puducherry,2001,Winter,Q1,198,99.0,89,109
+South,Puducherry,2001,Winter,Q4,104,104.0,104,104
+South,Puducherry,2002,Monsoon,Q2,140,140.0,140,140
+South,Puducherry,2002,Monsoon,Q3,389,129.67,120,141
+South,Puducherry,2002,Post-Monsoon,Q4,242,121.0,111,131
+South,Puducherry,2002,Pre-Monsoon/Summer,Q1,131,131.0,131,131
+South,Puducherry,2002,Pre-Monsoon/Summer,Q2,247,123.5,121,126
+South,Puducherry,2002,Winter,Q1,211,105.5,101,110
+South,Puducherry,2002,Winter,Q4,124,124.0,124,124
+South,Puducherry,2003,Monsoon,Q2,131,131.0,131,131
+South,Puducherry,2003,Monsoon,Q3,436,145.33,133,156
+South,Puducherry,2003,Post-Monsoon,Q4,248,124.0,114,134
+South,Puducherry,2003,Pre-Monsoon/Summer,Q1,142,142.0,142,142
+South,Puducherry,2003,Pre-Monsoon/Summer,Q2,261,130.5,123,138
+South,Puducherry,2003,Winter,Q1,225,112.5,103,122
+South,Puducherry,2003,Winter,Q4,143,143.0,143,143
+South,Puducherry,2004,Monsoon,Q2,124,124.0,124,124
+South,Puducherry,2004,Monsoon,Q3,435,145.0,144,146
+South,Puducherry,2004,Post-Monsoon,Q4,275,137.5,114,161
+South,Puducherry,2004,Pre-Monsoon/Summer,Q1,143,143.0,143,143
+South,Puducherry,2004,Pre-Monsoon/Summer,Q2,253,126.5,126,127
+South,Puducherry,2004,Winter,Q1,276,138.0,137,139
+South,Puducherry,2004,Winter,Q4,127,127.0,127,127
+South,Puducherry,2005,Monsoon,Q2,145,145.0,145,145
+South,Puducherry,2005,Monsoon,Q3,469,156.33,148,162
+South,Puducherry,2005,Post-Monsoon,Q4,264,132.0,121,143
+South,Puducherry,2005,Pre-Monsoon/Summer,Q1,150,150.0,150,150
+South,Puducherry,2005,Pre-Monsoon/Summer,Q2,291,145.5,138,153
+South,Puducherry,2005,Winter,Q1,316,158.0,152,164
+South,Puducherry,2005,Winter,Q4,145,145.0,145,145
+South,Puducherry,2006,Monsoon,Q2,132,132.0,132,132
+South,Puducherry,2006,Monsoon,Q3,437,145.67,125,161
+South,Puducherry,2006,Post-Monsoon,Q4,252,126.0,122,130
+South,Puducherry,2006,Pre-Monsoon/Summer,Q1,166,166.0,166,166
+South,Puducherry,2006,Pre-Monsoon/Summer,Q2,273,136.5,125,148
+South,Puducherry,2006,Winter,Q1,244,122.0,120,124
+South,Puducherry,2006,Winter,Q4,135,135.0,135,135
+South,Puducherry,2007,Monsoon,Q2,153,153.0,153,153
+South,Puducherry,2007,Monsoon,Q3,447,149.0,139,156
+South,Puducherry,2007,Post-Monsoon,Q4,280,140.0,131,149
+South,Puducherry,2007,Pre-Monsoon/Summer,Q1,157,157.0,157,157
+South,Puducherry,2007,Pre-Monsoon/Summer,Q2,303,151.5,138,165
+South,Puducherry,2007,Winter,Q1,275,137.5,126,149
+South,Puducherry,2007,Winter,Q4,129,129.0,129,129
+South,Puducherry,2008,Monsoon,Q2,151,151.0,151,151
+South,Puducherry,2008,Monsoon,Q3,432,144.0,136,154
+South,Puducherry,2008,Post-Monsoon,Q4,246,123.0,91,155
+South,Puducherry,2008,Pre-Monsoon/Summer,Q1,152,152.0,152,152
+South,Puducherry,2008,Pre-Monsoon/Summer,Q2,315,157.5,153,162
+South,Puducherry,2008,Winter,Q1,272,136.0,127,145
+South,Puducherry,2008,Winter,Q4,130,130.0,130,130
+South,Puducherry,2009,Monsoon,Q2,147,147.0,147,147
+South,Puducherry,2009,Monsoon,Q3,407,135.67,126,146
+South,Puducherry,2009,Post-Monsoon,Q4,286,143.0,126,160
+South,Puducherry,2009,Pre-Monsoon/Summer,Q1,153,153.0,153,153
+South,Puducherry,2009,Pre-Monsoon/Summer,Q2,303,151.5,148,155
+South,Puducherry,2009,Winter,Q1,278,139.0,130,148
+South,Puducherry,2009,Winter,Q4,124,124.0,124,124
+South,Puducherry,2010,Monsoon,Q2,141,141.0,141,141
+South,Puducherry,2010,Monsoon,Q3,408,136.0,127,151
+South,Puducherry,2010,Post-Monsoon,Q4,243,121.5,104,139
+South,Puducherry,2010,Pre-Monsoon/Summer,Q1,132,132.0,132,132
+South,Puducherry,2010,Pre-Monsoon/Summer,Q2,245,122.5,119,126
+South,Puducherry,2010,Winter,Q1,246,123.0,114,132
+South,Puducherry,2010,Winter,Q4,114,114.0,114,114
+South,Puducherry,2011,Monsoon,Q2,109,109.0,109,109
+South,Puducherry,2011,Monsoon,Q3,421,140.33,137,144
+South,Puducherry,2011,Post-Monsoon,Q4,266,133.0,117,149
+South,Puducherry,2011,Pre-Monsoon/Summer,Q1,119,119.0,119,119
+South,Puducherry,2011,Pre-Monsoon/Summer,Q2,228,114.0,112,116
+South,Puducherry,2011,Winter,Q1,227,113.5,105,122
+South,Puducherry,2011,Winter,Q4,110,110.0,110,110
+South,Puducherry,2012,Monsoon,Q2,131,131.0,131,131
+South,Puducherry,2012,Monsoon,Q3,360,120.0,115,126
+South,Puducherry,2012,Post-Monsoon,Q4,243,121.5,119,124
+South,Puducherry,2012,Pre-Monsoon/Summer,Q1,159,159.0,159,159
+South,Puducherry,2012,Pre-Monsoon/Summer,Q2,236,118.0,103,133
+South,Puducherry,2012,Winter,Q1,253,126.5,125,128
+South,Puducherry,2012,Winter,Q4,128,128.0,128,128
+South,Puducherry,2013,Monsoon,Q2,128,128.0,128,128
+South,Puducherry,2013,Monsoon,Q3,385,128.33,125,134
+South,Puducherry,2013,Post-Monsoon,Q4,235,117.5,106,129
+South,Puducherry,2013,Pre-Monsoon/Summer,Q1,120,120.0,120,120
+South,Puducherry,2013,Pre-Monsoon/Summer,Q2,266,133.0,127,139
+South,Puducherry,2013,Winter,Q1,210,105.0,102,108
+South,Puducherry,2013,Winter,Q4,107,107.0,107,107
+South,Puducherry,2014,Monsoon,Q2,57,57.0,57,57
+South,Puducherry,2014,Monsoon,Q3,180,60.0,58,62
+South,Puducherry,2014,Post-Monsoon,Q4,119,59.5,44,75
+South,Puducherry,2014,Pre-Monsoon/Summer,Q1,65,65.0,65,65
+South,Puducherry,2014,Pre-Monsoon/Summer,Q2,105,52.5,46,59
+South,Puducherry,2014,Winter,Q1,108,54.0,44,64
+South,Puducherry,2014,Winter,Q4,37,37.0,37,37
+South,Tamil Nadu,2001,Monsoon,Q2,4453,4453.0,4453,4453
+South,Tamil Nadu,2001,Monsoon,Q3,13185,4395.0,4370,4437
+South,Tamil Nadu,2001,Post-Monsoon,Q4,8246,4123.0,3985,4261
+South,Tamil Nadu,2001,Pre-Monsoon/Summer,Q1,4724,4724.0,4724,4724
+South,Tamil Nadu,2001,Pre-Monsoon/Summer,Q2,8907,4453.5,4442,4465
+South,Tamil Nadu,2001,Winter,Q1,8438,4219.0,4174,4264
+South,Tamil Nadu,2001,Winter,Q4,4025,4025.0,4025,4025
+South,Tamil Nadu,2002,Monsoon,Q2,4609,4609.0,4609,4609
+South,Tamil Nadu,2002,Monsoon,Q3,13457,4485.67,4434,4523
+South,Tamil Nadu,2002,Post-Monsoon,Q4,8156,4078.0,3883,4273
+South,Tamil Nadu,2002,Pre-Monsoon/Summer,Q1,4703,4703.0,4703,4703
+South,Tamil Nadu,2002,Pre-Monsoon/Summer,Q2,9723,4861.5,4788,4935
+South,Tamil Nadu,2002,Winter,Q1,8626,4313.0,4300,4326
+South,Tamil Nadu,2002,Winter,Q4,4229,4229.0,4229,4229
+South,Tamil Nadu,2003,Monsoon,Q2,4378,4378.0,4378,4378
+South,Tamil Nadu,2003,Monsoon,Q3,13069,4356.33,4177,4555
+South,Tamil Nadu,2003,Post-Monsoon,Q4,8370,4185.0,3973,4397
+South,Tamil Nadu,2003,Pre-Monsoon/Summer,Q1,4341,4341.0,4341,4341
+South,Tamil Nadu,2003,Pre-Monsoon/Summer,Q2,8172,4086.0,3928,4244
+South,Tamil Nadu,2003,Winter,Q1,8392,4196.0,4114,4278
+South,Tamil Nadu,2003,Winter,Q4,4303,4303.0,4303,4303
+South,Tamil Nadu,2004,Monsoon,Q2,4495,4495.0,4495,4495
+South,Tamil Nadu,2004,Monsoon,Q3,13575,4525.0,4373,4696
+South,Tamil Nadu,2004,Post-Monsoon,Q4,8418,4209.0,4136,4282
+South,Tamil Nadu,2004,Pre-Monsoon/Summer,Q1,4457,4457.0,4457,4457
+South,Tamil Nadu,2004,Pre-Monsoon/Summer,Q2,8961,4480.5,4421,4540
+South,Tamil Nadu,2004,Winter,Q1,8412,4206.0,4160,4252
+South,Tamil Nadu,2004,Winter,Q4,4190,4190.0,4190,4190
+South,Tamil Nadu,2005,Monsoon,Q2,5691,5691.0,5691,5691
+South,Tamil Nadu,2005,Monsoon,Q3,12843,4281.0,4158,4450
+South,Tamil Nadu,2005,Post-Monsoon,Q4,7683,3841.5,3601,4082
+South,Tamil Nadu,2005,Pre-Monsoon/Summer,Q1,9205,9205.0,9205,9205
+South,Tamil Nadu,2005,Pre-Monsoon/Summer,Q2,18336,9168.0,9006,9330
+South,Tamil Nadu,2005,Winter,Q1,17767,8883.5,8705,9062
+South,Tamil Nadu,2005,Winter,Q4,3955,3955.0,3955,3955
+South,Tamil Nadu,2006,Monsoon,Q2,5029,5029.0,5029,5029
+South,Tamil Nadu,2006,Monsoon,Q3,13831,4610.33,4365,4891
+South,Tamil Nadu,2006,Post-Monsoon,Q4,8327,4163.5,4007,4320
+South,Tamil Nadu,2006,Pre-Monsoon/Summer,Q1,4781,4781.0,4781,4781
+South,Tamil Nadu,2006,Pre-Monsoon/Summer,Q2,9890,4945.0,4808,5082
+South,Tamil Nadu,2006,Winter,Q1,8757,4378.5,4322,4435
+South,Tamil Nadu,2006,Winter,Q4,4530,4530.0,4530,4530
+South,Tamil Nadu,2007,Monsoon,Q2,4978,4978.0,4978,4978
+South,Tamil Nadu,2007,Monsoon,Q3,15011,5003.67,4841,5320
+South,Tamil Nadu,2007,Post-Monsoon,Q4,9488,4744.0,4730,4758
+South,Tamil Nadu,2007,Pre-Monsoon/Summer,Q1,4911,4911.0,4911,4911
+South,Tamil Nadu,2007,Pre-Monsoon/Summer,Q2,10762,5381.0,5348,5414
+South,Tamil Nadu,2007,Winter,Q1,9382,4691.0,4527,4855
+South,Tamil Nadu,2007,Winter,Q4,4585,4585.0,4585,4585
+South,Tamil Nadu,2008,Monsoon,Q2,5087,5087.0,5087,5087
+South,Tamil Nadu,2008,Monsoon,Q3,15339,5113.0,4947,5436
+South,Tamil Nadu,2008,Post-Monsoon,Q4,9695,4847.5,4833,4862
+South,Tamil Nadu,2008,Pre-Monsoon/Summer,Q1,5018,5018.0,5018,5018
+South,Tamil Nadu,2008,Pre-Monsoon/Summer,Q2,10997,5498.5,5465,5532
+South,Tamil Nadu,2008,Winter,Q1,9588,4794.0,4626,4962
+South,Tamil Nadu,2008,Winter,Q4,4685,4685.0,4685,4685
+South,Tamil Nadu,2009,Monsoon,Q2,5241,5241.0,5241,5241
+South,Tamil Nadu,2009,Monsoon,Q3,15534,5178.0,4975,5332
+South,Tamil Nadu,2009,Post-Monsoon,Q4,10011,5005.5,4723,5288
+South,Tamil Nadu,2009,Pre-Monsoon/Summer,Q1,4927,4927.0,4927,4927
+South,Tamil Nadu,2009,Pre-Monsoon/Summer,Q2,10362,5181.0,4956,5406
+South,Tamil Nadu,2009,Winter,Q1,9752,4876.0,4802,4950
+South,Tamil Nadu,2009,Winter,Q4,4967,4967.0,4967,4967
+South,Tamil Nadu,2010,Monsoon,Q2,5393,5393.0,5393,5393
+South,Tamil Nadu,2010,Monsoon,Q3,15937,5312.33,5221,5367
+South,Tamil Nadu,2010,Post-Monsoon,Q4,10605,5302.5,5179,5426
+South,Tamil Nadu,2010,Pre-Monsoon/Summer,Q1,5727,5727.0,5727,5727
+South,Tamil Nadu,2010,Pre-Monsoon/Summer,Q2,11690,5845.0,5663,6027
+South,Tamil Nadu,2010,Winter,Q1,10697,5348.5,5199,5498
+South,Tamil Nadu,2010,Winter,Q4,4947,4947.0,4947,4947
+South,Tamil Nadu,2011,Monsoon,Q2,5879,5879.0,5879,5879
+South,Tamil Nadu,2011,Monsoon,Q3,16556,5518.67,5162,5706
+South,Tamil Nadu,2011,Post-Monsoon,Q4,10044,5022.0,4937,5107
+South,Tamil Nadu,2011,Pre-Monsoon/Summer,Q1,5821,5821.0,5821,5821
+South,Tamil Nadu,2011,Pre-Monsoon/Summer,Q2,11479,5739.5,5461,6018
+South,Tamil Nadu,2011,Winter,Q1,10750,5375.0,5228,5522
+South,Tamil Nadu,2011,Winter,Q4,5344,5344.0,5344,5344
+South,Tamil Nadu,2012,Monsoon,Q2,5646,5646.0,5646,5646
+South,Tamil Nadu,2012,Monsoon,Q3,16786,5595.33,5283,5815
+South,Tamil Nadu,2012,Post-Monsoon,Q4,10811,5405.5,5367,5444
+South,Tamil Nadu,2012,Pre-Monsoon/Summer,Q1,5813,5813.0,5813,5813
+South,Tamil Nadu,2012,Pre-Monsoon/Summer,Q2,11715,5857.5,5819,5896
+South,Tamil Nadu,2012,Winter,Q1,11514,5757.0,5646,5868
+South,Tamil Nadu,2012,Winter,Q4,5472,5472.0,5472,5472
+South,Tamil Nadu,2013,Monsoon,Q2,5593,5593.0,5593,5593
+South,Tamil Nadu,2013,Monsoon,Q3,16378,5459.33,5311,5597
+South,Tamil Nadu,2013,Post-Monsoon,Q4,10581,5290.5,5268,5313
+South,Tamil Nadu,2013,Pre-Monsoon/Summer,Q1,5741,5741.0,5741,5741
+South,Tamil Nadu,2013,Pre-Monsoon/Summer,Q2,11513,5756.5,5599,5914
+South,Tamil Nadu,2013,Winter,Q1,11218,5609.0,5337,5881
+South,Tamil Nadu,2013,Winter,Q4,5214,5214.0,5214,5214
+South,Tamil Nadu,2014,Monsoon,Q2,5915,5915.0,5915,5915
+South,Tamil Nadu,2014,Monsoon,Q3,17432,5810.67,5719,5936
+South,Tamil Nadu,2014,Post-Monsoon,Q4,10552,5276.0,5036,5516
+South,Tamil Nadu,2014,Pre-Monsoon/Summer,Q1,5824,5824.0,5824,5824
+South,Tamil Nadu,2014,Pre-Monsoon/Summer,Q2,11014,5507.0,5303,5711
+South,Tamil Nadu,2014,Winter,Q1,10951,5475.5,5293,5658
+South,Tamil Nadu,2014,Winter,Q4,5562,5562.0,5562,5562
+West,Dadra and Nagar Haveli and Daman and Diu,2001,Monsoon,Q2,12,6.0,5,7
+West,Dadra and Nagar Haveli and Daman and Diu,2001,Monsoon,Q3,30,5.0,3,9
+West,Dadra and Nagar Haveli and Daman and Diu,2001,Post-Monsoon,Q4,20,5.0,3,8
+West,Dadra and Nagar Haveli and Daman and Diu,2001,Pre-Monsoon/Summer,Q1,10,5.0,4,6
+West,Dadra and Nagar Haveli and Daman and Diu,2001,Pre-Monsoon/Summer,Q2,22,5.5,2,9
+West,Dadra and Nagar Haveli and Daman and Diu,2001,Winter,Q1,20,5.0,1,11
+West,Dadra and Nagar Haveli and Daman and Diu,2001,Winter,Q4,8,4.0,1,7
+West,Dadra and Nagar Haveli and Daman and Diu,2002,Monsoon,Q2,13,6.5,4,9
+West,Dadra and Nagar Haveli and Daman and Diu,2002,Monsoon,Q3,33,5.5,1,10
+West,Dadra and Nagar Haveli and Daman and Diu,2002,Post-Monsoon,Q4,22,5.5,3,9
+West,Dadra and Nagar Haveli and Daman and Diu,2002,Pre-Monsoon/Summer,Q1,11,5.5,3,8
+West,Dadra and Nagar Haveli and Daman and Diu,2002,Pre-Monsoon/Summer,Q2,27,6.75,4,12
+West,Dadra and Nagar Haveli and Daman and Diu,2002,Winter,Q1,24,6.0,3,10
+West,Dadra and Nagar Haveli and Daman and Diu,2002,Winter,Q4,18,9.0,6,12
+West,Dadra and Nagar Haveli and Daman and Diu,2003,Monsoon,Q2,10,5.0,5,5
+West,Dadra and Nagar Haveli and Daman and Diu,2003,Monsoon,Q3,35,5.83,1,16
+West,Dadra and Nagar Haveli and Daman and Diu,2003,Post-Monsoon,Q4,27,6.75,4,8
+West,Dadra and Nagar Haveli and Daman and Diu,2003,Pre-Monsoon/Summer,Q1,11,5.5,5,6
+West,Dadra and Nagar Haveli and Daman and Diu,2003,Pre-Monsoon/Summer,Q2,19,4.75,3,8
+West,Dadra and Nagar Haveli and Daman and Diu,2003,Winter,Q1,30,7.5,6,10
+West,Dadra and Nagar Haveli and Daman and Diu,2003,Winter,Q4,13,6.5,6,7
+West,Dadra and Nagar Haveli and Daman and Diu,2004,Monsoon,Q2,14,7.0,6,8
+West,Dadra and Nagar Haveli and Daman and Diu,2004,Monsoon,Q3,33,5.5,2,11
+West,Dadra and Nagar Haveli and Daman and Diu,2004,Post-Monsoon,Q4,30,7.5,3,14
+West,Dadra and Nagar Haveli and Daman and Diu,2004,Pre-Monsoon/Summer,Q1,14,7.0,2,12
+West,Dadra and Nagar Haveli and Daman and Diu,2004,Pre-Monsoon/Summer,Q2,26,6.5,2,11
+West,Dadra and Nagar Haveli and Daman and Diu,2004,Winter,Q1,26,6.5,2,10
+West,Dadra and Nagar Haveli and Daman and Diu,2004,Winter,Q4,15,7.5,3,12
+West,Dadra and Nagar Haveli and Daman and Diu,2005,Monsoon,Q2,20,10.0,4,16
+West,Dadra and Nagar Haveli and Daman and Diu,2005,Monsoon,Q3,36,6.0,0,12
+West,Dadra and Nagar Haveli and Daman and Diu,2005,Post-Monsoon,Q4,31,7.75,4,10
+West,Dadra and Nagar Haveli and Daman and Diu,2005,Pre-Monsoon/Summer,Q1,13,6.5,4,9
+West,Dadra and Nagar Haveli and Daman and Diu,2005,Pre-Monsoon/Summer,Q2,24,6.0,3,10
+West,Dadra and Nagar Haveli and Daman and Diu,2005,Winter,Q1,37,9.25,5,13
+West,Dadra and Nagar Haveli and Daman and Diu,2005,Winter,Q4,23,11.5,8,15
+West,Dadra and Nagar Haveli and Daman and Diu,2006,Monsoon,Q2,10,5.0,2,8
+West,Dadra and Nagar Haveli and Daman and Diu,2006,Monsoon,Q3,34,5.67,2,10
+West,Dadra and Nagar Haveli and Daman and Diu,2006,Post-Monsoon,Q4,26,6.5,5,9
+West,Dadra and Nagar Haveli and Daman and Diu,2006,Pre-Monsoon/Summer,Q1,17,8.5,4,13
+West,Dadra and Nagar Haveli and Daman and Diu,2006,Pre-Monsoon/Summer,Q2,31,7.75,5,9
+West,Dadra and Nagar Haveli and Daman and Diu,2006,Winter,Q1,27,6.75,5,9
+West,Dadra and Nagar Haveli and Daman and Diu,2006,Winter,Q4,15,7.5,1,14
+West,Dadra and Nagar Haveli and Daman and Diu,2007,Monsoon,Q2,14,7.0,4,10
+West,Dadra and Nagar Haveli and Daman and Diu,2007,Monsoon,Q3,51,8.5,3,14
+West,Dadra and Nagar Haveli and Daman and Diu,2007,Post-Monsoon,Q4,23,5.75,0,13
+West,Dadra and Nagar Haveli and Daman and Diu,2007,Pre-Monsoon/Summer,Q1,18,9.0,4,14
+West,Dadra and Nagar Haveli and Daman and Diu,2007,Pre-Monsoon/Summer,Q2,25,6.25,5,7
+West,Dadra and Nagar Haveli and Daman and Diu,2007,Winter,Q1,31,7.75,4,12
+West,Dadra and Nagar Haveli and Daman and Diu,2007,Winter,Q4,14,7.0,3,11
+West,Dadra and Nagar Haveli and Daman and Diu,2008,Monsoon,Q2,9,4.5,1,8
+West,Dadra and Nagar Haveli and Daman and Diu,2008,Monsoon,Q3,29,4.83,2,9
+West,Dadra and Nagar Haveli and Daman and Diu,2008,Post-Monsoon,Q4,28,7.0,5,9
+West,Dadra and Nagar Haveli and Daman and Diu,2008,Pre-Monsoon/Summer,Q1,21,10.5,9,12
+West,Dadra and Nagar Haveli and Daman and Diu,2008,Pre-Monsoon/Summer,Q2,34,8.5,3,14
+West,Dadra and Nagar Haveli and Daman and Diu,2008,Winter,Q1,30,7.5,2,15
+West,Dadra and Nagar Haveli and Daman and Diu,2008,Winter,Q4,15,7.5,4,11
+West,Dadra and Nagar Haveli and Daman and Diu,2009,Monsoon,Q2,6,3.0,2,4
+West,Dadra and Nagar Haveli and Daman and Diu,2009,Monsoon,Q3,10,1.67,0,3
+West,Dadra and Nagar Haveli and Daman and Diu,2009,Post-Monsoon,Q4,13,3.25,1,6
+West,Dadra and Nagar Haveli and Daman and Diu,2009,Pre-Monsoon/Summer,Q1,4,2.0,2,2
+West,Dadra and Nagar Haveli and Daman and Diu,2009,Pre-Monsoon/Summer,Q2,10,2.5,1,4
+West,Dadra and Nagar Haveli and Daman and Diu,2009,Winter,Q1,15,3.75,2,6
+West,Dadra and Nagar Haveli and Daman and Diu,2009,Winter,Q4,8,4.0,3,5
+West,Dadra and Nagar Haveli and Daman and Diu,2010,Monsoon,Q2,11,5.5,4,7
+West,Dadra and Nagar Haveli and Daman and Diu,2010,Monsoon,Q3,24,4.0,2,10
+West,Dadra and Nagar Haveli and Daman and Diu,2010,Post-Monsoon,Q4,17,4.25,1,7
+West,Dadra and Nagar Haveli and Daman and Diu,2010,Pre-Monsoon/Summer,Q1,4,2.0,0,4
+West,Dadra and Nagar Haveli and Daman and Diu,2010,Pre-Monsoon/Summer,Q2,18,4.5,2,7
+West,Dadra and Nagar Haveli and Daman and Diu,2010,Winter,Q1,27,6.75,2,10
+West,Dadra and Nagar Haveli and Daman and Diu,2010,Winter,Q4,14,7.0,6,8
+West,Dadra and Nagar Haveli and Daman and Diu,2011,Monsoon,Q2,11,5.5,1,10
+West,Dadra and Nagar Haveli and Daman and Diu,2011,Monsoon,Q3,26,4.33,1,8
+West,Dadra and Nagar Haveli and Daman and Diu,2011,Post-Monsoon,Q4,21,5.25,2,10
+West,Dadra and Nagar Haveli and Daman and Diu,2011,Pre-Monsoon/Summer,Q1,8,4.0,2,6
+West,Dadra and Nagar Haveli and Daman and Diu,2011,Pre-Monsoon/Summer,Q2,19,4.75,1,9
+West,Dadra and Nagar Haveli and Daman and Diu,2011,Winter,Q1,23,5.75,2,12
+West,Dadra and Nagar Haveli and Daman and Diu,2011,Winter,Q4,16,8.0,3,13
+West,Dadra and Nagar Haveli and Daman and Diu,2012,Monsoon,Q2,11,5.5,4,7
+West,Dadra and Nagar Haveli and Daman and Diu,2012,Monsoon,Q3,26,4.33,1,9
+West,Dadra and Nagar Haveli and Daman and Diu,2012,Post-Monsoon,Q4,17,4.25,1,7
+West,Dadra and Nagar Haveli and Daman and Diu,2012,Pre-Monsoon/Summer,Q1,20,10.0,5,15
+West,Dadra and Nagar Haveli and Daman and Diu,2012,Pre-Monsoon/Summer,Q2,20,5.0,3,7
+West,Dadra and Nagar Haveli and Daman and Diu,2012,Winter,Q1,28,7.0,3,11
+West,Dadra and Nagar Haveli and Daman and Diu,2012,Winter,Q4,13,6.5,6,7
+West,Dadra and Nagar Haveli and Daman and Diu,2013,Monsoon,Q2,11,5.5,4,7
+West,Dadra and Nagar Haveli and Daman and Diu,2013,Monsoon,Q3,29,4.83,1,8
+West,Dadra and Nagar Haveli and Daman and Diu,2013,Post-Monsoon,Q4,18,4.5,2,9
+West,Dadra and Nagar Haveli and Daman and Diu,2013,Pre-Monsoon/Summer,Q1,13,6.5,2,11
+West,Dadra and Nagar Haveli and Daman and Diu,2013,Pre-Monsoon/Summer,Q2,18,4.5,1,8
+West,Dadra and Nagar Haveli and Daman and Diu,2013,Winter,Q1,24,6.0,2,11
+West,Dadra and Nagar Haveli and Daman and Diu,2013,Winter,Q4,8,4.0,0,8
+West,Dadra and Nagar Haveli and Daman and Diu,2014,Monsoon,Q2,6,3.0,2,4
+West,Dadra and Nagar Haveli and Daman and Diu,2014,Monsoon,Q3,28,4.67,0,8
+West,Dadra and Nagar Haveli and Daman and Diu,2014,Post-Monsoon,Q4,23,5.75,2,8
+West,Dadra and Nagar Haveli and Daman and Diu,2014,Pre-Monsoon/Summer,Q1,10,5.0,3,7
+West,Dadra and Nagar Haveli and Daman and Diu,2014,Pre-Monsoon/Summer,Q2,24,6.0,2,10
+West,Dadra and Nagar Haveli and Daman and Diu,2014,Winter,Q1,23,5.75,4,7
+West,Dadra and Nagar Haveli and Daman and Diu,2014,Winter,Q4,12,6.0,6,6
+West,Goa,2001,Monsoon,Q2,95,95.0,95,95
+West,Goa,2001,Monsoon,Q3,304,101.33,95,108
+West,Goa,2001,Post-Monsoon,Q4,239,119.5,117,122
+West,Goa,2001,Pre-Monsoon/Summer,Q1,111,111.0,111,111
+West,Goa,2001,Pre-Monsoon/Summer,Q2,239,119.5,108,131
+West,Goa,2001,Winter,Q1,239,119.5,115,124
+West,Goa,2001,Winter,Q4,148,148.0,148,148
+West,Goa,2002,Monsoon,Q2,74,74.0,74,74
+West,Goa,2002,Monsoon,Q3,262,87.33,65,102
+West,Goa,2002,Post-Monsoon,Q4,234,117.0,113,121
+West,Goa,2002,Pre-Monsoon/Summer,Q1,95,95.0,95,95
+West,Goa,2002,Pre-Monsoon/Summer,Q2,218,109.0,105,113
+West,Goa,2002,Winter,Q1,199,99.5,99,100
+West,Goa,2002,Winter,Q4,119,119.0,119,119
+West,Goa,2003,Monsoon,Q2,113,113.0,113,113
+West,Goa,2003,Monsoon,Q3,336,112.0,99,121
+West,Goa,2003,Post-Monsoon,Q4,312,156.0,146,166
+West,Goa,2003,Pre-Monsoon/Summer,Q1,151,151.0,151,151
+West,Goa,2003,Pre-Monsoon/Summer,Q2,287,143.5,121,166
+West,Goa,2003,Winter,Q1,324,162.0,151,173
+West,Goa,2003,Winter,Q4,155,155.0,155,155
+West,Goa,2004,Monsoon,Q2,104,104.0,104,104
+West,Goa,2004,Monsoon,Q3,345,115.0,104,121
+West,Goa,2004,Post-Monsoon,Q4,259,129.5,120,139
+West,Goa,2004,Pre-Monsoon/Summer,Q1,122,122.0,122,122
+West,Goa,2004,Pre-Monsoon/Summer,Q2,273,136.5,130,143
+West,Goa,2004,Winter,Q1,275,137.5,127,148
+West,Goa,2004,Winter,Q4,164,164.0,164,164
+West,Goa,2005,Monsoon,Q2,80,80.0,80,80
+West,Goa,2005,Monsoon,Q3,224,74.67,64,81
+West,Goa,2005,Post-Monsoon,Q4,194,97.0,84,110
+West,Goa,2005,Pre-Monsoon/Summer,Q1,88,88.0,88,88
+West,Goa,2005,Pre-Monsoon/Summer,Q2,200,100.0,100,100
+West,Goa,2005,Winter,Q1,168,84.0,75,93
+West,Goa,2005,Winter,Q4,115,115.0,115,115
+West,Goa,2006,Monsoon,Q2,268,268.0,268,268
+West,Goa,2006,Monsoon,Q3,826,275.33,263,291
+West,Goa,2006,Post-Monsoon,Q4,610,305.0,303,307
+West,Goa,2006,Pre-Monsoon/Summer,Q1,314,314.0,314,314
+West,Goa,2006,Pre-Monsoon/Summer,Q2,708,354.0,300,408
+West,Goa,2006,Winter,Q1,664,332.0,323,341
+West,Goa,2006,Winter,Q4,359,359.0,359,359
+West,Goa,2007,Monsoon,Q2,299,299.0,299,299
+West,Goa,2007,Monsoon,Q3,854,284.67,245,335
+West,Goa,2007,Post-Monsoon,Q4,673,336.5,320,353
+West,Goa,2007,Pre-Monsoon/Summer,Q1,332,332.0,332,332
+West,Goa,2007,Pre-Monsoon/Summer,Q2,767,383.5,375,392
+West,Goa,2007,Winter,Q1,727,363.5,362,365
+West,Goa,2007,Winter,Q4,370,370.0,370,370
+West,Goa,2008,Monsoon,Q2,309,309.0,309,309
+West,Goa,2008,Monsoon,Q3,907,302.33,276,326
+West,Goa,2008,Post-Monsoon,Q4,679,339.5,339,340
+West,Goa,2008,Pre-Monsoon/Summer,Q1,384,384.0,384,384
+West,Goa,2008,Pre-Monsoon/Summer,Q2,754,377.0,354,400
+West,Goa,2008,Winter,Q1,746,373.0,350,396
+West,Goa,2008,Winter,Q4,400,400.0,400,400
+West,Goa,2009,Monsoon,Q2,306,306.0,306,306
+West,Goa,2009,Monsoon,Q3,905,301.67,279,324
+West,Goa,2009,Post-Monsoon,Q4,694,347.0,323,371
+West,Goa,2009,Pre-Monsoon/Summer,Q1,370,370.0,370,370
+West,Goa,2009,Pre-Monsoon/Summer,Q2,697,348.5,327,370
+West,Goa,2009,Winter,Q1,740,370.0,351,389
+West,Goa,2009,Winter,Q4,458,458.0,458,458
+West,Goa,2010,Monsoon,Q2,307,307.0,307,307
+West,Goa,2010,Monsoon,Q3,974,324.67,294,346
+West,Goa,2010,Post-Monsoon,Q4,769,384.5,381,388
+West,Goa,2010,Pre-Monsoon/Summer,Q1,392,392.0,392,392
+West,Goa,2010,Pre-Monsoon/Summer,Q2,815,407.5,393,422
+West,Goa,2010,Winter,Q1,883,441.5,411,472
+West,Goa,2010,Winter,Q4,434,434.0,434,434
+West,Goa,2011,Monsoon,Q2,353,353.0,353,353
+West,Goa,2011,Monsoon,Q3,950,316.67,307,331
+West,Goa,2011,Post-Monsoon,Q4,768,384.0,373,395
+West,Goa,2011,Pre-Monsoon/Summer,Q1,370,370.0,370,370
+West,Goa,2011,Pre-Monsoon/Summer,Q2,790,395.0,369,421
+West,Goa,2011,Winter,Q1,886,443.0,400,486
+West,Goa,2011,Winter,Q4,444,444.0,444,444
+West,Goa,2012,Monsoon,Q2,328,328.0,328,328
+West,Goa,2012,Monsoon,Q3,1012,337.33,309,357
+West,Goa,2012,Post-Monsoon,Q4,730,365.0,339,391
+West,Goa,2012,Pre-Monsoon/Summer,Q1,343,343.0,343,343
+West,Goa,2012,Pre-Monsoon/Summer,Q2,725,362.5,332,393
+West,Goa,2012,Winter,Q1,745,372.5,317,428
+West,Goa,2012,Winter,Q4,405,405.0,405,405
+West,Goa,2013,Monsoon,Q2,300,300.0,300,300
+West,Goa,2013,Monsoon,Q3,994,331.33,291,376
+West,Goa,2013,Post-Monsoon,Q4,722,361.0,346,376
+West,Goa,2013,Pre-Monsoon/Summer,Q1,380,380.0,380,380
+West,Goa,2013,Pre-Monsoon/Summer,Q2,697,348.5,336,361
+West,Goa,2013,Winter,Q1,790,395.0,372,418
+West,Goa,2013,Winter,Q4,410,410.0,410,410
+West,Goa,2014,Monsoon,Q2,354,354.0,354,354
+West,Goa,2014,Monsoon,Q3,931,310.33,285,324
+West,Goa,2014,Post-Monsoon,Q4,666,333.0,312,354
+West,Goa,2014,Pre-Monsoon/Summer,Q1,349,349.0,349,349
+West,Goa,2014,Pre-Monsoon/Summer,Q2,716,358.0,349,367
+West,Goa,2014,Winter,Q1,792,396.0,359,433
+West,Goa,2014,Winter,Q4,422,422.0,422,422
+West,Gujarat,2001,Monsoon,Q2,1566,1566.0,1566,1566
+West,Gujarat,2001,Monsoon,Q3,4401,1467.0,1420,1533
+West,Gujarat,2001,Post-Monsoon,Q4,3371,1685.5,1602,1769
+West,Gujarat,2001,Pre-Monsoon/Summer,Q1,1791,1791.0,1791,1791
+West,Gujarat,2001,Pre-Monsoon/Summer,Q2,3679,1839.5,1744,1935
+West,Gujarat,2001,Winter,Q1,3257,1628.5,1600,1657
+West,Gujarat,2001,Winter,Q4,1743,1743.0,1743,1743
+West,Gujarat,2002,Monsoon,Q2,1723,1723.0,1723,1723
+West,Gujarat,2002,Monsoon,Q3,4447,1482.33,1434,1515
+West,Gujarat,2002,Post-Monsoon,Q4,3260,1630.0,1616,1644
+West,Gujarat,2002,Pre-Monsoon/Summer,Q1,1186,1186.0,1186,1186
+West,Gujarat,2002,Pre-Monsoon/Summer,Q2,3286,1643.0,1446,1840
+West,Gujarat,2002,Winter,Q1,3181,1590.5,1529,1652
+West,Gujarat,2002,Winter,Q4,1657,1657.0,1657,1657
+West,Gujarat,2003,Monsoon,Q2,1499,1499.0,1499,1499
+West,Gujarat,2003,Monsoon,Q3,4119,1373.0,1276,1439
+West,Gujarat,2003,Post-Monsoon,Q4,3121,1560.5,1501,1620
+West,Gujarat,2003,Pre-Monsoon/Summer,Q1,1456,1456.0,1456,1456
+West,Gujarat,2003,Pre-Monsoon/Summer,Q2,3175,1587.5,1395,1780
+West,Gujarat,2003,Winter,Q1,3073,1536.5,1457,1616
+West,Gujarat,2003,Winter,Q4,1659,1659.0,1659,1659
+West,Gujarat,2004,Monsoon,Q2,1493,1493.0,1493,1493
+West,Gujarat,2004,Monsoon,Q3,3947,1315.67,1119,1471
+West,Gujarat,2004,Post-Monsoon,Q4,3149,1574.5,1476,1673
+West,Gujarat,2004,Pre-Monsoon/Summer,Q1,1601,1601.0,1601,1601
+West,Gujarat,2004,Pre-Monsoon/Summer,Q2,3377,1688.5,1606,1771
+West,Gujarat,2004,Winter,Q1,3249,1624.5,1580,1669
+West,Gujarat,2004,Winter,Q4,1662,1662.0,1662,1662
+West,Gujarat,2005,Monsoon,Q2,1559,1559.0,1559,1559
+West,Gujarat,2005,Monsoon,Q3,3955,1318.33,1292,1342
+West,Gujarat,2005,Post-Monsoon,Q4,3138,1569.0,1477,1661
+West,Gujarat,2005,Pre-Monsoon/Summer,Q1,1625,1625.0,1625,1625
+West,Gujarat,2005,Pre-Monsoon/Summer,Q2,3511,1755.5,1583,1928
+West,Gujarat,2005,Winter,Q1,3161,1580.5,1575,1586
+West,Gujarat,2005,Winter,Q4,1592,1592.0,1592,1592
+West,Gujarat,2006,Monsoon,Q2,1512,1512.0,1512,1512
+West,Gujarat,2006,Monsoon,Q3,3918,1306.0,1172,1423
+West,Gujarat,2006,Post-Monsoon,Q4,3153,1576.5,1575,1578
+West,Gujarat,2006,Pre-Monsoon/Summer,Q1,1721,1721.0,1721,1721
+West,Gujarat,2006,Pre-Monsoon/Summer,Q2,3653,1826.5,1703,1950
+West,Gujarat,2006,Winter,Q1,3263,1631.5,1557,1706
+West,Gujarat,2006,Winter,Q4,1724,1724.0,1724,1724
+West,Gujarat,2007,Monsoon,Q2,1806,1806.0,1806,1806
+West,Gujarat,2007,Monsoon,Q3,4627,1542.33,1505,1613
+West,Gujarat,2007,Post-Monsoon,Q4,3599,1799.5,1732,1867
+West,Gujarat,2007,Pre-Monsoon/Summer,Q1,1918,1918.0,1918,1918
+West,Gujarat,2007,Pre-Monsoon/Summer,Q2,4128,2064.0,1959,2169
+West,Gujarat,2007,Winter,Q1,3641,1820.5,1743,1898
+West,Gujarat,2007,Winter,Q4,1714,1714.0,1714,1714
+West,Gujarat,2008,Monsoon,Q2,1782,1782.0,1782,1782
+West,Gujarat,2008,Monsoon,Q3,4494,1498.0,1461,1562
+West,Gujarat,2008,Post-Monsoon,Q4,3327,1663.5,1605,1722
+West,Gujarat,2008,Pre-Monsoon/Summer,Q1,1943,1943.0,1943,1943
+West,Gujarat,2008,Pre-Monsoon/Summer,Q2,4060,2030.0,1969,2091
+West,Gujarat,2008,Winter,Q1,3721,1860.5,1843,1878
+West,Gujarat,2008,Winter,Q4,1700,1700.0,1700,1700
+West,Gujarat,2009,Monsoon,Q2,1640,1640.0,1640,1640
+West,Gujarat,2009,Monsoon,Q3,4546,1515.33,1339,1613
+West,Gujarat,2009,Post-Monsoon,Q4,3426,1713.0,1674,1752
+West,Gujarat,2009,Pre-Monsoon/Summer,Q1,1743,1743.0,1743,1743
+West,Gujarat,2009,Pre-Monsoon/Summer,Q2,3565,1782.5,1628,1937
+West,Gujarat,2009,Winter,Q1,3345,1672.5,1603,1742
+West,Gujarat,2009,Winter,Q4,1836,1836.0,1836,1836
+West,Gujarat,2010,Monsoon,Q2,1730,1730.0,1730,1730
+West,Gujarat,2010,Monsoon,Q3,4170,1390.0,1310,1469
+West,Gujarat,2010,Post-Monsoon,Q4,3499,1749.5,1639,1860
+West,Gujarat,2010,Pre-Monsoon/Summer,Q1,1803,1803.0,1803,1803
+West,Gujarat,2010,Pre-Monsoon/Summer,Q2,3759,1879.5,1717,2042
+West,Gujarat,2010,Winter,Q1,3608,1804.0,1716,1892
+West,Gujarat,2010,Winter,Q4,1929,1929.0,1929,1929
+West,Gujarat,2011,Monsoon,Q2,2558,2558.0,2558,2558
+West,Gujarat,2011,Monsoon,Q3,6727,2242.33,2169,2346
+West,Gujarat,2011,Post-Monsoon,Q4,5141,2570.5,2524,2617
+West,Gujarat,2011,Pre-Monsoon/Summer,Q1,2629,2629.0,2629,2629
+West,Gujarat,2011,Pre-Monsoon/Summer,Q2,5503,2751.5,2447,3056
+West,Gujarat,2011,Winter,Q1,5227,2613.5,2601,2626
+West,Gujarat,2011,Winter,Q4,2414,2414.0,2414,2414
+West,Gujarat,2012,Monsoon,Q2,2313,2313.0,2313,2313
+West,Gujarat,2012,Monsoon,Q3,6122,2040.67,1948,2098
+West,Gujarat,2012,Post-Monsoon,Q4,4447,2223.5,2153,2294
+West,Gujarat,2012,Pre-Monsoon/Summer,Q1,2370,2370.0,2370,2370
+West,Gujarat,2012,Pre-Monsoon/Summer,Q2,4886,2443.0,2400,2486
+West,Gujarat,2012,Winter,Q1,5032,2516.0,2483,2549
+West,Gujarat,2012,Winter,Q4,2097,2097.0,2097,2097
+West,Gujarat,2013,Monsoon,Q2,2142,2142.0,2142,2142
+West,Gujarat,2013,Monsoon,Q3,5457,1819.0,1788,1848
+West,Gujarat,2013,Post-Monsoon,Q4,3982,1991.0,1931,2051
+West,Gujarat,2013,Pre-Monsoon/Summer,Q1,2266,2266.0,2266,2266
+West,Gujarat,2013,Pre-Monsoon/Summer,Q2,4594,2297.0,2189,2405
+West,Gujarat,2013,Winter,Q1,4546,2273.0,2189,2357
+West,Gujarat,2013,Winter,Q4,2048,2048.0,2048,2048
+West,Gujarat,2014,Monsoon,Q2,1988,1988.0,1988,1988
+West,Gujarat,2014,Monsoon,Q3,4812,1604.0,1506,1673
+West,Gujarat,2014,Post-Monsoon,Q4,3495,1747.5,1678,1817
+West,Gujarat,2014,Pre-Monsoon/Summer,Q1,2039,2039.0,2039,2039
+West,Gujarat,2014,Pre-Monsoon/Summer,Q2,3973,1986.5,1846,2127
+West,Gujarat,2014,Winter,Q1,4001,2000.5,1978,2023
+West,Gujarat,2014,Winter,Q4,1844,1844.0,1844,1844
+West,Maharashtra,2001,Monsoon,Q2,3179,3179.0,3179,3179
+West,Maharashtra,2001,Monsoon,Q3,8308,2769.33,2755,2781
+West,Maharashtra,2001,Post-Monsoon,Q4,6081,3040.5,3024,3057
+West,Maharashtra,2001,Pre-Monsoon/Summer,Q1,3272,3272.0,3272,3272
+West,Maharashtra,2001,Pre-Monsoon/Summer,Q2,7003,3501.5,3332,3671
+West,Maharashtra,2001,Winter,Q1,6177,3088.5,3015,3162
+West,Maharashtra,2001,Winter,Q4,3249,3249.0,3249,3249
+West,Maharashtra,2002,Monsoon,Q2,3273,3273.0,3273,3273
+West,Maharashtra,2002,Monsoon,Q3,8877,2959.0,2881,3036
+West,Maharashtra,2002,Post-Monsoon,Q4,6422,3211.0,3197,3225
+West,Maharashtra,2002,Pre-Monsoon/Summer,Q1,3506,3506.0,3506,3506
+West,Maharashtra,2002,Pre-Monsoon/Summer,Q2,7508,3754.0,3538,3970
+West,Maharashtra,2002,Winter,Q1,6511,3255.5,3087,3424
+West,Maharashtra,2002,Winter,Q4,3464,3464.0,3464,3464
+West,Maharashtra,2003,Monsoon,Q2,3584,3584.0,3584,3584
+West,Maharashtra,2003,Monsoon,Q3,10452,3484.0,3421,3537
+West,Maharashtra,2003,Post-Monsoon,Q4,7425,3712.5,3651,3774
+West,Maharashtra,2003,Pre-Monsoon/Summer,Q1,3234,3234.0,3234,3234
+West,Maharashtra,2003,Pre-Monsoon/Summer,Q2,7428,3714.0,3430,3998
+West,Maharashtra,2003,Winter,Q1,7072,3536.0,3373,3699
+West,Maharashtra,2003,Winter,Q4,3827,3827.0,3827,3827
+West,Maharashtra,2004,Monsoon,Q2,3811,3811.0,3811,3811
+West,Maharashtra,2004,Monsoon,Q3,10166,3388.67,3262,3474
+West,Maharashtra,2004,Post-Monsoon,Q4,7298,3649.0,3605,3693
+West,Maharashtra,2004,Pre-Monsoon/Summer,Q1,3677,3677.0,3677,3677
+West,Maharashtra,2004,Pre-Monsoon/Summer,Q2,8003,4001.5,3714,4289
+West,Maharashtra,2004,Winter,Q1,7641,3820.5,3713,3928
+West,Maharashtra,2004,Winter,Q4,3943,3943.0,3943,3943
+West,Maharashtra,2005,Monsoon,Q2,4126,4126.0,4126,4126
+West,Maharashtra,2005,Monsoon,Q3,10430,3476.67,3410,3564
+West,Maharashtra,2005,Post-Monsoon,Q4,7727,3863.5,3794,3933
+West,Maharashtra,2005,Pre-Monsoon/Summer,Q1,3832,3832.0,3832,3832
+West,Maharashtra,2005,Pre-Monsoon/Summer,Q2,8514,4257.0,3877,4637
+West,Maharashtra,2005,Winter,Q1,7772,3886.0,3694,4078
+West,Maharashtra,2005,Winter,Q4,4185,4185.0,4185,4185
+West,Maharashtra,2006,Monsoon,Q2,4194,4194.0,4194,4194
+West,Maharashtra,2006,Monsoon,Q3,10907,3635.67,3497,3705
+West,Maharashtra,2006,Post-Monsoon,Q4,8281,4140.5,4084,4197
+West,Maharashtra,2006,Pre-Monsoon/Summer,Q1,4129,4129.0,4129,4129
+West,Maharashtra,2006,Pre-Monsoon/Summer,Q2,9152,4576.0,4271,4881
+West,Maharashtra,2006,Winter,Q1,7803,3901.5,3741,4062
+West,Maharashtra,2006,Winter,Q4,4421,4421.0,4421,4421
+West,Maharashtra,2007,Monsoon,Q2,4400,4400.0,4400,4400
+West,Maharashtra,2007,Monsoon,Q3,11473,3824.33,3784,3850
+West,Maharashtra,2007,Post-Monsoon,Q4,8439,4219.5,4090,4349
+West,Maharashtra,2007,Pre-Monsoon/Summer,Q1,4481,4481.0,4481,4481
+West,Maharashtra,2007,Pre-Monsoon/Summer,Q2,10001,5000.5,4795,5206
+West,Maharashtra,2007,Winter,Q1,8890,4445.0,4318,4572
+West,Maharashtra,2007,Winter,Q4,4291,4291.0,4291,4291
+West,Maharashtra,2008,Monsoon,Q2,4096,4096.0,4096,4096
+West,Maharashtra,2008,Monsoon,Q3,10886,3628.67,3560,3738
+West,Maharashtra,2008,Post-Monsoon,Q4,7740,3870.0,3854,3886
+West,Maharashtra,2008,Pre-Monsoon/Summer,Q1,4479,4479.0,4479,4479
+West,Maharashtra,2008,Pre-Monsoon/Summer,Q2,9565,4782.5,4726,4839
+West,Maharashtra,2008,Winter,Q1,8636,4318.0,4260,4376
+West,Maharashtra,2008,Winter,Q4,4277,4277.0,4277,4277
+West,Maharashtra,2009,Monsoon,Q2,4097,4097.0,4097,4097
+West,Maharashtra,2009,Monsoon,Q3,11189,3729.67,3531,3921
+West,Maharashtra,2009,Post-Monsoon,Q4,7811,3905.5,3895,3916
+West,Maharashtra,2009,Pre-Monsoon/Summer,Q1,4199,4199.0,4199,4199
+West,Maharashtra,2009,Pre-Monsoon/Summer,Q2,9064,4532.0,4373,4691
+West,Maharashtra,2009,Winter,Q1,8150,4075.0,4024,4126
+West,Maharashtra,2009,Winter,Q4,4355,4355.0,4355,4355
+West,Maharashtra,2010,Monsoon,Q2,4393,4393.0,4393,4393
+West,Maharashtra,2010,Monsoon,Q3,11542,3847.33,3679,3938
+West,Maharashtra,2010,Post-Monsoon,Q4,8275,4137.5,4049,4226
+West,Maharashtra,2010,Pre-Monsoon/Summer,Q1,4314,4314.0,4314,4314
+West,Maharashtra,2010,Pre-Monsoon/Summer,Q2,9262,4631.0,4401,4861
+West,Maharashtra,2010,Winter,Q1,8419,4209.5,4036,4383
+West,Maharashtra,2010,Winter,Q4,4414,4414.0,4414,4414
+West,Maharashtra,2011,Monsoon,Q2,3976,3976.0,3976,3976
+West,Maharashtra,2011,Monsoon,Q3,10633,3544.33,3439,3674
+West,Maharashtra,2011,Post-Monsoon,Q4,7243,3621.5,3511,3732
+West,Maharashtra,2011,Pre-Monsoon/Summer,Q1,4155,4155.0,4155,4155
+West,Maharashtra,2011,Pre-Monsoon/Summer,Q2,8603,4301.5,3928,4675
+West,Maharashtra,2011,Winter,Q1,8384,4192.0,4052,4332
+West,Maharashtra,2011,Winter,Q4,4126,4126.0,4126,4126
+West,Maharashtra,2012,Monsoon,Q2,3865,3865.0,3865,3865
+West,Maharashtra,2012,Monsoon,Q3,10297,3432.33,3374,3539
+West,Maharashtra,2012,Post-Monsoon,Q4,7031,3515.5,3508,3523
+West,Maharashtra,2012,Pre-Monsoon/Summer,Q1,3896,3896.0,3896,3896
+West,Maharashtra,2012,Pre-Monsoon/Summer,Q2,8102,4051.0,4031,4071
+West,Maharashtra,2012,Winter,Q1,7870,3935.0,3760,4110
+West,Maharashtra,2012,Winter,Q4,4186,4186.0,4186,4186
+West,Maharashtra,2013,Monsoon,Q2,3653,3653.0,3653,3653
+West,Maharashtra,2013,Monsoon,Q3,9502,3167.33,3081,3215
+West,Maharashtra,2013,Post-Monsoon,Q4,6738,3369.0,3304,3434
+West,Maharashtra,2013,Pre-Monsoon/Summer,Q1,3978,3978.0,3978,3978
+West,Maharashtra,2013,Pre-Monsoon/Summer,Q2,8258,4129.0,3798,4460
+West,Maharashtra,2013,Winter,Q1,7702,3851.0,3689,4013
+West,Maharashtra,2013,Winter,Q4,4032,4032.0,4032,4032
+West,Maharashtra,2014,Monsoon,Q2,3784,3784.0,3784,3784
+West,Maharashtra,2014,Monsoon,Q3,10294,3431.33,3298,3546
+West,Maharashtra,2014,Post-Monsoon,Q4,6769,3384.5,3291,3478
+West,Maharashtra,2014,Pre-Monsoon/Summer,Q1,3920,3920.0,3920,3920
+West,Maharashtra,2014,Pre-Monsoon/Summer,Q2,8105,4052.5,3847,4258
+West,Maharashtra,2014,Winter,Q1,7692,3846.0,3714,3978
+West,Maharashtra,2014,Winter,Q4,3818,3818.0,3818,3818

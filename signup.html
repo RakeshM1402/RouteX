@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RouteX · Sign Up</title>
+<style>
+  :root{
+    --bg:#0a0e16; --bg2:#0e131d; --panel:rgba(19,26,39,.78); --panel-solid:#131a27;
+    --border:rgba(148,163,184,.14); --text:#e6edf7; --muted:#93a1b5;
+    --accent:#5b8ff9; --accent2:#5ad8a6; --warm:#f6bd16; --danger:#e8684a;
+    --shadow:0 24px 80px rgba(0,0,0,.45); --radius:18px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;min-height:100%}
+  body{
+    font-family:"Inter","Segoe UI",system-ui,-apple-system,sans-serif;
+    color:var(--text);
+    background:
+      radial-gradient(1100px 700px at 12% -10%, rgba(91,143,249,.13), transparent 60%),
+      radial-gradient(900px 650px at 92% 8%, rgba(90,216,166,.09), transparent 55%),
+      var(--bg);
+    -webkit-font-smoothing:antialiased;
+    display:flex;flex-direction:column;min-height:100vh;
+  }
+  a{color:inherit;text-decoration:none}
+  .topbar{
+    position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:28px;
+    padding:13px 32px;background:rgba(10,14,22,.74);backdrop-filter:blur(18px);
+    border-bottom:1px solid var(--border);
+  }
+  .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+  .brand-mark{
+    width:38px;height:38px;border-radius:11px;display:grid;place-items:center;
+    background:linear-gradient(135deg,#5b8ff9,#5ad8a6);color:#07101f;font-weight:800;font-size:17px;
+    box-shadow:0 8px 26px rgba(91,143,249,.3);
+  }
+  .brand strong{display:block;font-size:15px;letter-spacing:.2px}
+  .brand small{display:block;color:var(--muted);font-size:11px;margin-top:2px}
+  .nav{display:flex;gap:4px;margin-left:10px}
+  .nav a{color:var(--muted);text-decoration:none;font-size:13px;padding:8px 12px;border-radius:9px}
+  .nav a:hover{color:var(--text);background:rgba(148,163,184,.08)}
+  .nav a.active{color:var(--text);background:rgba(91,143,249,.16);box-shadow:inset 0 0 0 1px rgba(91,143,249,.28)}
+
+  .auth-container{
+    flex:1;display:flex;align-items:center;justify-content:center;padding:40px 20px;
+  }
+  .auth-card{
+    width:100%;max-width:440px;background:var(--panel);border:1px solid var(--border);
+    border-radius:var(--radius);padding:40px;box-shadow:var(--shadow);backdrop-filter:blur(16px);
+    position:relative;overflow:hidden;
+  }
+  .auth-card::after{content:"";position:absolute;inset:0 0 auto 0;height:2px;background:linear-gradient(90deg,var(--accent2),var(--accent));opacity:.8}
+  
+  h1{margin:0 0 8px;font-size:24px;letter-spacing:-.02em}
+  .subtitle{color:var(--muted);font-size:13.5px;margin-bottom:28px}
+
+  .form-group{margin-bottom:20px}
+  label{display:block;color:var(--muted);font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+  input{
+    width:100%;font-family:inherit;font-size:14px;color:var(--text);padding:12px 14px;
+    border-radius:10px;border:1px solid var(--border);background:rgba(10,14,22,.84);
+    outline:none;transition:.15s ease;
+  }
+  input:focus{border-color:var(--accent2);box-shadow:0 0 0 3px rgba(90,216,166,.18)}
+
+  .btn{
+    width:100%;font-family:inherit;font-size:14px;font-weight:600;color:#07101f;cursor:pointer;
+    padding:12px;border-radius:10px;border:0;
+    background:linear-gradient(135deg,#5ad8a6,#5b8ff9);transition:.18s ease;
+    margin-top:8px;box-shadow:0 8px 20px rgba(90,216,166,.25);
+  }
+  .btn:hover{opacity:.92;transform:translateY(-1px)}
+
+  .alert{
+    padding:12px 14px;border-radius:10px;font-size:13px;margin-bottom:20px;display:none;
+  }
+  .alert.error{background:rgba(232,104,74,.15);border:1px solid rgba(232,104,74,.35);color:#f8a08d}
+  .alert.success{background:rgba(90,216,166,.15);border:1px solid rgba(90,216,166,.35);color:#8ef1c2}
+
+  .auth-footer{
+    text-align:center;margin-top:24px;color:var(--muted);font-size:13px;
+  }
+  .auth-footer a{color:var(--accent);font-weight:600}
+  .auth-footer a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">R</span>
+      <span><strong>RouteX</strong><small>Road Safety Intelligence</small></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="olap_cube.html">OLAP Explorer</a>
+    </nav>
+  </header>
+
+  <div class="auth-container">
+    <div class="auth-card">
+      <h1>Create Account</h1>
+      <p class="subtitle">Join RouteX for advanced traffic analytics & safety insights</p>
+
+      <div id="alert" class="alert"></div>
+
+      <form id="signup-form">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" required placeholder="Choose a username">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" required placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <div style="position:relative">
+            <input type="password" id="password" required placeholder="At least 6 characters" style="padding-right:50px">
+            <button type="button" onclick="togglePassword('password', this)" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:rgba(148,163,184,.12);border:1px solid var(--border);border-radius:6px;color:var(--muted);cursor:pointer;font-size:11px;font-weight:600;padding:4px 8px">SHOW</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <div style="position:relative">
+            <input type="password" id="confirm-password" required placeholder="Re-enter password" style="padding-right:50px">
+            <button type="button" onclick="togglePassword('confirm-password', this)" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:rgba(148,163,184,.12);border:1px solid var(--border);border-radius:6px;color:var(--muted);cursor:pointer;font-size:11px;font-weight:600;padding:4px 8px">SHOW</button>
+          </div>
+        </div>
+        <button type="submit" class="btn">Create Account</button>
+      </form>
+
+      <div class="auth-footer">
+        Already have an account? <a href="login.html">Sign In</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function togglePassword(fieldId, btn) {
+      const input = document.getElementById(fieldId);
+      if(input.type === 'password') {
+        input.type = 'text';
+        btn.textContent = 'HIDE';
+      } else {
+        input.type = 'password';
+        btn.textContent = 'SHOW';
+      }
+    }
+
+    document.getElementById('signup-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const username = document.getElementById('username').value;
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      const confirmPassword = document.getElementById('confirm-password').value;
+      const alertEl = document.getElementById('alert');
+
+      alertEl.style.display = 'none';
+
+      if(password !== confirmPassword) {
+        alertEl.className = 'alert error';
+        alertEl.textContent = 'Passwords do not match.';
+        alertEl.style.display = 'block';
+        return;
+      }
+
+      if(password.length < 6) {
+        alertEl.className = 'alert error';
+        alertEl.textContent = 'Password must be at least 6 characters long.';
+        alertEl.style.display = 'block';
+        return;
+      }
+
+      try {
+        const res = await fetch('/api/signup', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({username, email, password})
+        });
+        const data = await res.json();
+
+        if(data.success) {
+          alertEl.className = 'alert success';
+          alertEl.textContent = 'Account created successfully! Redirecting to login...';
+          alertEl.style.display = 'block';
+          setTimeout(() => {
+            window.location.href = 'login.html';
+          }, 1200);
+        } else {
+          alertEl.className = 'alert error';
+          alertEl.textContent = data.message || 'Registration failed.';
+          alertEl.style.display = 'block';
+        }
+      } catch(err) {
+        alertEl.className = 'alert error';
+        alertEl.textContent = 'Connection error. Please try again.';
+        alertEl.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>

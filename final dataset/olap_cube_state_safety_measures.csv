@@ -1,0 +1,181 @@
+region,state_name,population,density_tier,safety_risk_tier,year,fatalities,total_accidents,fatalities_per_lakh,severity_index,fatality_rank
+Central,Uttar Pradesh,199812341,High Density,High Risk,2020,19149,34243,9.58,55.92,
+Central,Uttar Pradesh,199812341,High Density,High Risk,2021,21227,37729,10.62,56.26,
+Central,Uttar Pradesh,199812341,High Density,High Risk,2022,22595,41746,11.31,54.12,
+Central,Uttar Pradesh,199812341,High Density,High Risk,2023,23652,,11.84,,
+Central,Uttar Pradesh,199812341,High Density,High Risk,2024,24118,,12.07,,1
+South,Tamil Nadu,72147030,High Density,High Risk,2020,14527,49844,20.14,29.14,
+South,Tamil Nadu,72147030,High Density,High Risk,2021,15384,55682,21.32,27.63,
+South,Tamil Nadu,72147030,High Density,High Risk,2022,17884,64105,24.79,27.9,
+South,Tamil Nadu,72147030,High Density,High Risk,2023,18347,,25.43,,
+South,Tamil Nadu,72147030,High Density,High Risk,2024,18449,,25.57,,2
+West,Maharashtra,112374333,Moderate Density,High Risk,2020,11569,24971,10.3,46.33,
+West,Maharashtra,112374333,Moderate Density,High Risk,2021,13528,29477,12.04,45.89,
+West,Maharashtra,112374333,Moderate Density,High Risk,2022,15224,33383,13.55,45.6,
+West,Maharashtra,112374333,Moderate Density,High Risk,2023,15366,,13.67,,
+West,Maharashtra,112374333,Moderate Density,High Risk,2024,15715,,13.98,,3
+Central,Madhya Pradesh,72626809,Moderate Density,High Risk,2020,11141,45266,15.34,24.61,
+Central,Madhya Pradesh,72626809,Moderate Density,High Risk,2021,12057,48877,16.6,24.67,
+Central,Madhya Pradesh,72626809,Moderate Density,High Risk,2022,13427,54432,18.49,24.67,
+Central,Madhya Pradesh,72626809,Moderate Density,High Risk,2023,13798,,19.0,,
+Central,Madhya Pradesh,72626809,Moderate Density,High Risk,2024,14791,,20.37,,4
+South,Karnataka,61095297,Moderate Density,High Risk,2020,9760,34178,15.98,28.56,
+South,Karnataka,61095297,Moderate Density,High Risk,2021,10038,34647,16.43,28.97,
+South,Karnataka,61095297,Moderate Density,High Risk,2022,11702,39762,19.15,29.43,
+South,Karnataka,61095297,Moderate Density,High Risk,2023,12321,,20.17,,
+South,Karnataka,61095297,Moderate Density,High Risk,2024,12390,,20.28,,5
+North,Rajasthan,68548437,Moderate Density,High Risk,2020,9250,19114,13.49,48.39,
+North,Rajasthan,68548437,Moderate Density,High Risk,2021,10043,20951,14.65,47.94,
+North,Rajasthan,68548437,Moderate Density,High Risk,2022,11104,23614,16.2,47.02,
+North,Rajasthan,68548437,Moderate Density,High Risk,2023,11762,,17.16,,
+North,Rajasthan,68548437,Moderate Density,High Risk,2024,11790,,17.2,,6
+East,Bihar,104099452,Ultra-High Density,High Risk,2020,6699,8639,6.44,77.54,
+East,Bihar,104099452,Ultra-High Density,High Risk,2021,7660,9553,7.36,80.18,
+East,Bihar,104099452,Ultra-High Density,High Risk,2022,8898,10801,8.55,82.38,
+East,Bihar,104099452,Ultra-High Density,High Risk,2023,8873,,8.52,,
+East,Bihar,104099452,Ultra-High Density,High Risk,2024,9347,,8.98,,7
+South,Andhra Pradesh,49386799,Moderate Density,High Risk,2020,7039,19509,14.25,36.08,
+South,Andhra Pradesh,49386799,Moderate Density,High Risk,2021,8186,21556,16.58,37.98,
+South,Andhra Pradesh,49386799,Moderate Density,High Risk,2022,8293,21249,16.79,39.03,
+South,Andhra Pradesh,49386799,Moderate Density,High Risk,2023,8137,,16.48,,
+South,Andhra Pradesh,49386799,Moderate Density,High Risk,2024,8346,,16.9,,8
+South,Telangana,35193978,Moderate Density,High Risk,2020,6882,19172,19.55,35.9,
+South,Telangana,35193978,Moderate Density,High Risk,2021,7557,21315,21.47,35.45,
+South,Telangana,35193978,Moderate Density,High Risk,2022,7559,21619,21.48,34.96,
+South,Telangana,35193978,Moderate Density,High Risk,2023,7660,,21.77,,
+South,Telangana,35193978,Moderate Density,High Risk,2024,7949,,22.59,,9
+West,Gujarat,60439692,Moderate Density,Moderate Risk,2020,6170,13398,10.21,46.05,
+West,Gujarat,60439692,Moderate Density,Moderate Risk,2021,7452,15186,12.33,49.07,
+West,Gujarat,60439692,Moderate Density,Moderate Risk,2022,7618,15751,12.6,48.37,
+West,Gujarat,60439692,Moderate Density,Moderate Risk,2023,7854,,12.99,,
+West,Gujarat,60439692,Moderate Density,Moderate Risk,2024,7717,,12.77,,10
+Central,Chhattisgarh,25545198,Low Density,High Risk,2020,4606,11656,18.03,39.52,
+Central,Chhattisgarh,25545198,Low Density,High Risk,2021,5371,12375,21.03,43.4,
+Central,Chhattisgarh,25545198,Low Density,High Risk,2022,5834,13279,22.84,43.93,
+Central,Chhattisgarh,25545198,Low Density,High Risk,2023,6166,,24.14,,
+Central,Chhattisgarh,25545198,Low Density,High Risk,2024,6945,,27.19,,11
+East,West Bengal,91276115,Ultra-High Density,High Risk,2020,5128,10863,5.62,47.21,
+East,West Bengal,91276115,Ultra-High Density,High Risk,2021,5800,11937,6.35,48.59,
+East,West Bengal,91276115,Ultra-High Density,High Risk,2022,6002,13686,6.58,43.86,
+East,West Bengal,91276115,Ultra-High Density,High Risk,2023,6027,,6.6,,
+East,West Bengal,91276115,Ultra-High Density,High Risk,2024,6676,,7.31,,12
+East,Odisha,41974218,Moderate Density,High Risk,2020,4738,9817,11.29,48.26,
+East,Odisha,41974218,Moderate Density,High Risk,2021,5081,10983,12.11,46.26,
+East,Odisha,41974218,Moderate Density,High Risk,2022,5467,11663,13.02,46.87,
+East,Odisha,41974218,Moderate Density,High Risk,2023,5739,,13.67,,
+East,Odisha,41974218,Moderate Density,High Risk,2024,6142,,14.63,,13
+North,Punjab,27743338,High Density,High Risk,2020,3898,5203,14.05,74.92,
+North,Punjab,27743338,High Density,High Risk,2021,4589,5871,16.54,78.16,
+North,Punjab,27743338,High Density,High Risk,2022,4756,6138,17.14,77.48,
+North,Punjab,27743338,High Density,High Risk,2023,4829,,17.41,,
+North,Punjab,27743338,High Density,High Risk,2024,4759,,17.15,,14
+North,Haryana,25351462,High Density,High Risk,2020,4507,9431,17.78,47.79,
+North,Haryana,25351462,High Density,High Risk,2021,4706,9933,18.56,47.38,
+North,Haryana,25351462,High Density,High Risk,2022,4915,10429,19.39,47.13,
+North,Haryana,25351462,High Density,High Risk,2023,4968,,19.6,,
+North,Haryana,25351462,High Density,High Risk,2024,4689,,18.5,,15
+East,Jharkhand,32988134,Moderate Density,Moderate Risk,2020,3044,4405,9.23,69.1,
+East,Jharkhand,32988134,Moderate Density,Moderate Risk,2021,3513,4728,10.65,74.3,
+East,Jharkhand,32988134,Moderate Density,Moderate Risk,2022,3898,5175,11.82,75.32,
+East,Jharkhand,32988134,Moderate Density,Moderate Risk,2023,4173,,12.65,,
+East,Jharkhand,32988134,Moderate Density,Moderate Risk,2024,4114,,12.47,,16
+South,Kerala,33406061,High Density,Moderate Risk,2020,2979,27877,8.92,10.69,
+South,Kerala,33406061,High Density,Moderate Risk,2021,3429,33296,10.26,10.3,
+South,Kerala,33406061,High Density,Moderate Risk,2022,4317,43910,12.92,9.83,
+South,Kerala,33406061,High Density,Moderate Risk,2023,4080,,12.21,,
+South,Kerala,33406061,High Density,Moderate Risk,2024,3880,,11.61,,17
+North-East,Assam,31169272,Moderate Density,Moderate Risk,2020,2629,6595,8.43,39.86,
+North-East,Assam,31169272,Moderate Density,Moderate Risk,2021,3036,7411,9.74,40.97,
+North-East,Assam,31169272,Moderate Density,Moderate Risk,2022,2994,7023,9.61,42.63,
+North-East,Assam,31169272,Moderate Density,Moderate Risk,2023,3296,,10.57,,
+North-East,Assam,31169272,Moderate Density,Moderate Risk,2024,3351,,10.75,,18
+North,Delhi,16787941,Ultra-High Density,Moderate Risk,2020,1196,4178,7.12,28.63,
+North,Delhi,16787941,Ultra-High Density,Moderate Risk,2021,1239,4720,7.38,26.25,
+North,Delhi,16787941,Ultra-High Density,Moderate Risk,2022,1461,5652,8.7,25.85,
+North,Delhi,16787941,Ultra-High Density,Moderate Risk,2023,1457,,8.68,,
+North,Delhi,16787941,Ultra-High Density,Moderate Risk,2024,1551,,9.24,,19
+North,Uttarakhand,10086292,Low Density,Moderate Risk,2020,674,1041,6.68,64.75,
+North,Uttarakhand,10086292,Low Density,Moderate Risk,2021,820,1405,8.13,58.36,
+North,Uttarakhand,10086292,Low Density,Moderate Risk,2022,1042,1674,10.33,62.25,
+North,Uttarakhand,10086292,Low Density,Moderate Risk,2023,1054,,10.45,,
+North,Uttarakhand,10086292,Low Density,Moderate Risk,2024,1090,,10.81,,20
+North,Himachal Pradesh,6864602,Low Density,Moderate Risk,2020,893,2239,13.01,39.88,
+North,Himachal Pradesh,6864602,Low Density,Moderate Risk,2021,1052,2404,15.32,43.76,
+North,Himachal Pradesh,6864602,Low Density,Moderate Risk,2022,1032,2597,15.03,39.74,
+North,Himachal Pradesh,6864602,Low Density,Moderate Risk,2023,889,,12.95,,
+North,Himachal Pradesh,6864602,Low Density,Moderate Risk,2024,869,,12.66,,21
+North,Jammu and Kashmir,1247953,Low Density,High Risk,2020,728,4860,58.34,14.98,
+North,Jammu and Kashmir,1247953,Low Density,High Risk,2021,774,5452,62.02,14.2,
+North,Jammu and Kashmir,1247953,Low Density,High Risk,2022,805,6092,64.51,13.21,
+North,Jammu and Kashmir,1247953,Low Density,High Risk,2023,893,,71.56,,
+North,Jammu and Kashmir,1247953,Low Density,High Risk,2024,831,,66.59,,22
+West,Goa,1458545,Moderate Density,High Risk,2020,223,2375,15.29,9.39,
+West,Goa,1458545,Moderate Density,High Risk,2021,226,2849,15.49,7.93,
+West,Goa,1458545,Moderate Density,High Risk,2022,271,3011,18.58,9.0,
+West,Goa,1458545,Moderate Density,High Risk,2023,290,,19.88,,
+West,Goa,1458545,Moderate Density,High Risk,2024,286,,19.61,,23
+North-East,Tripura,3673917,Moderate Density,Low Risk,2020,192,466,5.23,41.2,
+North-East,Tripura,3673917,Moderate Density,Low Risk,2021,194,479,5.28,40.5,
+North-East,Tripura,3673917,Moderate Density,Low Risk,2022,241,575,6.56,41.91,
+North-East,Tripura,3673917,Moderate Density,Low Risk,2023,261,,7.1,,
+North-East,Tripura,3673917,Moderate Density,Low Risk,2024,226,,6.15,,24
+South,Puducherry,1247953,Ultra-High Density,High Risk,2020,145,969,11.62,14.96,
+South,Puducherry,1247953,Ultra-High Density,High Risk,2021,140,1049,11.22,13.35,
+South,Puducherry,1247953,Ultra-High Density,High Risk,2022,181,1181,14.5,15.33,
+South,Puducherry,1247953,Ultra-High Density,High Risk,2023,149,,11.94,,
+South,Puducherry,1247953,Ultra-High Density,High Risk,2024,218,,17.47,,25
+North-East,Meghalaya,2966889,Low Density,Low Risk,2020,144,214,4.85,67.29,
+North-East,Meghalaya,2966889,Low Density,Low Risk,2021,187,245,6.3,76.33,
+North-East,Meghalaya,2966889,Low Density,Low Risk,2022,162,246,5.46,65.85,
+North-East,Meghalaya,2966889,Low Density,Low Risk,2023,168,,5.66,,
+North-East,Meghalaya,2966889,Low Density,Low Risk,2024,197,,6.64,,26
+North-East,Arunachal Pradesh,1383727,Low Density,Moderate Risk,2020,73,134,5.28,54.48,
+North-East,Arunachal Pradesh,1383727,Low Density,Moderate Risk,2021,157,283,11.35,55.48,
+North-East,Arunachal Pradesh,1383727,Low Density,Moderate Risk,2022,148,227,10.7,65.2,
+North-East,Arunachal Pradesh,1383727,Low Density,Moderate Risk,2023,145,,10.48,,
+North-East,Arunachal Pradesh,1383727,Low Density,Moderate Risk,2024,168,,12.14,,27
+North-East,Mizoram,1097206,Low Density,Moderate Risk,2020,42,53,3.83,79.25,
+North-East,Mizoram,1097206,Low Density,Moderate Risk,2021,56,69,5.1,81.16,
+North-East,Mizoram,1097206,Low Density,Moderate Risk,2022,113,133,10.3,84.96,
+North-East,Mizoram,1097206,Low Density,Moderate Risk,2023,96,,8.75,,
+North-East,Mizoram,1097206,Low Density,Moderate Risk,2024,110,,10.03,,28
+West,Dadra and Nagar Haveli and Daman and Diu,586956,High Density,High Risk,2020,64,100,10.9,64.0,
+West,Dadra and Nagar Haveli and Daman and Diu,586956,High Density,High Risk,2021,76,140,12.95,54.29,
+West,Dadra and Nagar Haveli and Daman and Diu,586956,High Density,High Risk,2022,90,196,15.33,45.92,
+West,Dadra and Nagar Haveli and Daman and Diu,586956,High Density,High Risk,2023,74,,12.61,,
+West,Dadra and Nagar Haveli and Daman and Diu,586956,High Density,High Risk,2024,95,,16.19,,29
+North,Chandigarh,1055450,Ultra-High Density,Low Risk,2020,53,159,5.02,33.33,
+North,Chandigarh,1055450,Ultra-High Density,Low Risk,2021,96,208,9.1,46.15,
+North,Chandigarh,1055450,Ultra-High Density,Low Risk,2022,83,237,7.86,35.02,
+North,Chandigarh,1055450,Ultra-High Density,Low Risk,2023,67,,6.35,,
+North,Chandigarh,1055450,Ultra-High Density,Low Risk,2024,75,,7.11,,30
+North-East,Manipur,2721756,Low Density,Low Risk,2020,127,432,4.67,29.4,
+North-East,Manipur,2721756,Low Density,Low Risk,2021,110,366,4.04,30.05,
+North-East,Manipur,2721756,Low Density,Low Risk,2022,127,508,4.67,25.0,
+North-East,Manipur,2721756,Low Density,Low Risk,2023,73,,2.68,,
+North-East,Manipur,2721756,Low Density,Low Risk,2024,72,,2.65,,31
+North-East,Sikkim,610577,Low Density,Moderate Risk,2020,47,138,7.7,34.06,
+North-East,Sikkim,610577,Low Density,Moderate Risk,2021,56,155,9.17,36.13,
+North-East,Sikkim,610577,Low Density,Moderate Risk,2022,92,211,15.07,43.6,
+North-East,Sikkim,610577,Low Density,Moderate Risk,2023,57,,9.34,,
+North-East,Sikkim,610577,Low Density,Moderate Risk,2024,67,,10.97,,32
+North-East,Nagaland,1978502,Low Density,Low Risk,2020,53,500,2.68,10.6,
+North-East,Nagaland,1978502,Low Density,Low Risk,2021,55,746,2.78,7.37,
+North-East,Nagaland,1978502,Low Density,Low Risk,2022,73,489,3.69,14.93,
+North-East,Nagaland,1978502,Low Density,Low Risk,2023,86,,4.35,,
+North-East,Nagaland,1978502,Low Density,Low Risk,2024,62,,3.13,,33
+North,Ladakh,1247953,Low Density,Low Risk,2020,,,,,
+North,Ladakh,1247953,Low Density,Low Risk,2021,56,236,4.49,23.73,
+North,Ladakh,1247953,Low Density,Low Risk,2022,62,374,4.97,16.58,
+North,Ladakh,1247953,Low Density,Low Risk,2023,59,,4.73,,
+North,Ladakh,1247953,Low Density,Low Risk,2024,61,,4.89,,34
+South,Andaman and Nicobar Islands,380581,Low Density,Low Risk,2020,14,141,3.68,9.93,
+South,Andaman and Nicobar Islands,380581,Low Density,Low Risk,2021,20,115,5.26,17.39,
+South,Andaman and Nicobar Islands,380581,Low Density,Low Risk,2022,19,141,4.99,13.48,
+South,Andaman and Nicobar Islands,380581,Low Density,Low Risk,2023,24,,6.31,,
+South,Andaman and Nicobar Islands,380581,Low Density,Low Risk,2024,29,,7.62,,35
+South,Lakshadweep,64473,Ultra-High Density,Low Risk,2020,0,1,,,
+South,Lakshadweep,64473,Ultra-High Density,Low Risk,2021,1,4,1.55,25.0,
+South,Lakshadweep,64473,Ultra-High Density,Low Risk,2022,2,3,3.1,66.67,
+South,Lakshadweep,64473,Ultra-High Density,Low Risk,2023,0,,,,
+South,Lakshadweep,64473,Ultra-High Density,Low Risk,2024,0,,,,36
