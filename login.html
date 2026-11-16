@@ -93,6 +93,7 @@
     </a>
     <nav class="nav">
       <a href="index.html">Home</a>
+      <a href="dwdm_analytics.html">Data Warehouse Analytics</a>
       <a href="olap_cube.html">OLAP Explorer</a>
     </nav>
   </header>
@@ -126,6 +127,18 @@
   </div>
 
   <script>
+    const API_BASE = (window.location.protocol === 'http:' || window.location.protocol === 'https:') && (window.location.port === '8765' || window.location.port === '')
+      ? ''
+      : 'http://127.0.0.1:8765';
+
+    // Proactively warn if user opened the page directly from disk via file://
+    if (window.location.protocol === 'file:') {
+      const alertEl = document.getElementById('alert');
+      alertEl.className = 'alert error';
+      alertEl.innerHTML = '⚠️ <strong>Server Not Connected:</strong> You opened this file directly (<code>file://</code>). RouteX backend requires <code>python server.py</code>. Once started, open <a href="http://127.0.0.1:8765/login.html" style="color:var(--accent);text-decoration:underline;">http://127.0.0.1:8765/login.html</a>.';
+      alertEl.style.display = 'block';
+    }
+
     function togglePassword(fieldId, btn) {
       const input = document.getElementById(fieldId);
       if(input.type === 'password') {
@@ -146,9 +159,10 @@
       alertEl.style.display = 'none';
 
       try {
-        const res = await fetch('/api/login', {
+        const res = await fetch(`${API_BASE}/api/login`, {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
+          credentials: 'include',
           body: JSON.stringify({identifier, password})
         });
         const data = await res.json();
@@ -158,7 +172,7 @@
           alertEl.textContent = 'Login successful! Redirecting...';
           alertEl.style.display = 'block';
           setTimeout(() => {
-            window.location.href = 'index.html';
+            window.location.href = API_BASE ? `${API_BASE}/index.html` : 'index.html';
           }, 800);
         } else {
           alertEl.className = 'alert error';
@@ -167,7 +181,11 @@
         }
       } catch(err) {
         alertEl.className = 'alert error';
-        alertEl.textContent = 'Connection error. Please try again.';
+        if (window.location.protocol === 'file:') {
+          alertEl.innerHTML = '⚠️ Cannot connect via <code>file://</code>. Please run <code>python server.py</code> and open <a href="http://127.0.0.1:8765/login.html" style="color:var(--accent);text-decoration:underline;">http://127.0.0.1:8765/login.html</a> in your browser.';
+        } else {
+          alertEl.innerHTML = '⚠️ <strong>Connection error:</strong> RouteX backend is unreachable. Please verify that <code>python server.py</code> is running at <a href="http://127.0.0.1:8765" target="_blank" style="color:var(--accent);text-decoration:underline;">http://127.0.0.1:8765</a>.';
+        }
         alertEl.style.display = 'block';
       }
     });

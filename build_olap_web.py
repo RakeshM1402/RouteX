@@ -265,103 +265,10 @@ def render(data):
     print(f" -> Generated {OUT_PATH.name} ({size_kb:.0f} KB, self-contained)")
 
 
-class RouteXRequestHandler(SimpleHTTPRequestHandler):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, directory=str(BASE_DIR), **kwargs)
-
-    def do_POST(self):
-        if self.path == "/api/signup":
-            content_length = int(self.headers.get('Content-Length', 0))
-            body = self.rfile.read(content_length)
-            try:
-                data = json.loads(body.decode('utf-8'))
-                email = data.get('email', '').strip().lower()
-                password = data.get('password', '')
-                full_name = data.get('fullName', '').strip()
-
-                if not email or not password:
-                    self.send_json(400, {"success": False, "error": "Email and password are required."})
-                    return
-
-                conn = sqlite3.connect(DB_PATH)
-                cursor = conn.cursor()
-                cursor.execute("""
-                    CREATE TABLE IF NOT EXISTS users (
-                        user_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        full_name TEXT NOT NULL,
-                        email TEXT UNIQUE NOT NULL,
-                        password TEXT NOT NULL,
-                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-                    );
-                """)
-                
-                cursor.execute("SELECT user_id FROM users WHERE email = ?", (email,))
-                if cursor.fetchone():
-                    conn.close()
-                    self.send_json(400, {"success": False, "error": "Email is already registered. Please log in."})
-                    return
-
-                cursor.execute("INSERT INTO users (full_name, email, password) VALUES (?, ?, ?)", 
-                               (full_name or "User", email, password))
-                conn.commit()
-                user_id = cursor.lastrowid
-                conn.close()
-
-                self.send_json(200, {"success": True, "user": {"id": user_id, "email": email, "fullName": full_name}})
-            except Exception as e:
-                self.send_json(500, {"success": False, "error": str(e)})
-        elif self.path == "/api/login":
-            content_length = int(self.headers.get('Content-Length', 0))
-            body = self.rfile.read(content_length)
-            try:
-                data = json.loads(body.decode('utf-8'))
-                email = data.get('email', '').strip().lower()
-                password = data.get('password', '')
-
-                if not email or not password:
-                    self.send_json(400, {"success": False, "error": "Email and password are required."})
-                    return
-
-                conn = sqlite3.connect(DB_PATH)
-                conn.row_factory = sqlite3.Row
-                cursor = conn.cursor()
-                cursor.execute("""
-                    CREATE TABLE IF NOT EXISTS users (
-                        user_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        full_name TEXT NOT NULL,
-                        email TEXT UNIQUE NOT NULL,
-                        password TEXT NOT NULL,
-                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-                    );
-                """)
-                cursor.execute("SELECT user_id, full_name, email, password FROM users WHERE email = ?", (email,))
-                row = cursor.fetchone()
-                conn.close()
-
-                if not row or row["password"] != password:
-                    self.send_json(401, {"success": False, "error": "Invalid email or password."})
-                    return
-
-                self.send_json(200, {
-                    "success": True, 
-                    "user": {"id": row["user_id"], "email": row["email"], "fullName": row["full_name"]}
-                })
-            except Exception as e:
-                self.send_json(500, {"success": False, "error": str(e)})
-        else:
-            self.send_error(404, "Endpoint not found")
-
-    def send_json(self, status_code, data):
-        response = json.dumps(data).encode('utf-8')
-        self.send_response(status_code)
-        self.send_header("Content-Type", "application/json")
-        self.send_header("Content-Length", len(response))
-        self.end_headers()
-        self.wfile.write(response)
-
+from server import RouteXHandler
 
 def serve(port):
-    server = ThreadingHTTPServer(("127.0.0.1", port), RouteXRequestHandler)
+    server = ThreadingHTTPServer(("0.0.0.0", port), RouteXHandler)
     url = f"http://127.0.0.1:{port}/{OUT_PATH.name}"
     print(f" -> Serving demo at {url}")
     print(" -> Press Ctrl+C to stop the server.")

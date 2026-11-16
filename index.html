@@ -108,9 +108,8 @@
     </a>
     <nav class="nav">
       <a href="index.html" class="active">Home</a>
+      <a href="dwdm_analytics.html">Data Warehouse Analytics</a>
       <a href="olap_cube.html">OLAP Explorer</a>
-      <a href="#future-features" onclick="alert('Future update tabs: AI Risk Predictor & Real-time Telematics coming soon in next sprint!')">AI Risk Predictor</a>
-      <a href="#future-features" onclick="alert('Future update tabs: National Corridor Telemetry coming soon!')">Corridors</a>
     </nav>
     <div class="notification-container">
       <button class="notification-btn" id="notif-btn" title="Notifications" onclick="toggleNotifications()">
@@ -148,12 +147,20 @@
       <p class="eyebrow">Intelligent Infrastructure & Safety Analytics</p>
       <h1>Road Safety, Traffic Analytics & Smart Location Intelligence</h1>
       <p class="lede">RouteX integrates MoRTH road safety statistics, national highway infrastructure networks, and census demographic metrics into a high-performance multidimensional OLAP warehouse for actionable risk analysis.</p>
-      <div class="hero-cta">
-        <a href="olap_cube.html" class="btn">Launch OLAP Explorer &rarr;</a>
+      <div class="hero-cta" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+        <a href="dwdm_analytics.html" class="btn" style="background:linear-gradient(135deg,rgba(246,189,22,0.25),rgba(246,189,22,0.1));border-color:rgba(246,189,22,0.45);">⭐ Data Warehouse Analytics &rarr;</a>
+        <a href="#star-schema-architecture-section" class="btn">View Star Schema Architecture</a>
+        <a href="olap_cube.html" class="btn ghost">OLAP 3D Explorer &rarr;</a>
       </div>
     </section>
 
-    <section class="features">
+    <section class="features" style="grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));">
+      <article class="card">
+        <div class="card-icon" style="color:#f6bd16;border-color:rgba(246,189,22,0.3);background:rgba(246,189,22,0.12);">⭐</div>
+        <h3>Star Schema & DWDM</h3>
+        <p>Central Fact table `FACT_TRIP_ANALYTICS` radiating across Date, Location, Traffic, Accident, and Service dimensions with an automated ETL pipeline.</p>
+        <a href="dwdm_analytics.html" class="card-link" style="color:#f6bd16;">Open DWDM Dashboard &rarr;</a>
+      </article>
       <article class="card">
         <div class="card-icon">🛡️</div>
         <h3>Road Safety Analysis</h3>
@@ -196,6 +203,46 @@
         <span>Engine</span>
         <strong>SQLite OLAP</strong>
         <small>Zero-latency Star Schema</small>
+      </div>
+    </section>
+
+    <!-- Dedicated Section: STAR SCHEMA ARCHITECTURE (Module 4) -->
+    <section class="section-card" id="star-schema-architecture-section" style="margin-top:60px;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:30px;box-shadow:var(--shadow);">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:12px;">
+        <div>
+          <div style="display:flex;align-items:center;gap:10px;">
+            <h2 style="margin:0;font-size:22px;letter-spacing:-0.02em;">STAR SCHEMA ARCHITECTURE</h2>
+            <span style="font-size:11px;padding:3px 8px;border-radius:6px;font-weight:600;background:rgba(246,189,22,0.15);color:#f6bd16;border:1px solid rgba(246,189,22,0.3);">Live Schema Model</span>
+          </div>
+          <p style="margin:6px 0 0;color:var(--muted);font-size:13.5px;">Central Fact Table <code>FACT_TRIP_ANALYTICS</code> connected via Primary-Foreign Key relationships to 5 core Dimension tables.</p>
+        </div>
+        <div style="display:flex;gap:10px;">
+          <a href="dwdm_analytics.html" class="btn" style="background:linear-gradient(135deg,rgba(246,189,22,0.25),rgba(246,189,22,0.1));border-color:rgba(246,189,22,0.45);">Launch Full DWDM Analytics Suite &rarr;</a>
+        </div>
+      </div>
+
+      <div style="position:relative;background:radial-gradient(circle at center, #101624 0%, #080c14 100%);border:1px solid rgba(148,163,184,0.18);border-radius:14px;overflow:hidden;height:620px;">
+        <div style="position:absolute;top:16px;left:16px;z-index:10;display:flex;gap:8px;background:rgba(19,26,39,0.85);border:1px solid var(--border);border-radius:10px;padding:4px;backdrop-filter:blur(10px);">
+          <button class="btn" style="padding:4px 10px;font-size:13px;" onclick="zoomInIndex()">+</button>
+          <button class="btn" style="padding:4px 10px;font-size:13px;" onclick="zoomOutIndex()">&minus;</button>
+          <button class="btn" style="padding:4px 10px;font-size:13px;" onclick="resetZoomIndex()">&#8634;</button>
+        </div>
+        <div style="position:absolute;bottom:16px;left:16px;z-index:10;background:rgba(19,26,39,0.85);border:1px solid var(--border);border-radius:10px;padding:8px 14px;font-size:11.5px;backdrop-filter:blur(10px);display:flex;gap:16px;">
+          <span style="display:flex;align-items:center;gap:6px;color:var(--muted);"><span style="width:12px;height:12px;border-radius:3px;background:#f6bd16;display:inline-block;"></span> Fact Table</span>
+          <span style="display:flex;align-items:center;gap:6px;color:var(--muted);"><span style="width:12px;height:12px;border-radius:3px;background:#5b8ff9;display:inline-block;"></span> Dimension Tables</span>
+          <span style="color:var(--accent);font-weight:bold;">&rarr; 1:N Foreign Key Connections</span>
+        </div>
+        <svg id="index-star-schema-svg" style="width:100%;height:100%;cursor:grab;">
+          <defs>
+            <marker id="arrow-index" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="rgba(91,143,249,0.7)"/>
+            </marker>
+          </defs>
+          <g id="index-viewport">
+            <g id="index-lines-group"></g>
+            <g id="index-nodes-group"></g>
+          </g>
+        </svg>
       </div>
     </section>
   </main>
@@ -245,6 +292,128 @@
         dd.style.display = 'none';
       }
     });
+
+    // Star Schema Visualization on Index
+    let indexZoom = 1.0;
+    let indexPanX = 0;
+    let indexPanY = 0;
+
+    function updateIndexTransform() {
+      const vp = document.getElementById('index-viewport');
+      if(vp) vp.setAttribute('transform', `translate(${indexPanX}, ${indexPanY}) scale(${indexZoom})`);
+    }
+    function zoomInIndex() { indexZoom = Math.min(indexZoom + 0.15, 2.0); updateIndexTransform(); }
+    function zoomOutIndex() { indexZoom = Math.max(indexZoom - 0.15, 0.5); updateIndexTransform(); }
+    function resetZoomIndex() { indexZoom = 1.0; indexPanX = 0; indexPanY = 0; updateIndexTransform(); }
+
+    function drawIndexSchema() {
+      fetch('/api/dwdm/schema')
+        .then(res => res.json())
+        .then(meta => {
+          if(!meta || !meta.tables) return;
+          const svg = document.getElementById('index-star-schema-svg');
+          const lines = document.getElementById('index-lines-group');
+          const nodes = document.getElementById('index-nodes-group');
+          lines.innerHTML = '';
+          nodes.innerHTML = '';
+
+          const w = svg.clientWidth || 900;
+          const h = svg.clientHeight || 620;
+          const cx = w / 2;
+          const cy = h / 2;
+
+          const fact = meta.tables.find(t => t.is_fact);
+          const dims = meta.tables.filter(t => !t.is_fact);
+          const tablePos = {};
+
+          if (fact) {
+            tablePos[fact.name] = { x: cx - 110, y: cy - 85, w: 220, h: 170, isFact: true, data: fact };
+          }
+
+          const rx = Math.min(w * 0.38, 340);
+          const ry = Math.min(h * 0.36, 210);
+          dims.forEach((d, i) => {
+            const angle = (-Math.PI / 2) + (i * (2 * Math.PI / dims.length));
+            const px = cx + rx * Math.cos(angle) - 95;
+            const py = cy + ry * Math.sin(angle) - 70;
+            tablePos[d.name] = { x: px, y: py, w: 190, h: 140, isFact: false, data: d };
+          });
+
+          // Draw relationships
+          if(meta.relationships) {
+            meta.relationships.forEach(r => {
+              const f = tablePos[r.from_table];
+              const t = tablePos[r.to_table];
+              if(f && t) {
+                const x1 = f.x + f.w / 2;
+                const y1 = f.y + f.h / 2;
+                const x2 = t.x + t.w / 2;
+                const y2 = t.y + t.h / 2;
+                const mx = (x1 + x2) / 2 + (y1 - y2) * 0.12;
+                const my = (y1 + y2) / 2 + (x2 - x1) * 0.12;
+
+                const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                p.setAttribute('d', `M ${x1} ${y1} Q ${mx} ${my} ${x2} ${y2}`);
+                p.setAttribute('stroke', 'rgba(91,143,249,0.5)');
+                p.setAttribute('stroke-width', '2');
+                p.setAttribute('fill', 'none');
+                p.setAttribute('marker-end', 'url(#arrow-index)');
+                p.setAttribute('stroke-dasharray', '5,4');
+                lines.appendChild(p);
+              }
+            });
+          }
+
+          // Draw nodes
+          Object.keys(tablePos).forEach(name => {
+            const item = tablePos[name];
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            g.setAttribute('transform', `translate(${item.x}, ${item.y})`);
+            g.style.cursor = 'pointer';
+            g.onclick = () => { window.location.href = 'dwdm_analytics.html#schema-section'; };
+
+            const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+            rect.setAttribute('width', item.w);
+            rect.setAttribute('height', item.h);
+            rect.setAttribute('rx', '10');
+            rect.setAttribute('fill', item.isFact ? '#161f30' : '#0f1724');
+            rect.setAttribute('stroke', item.isFact ? '#f6bd16' : '#5b8ff9');
+            rect.setAttribute('stroke-width', item.isFact ? '2' : '1.5');
+            g.appendChild(rect);
+
+            const hdr = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+            hdr.setAttribute('width', item.w);
+            hdr.setAttribute('height', '32');
+            hdr.setAttribute('rx', '10');
+            hdr.setAttribute('fill', item.isFact ? 'rgba(246,189,22,0.2)' : 'rgba(91,143,249,0.18)');
+            g.appendChild(hdr);
+
+            const title = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            title.setAttribute('x', '10');
+            title.setAttribute('y', '21');
+            title.setAttribute('fill', item.isFact ? '#f6bd16' : '#5b8ff9');
+            title.setAttribute('font-size', '12');
+            title.setAttribute('font-weight', '700');
+            title.textContent = `${item.data.icon} ${name}`;
+            g.appendChild(title);
+
+            const cols = item.data.columns.slice(0, 4);
+            cols.forEach((c, idx) => {
+              const ct = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+              ct.setAttribute('x', '12');
+              ct.setAttribute('y', 52 + (idx * 18));
+              ct.setAttribute('fill', c.pk ? '#f6bd16' : (c.is_fk ? '#5b8ff9' : '#cbd5e1'));
+              ct.setAttribute('font-size', '10');
+              ct.textContent = `${c.pk ? '[PK] ' : (c.is_fk ? '[FK] ' : '')}${c.name}`;
+              g.appendChild(ct);
+            });
+
+            nodes.appendChild(g);
+          });
+        }).catch(err => console.error("Index schema render error:", err));
+    }
+
+    drawIndexSchema();
   </script>
 </body>
 </html>
