@@ -16,6 +16,8 @@ import server
 class RouteXQATest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        import os
+        os.environ["TESTING"] = "1"
         cls.db_path = server.DB_PATH
         server.init_db()
 
@@ -31,6 +33,8 @@ class RouteXQATest(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
+        import os
+        os.environ.pop("TESTING", None)
         cls.server.shutdown()
         cls.server.server_close()
 
@@ -65,7 +69,7 @@ class RouteXQATest(unittest.TestCase):
             self.assertEqual(otp_resp.status, 200)
             otp_body = json.loads(otp_resp.read().decode("utf-8"))
             self.assertTrue(otp_body["success"])
-            otp_code = otp_body.get("dev_otp")
+            otp_code = server.SIGNUP_OTP_STORE.get(self.email, {}).get("otp")
             self.assertIsNotNone(otp_code)
             self.assertEqual(len(otp_code), 6)
 

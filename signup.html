@@ -169,11 +169,6 @@
           📧 We sent a 6-digit verification code to <strong id="display-target-email" style="color:#5ad8a6; word-break:break-all;"></strong>.
         </div>
 
-        <!-- Dev Mode OTP Notice Box (shown if SMTP is not configured) -->
-        <div id="dev-otp-box" style="display:none; background:rgba(91,143,249,0.1); border:1px dashed rgba(91,143,249,0.35); border-radius:8px; padding:10px 12px; margin-bottom:16px; font-size:12px; color:#cbd5e1; text-align:center;">
-          💡 <strong>Dev Code:</strong> <span id="dev-otp-val" style="font-family:monospace; font-weight:800; color:#5ad8a6; font-size:15px; margin:0 6px;"></span>
-          <button type="button" onclick="autoFillDevOTP()" style="background:rgba(91,143,249,0.2); border:1px solid rgba(91,143,249,0.4); color:#cbd5e1; padding:3px 9px; border-radius:5px; font-size:11px; cursor:pointer;">Auto-fill</button>
-        </div>
 
         <div class="form-group">
           <label for="otp-input" style="text-align:center; display:block;">Enter 6-Digit Code</label>
@@ -229,7 +224,6 @@
     let resendInterval = null;
     let expirySeconds = 300;
     let resendSeconds = 60;
-    let cachedDevOtp = null;
 
     function showAlert(msg, isSuccess = false) {
       const alertEl = document.getElementById('alert');
@@ -250,13 +244,6 @@
       document.getElementById('step-pill-1').classList.add('active');
       document.getElementById('step-pill-2').classList.remove('active');
       hideAlert();
-    }
-
-    function autoFillDevOTP() {
-      if (cachedDevOtp) {
-        document.getElementById('otp-input').value = cachedDevOtp;
-        showAlert('Dev OTP auto-filled. Click "Verify & Create Account".', true);
-      }
     }
 
     function startTimers() {
@@ -347,17 +334,6 @@
           document.getElementById('step-pill-2').classList.add('active');
           document.getElementById('display-target-email').textContent = email;
 
-          // Dev OTP display if SMTP is not configured
-          const devBox = document.getElementById('dev-otp-box');
-          const devVal = document.getElementById('dev-otp-val');
-          if (data.dev_otp) {
-            cachedDevOtp = data.dev_otp;
-            devVal.textContent = data.dev_otp;
-            devBox.style.display = 'block';
-          } else {
-            devBox.style.display = 'none';
-          }
-
           startTimers();
           showAlert(`Verification code sent to <strong>${email}</strong>! Please check your inbox.`, true);
           document.getElementById('otp-input').focus();
@@ -386,11 +362,6 @@
         });
         const data = await res.json();
         if (data.success) {
-          if (data.dev_otp) {
-            cachedDevOtp = data.dev_otp;
-            document.getElementById('dev-otp-val').textContent = data.dev_otp;
-            document.getElementById('dev-otp-box').style.display = 'block';
-          }
           startTimers();
           showAlert('New verification code sent! Check your email.', true);
         } else {

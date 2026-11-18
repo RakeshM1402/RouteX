@@ -175,16 +175,22 @@ class GASRedirectHandler(urllib.request.HTTPRedirectHandler):
 
 def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
     """
-    Dispatch 6-digit verification code.
-    Priority Hierarchy:
-    1. Google Apps Script HTTPS Webhook (GAS_WEBHOOK_URL, GAS_SECRET) - sends to any email, bypasses SMTP blocks & domain verification
+    Dispatch 6-digit verification code directly to the user's email.
+    Supported channels (no dev code / local bypass):
+    1. Google Apps Script HTTPS Webhook (GAS_WEBHOOK_URL, GAS_SECRET)
     2. Resend HTTP API (RESEND_API_KEY)
-    3. Dev Mode fallback (stdout console logging + UI dev code)
+    3. SMTP (SMTP_HOST, SMTP_USER, SMTP_PASS, SMTP_PORT, SMTP_FROM)
+    4. Unit test mock (TESTING=1)
     """
     gas_webhook_url = os.environ.get("GAS_WEBHOOK_URL", "").strip()
     resend_api_key = os.environ.get("RESEND_API_KEY", "").strip()
+    smtp_host = os.environ.get("SMTP_HOST", "").strip()
+    smtp_user = os.environ.get("SMTP_USER", "").strip()
+    smtp_pass = os.environ.get("SMTP_PASS", "").strip()
+    smtp_port = int(os.environ.get("SMTP_PORT", "587"))
+    smtp_from = os.environ.get("SMTP_FROM", "").strip() or smtp_user or "no-reply@routex.ai"
 
-    print(f"\n[RouteX OTP Service] >>> Generated 6-digit verification code for {to_email} ({username}): {otp_code} (Valid for 5 mins) <<<\n")
+    print(f"\n[RouteX OTP Service] >>> Initiating email dispatch for {to_email} ({username}) <<<\n")
 
     html_body = f"""<!DOCTYPE html>
 <html>
@@ -208,7 +214,7 @@ def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
 </body>
 </html>"""
 
-    # 1. Highest Priority: Google Apps Script Webhook
+    # 1. Primary: Google Apps Script Webhook
     if gas_webhook_url:
         gas_secret = os.environ.get("GAS_SECRET", "routex_secret_2026").strip()
         gas_payload = {
@@ -247,7 +253,7 @@ def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
                     is_success = (200 <= status_code < 300) and ("error" not in resp_text.lower())
 
                 if is_success:
-                    return True, f"GAS Webhook HTTP {status_code}: {resp_text.strip()}"
+                    return True, "Email delivered via Google Apps Script"
                 else:
                     print(f"[RouteX OTP Service ERROR] GAS Webhook reported failure: {resp_text}")
         except urllib.error.HTTPError as he:
@@ -256,7 +262,7 @@ def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
         except Exception as e:
             print(f"[RouteX OTP Service ERROR] GAS Webhook Request Exception: {e}")
 
-    # 2. Secondary Priority: Resend HTTP API
+    # 2. Resend HTTP API
     if resend_api_key:
         payload = {
             "from": "RouteX <onboarding@resend.dev>",
@@ -280,7 +286,7 @@ def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
                 resp_text = resp.read().decode("utf-8", errors="replace")
                 print(f"[RouteX OTP Service] Resend API HTTP {status_code} Response: {resp_text}")
                 if 200 <= status_code < 300:
-                    return True, f"Resend HTTP {status_code}"
+                    return True, "Email delivered via Resend API"
                 print(f"[RouteX OTP Service ERROR] Resend API HTTP {status_code}: {resp_text}")
         except urllib.error.HTTPError as he:
             err_text = he.read().decode("utf-8", errors="replace")
@@ -288,9 +294,44 @@ def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
         except Exception as e:
             print(f"[RouteX OTP Service ERROR] Resend Request Exception: {e}")
 
-    # 3. Dev Mode Fallback
-    print("[RouteX OTP Service] No active email dispatcher succeeded. Falling back to Dev Mode.")
-    return False, "Dev Mode (No email service active)"
+    # 3. SMTP Fallback (for local development or providers with open SMTP ports)
+    if smtp_host and smtp_user and smtp_pass:
+        try:
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = "Your RouteX Verification Code"
+            msg["From"] = f"RouteX Road Safety <{smtp_from}>"
+            msg["To"] = to_email
+
+            plain_body = (
+                f"Hello {username},\n\n"
+                f"Your RouteX verification code is: {otp_code}\n\n"
+                f"This code will expire in 5 minutes.\n\n"
+                f"Best regards,\nRouteX Road Safety Intelligence Team"
+            )
+            msg.attach(MIMEText(plain_body, "plain", "utf-8"))
+            msg.attach(MIMEText(html_body, "html", "utf-8"))
+
+            if smtp_port == 465:
+                mailer = smtplib.SMTP_SSL(smtp_host, smtp_port, timeout=12)
+            else:
+                mailer = smtplib.SMTP(smtp_host, smtp_port, timeout=12)
+                mailer.starttls()
+
+            mailer.login(smtp_user, smtp_pass)
+            mailer.sendmail(smtp_from, [to_email], msg.as_string())
+            mailer.quit()
+            print(f"[RouteX OTP Service] SMTP Dispatched successfully to {to_email}")
+            return True, "Email delivered via SMTP"
+        except Exception as e:
+            print(f"[RouteX OTP Service ERROR] SMTP delivery failed: {e}")
+
+    # 4. Automated Unit Test Mock (only when TESTING=1)
+    if os.environ.get("TESTING") == "1":
+        print(f"[RouteX OTP Service] Test mode active for automated unit tests.")
+        return True, "Test mode mock dispatch"
+
+    print(f"[RouteX OTP Service ERROR] No active email dispatcher succeeded.")
+    return False, "Email service unavailable. Please configure GAS_WEBHOOK_URL, RESEND_API_KEY, or SMTP credentials."
 
 class RouteXHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
@@ -594,27 +635,21 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
                 "attempts": 0
             }
 
-            # Send email via GAS Webhook (highest priority) -> Resend -> Dev Mode fallback
-            gas_webhook = os.environ.get("GAS_WEBHOOK_URL", "").strip()
-            resend_key = os.environ.get("RESEND_API_KEY", "").strip()
-            has_email_service = bool(gas_webhook or resend_key)
-
+            # Send real email
             ok, status_msg = send_otp_email(email, otp_code, username)
 
-            resp_data = {
-                "success": True,
-                "message": f"Verification code sent to {email}!" if ok else "Verification code generated (Dev Mode).",
-                "expires_in": 300,
-                "smtp_active": ok,
-                "delivery_ok": ok,
-                "delivery_status": status_msg
-            }
-            # Only include dev_otp if no email service is configured or if dispatch failed
-            if not ok or not has_email_service:
-                resp_data["dev_otp"] = otp_code
-                resp_data["dev_note"] = f"Dev Mode: {status_msg}"
+            if not ok:
+                self.send_json(500, {
+                    "success": False,
+                    "message": f"Unable to send verification email: {status_msg}. Please check your email configuration."
+                })
+                return
 
-            self.send_json(200, resp_data)
+            self.send_json(200, {
+                "success": True,
+                "message": f"Verification code sent to {email}! Please check your email inbox (and Spam folder).",
+                "expires_in": 300
+            })
             return
 
         elif path == "/api/signup":
