@@ -10,6 +10,12 @@ import json
 import sqlite3
 import hashlib
 import os
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+import secrets
+import time
+import html
 from urllib.parse import urlparse, parse_qs
 from pathlib import Path
 
@@ -151,6 +157,78 @@ init_db()
 
 def hash_password(password):
     return hashlib.sha256(password.encode('utf-8')).hexdigest()
+
+# In-memory store for pending signup OTP verifications
+# Map: email -> { "otp": str, "username": str, "expires_at": float, "created_at": float, "attempts": int }
+SIGNUP_OTP_STORE = {}
+
+def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
+    """
+    Dispatch 6-digit verification code via SMTP if configured, or log to console.
+    Supported environment variables: SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_FROM
+    """
+    smtp_host = os.environ.get("SMTP_HOST", "").strip()
+    smtp_port = int(os.environ.get("SMTP_PORT", "587"))
+    smtp_user = os.environ.get("SMTP_USER", "").strip()
+    smtp_pass = os.environ.get("SMTP_PASS", "").strip()
+    smtp_from = os.environ.get("SMTP_FROM", "").strip() or smtp_user or "no-reply@routex.ai"
+
+    print(f"\n[RouteX OTP Service] >>> Generated 6-digit verification code for {to_email} ({username}): {otp_code} (Valid for 5 mins) <<<\n")
+
+    if not smtp_host or not smtp_user or not smtp_pass:
+        return True, "Dev mode: code logged to console"
+
+    try:
+        msg = MIMEMultipart("alternative")
+        msg["Subject"] = f"Your RouteX Sign-Up Verification Code: {otp_code}"
+        msg["From"] = f"RouteX Road Safety <{smtp_from}>"
+        msg["To"] = to_email
+
+        plain_body = (
+            f"Hello {username},\n\n"
+            f"Your RouteX verification code is: {otp_code}\n\n"
+            f"This code will expire in 5 minutes. If you did not request this, please ignore this email.\n\n"
+            f"Best regards,\nRouteX Road Safety Intelligence Team"
+        )
+
+        html_body = f"""<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body style="font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background:#0a0e16; color:#f1f5f9; padding:24px; margin:0;">
+  <div style="max-width:480px; margin:0 auto; background:#131a27; border:1px solid rgba(148,163,184,0.2); border-radius:14px; padding:32px; box-shadow:0 8px 30px rgba(0,0,0,0.5);">
+    <div style="display:flex; align-items:center; gap:10px; margin-bottom:20px;">
+      <div style="width:36px; height:36px; border-radius:10px; background:linear-gradient(135deg,#5b8ff9,#5ad8a6); color:#07101f; font-weight:800; font-size:18px; text-align:center; line-height:36px;">R</div>
+      <span style="font-size:18px; font-weight:700; color:#ffffff;">RouteX <small style="font-size:12px; color:#94a3b8; font-weight:normal;">Road Safety Intelligence</small></span>
+    </div>
+    <h2 style="font-size:20px; color:#ffffff; margin-top:0;">Verify Your Email Address</h2>
+    <p style="font-size:14px; color:#94a3b8; line-height:1.5;">Hello <strong>{html.escape(username)}</strong>,</p>
+    <p style="font-size:14px; color:#94a3b8; line-height:1.5;">Thank you for registering with RouteX. Use the 6-digit verification code below to verify your email and complete your account creation:</p>
+    <div style="text-align:center; margin:24px 0;">
+      <span style="display:inline-block; font-size:32px; font-weight:800; letter-spacing:8px; color:#5ad8a6; background:rgba(90,216,166,0.12); border:1px solid rgba(90,216,166,0.3); padding:12px 28px; border-radius:12px; font-family:monospace;">{otp_code}</span>
+    </div>
+    <p style="font-size:12.5px; color:#94a3b8; line-height:1.5;">This code will expire in <strong>5 minutes</strong>. If you did not request this verification, no action is needed.</p>
+    <hr style="border:none; border-top:1px solid rgba(148,163,184,0.15); margin:24px 0 16px;">
+    <p style="font-size:11px; color:#64748b; margin:0; text-align:center;">RouteX Road Safety Analytics &middot; Automated Security Dispatch</p>
+  </div>
+</body>
+</html>"""
+
+        msg.attach(MIMEText(plain_body, "plain", "utf-8"))
+        msg.attach(MIMEText(html_body, "html", "utf-8"))
+
+        if smtp_port == 465:
+            mailer = smtplib.SMTP_SSL(smtp_host, smtp_port, timeout=12)
+        else:
+            mailer = smtplib.SMTP(smtp_host, smtp_port, timeout=12)
+            mailer.starttls()
+
+        mailer.login(smtp_user, smtp_pass)
+        mailer.sendmail(smtp_from, [to_email], msg.as_string())
+        mailer.quit()
+        return True, "Email dispatched via SMTP"
+    except Exception as e:
+        print(f"[RouteX OTP Service Warning] SMTP delivery failed ({e}). Verification code remains active in logs.")
+        return True, f"SMTP error: {e}" 
 
 class RouteXHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
@@ -409,15 +487,110 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json(200, res)
             return
 
+        elif path == "/api/signup/send-otp":
+            username = (data.get("username") or data.get("fullName") or "").strip()
+            email = (data.get("email") or "").strip().lower()
+
+            if not username or not email:
+                self.send_json(400, {"success": False, "message": "Username and email address are required."})
+                return
+
+            if "@" not in email or "." not in email:
+                self.send_json(400, {"success": False, "message": "Please enter a valid email address."})
+                return
+
+            # Check if username or email already registered
+            conn = sqlite3.connect(DB_PATH)
+            cur = conn.cursor()
+            cur.execute("SELECT username, email FROM users WHERE LOWER(username) = LOWER(?) OR LOWER(email) = LOWER(?)", (username, email))
+            existing = cur.fetchone()
+            conn.close()
+
+            if existing:
+                if existing[0].lower() == username.lower():
+                    self.send_json(400, {"success": False, "message": "This username is already taken. Please choose another."})
+                else:
+                    self.send_json(400, {"success": False, "message": "An account with this email already exists. Please sign in."})
+                return
+
+            # Rate limit check: prevent rapid re-sending within 30 seconds
+            now = time.time()
+            if email in SIGNUP_OTP_STORE:
+                prev = SIGNUP_OTP_STORE[email]
+                if now - prev.get("created_at", 0) < 30:
+                    wait_sec = int(30 - (now - prev.get("created_at", 0)))
+                    self.send_json(429, {"success": False, "message": f"Please wait {wait_sec}s before requesting a new code."})
+                    return
+
+            # Generate 6-digit cryptographic OTP
+            otp_code = f"{secrets.randbelow(900000) + 100000}"
+            SIGNUP_OTP_STORE[email] = {
+                "otp": otp_code,
+                "username": username,
+                "expires_at": now + 300,  # 5 minutes validity
+                "created_at": now,
+                "attempts": 0
+            }
+
+            # Send email
+            ok, status_msg = send_otp_email(email, otp_code, username)
+            smtp_configured = bool(os.environ.get("SMTP_HOST") and os.environ.get("SMTP_USER"))
+
+            resp_data = {
+                "success": True,
+                "message": f"Verification code sent to {email}!",
+                "expires_in": 300,
+                "smtp_active": smtp_configured
+            }
+            if not smtp_configured:
+                resp_data["dev_otp"] = otp_code
+                resp_data["dev_note"] = "SMTP not configured yet. Code logged to console & provided for testing."
+
+            self.send_json(200, resp_data)
+            return
+
         elif path == "/api/signup":
             username = (data.get("username") or data.get("fullName") or "").strip()
-            email = data.get("email", "").strip().lower()
+            email = (data.get("email") or "").strip().lower()
             password = data.get("password", "")
+            otp = str(data.get("otp") or "").strip()
             
             if not username or not email or not password:
                 self.send_json(400, {"success": False, "message": "All fields are required."})
                 return
-                
+
+            if len(password) < 6:
+                self.send_json(400, {"success": False, "message": "Password must be at least 6 characters long."})
+                return
+
+            if not otp:
+                self.send_json(400, {"success": False, "message": "Verification code (OTP) is required."})
+                return
+
+            # Verify OTP
+            now = time.time()
+            if email not in SIGNUP_OTP_STORE:
+                self.send_json(400, {"success": False, "message": "No verification code requested or session expired. Please request a new code."})
+                return
+
+            record = SIGNUP_OTP_STORE[email]
+            if now > record["expires_at"]:
+                del SIGNUP_OTP_STORE[email]
+                self.send_json(400, {"success": False, "message": "Verification code has expired. Please request a new one."})
+                return
+
+            if record["attempts"] >= 5:
+                del SIGNUP_OTP_STORE[email]
+                self.send_json(400, {"success": False, "message": "Too many invalid attempts. Please request a new code."})
+                return
+
+            if str(record["otp"]).strip() != otp:
+                record["attempts"] += 1
+                rem = max(0, 5 - record["attempts"])
+                self.send_json(400, {"success": False, "message": f"Invalid verification code. {rem} attempt(s) remaining."})
+                return
+
+            # Verification successful: insert into database
             conn = sqlite3.connect(DB_PATH)
             cursor = conn.cursor()
             try:
@@ -427,7 +600,9 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
                 )
                 conn.commit()
                 conn.close()
-                self.send_json(200, {"success": True, "message": "Account created successfully!"})
+                if email in SIGNUP_OTP_STORE:
+                    del SIGNUP_OTP_STORE[email]
+                self.send_json(200, {"success": True, "message": "Account verified and created successfully!"})
             except sqlite3.IntegrityError:
                 conn.close()
                 self.send_json(400, {"success": False, "message": "Username or email already exists."})

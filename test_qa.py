@@ -48,11 +48,33 @@ class RouteXQATest(unittest.TestCase):
         self.assertIn("password_hash", columns)
 
     def test_02_signup_success(self):
-        """Test user signup with valid data."""
+        """Test user signup with valid OTP verification."""
+        # 1. Request verification OTP
+        otp_req_data = json.dumps({
+            "username": self.username,
+            "email": self.email
+        }).encode("utf-8")
+
+        otp_req = urllib.request.Request(
+            "http://127.0.0.1:8766/api/signup/send-otp",
+            data=otp_req_data,
+            headers={"Content-Type": "application/json"},
+            method="POST"
+        )
+        with urllib.request.urlopen(otp_req) as otp_resp:
+            self.assertEqual(otp_resp.status, 200)
+            otp_body = json.loads(otp_resp.read().decode("utf-8"))
+            self.assertTrue(otp_body["success"])
+            otp_code = otp_body.get("dev_otp")
+            self.assertIsNotNone(otp_code)
+            self.assertEqual(len(otp_code), 6)
+
+        # 2. Complete signup with OTP
         data = json.dumps({
             "username": self.username,
             "email": self.email,
-            "password": "SecurePassword123"
+            "password": "SecurePassword123",
+            "otp": otp_code
         }).encode("utf-8")
 
         req = urllib.request.Request(

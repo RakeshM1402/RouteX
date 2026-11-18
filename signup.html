@@ -83,6 +83,25 @@
   }
   .auth-footer a{color:var(--accent);font-weight:600}
   .auth-footer a:hover{text-decoration:underline}
+
+  /* Step Indicator & OTP UI */
+  .step-indicator{display:flex;gap:8px;margin-bottom:24px}
+  .step-pill{
+    flex:1;padding:7px 10px;border-radius:8px;font-size:11.5px;font-weight:600;
+    color:var(--muted);background:rgba(148,163,184,.06);border:1px solid var(--border);
+    display:flex;align-items:center;justify-content:center;gap:6px;transition:.2s ease;
+  }
+  .step-pill.active{color:#5ad8a6;background:rgba(90,216,166,.12);border-color:rgba(90,216,166,.3)}
+  .step-num{
+    width:18px;height:18px;border-radius:50%;display:grid;place-items:center;
+    font-size:10px;font-weight:800;background:rgba(148,163,184,.15);color:inherit;
+  }
+  .step-pill.active .step-num{background:#5ad8a6;color:#07101f}
+  .otp-input-field{
+    text-align:center;font-size:26px;letter-spacing:10px;font-weight:800;
+    font-family:monospace;color:#5ad8a6;padding:12px;background:rgba(10,14,22,.92);
+  }
+  .otp-input-field:focus{border-color:#5ad8a6;box-shadow:0 0 0 3px rgba(90,216,166,.22)}
 </style>
 </head>
 <body>
@@ -103,32 +122,76 @@
       <h1>Create Account</h1>
       <p class="subtitle">Join RouteX for advanced traffic analytics & safety insights</p>
 
+      <!-- Step Indicator -->
+      <div class="step-indicator">
+        <div class="step-pill active" id="step-pill-1">
+          <span class="step-num">1</span> Account Details
+        </div>
+        <div class="step-pill" id="step-pill-2">
+          <span class="step-num">2</span> Email OTP Verification
+        </div>
+      </div>
+
       <div id="alert" class="alert"></div>
 
-      <form id="signup-form">
+      <!-- STEP 1: Account Information Form -->
+      <form id="step1-form">
         <div class="form-group">
           <label for="username">Username</label>
-          <input type="text" id="username" required placeholder="Choose a username">
+          <input type="text" id="username" required placeholder="Choose a username" autocomplete="username">
         </div>
         <div class="form-group">
           <label for="email">Email Address</label>
-          <input type="email" id="email" required placeholder="name@example.com">
+          <input type="email" id="email" required placeholder="name@example.com" autocomplete="email">
         </div>
         <div class="form-group">
           <label for="password">Password</label>
           <div style="position:relative">
-            <input type="password" id="password" required placeholder="At least 6 characters" style="padding-right:50px">
+            <input type="password" id="password" required placeholder="At least 6 characters" style="padding-right:50px" autocomplete="new-password">
             <button type="button" onclick="togglePassword('password', this)" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:rgba(148,163,184,.12);border:1px solid var(--border);border-radius:6px;color:var(--muted);cursor:pointer;font-size:11px;font-weight:600;padding:4px 8px">SHOW</button>
           </div>
         </div>
         <div class="form-group">
           <label for="confirm-password">Confirm Password</label>
           <div style="position:relative">
-            <input type="password" id="confirm-password" required placeholder="Re-enter password" style="padding-right:50px">
+            <input type="password" id="confirm-password" required placeholder="Re-enter password" style="padding-right:50px" autocomplete="new-password">
             <button type="button" onclick="togglePassword('confirm-password', this)" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:rgba(148,163,184,.12);border:1px solid var(--border);border-radius:6px;color:var(--muted);cursor:pointer;font-size:11px;font-weight:600;padding:4px 8px">SHOW</button>
           </div>
         </div>
-        <button type="submit" class="btn">Create Account</button>
+        <button type="submit" class="btn" id="btn-step1">
+          <span>Continue &amp; Send Verification Code &rarr;</span>
+        </button>
+      </form>
+
+      <!-- STEP 2: OTP Verification Form (Hidden Initially) -->
+      <form id="step2-form" style="display:none;">
+        <div style="background:rgba(90,216,166,0.08); border:1px solid rgba(90,216,166,0.22); border-radius:10px; padding:12px 14px; margin-bottom:18px; font-size:12.5px; color:#cbd5e1; line-height:1.4;">
+          📧 We sent a 6-digit verification code to <strong id="display-target-email" style="color:#5ad8a6; word-break:break-all;"></strong>.
+        </div>
+
+        <!-- Dev Mode OTP Notice Box (shown if SMTP is not configured) -->
+        <div id="dev-otp-box" style="display:none; background:rgba(91,143,249,0.1); border:1px dashed rgba(91,143,249,0.35); border-radius:8px; padding:10px 12px; margin-bottom:16px; font-size:12px; color:#cbd5e1; text-align:center;">
+          💡 <strong>Dev Code:</strong> <span id="dev-otp-val" style="font-family:monospace; font-weight:800; color:#5ad8a6; font-size:15px; margin:0 6px;"></span>
+          <button type="button" onclick="autoFillDevOTP()" style="background:rgba(91,143,249,0.2); border:1px solid rgba(91,143,249,0.4); color:#cbd5e1; padding:3px 9px; border-radius:5px; font-size:11px; cursor:pointer;">Auto-fill</button>
+        </div>
+
+        <div class="form-group">
+          <label for="otp-input" style="text-align:center; display:block;">Enter 6-Digit Code</label>
+          <input type="text" id="otp-input" class="otp-input-field" maxlength="6" inputmode="numeric" pattern="[0-9]*" placeholder="&bull; &bull; &bull; &bull; &bull; &bull;" autocomplete="one-time-code" required>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px; font-size:12px;">
+          <span style="color:var(--muted);">Expires in: <strong id="expiry-countdown" style="color:#f6bd16;">05:00</strong></span>
+          <button type="button" id="btn-resend" onclick="handleResendOTP()" style="background:none; border:none; color:var(--muted); cursor:not-allowed; font-size:12px; font-weight:600; text-decoration:underline; padding:0;" disabled>Resend Code (60s)</button>
+        </div>
+
+        <button type="submit" class="btn" id="btn-step2">
+          <span>Verify &amp; Create Account</span>
+        </button>
+
+        <button type="button" onclick="backToStep1()" style="margin-top:10px; width:100%; border:1px solid var(--border); background:transparent; color:var(--muted); font-size:12.5px; padding:10px; border-radius:10px; cursor:pointer; font-family:inherit; transition:.15s ease;">
+          &larr; Change Email or Edit Details
+        </button>
       </form>
 
       <div class="auth-footer">
@@ -161,59 +224,227 @@
       }
     }
 
-    document.getElementById('signup-form').addEventListener('submit', async (e) => {
+    let currentStep = 1;
+    let expiryInterval = null;
+    let resendInterval = null;
+    let expirySeconds = 300;
+    let resendSeconds = 60;
+    let cachedDevOtp = null;
+
+    function showAlert(msg, isSuccess = false) {
+      const alertEl = document.getElementById('alert');
+      alertEl.className = isSuccess ? 'alert success' : 'alert error';
+      alertEl.innerHTML = msg;
+      alertEl.style.display = 'block';
+    }
+
+    function hideAlert() {
+      const alertEl = document.getElementById('alert');
+      alertEl.style.display = 'none';
+    }
+
+    function backToStep1() {
+      currentStep = 1;
+      document.getElementById('step1-form').style.display = 'block';
+      document.getElementById('step2-form').style.display = 'none';
+      document.getElementById('step-pill-1').classList.add('active');
+      document.getElementById('step-pill-2').classList.remove('active');
+      hideAlert();
+    }
+
+    function autoFillDevOTP() {
+      if (cachedDevOtp) {
+        document.getElementById('otp-input').value = cachedDevOtp;
+        showAlert('Dev OTP auto-filled. Click "Verify & Create Account".', true);
+      }
+    }
+
+    function startTimers() {
+      clearInterval(expiryInterval);
+      clearInterval(resendInterval);
+
+      // 5-minute expiry countdown
+      expirySeconds = 300;
+      updateExpiryDisplay();
+      expiryInterval = setInterval(() => {
+        expirySeconds--;
+        updateExpiryDisplay();
+        if (expirySeconds <= 0) {
+          clearInterval(expiryInterval);
+          showAlert('Verification code has expired. Please click "Resend Code".');
+        }
+      }, 1000);
+
+      // 60-second resend cooldown
+      resendSeconds = 60;
+      const resendBtn = document.getElementById('btn-resend');
+      resendBtn.disabled = true;
+      resendBtn.style.cursor = 'not-allowed';
+      resendBtn.style.color = 'var(--muted)';
+      resendBtn.textContent = `Resend Code (${resendSeconds}s)`;
+
+      resendInterval = setInterval(() => {
+        resendSeconds--;
+        if (resendSeconds <= 0) {
+          clearInterval(resendInterval);
+          resendBtn.disabled = false;
+          resendBtn.style.cursor = 'pointer';
+          resendBtn.style.color = 'var(--accent2)';
+          resendBtn.textContent = 'Resend Code';
+        } else {
+          resendBtn.textContent = `Resend Code (${resendSeconds}s)`;
+        }
+      }, 1000);
+    }
+
+    function updateExpiryDisplay() {
+      const m = Math.floor(Math.max(0, expirySeconds) / 60);
+      const s = Math.max(0, expirySeconds) % 60;
+      const el = document.getElementById('expiry-countdown');
+      if (el) el.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+    }
+
+    // Step 1: Send OTP
+    document.getElementById('step1-form').addEventListener('submit', async (e) => {
       e.preventDefault();
-      const username = document.getElementById('username').value;
-      const email = document.getElementById('email').value;
+      hideAlert();
+
+      const username = document.getElementById('username').value.trim();
+      const email = document.getElementById('email').value.trim();
       const password = document.getElementById('password').value;
       const confirmPassword = document.getElementById('confirm-password').value;
-      const alertEl = document.getElementById('alert');
+      const btn = document.getElementById('btn-step1');
 
-      alertEl.style.display = 'none';
-
-      if(password !== confirmPassword) {
-        alertEl.className = 'alert error';
-        alertEl.textContent = 'Passwords do not match.';
-        alertEl.style.display = 'block';
+      if (password !== confirmPassword) {
+        showAlert('Passwords do not match.');
         return;
       }
 
-      if(password.length < 6) {
-        alertEl.className = 'alert error';
-        alertEl.textContent = 'Password must be at least 6 characters long.';
-        alertEl.style.display = 'block';
+      if (password.length < 6) {
+        showAlert('Password must be at least 6 characters long.');
         return;
       }
+
+      btn.disabled = true;
+      btn.innerHTML = '<span>Sending Verification Code...</span>';
+
+      try {
+        const res = await fetch(`${API_BASE}/api/signup/send-otp`, {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          credentials: 'include',
+          body: JSON.stringify({ username, email })
+        });
+        const data = await res.json();
+        btn.disabled = false;
+        btn.innerHTML = '<span>Continue &amp; Send Verification Code &rarr;</span>';
+
+        if (data.success) {
+          currentStep = 2;
+          document.getElementById('step1-form').style.display = 'none';
+          document.getElementById('step2-form').style.display = 'block';
+          document.getElementById('step-pill-1').classList.remove('active');
+          document.getElementById('step-pill-2').classList.add('active');
+          document.getElementById('display-target-email').textContent = email;
+
+          // Dev OTP display if SMTP is not configured
+          const devBox = document.getElementById('dev-otp-box');
+          const devVal = document.getElementById('dev-otp-val');
+          if (data.dev_otp) {
+            cachedDevOtp = data.dev_otp;
+            devVal.textContent = data.dev_otp;
+            devBox.style.display = 'block';
+          } else {
+            devBox.style.display = 'none';
+          }
+
+          startTimers();
+          showAlert(`Verification code sent to <strong>${email}</strong>! Please check your inbox.`, true);
+          document.getElementById('otp-input').focus();
+        } else {
+          showAlert(data.message || 'Failed to send verification code.');
+        }
+      } catch (err) {
+        btn.disabled = false;
+        btn.innerHTML = '<span>Continue &amp; Send Verification Code &rarr;</span>';
+        showAlert('⚠️ <strong>Connection error:</strong> Unable to connect to RouteX server.');
+      }
+    });
+
+    // Step 2: Resend OTP
+    async function handleResendOTP() {
+      const email = document.getElementById('email').value.trim();
+      const username = document.getElementById('username').value.trim();
+      hideAlert();
+
+      try {
+        const res = await fetch(`${API_BASE}/api/signup/send-otp`, {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          credentials: 'include',
+          body: JSON.stringify({ username, email })
+        });
+        const data = await res.json();
+        if (data.success) {
+          if (data.dev_otp) {
+            cachedDevOtp = data.dev_otp;
+            document.getElementById('dev-otp-val').textContent = data.dev_otp;
+            document.getElementById('dev-otp-box').style.display = 'block';
+          }
+          startTimers();
+          showAlert('New verification code sent! Check your email.', true);
+        } else {
+          showAlert(data.message || 'Could not resend code.');
+        }
+      } catch (err) {
+        showAlert('Connection error while resending code.');
+      }
+    }
+
+    // Step 2: Verify OTP & Complete Signup
+    document.getElementById('step2-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      hideAlert();
+
+      const username = document.getElementById('username').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value;
+      const otp = document.getElementById('otp-input').value.trim();
+      const btn = document.getElementById('btn-step2');
+
+      if (!otp || otp.length !== 6) {
+        showAlert('Please enter the complete 6-digit verification code.');
+        return;
+      }
+
+      btn.disabled = true;
+      btn.innerHTML = '<span>Verifying &amp; Creating Account...</span>';
 
       try {
         const res = await fetch(`${API_BASE}/api/signup`, {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
           credentials: 'include',
-          body: JSON.stringify({username, email, password})
+          body: JSON.stringify({ username, email, password, otp })
         });
         const data = await res.json();
+        btn.disabled = false;
+        btn.innerHTML = '<span>Verify &amp; Create Account</span>';
 
-        if(data.success) {
-          alertEl.className = 'alert success';
-          alertEl.textContent = 'Account created successfully! Redirecting to login...';
-          alertEl.style.display = 'block';
+        if (data.success) {
+          clearInterval(expiryInterval);
+          clearInterval(resendInterval);
+          showAlert('🎉 Account verified and created successfully! Redirecting to login...', true);
           setTimeout(() => {
             window.location.href = API_BASE ? `${API_BASE}/login.html` : 'login.html';
-          }, 1200);
+          }, 1400);
         } else {
-          alertEl.className = 'alert error';
-          alertEl.textContent = data.message || 'Registration failed.';
-          alertEl.style.display = 'block';
+          showAlert(data.message || 'Verification failed. Please check the code.');
         }
-      } catch(err) {
-        alertEl.className = 'alert error';
-        if (window.location.protocol === 'file:') {
-          alertEl.innerHTML = '⚠️ Cannot connect via <code>file://</code>. Please run <code>python server.py</code> and open <a href="http://127.0.0.1:8765/signup.html" style="color:var(--accent);text-decoration:underline;">http://127.0.0.1:8765/signup.html</a> in your browser.';
-        } else {
-          alertEl.innerHTML = '⚠️ <strong>Connection error:</strong> RouteX backend is unreachable. Please verify that <code>python server.py</code> is running at <a href="http://127.0.0.1:8765" target="_blank" style="color:var(--accent);text-decoration:underline;">http://127.0.0.1:8765</a>.';
-        }
-        alertEl.style.display = 'block';
+      } catch (err) {
+        btn.disabled = false;
+        btn.innerHTML = '<span>Verify &amp; Create Account</span>';
+        showAlert('⚠️ <strong>Connection error:</strong> Could not complete registration.');
       }
     });
   </script>
