@@ -164,11 +164,24 @@ def hash_password(password):
 # Map: email -> { "otp": str, "username": str, "expires_at": float, "created_at": float, "attempts": int }
 SIGNUP_OTP_STORE = {}
 
+class GASRedirectHandler(urllib.request.HTTPRedirectHandler):
+    """
+    Handles Google Apps Script 302 redirection.
+    GAS executes doPost(e), sends the email, and returns 302 Found pointing to an echo URL.
+    Following the 302 redirect via GET allows reading the JSON result (e.g. {"status": "sent"}).
+    """
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
 def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
     """
-    Dispatch 6-digit verification code using Resend HTTP API.
-    Falls back to Dev Mode (console logging + client-side display) if RESEND_API_KEY is not set or delivery fails.
+    Dispatch 6-digit verification code.
+    Priority Hierarchy:
+    1. Google Apps Script HTTPS Webhook (GAS_WEBHOOK_URL, GAS_SECRET) - sends to any email, bypasses SMTP blocks & domain verification
+    2. Resend HTTP API (RESEND_API_KEY)
+    3. Dev Mode fallback (stdout console logging + UI dev code)
     """
+    gas_webhook_url = os.environ.get("GAS_WEBHOOK_URL", "").strip()
     resend_api_key = os.environ.get("RESEND_API_KEY", "").strip()
 
     print(f"\n[RouteX OTP Service] >>> Generated 6-digit verification code for {to_email} ({username}): {otp_code} (Valid for 5 mins) <<<\n")
@@ -195,42 +208,89 @@ def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
 </body>
 </html>"""
 
-    if not resend_api_key:
-        print("[RouteX OTP Service] RESEND_API_KEY not configured. Falling back to Dev Mode.")
-        return False, "RESEND_API_KEY not set"
+    # 1. Highest Priority: Google Apps Script Webhook
+    if gas_webhook_url:
+        gas_secret = os.environ.get("GAS_SECRET", "routex_secret_2026").strip()
+        gas_payload = {
+            "secret": gas_secret,
+            "to": to_email,
+            "subject": "Your RouteX Verification Code",
+            "html": html_body
+        }
+        try:
+            req = urllib.request.Request(
+                gas_webhook_url,
+                data=json.dumps(gas_payload).encode("utf-8"),
+                headers={
+                    "Content-Type": "application/json",
+                    "User-Agent": "RouteX/1.0"
+                },
+                method="POST"
+            )
+            opener = urllib.request.build_opener(GASRedirectHandler)
+            with opener.open(req, timeout=15) as resp:
+                status_code = resp.getcode()
+                resp_text = resp.read().decode("utf-8", errors="replace")
+                print(f"[RouteX OTP Service] GAS Webhook HTTP {status_code} Response: {resp_text}")
 
-    payload = {
-        "from": "RouteX <onboarding@resend.dev>",
-        "to": [to_email],
-        "subject": "Your RouteX Verification Code",
-        "html": html_body
-    }
+                is_success = False
+                try:
+                    res_json = json.loads(resp_text)
+                    if isinstance(res_json, dict):
+                        if res_json.get("status") in ("sent", "success", "ok") or res_json.get("success") is True or res_json.get("result") == "success":
+                            is_success = True
+                        elif res_json.get("status") == "error" or res_json.get("success") is False:
+                            is_success = False
+                        else:
+                            is_success = (200 <= status_code < 300)
+                except Exception:
+                    is_success = (200 <= status_code < 300) and ("error" not in resp_text.lower())
 
-    try:
-        req = urllib.request.Request(
-            "https://api.resend.com/emails",
-            data=json.dumps(payload).encode("utf-8"),
-            headers={
-                "Authorization": f"Bearer {resend_api_key}",
-                "Content-Type": "application/json",
-                "User-Agent": "RouteX/1.0"
-            },
-            method="POST"
-        )
-        with urllib.request.urlopen(req, timeout=12) as resp:
-            status_code = resp.getcode()
-            resp_text = resp.read().decode("utf-8", errors="replace")
-            print(f"[RouteX OTP Service] Resend API HTTP {status_code} Response: {resp_text}")
-            if 200 <= status_code < 300:
-                return True, f"Resend HTTP {status_code}"
-            return False, f"Resend HTTP {status_code}: {resp_text}"
-    except urllib.error.HTTPError as he:
-        err_text = he.read().decode("utf-8", errors="replace")
-        print(f"[RouteX OTP Service ERROR] Resend API HTTP {he.code} Error: {err_text}")
-        return False, f"Resend HTTP {he.code}: {err_text}"
-    except Exception as e:
-        print(f"[RouteX OTP Service ERROR] Resend Request Exception: {e}")
-        return False, f"Resend error: {e}"
+                if is_success:
+                    return True, f"GAS Webhook HTTP {status_code}: {resp_text.strip()}"
+                else:
+                    print(f"[RouteX OTP Service ERROR] GAS Webhook reported failure: {resp_text}")
+        except urllib.error.HTTPError as he:
+            err_text = he.read().decode("utf-8", errors="replace")
+            print(f"[RouteX OTP Service ERROR] GAS Webhook HTTP {he.code} Error: {err_text}")
+        except Exception as e:
+            print(f"[RouteX OTP Service ERROR] GAS Webhook Request Exception: {e}")
+
+    # 2. Secondary Priority: Resend HTTP API
+    if resend_api_key:
+        payload = {
+            "from": "RouteX <onboarding@resend.dev>",
+            "to": [to_email],
+            "subject": "Your RouteX Verification Code",
+            "html": html_body
+        }
+        try:
+            req = urllib.request.Request(
+                "https://api.resend.com/emails",
+                data=json.dumps(payload).encode("utf-8"),
+                headers={
+                    "Authorization": f"Bearer {resend_api_key}",
+                    "Content-Type": "application/json",
+                    "User-Agent": "RouteX/1.0"
+                },
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=12) as resp:
+                status_code = resp.getcode()
+                resp_text = resp.read().decode("utf-8", errors="replace")
+                print(f"[RouteX OTP Service] Resend API HTTP {status_code} Response: {resp_text}")
+                if 200 <= status_code < 300:
+                    return True, f"Resend HTTP {status_code}"
+                print(f"[RouteX OTP Service ERROR] Resend API HTTP {status_code}: {resp_text}")
+        except urllib.error.HTTPError as he:
+            err_text = he.read().decode("utf-8", errors="replace")
+            print(f"[RouteX OTP Service ERROR] Resend API HTTP {he.code} Error: {err_text}")
+        except Exception as e:
+            print(f"[RouteX OTP Service ERROR] Resend Request Exception: {e}")
+
+    # 3. Dev Mode Fallback
+    print("[RouteX OTP Service] No active email dispatcher succeeded. Falling back to Dev Mode.")
+    return False, "Dev Mode (No email service active)"
 
 class RouteXHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
@@ -534,8 +594,11 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
                 "attempts": 0
             }
 
-            # Send email via Resend HTTP API (only falls back to Dev Mode if RESEND_API_KEY is missing or errors)
+            # Send email via GAS Webhook (highest priority) -> Resend -> Dev Mode fallback
+            gas_webhook = os.environ.get("GAS_WEBHOOK_URL", "").strip()
             resend_key = os.environ.get("RESEND_API_KEY", "").strip()
+            has_email_service = bool(gas_webhook or resend_key)
+
             ok, status_msg = send_otp_email(email, otp_code, username)
 
             resp_data = {
@@ -546,8 +609,8 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
                 "delivery_ok": ok,
                 "delivery_status": status_msg
             }
-            # Only include dev_otp if RESEND_API_KEY is missing or the Resend API call failed
-            if not ok or not resend_key:
+            # Only include dev_otp if no email service is configured or if dispatch failed
+            if not ok or not has_email_service:
                 resp_data["dev_otp"] = otp_code
                 resp_data["dev_note"] = f"Dev Mode: {status_msg}"
 
