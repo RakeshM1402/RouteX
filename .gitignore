@@ -1,4 +1,4 @@
-﻿__pycache__/
+__pycache__/
 *.py[cod]
 *.class
 .venv/
@@ -10,3 +10,6 @@ env/
 *.log
 .DS_Store
 Thumbs.db
+
+# Ensure production database files in 'final dataset/' are tracked
+!final dataset/*.db

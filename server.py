@@ -13,7 +13,7 @@ import os
 from urllib.parse import urlparse, parse_qs
 from pathlib import Path
 
-PORT = 8765
+PORT = int(os.environ.get("PORT", 8765))
 BASE_DIR = Path(__file__).resolve().parent
 DB_PATH = BASE_DIR / "final dataset" / "users.db"
 OLAP_DB_PATH = BASE_DIR / "final dataset" / "routex_olap.db"
