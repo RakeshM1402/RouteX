@@ -274,7 +274,20 @@
   .risk-badge.low { background: rgba(90,216,166,0.18); color: #5ad8a6; border: 1px solid rgba(90,216,166,0.3); }
 
   footer { text-align: center; padding: 36px 0; color: var(--muted); font-size: 12px; border-top: 1px solid var(--border); }
+
+  /* Leaflet Map Styling adjustments for dark theme */
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: #131a27 !important;
+    color: #e6edf7 !important;
+    border: 1px solid rgba(148,163,184,0.25);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-radius: 10px;
+  }
+  .leaflet-container { font-family: inherit !important; }
 </style>
+  <!-- Local Leaflet CSS & JS -->
+  <link rel="stylesheet" href="leaflet.css"/>
+  <script src="leaflet.js"></script>
 </head>
 <body>
   <!-- Top Navigation -->
@@ -287,6 +300,7 @@
       <a href="index.html">Home</a>
       <a href="dwdm_analytics.html" class="active">Data Warehouse Analytics</a>
       <a href="olap_cube.html">OLAP Explorer</a>
+      <a href="route_planner.html">Route Planner</a>
     </nav>
     <div class="auth-nav">
       <div id="user-display" class="user-badge">
@@ -535,6 +549,26 @@
         </div>
       </div>
     </div>
+
+    <!-- Map & GIS Spatial Intelligence Section -->
+    <section class="section-card" id="map-section">
+      <div class="section-header">
+        <div>
+          <div class="section-title">
+            🗺️ Interactive GIS Map & Accident Hotspots
+            <span class="badge" style="background:rgba(90,216,166,0.18);color:#5ad8a6;border-color:rgba(90,216,166,0.35);">OpenStreetMap & Leaflet (Free)</span>
+          </div>
+          <div class="section-subtitle">Real-time geospatial locations, national highway intersections, and risk profiles across Indian cities & districts.</div>
+        </div>
+        <div class="btn-group">
+          <button onclick="resetMapBounds()" class="btn">Reset View (India)</button>
+          <button onclick="loadMapLocations()" class="btn warm">Refresh Map Nodes</button>
+        </div>
+      </div>
+      <div style="position:relative; border-radius: 12px; overflow: hidden; border: 1px solid var(--border);">
+        <div id="routex-map" style="width: 100%; height: 560px; background: #0a0e16;"></div>
+      </div>
+    </section>
 
     <!-- MODULE 6: DATA MINING AND ANALYTICS -->
     <section class="section-card" id="mining-section">
@@ -1366,6 +1400,89 @@
         }).catch(err => console.error("Error loading data mining:", err));
     }
 
+    // Leaflet Map Integration (Free OpenStreetMap)
+    let routexMap = null;
+    let markersLayer = null;
+
+    function initMap() {
+      if (routexMap) return;
+      routexMap = L.map('routex-map', {
+        center: [22.5937, 78.9629],
+        zoom: 5,
+        zoomControl: true
+      });
+
+      // Free OpenStreetMap Tile Layer (No API key required)
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | RouteX DWDM System'
+      }).addTo(routexMap);
+
+      markersLayer = L.layerGroup().addTo(routexMap);
+      loadMapLocations();
+
+      setTimeout(() => {
+        if (routexMap) routexMap.invalidateSize();
+      }, 300);
+    }
+
+    function loadMapLocations() {
+      fetch('/api/dwdm/map-locations')
+        .then(res => res.json())
+        .then(locations => {
+          if (!markersLayer) return;
+          markersLayer.clearLayers();
+
+          locations.forEach(loc => {
+            if (!loc.Latitude || !loc.Longitude) return;
+            const lat = parseFloat(loc.Latitude);
+            const lng = parseFloat(loc.Longitude);
+            if (isNaN(lat) || isNaN(lng)) return;
+
+            let color = '#5b8ff9'; // default blue
+            let radius = 6;
+            if (loc.total_accidents > 200) {
+              color = '#e8684a'; // red / critical
+              radius = 10;
+            } else if (loc.total_accidents > 50) {
+              color = '#f6bd16'; // yellow / warm
+              radius = 8;
+            } else {
+              color = '#5ad8a6'; // green / low
+            }
+
+            const marker = L.circleMarker([lat, lng], {
+              radius: radius,
+              fillColor: color,
+              color: '#ffffff',
+              weight: 1.5,
+              opacity: 0.9,
+              fillOpacity: 0.85
+            });
+
+            const popupContent = `
+              <div style="font-family:inherit; color:#131a27; min-width:210px; padding:4px;">
+                <h4 style="margin:0 0 6px; font-size:15px; color:#0a0e16; font-weight:700;">${loc.Location_Name || loc.City}</h4>
+                <div style="font-size:12px; margin-bottom:4px;"><strong>City / State:</strong> ${loc.City}, ${loc.State}</div>
+                <div style="font-size:12px; margin-bottom:4px;"><strong>Location Type:</strong> ${loc.Location_Type || 'Highway Corridor'}</div>
+                <div style="font-size:12px; margin-bottom:4px;"><strong>Total Trips:</strong> ${loc.trip_count || 0}</div>
+                <div style="font-size:12px; margin-bottom:4px;"><strong>Accidents:</strong> <span style="color:#e8684a; font-weight:bold;">${loc.total_accidents || 0}</span></div>
+                <div style="font-size:12px;"><strong>Avg Speed:</strong> ${loc.avg_speed || 0} km/h</div>
+              </div>
+            `;
+            marker.bindPopup(popupContent);
+            markersLayer.addLayer(marker);
+          });
+        })
+        .catch(err => console.error("Error loading map locations:", err));
+    }
+
+    function resetMapBounds() {
+      if (routexMap) {
+        routexMap.setView([22.5937, 78.9629], 5);
+      }
+    }
+
     // Initial execution
     loadKPIs();
     loadETLStatus();
@@ -1374,6 +1491,7 @@
     executeCurrentOLAP();
     loadAnalytics();
     loadDataMining();
+    initMap();
   </script>
 </body>
 </html>

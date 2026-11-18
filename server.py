@@ -10,7 +10,7 @@ import json
 import sqlite3
 import hashlib
 import os
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qs
 from pathlib import Path
 
 PORT = 8765
@@ -22,6 +22,7 @@ import dwdm_schema
 import dwdm_etl
 import dwdm_olap
 import dwdm_mining
+import astar_router
 
 def get_dwdm_kpis(db_path=OLAP_DB_PATH):
     conn = sqlite3.connect(db_path)
@@ -114,6 +115,22 @@ def get_dwdm_analytics(db_path=OLAP_DB_PATH):
         "top_cities": top_cities
     }
 
+def get_map_locations(db_path=OLAP_DB_PATH):
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    cur = conn.cursor()
+    locations = [dict(r) for r in cur.execute("""
+        SELECT l.Location_ID, l.Location_Name, l.City, l.State, l.Latitude, l.Longitude, l.Location_Type,
+               COUNT(f.Trip_ID) as trip_count,
+               COALESCE(SUM(f.Accident_Count), 0) as total_accidents,
+               ROUND(COALESCE(AVG(f.Average_Speed), 0), 1) as avg_speed
+        FROM DIM_LOCATION l
+        LEFT JOIN FACT_TRIP_ANALYTICS f ON l.Location_ID = f.Location_ID
+        GROUP BY l.Location_ID
+    """).fetchall()]
+    conn.close()
+    return locations
+
 def init_db():
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
@@ -145,6 +162,9 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Content-Type, Cookie")
+        self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
         super().end_headers()
 
     def do_OPTIONS(self):
@@ -194,20 +214,78 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json(200, etl_status)
             return
 
-        if path == "/" or path == "" or path == "/index.html" or path == "/olap_cube.html" or path == "/dwdm_analytics.html":
-            cookie = self.headers.get("Cookie", "")
-            username = None
-            for item in cookie.split(";"):
-                if "routex_user=" in item:
-                    username = item.split("=")[1].strip()
-            if not username:
-                self.send_response(303)
-                self.send_header("Location", "/login.html")
-                self.end_headers()
-                return
-            if path == "/" or path == "":
-                self.path = "/index.html"
+        elif path == "/api/dwdm/map-locations":
+            locations = get_map_locations(OLAP_DB_PATH)
+            self.send_json(200, locations)
+            return
+
+        elif path == "/api/route/nodes":
+            g = astar_router.get_graph(str(OLAP_DB_PATH))
+            self.send_json(200, list(g["nodes"].values()))
+            return
+
+        elif path == "/api/route/presets":
+            g = astar_router.get_graph(str(OLAP_DB_PATH))
+            presets = astar_router.get_popular_corridors(g)
+            self.send_json(200, presets)
+            return
+
+        elif path == "/api/route/pitstops":
+            params = parse_qs(parsed.query)
+            category = params.get("category", [None])[0]
+            lat = params.get("lat", [None])[0]
+            lon = params.get("lon", [None])[0]
+            radius = float(params.get("radius", [10.0])[0])
             
+            conn = sqlite3.connect(str(OLAP_DB_PATH))
+            conn.row_factory = sqlite3.Row
+            cur = conn.cursor()
+            if lat and lon:
+                c_lat, c_lon = float(lat), float(lon)
+                delta = radius / 111.0
+                query = "SELECT * FROM DIM_CORRIDOR_PITSTOPS WHERE Latitude BETWEEN ? AND ? AND Longitude BETWEEN ? AND ?"
+                args = [c_lat - delta, c_lat + delta, c_lon - delta, c_lon + delta]
+                if category and category != "all":
+                    query += " AND Category = ?"
+                    args.append(category.lower())
+                query += " ORDER BY Rating DESC LIMIT 30"
+                rows = cur.execute(query, args).fetchall()
+            else:
+                query = "SELECT * FROM DIM_CORRIDOR_PITSTOPS"
+                args = []
+                if category and category != "all":
+                    query += " WHERE Category = ?"
+                    args.append(category.lower())
+                query += " ORDER BY Rating DESC LIMIT 40"
+                rows = cur.execute(query, args).fetchall()
+            conn.close()
+            
+            pitstops = []
+            for r in rows:
+                pitstops.append({
+                    "id": r["Pitstop_ID"],
+                    "name": r["Name"],
+                    "category": r["Category"],
+                    "category_label": r["Category_Label"],
+                    "subcategory": r["Subcategory"],
+                    "city": r["City"],
+                    "state": r["State"],
+                    "lat": r["Latitude"],
+                    "lon": r["Longitude"],
+                    "rating": float(r["Rating"] or 4.2),
+                    "review_count": int(r["Review_Count"] or 100),
+                    "price_range": r["Price_Range"] or "₹₹",
+                    "opening_hours": r["Opening_Hours"] or "24 Hours",
+                    "features": [f.strip() for f in (r["Features"] or "").split(",") if f.strip()],
+                    "chill_reason": r["Chill_Reason"] or "",
+                    "contact_number": r["Contact_Number"] or ""
+                })
+            self.send_json(200, pitstops)
+            return
+
+        if path == "/" or path == "":
+            self.path = "/index.html"
+
         return super().do_GET()
 
     def do_POST(self):
@@ -222,7 +300,106 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
         except Exception:
             data = {}
 
-        if path == "/api/dwdm/olap":
+        if path == "/api/route/plan":
+            start = data.get("start")
+            if start is None:
+                start = data.get("start_id")
+            if start is None and "start_coord" in data:
+                sc = data["start_coord"]
+                start = {"lat": float(sc[0]), "lon": float(sc[1]), "name": data.get("start_name", "Custom Origin")}
+
+            dest = data.get("dest")
+            if dest is None:
+                dest = data.get("dest_id")
+            if dest is None and "dest_coord" in data:
+                dc = data["dest_coord"]
+                dest = {"lat": float(dc[0]), "lon": float(dc[1]), "name": data.get("dest_name", "Custom Destination")}
+
+            stops = data.get("stops", [])
+            custom_stops = data.get("custom_stops", [])
+            if custom_stops:
+                stops = list(stops) + list(custom_stops)
+
+            mode = data.get("mode", "safest")
+            safety_weight = float(data.get("safety_weight", 15.0))
+            avoid_blackspots = bool(data.get("avoid_blackspots", False))
+            compare = bool(data.get("compare", True))
+            traffic_density = data.get("traffic_density", "normal")
+
+            if start is None or dest is None:
+                self.send_json(400, {"success": False, "error": "start and dest are required"})
+                return
+
+            g = astar_router.get_graph(str(OLAP_DB_PATH))
+
+            try:
+                res = astar_router.plan_custom_route(
+                    g, start=start, dest=dest, stops=stops,
+                    mode=mode, safety_weight=safety_weight, avoid_blackspots=avoid_blackspots,
+                    compare=compare, traffic_density=traffic_density
+                )
+            except Exception as e:
+                self.send_json(400, {"success": False, "error": f"Route computation error: {e}"})
+                return
+
+            if not res.get("success"):
+                self.send_json(400, {"success": False, "error": res.get("error", "Failed to compute corridor")})
+                return
+
+            # Attach fatigue management recommended rest stops
+            if compare:
+                path_for_stops = res["safest"].get("path", [])
+                rec_stops = astar_router.recommend_rest_stops(g, path_for_stops)
+                res["recommended_stops"] = rec_stops
+                res["safest"]["google_maps_url"] = astar_router.generate_google_maps_url(res["safest"], recommended_stops=rec_stops, navigate=False)
+                res["safest"]["google_maps_nav_url"] = astar_router.generate_google_maps_url(res["safest"], recommended_stops=rec_stops, navigate=True)
+                res["shortest"]["google_maps_url"] = astar_router.generate_google_maps_url(res["shortest"], include_rest_stops=False, navigate=False)
+                res["shortest"]["google_maps_nav_url"] = astar_router.generate_google_maps_url(res["shortest"], include_rest_stops=False, navigate=True)
+            else:
+                path_for_stops = res["route"].get("path", [])
+                rec_stops = astar_router.recommend_rest_stops(g, path_for_stops)
+                res["recommended_stops"] = rec_stops
+                res["route"]["google_maps_url"] = astar_router.generate_google_maps_url(res["route"], recommended_stops=rec_stops, navigate=False)
+                res["route"]["google_maps_nav_url"] = astar_router.generate_google_maps_url(res["route"], recommended_stops=rec_stops, navigate=True)
+
+            self.send_json(200, res)
+            return
+
+        elif path == "/api/route/export":
+            export_fmt = (data.get("format") or "kml").lower().strip()
+            route = data.get("route") or {}
+            route_name = data.get("name") or "RouteX Driving Corridor"
+            rec_stops = data.get("recommended_stops") or []
+
+            if export_fmt == "kml":
+                content = astar_router.export_route_to_kml(route, route_name=route_name, recommended_stops=rec_stops)
+                self.send_response(200)
+                self.send_header("Content-Type", "application/vnd.google-earth.kml+xml; charset=utf-8")
+                self.send_header("Content-Disposition", 'attachment; filename="routex_corridor.kml"')
+                self.end_headers()
+                self.wfile.write(content.encode("utf-8"))
+                return
+            elif export_fmt == "gpx":
+                content = astar_router.export_route_to_gpx(route, route_name=route_name)
+                self.send_response(200)
+                self.send_header("Content-Type", "application/gpx+xml; charset=utf-8")
+                self.send_header("Content-Disposition", 'attachment; filename="routex_corridor.gpx"')
+                self.end_headers()
+                self.wfile.write(content.encode("utf-8"))
+                return
+            elif export_fmt == "txt":
+                content = astar_router.export_route_to_txt(route, route_name=route_name, recommended_stops=rec_stops)
+                self.send_response(200)
+                self.send_header("Content-Type", "text/plain; charset=utf-8")
+                self.send_header("Content-Disposition", 'attachment; filename="routex_itinerary.txt"')
+                self.end_headers()
+                self.wfile.write(content.encode("utf-8"))
+                return
+            else:
+                self.send_json(400, {"success": False, "error": f"Unsupported format: {export_fmt}"})
+                return
+
+        elif path == "/api/dwdm/olap":
             res = dwdm_olap.execute_olap_query(data, OLAP_DB_PATH)
             self.send_json(200, res)
             return

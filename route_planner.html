@@ -1,0 +1,3259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RouteX &middot; A* Search Route Planner & Highway Safety Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0e16;
+      --card-bg: rgba(19, 26, 39, 0.75);
+      --card-solid: #131a27;
+      --border: rgba(148, 163, 184, 0.14);
+      --accent: #5b8ff9;
+      --accent2: #5ad8a6;
+      --danger: #e8684a;
+      --warning: #f6bd16;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image: 
+        radial-gradient(ellipse at 15% 10%, rgba(91, 143, 249, 0.12) 0%, transparent 45%),
+        radial-gradient(ellipse at 85% 85%, rgba(90, 216, 166, 0.08) 0%, transparent 45%);
+    }
+
+    /* Top Navigation */
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 32px;
+      background: rgba(10, 14, 22, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #5b8ff9, #5ad8a6);
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+      font-size: 19px;
+      color: #0a0e16;
+      box-shadow: 0 4px 14px rgba(91, 143, 249, 0.35);
+    }
+    .brand span strong { font-size: 17px; letter-spacing: -0.02em; display: block; }
+    .brand span small { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+    
+    .nav { display: flex; gap: 8px; }
+    .nav a {
+      color: var(--muted);
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      transition: 0.15s;
+    }
+    .nav a:hover { color: var(--text); background: rgba(148, 163, 184, 0.08); }
+    .nav a.active { color: #ffffff; background: rgba(91, 143, 249, 0.18); border: 1px solid rgba(91, 143, 249, 0.35); }
+
+    .auth-nav { display: flex; align-items: center; gap: 14px; }
+    .user-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12.5px;
+      color: var(--muted);
+      background: rgba(148, 163, 184, 0.08);
+      padding: 6px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+    }
+    .user-badge .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent2); box-shadow: 0 0 8px var(--accent2); }
+
+    .btn {
+      background: linear-gradient(135deg, #5b8ff9, #3860c4);
+      color: #ffffff;
+      border: none;
+      padding: 9px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.15s;
+      box-shadow: 0 4px 12px rgba(91, 143, 249, 0.3);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .btn:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(91, 143, 249, 0.45); }
+    .btn.ghost {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      box-shadow: none;
+    }
+    .btn.ghost:hover { background: rgba(148, 163, 184, 0.08); color: var(--text); border-color: rgba(148, 163, 184, 0.25); }
+
+    /* Main Container */
+    .main-container {
+      max-width: 1440px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px 32px 64px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Popular Presets Strip */
+    .presets-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 14px;
+      background: rgba(19, 26, 39, 0.5);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+    }
+    .preset-tag {
+      background: rgba(91, 143, 249, 0.1);
+      border: 1px solid rgba(91, 143, 249, 0.25);
+      color: #cbd5e1;
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 5px 11px;
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: 0.15s;
+    }
+    .preset-tag:hover {
+      background: rgba(91, 143, 249, 0.25);
+      color: #ffffff;
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    /* Section Cards */
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      backdrop-filter: blur(14px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Form Layout */
+    .form-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .form-group label {
+      font-size: 11.5px;
+      color: var(--muted);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .form-input, select {
+      background: rgba(10, 14, 22, 0.7);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      font-family: inherit;
+      outline: none;
+      transition: 0.15s;
+      width: 100%;
+    }
+    .form-input:focus, select:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(91, 143, 249, 0.2);
+    }
+
+    /* Custom Location Autocomplete & Pin Dropper */
+    .search-input-wrapper {
+      position: relative;
+      width: 100%;
+    }
+    .search-input-container {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      width: 100%;
+    }
+    .pick-pin-btn {
+      background: rgba(91,143,249,0.15);
+      border: 1px solid rgba(91,143,249,0.3);
+      color: #5b8ff9;
+      padding: 9px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 11.5px;
+      font-weight: 700;
+      white-space: nowrap;
+      transition: 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      flex-shrink: 0;
+    }
+    .pick-pin-btn:hover {
+      background: rgba(91,143,249,0.3);
+      color: #ffffff;
+    }
+    .pick-pin-btn.active-start {
+      background: rgba(90,216,166,0.25);
+      border-color: #5ad8a6;
+      color: #5ad8a6;
+    }
+    .pick-pin-btn.active-dest {
+      background: rgba(232,104,74,0.25);
+      border-color: #e8684a;
+      color: #e8684a;
+    }
+    .search-suggestions-dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #131a27;
+      border: 1px solid rgba(148,163,184,0.25);
+      border-radius: 8px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.65);
+      z-index: 2000;
+      max-height: 240px;
+      overflow-y: auto;
+      display: none;
+      margin-top: 4px;
+    }
+    .suggestion-item {
+      padding: 9px 12px;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(148,163,184,0.08);
+      font-size: 12px;
+      transition: 0.12s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .suggestion-item:last-child {
+      border-bottom: none;
+    }
+    .suggestion-item:hover {
+      background: rgba(91,143,249,0.18);
+      color: #ffffff;
+    }
+    .suggestion-item-icon {
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+    .suggestion-title {
+      font-weight: 600;
+      color: #e6edf7;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .suggestion-subtitle {
+      font-size: 11px;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .custom-coords-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(90,216,166,0.15);
+      border: 1px solid rgba(90,216,166,0.3);
+      color: #5ad8a6;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 600;
+      font-family: monospace;
+    }
+    .input-hint-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 5px;
+    }
+    .toggle-dropdown-link {
+      color: var(--accent);
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    /* Stopover Items */
+    .stops-container {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 6px;
+    }
+    .stop-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(10, 14, 22, 0.5);
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px dashed var(--border);
+    }
+    .remove-stop-btn {
+      background: rgba(232, 104, 74, 0.15);
+      color: var(--danger);
+      border: 1px solid rgba(232, 104, 74, 0.3);
+      border-radius: 6px;
+      width: 28px;
+      height: 28px;
+      cursor: pointer;
+      font-size: 14px;
+      display: grid;
+      place-items: center;
+    }
+
+    /* Algorithmic Controls */
+    .algo-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      align-items: center;
+      padding: 14px 18px;
+      background: rgba(10, 14, 22, 0.55);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-top: 10px;
+    }
+    .range-container {
+      flex: 1;
+      min-width: 220px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .range-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    input[type=range] {
+      width: 100%;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      cursor: pointer;
+      color: #cbd5e1;
+    }
+
+    /* Telemetry Bar */
+    .telemetry-bar {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      padding: 10px 16px;
+      background: rgba(91, 143, 249, 0.08);
+      border: 1px solid rgba(91, 143, 249, 0.2);
+      border-radius: 8px;
+      font-size: 12px;
+      color: #cbd5e1;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .telemetry-item span { color: var(--muted); margin-right: 4px; }
+    .telemetry-item strong { color: #ffffff; font-family: 'JetBrains Mono', monospace; }
+
+    /* Comparison Cards */
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 14px;
+    }
+    @media (max-width: 900px) {
+      .comparison-grid { grid-template-columns: 1fr; }
+    }
+    .route-card {
+      background: rgba(10, 14, 22, 0.6);
+      border-radius: 12px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      position: relative;
+    }
+    .route-card.safest-card { border-color: rgba(90, 216, 166, 0.4); }
+    .route-card.shortest-card { border-color: rgba(246, 189, 22, 0.4); }
+    .route-card-badge {
+      font-size: 10.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 3px 8px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+    .badge-safe { background: rgba(90, 216, 166, 0.2); color: #5ad8a6; }
+    .badge-short { background: rgba(246, 189, 22, 0.2); color: #f6bd16; }
+    
+    .route-metric-tiles {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .metric-tile {
+      background: rgba(19, 26, 39, 0.7);
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      text-align: center;
+    }
+    .metric-tile span { font-size: 10.5px; color: var(--muted); text-transform: uppercase; display: block; margin-bottom: 4px; }
+    .metric-tile strong { font-size: 15px; font-weight: 700; color: #ffffff; }
+
+    /* Verdict Banner */
+    .verdict-banner {
+      grid-column: 1 / -1;
+      background: linear-gradient(135deg, rgba(91, 143, 249, 0.15), rgba(90, 216, 166, 0.15));
+      border: 1px solid rgba(90, 216, 166, 0.35);
+      border-radius: 10px;
+      padding: 12px 18px;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #e6edf7;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* Pin Mode Toolbar */
+    .pin-toolbar {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+      background: rgba(10,14,22,0.6);
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      align-items: center;
+    }
+    .pin-mode-btn {
+      background: rgba(148,163,184,0.08);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .pin-mode-btn:hover { background: rgba(148,163,184,0.16); color: var(--text); }
+    .pin-mode-btn.active-start { background: rgba(90,216,166,0.2); border-color: #5ad8a6; color: #5ad8a6; }
+    .pin-mode-btn.active-dest { background: rgba(232,104,74,0.2); border-color: #e8684a; color: #e8684a; }
+    .pin-mode-btn.active-stop { background: rgba(246,189,22,0.2); border-color: #f6bd16; color: #f6bd16; }
+
+    /* Leaflet Map */
+    #planner-map {
+      width: 100%;
+      height: 560px;
+      border-radius: 12px;
+      background: #0a0e16;
+      z-index: 1;
+    }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+      background: #131a27 !important;
+      color: #e6edf7 !important;
+      border: 1px solid rgba(148,163,184,0.25);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      border-radius: 10px;
+    }
+    .leaflet-container { font-family: inherit !important; }
+
+    /* Map Legend */
+    .map-legend {
+      position: absolute; bottom: 20px; right: 20px; z-index: 1000;
+      background: rgba(19, 26, 39, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 11.5px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+      backdrop-filter: blur(10px);
+    }
+    .legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+    .legend-item:last-child { margin-bottom: 0; }
+    .legend-color { width: 14px; height: 14px; border-radius: 3px; }
+
+    /* Rest Stops Carousel */
+    .rest-stops-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .rest-card {
+      background: rgba(10, 14, 22, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: 0.15s;
+    }
+    .rest-card:hover { border-color: rgba(91,143,249,0.4); transform: translateY(-2px); }
+    /* Along-Route Pitstops, Food & Chill Spots */
+    .pitstop-tab {
+      background: rgba(148,163,184,0.08);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 7px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+    .pitstop-tab:hover {
+      background: rgba(148,163,184,0.18);
+      color: var(--text);
+    }
+    .pitstop-tab.active {
+      background: rgba(91,143,249,0.2);
+      border-color: var(--accent);
+      color: #ffffff;
+    }
+    .pitstops-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 14px;
+    }
+    .pitstop-card {
+      background: rgba(10, 14, 22, 0.65);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+    .pitstop-card:hover {
+      border-color: rgba(91, 143, 249, 0.5);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+    .pitstop-card.cat-restaurant { border-left: 4px solid #f6bd16; }
+    .pitstop-card.cat-petrol { border-left: 4px solid #5ad8a6; }
+    .pitstop-card.cat-entertainment { border-left: 4px solid #5b8ff9; }
+    .pitstop-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+    .pitstop-badge.restaurant { background: rgba(246,189,22,0.15); color: #f6bd16; border: 1px solid rgba(246,189,22,0.3); }
+    .pitstop-badge.petrol { background: rgba(90,216,166,0.15); color: #5ad8a6; border: 1px solid rgba(90,216,166,0.3); }
+    .pitstop-badge.entertainment { background: rgba(91,143,249,0.15); color: #5b8ff9; border: 1px solid rgba(91,143,249,0.3); }
+    .pitstop-chill-box {
+      background: rgba(91,143,249,0.08);
+      border: 1px dashed rgba(91,143,249,0.25);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 11.5px;
+      color: #cbd5e1;
+      margin: 8px 0 12px;
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      line-height: 1.4;
+    }
+    .pitstop-poi-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      border: 2px solid #ffffff;
+      box-shadow: 0 0 8px rgba(0,0,0,0.6);
+      display: grid;
+      place-items: center;
+      font-size: 13px;
+    }
+    .pitstop-poi-icon.restaurant { background: #f6bd16; color: #0a0e16; }
+    .pitstop-poi-icon.petrol { background: #5ad8a6; color: #0a0e16; }
+    .pitstop-poi-icon.entertainment { background: #5b8ff9; color: #ffffff; }
+
+    .amenity-chip {
+      font-size: 10.5px;
+      background: rgba(148,163,184,0.1);
+      color: var(--muted);
+      padding: 2px 7px;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 2px 2px 0 0;
+    }
+
+    /* Table */
+    .data-table {
+      width: 100%; border-collapse: collapse; font-size: 12.5px;
+    }
+    .data-table th, .data-table td {
+      padding: 10px 14px; text-align: left; border-bottom: 1px solid rgba(148,163,184,0.1);
+    }
+    .data-table th {
+      background: rgba(10,14,22,0.6); color: var(--muted); font-size: 11px;
+      text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    .data-table tr:hover td { background: rgba(91,143,249,0.06); }
+    .risk-pill {
+      padding: 3px 8px; border-radius: 6px; font-size: 11px; font-weight: 700; text-transform: uppercase;
+    }
+    .risk-pill.safe { background: rgba(90,216,166,0.15); color: #5ad8a6; border: 1px solid rgba(90,216,166,0.3); }
+    .risk-pill.moderate { background: rgba(246,189,22,0.15); color: #f6bd16; border: 1px solid rgba(246,189,22,0.3); }
+    .risk-pill.high { background: rgba(232,104,74,0.15); color: #e8684a; border: 1px solid rgba(232,104,74,0.3); }
+
+    /* Google Maps Driving Sync & Export Banner */
+    .gmaps-banner {
+      background: linear-gradient(135deg, rgba(66, 133, 244, 0.15) 0%, rgba(52, 168, 83, 0.12) 100%);
+      border: 1px solid rgba(66, 133, 244, 0.35);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    }
+    .gmaps-banner-title {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .gmaps-banner-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #4285F4, #34A853);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      color: white;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(66, 133, 244, 0.35);
+    }
+    .gmaps-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .btn-gmaps-primary {
+      background: linear-gradient(135deg, #4285F4, #1a73e8);
+      color: #ffffff;
+      font-weight: 700;
+      padding: 10px 18px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 14px rgba(66, 133, 244, 0.4);
+      transition: 0.15s;
+      text-decoration: none;
+    }
+    .btn-gmaps-primary:hover {
+      background: linear-gradient(135deg, #1a73e8, #1557b0);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(66, 133, 244, 0.5);
+    }
+    .btn-gmaps-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: var(--text);
+      padding: 9px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: 0.15s;
+    }
+    .btn-gmaps-secondary:hover {
+      background: rgba(255, 255, 255, 0.14);
+      border-color: rgba(255, 255, 255, 0.35);
+    }
+
+    /* Modal Overlay & Card */
+    .gmaps-modal-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(5, 8, 14, 0.85);
+      backdrop-filter: blur(8px);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .gmaps-modal-card {
+      background: var(--card-solid);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      border-radius: 16px;
+      width: 100%;
+      max-width: 880px;
+      max-height: 92vh;
+      overflow-y: auto;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+      display: flex;
+      flex-direction: column;
+    }
+    .gmaps-modal-header {
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(10, 14, 22, 0.6);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .gmaps-modal-close {
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      font-size: 26px;
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: 0.15s;
+    }
+    .gmaps-modal-close:hover {
+      color: #fff;
+      background: rgba(255,255,255,0.1);
+    }
+    .gmaps-corridor-summary {
+      background: rgba(10, 14, 22, 0.5);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .gmaps-settings-bar {
+      padding: 14px 24px;
+      background: rgba(255, 255, 255, 0.02);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .gmaps-route-selector {
+      display: flex;
+      background: rgba(10, 14, 22, 0.8);
+      padding: 4px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      gap: 4px;
+    }
+    .gmaps-tab {
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+    .gmaps-tab.active {
+      background: #5b8ff9;
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(91, 143, 249, 0.35);
+    }
+    .gmaps-modal-body {
+      padding: 20px 24px 28px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 768px) {
+      .gmaps-modal-body { grid-template-columns: 1fr; }
+    }
+    .gmaps-section-title {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #e2e8f0;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .gmaps-qr-box {
+      background: rgba(10, 14, 22, 0.7);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+    }
+    .gmaps-export-card {
+      background: rgba(10, 14, 22, 0.7);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+    /* Toast */
+    .gmaps-toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #10b981;
+      color: #ffffff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 13px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+      z-index: 10000;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    footer { text-align: center; padding: 36px 0; color: var(--muted); font-size: 12px; border-top: 1px solid var(--border); margin-top: 40px; }
+  </style>
+
+  <!-- Local Leaflet CSS & JS with CDN Fallback -->
+  <link rel="stylesheet" href="leaflet.css" onerror="this.onerror=null;this.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';"/>
+  <script src="leaflet.js"></script>
+  <script>
+    if (typeof L === 'undefined') {
+      document.write('<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"><\/script>');
+    }
+  </script>
+
+  <!-- Local QRCode JS with CDN Fallback -->
+  <script src="qrcode.min.js"></script>
+  <script>
+    if (typeof QRCode === 'undefined') {
+      document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"><\/script>');
+    }
+  </script>
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">R</span>
+      <span><strong>RouteX</strong><small>Intelligent Route Planner</small></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="dwdm_analytics.html">Data Warehouse Analytics</a>
+      <a href="olap_cube.html">OLAP Explorer</a>
+      <a href="route_planner.html" class="active">Route Planner (A*)</a>
+    </nav>
+    <div class="auth-nav">
+      <div id="user-display" class="user-badge">
+        <span class="dot"></span> <span id="username-text">Active Session</span>
+      </div>
+      <button onclick="logout()" class="btn ghost" style="padding:6px 14px;font-size:12px;width:auto;">Sign Out</button>
+    </div>
+  </header>
+
+  <!-- Main Workspace -->
+  <main class="main-container">
+
+    <!-- Popular Corridors Strip -->
+    <div class="presets-bar" id="presets-container">
+      <span style="font-size:11.5px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em; margin-right:4px;">
+        ⚡ Popular Corridors:
+      </span>
+      <span style="color:var(--muted); font-size:12px;">Loading corridor presets...</span>
+    </div>
+
+    <!-- SECTION 1: JOURNEY CONFIGURATION & A* OPTIMIZATION CRITERIA -->
+    <section class="section-card">
+      <h3 style="margin:0 0 16px; font-size:16px; display:flex; align-items:center; gap:8px;">
+        <span>🧭</span> Journey Configuration & A* Cost Multipliers
+      </h3>
+
+      <!-- Origin & Destination Inputs with Autocomplete, Map Click, & Draggable Pins -->
+      <div class="form-row">
+        <!-- Origin Location -->
+        <div class="form-group">
+          <label for="origin-search" style="display:flex; justify-content:space-between; align-items:center;">
+            <span>🟢 Origin (Start Location)</span>
+            <span class="custom-coords-badge" id="origin-coords-badge" style="display:none;"></span>
+          </label>
+          <div class="search-input-wrapper">
+            <div class="search-input-container">
+              <input type="text" id="origin-search" class="form-input"
+                placeholder="Search any place or click on map..."
+                autocomplete="off"
+                oninput="handleLocationSearch('origin', this.value)"
+              />
+              <button type="button" class="pick-pin-btn" id="btn-pick-origin" onclick="togglePinMode('start')" title="Click on the Leaflet map to drop custom Origin pin">
+                📍 Pick on Map
+              </button>
+            </div>
+            <div id="origin-suggestions" class="search-suggestions-dropdown"></div>
+          </div>
+          <div class="input-hint-row">
+            <span>Click map anywhere, search address, or</span>
+            <span class="toggle-dropdown-link" onclick="toggleCorridorDropdown('origin')">choose corridor city</span>
+          </div>
+          <select id="start-point" style="display:none; margin-top:6px;" onchange="onCorridorDropdownChange('origin')">
+            <option value="">-- Or Select from 486 National Corridor Cities --</option>
+          </select>
+        </div>
+
+        <!-- Destination Location -->
+        <div class="form-group">
+          <label for="dest-search" style="display:flex; justify-content:space-between; align-items:center;">
+            <span>🔴 Destination (End Location)</span>
+            <span class="custom-coords-badge" id="dest-coords-badge" style="display:none;"></span>
+          </label>
+          <div class="search-input-wrapper">
+            <div class="search-input-container">
+              <input type="text" id="dest-search" class="form-input"
+                placeholder="Search any place or click on map..."
+                autocomplete="off"
+                oninput="handleLocationSearch('dest', this.value)"
+              />
+              <button type="button" class="pick-pin-btn" id="btn-pick-dest" onclick="togglePinMode('dest')" title="Click on the Leaflet map to drop custom Destination pin">
+                📍 Pick on Map
+              </button>
+            </div>
+            <div id="dest-suggestions" class="search-suggestions-dropdown"></div>
+          </div>
+          <div class="input-hint-row">
+            <span>Click map anywhere, search address, or</span>
+            <span class="toggle-dropdown-link" onclick="toggleCorridorDropdown('dest')">choose corridor city</span>
+          </div>
+          <select id="dest-point" style="display:none; margin-top:6px;" onchange="onCorridorDropdownChange('dest')">
+            <option value="">-- Or Select from 486 National Corridor Cities --</option>
+          </select>
+        </div>
+
+        <!-- A* Search Objective -->
+        <div class="form-group">
+          <label for="algo-mode">A* Search Objective</label>
+          <select id="algo-mode" onchange="calculateAStarRoute()">
+            <option value="safest" selected>🛡️ Safest Corridor (RouteX Safety Penalty)</option>
+            <option value="shortest">⚡ Shortest Route (Pure Distance A*)</option>
+            <option value="fastest">⏱️ Fastest Route (Corridor Speed / Travel Time)</option>
+            <option value="balanced">⚖️ Balanced Multi-Criteria (Dist + Risk %)</option>
+          </select>
+          <div style="font-size:11px; color:var(--muted); margin-top:6px;">
+            Optimizes real road routes with admissible Haversine heuristic
+          </div>
+        </div>
+
+        <!-- Real Traffic Condition & Duration Calibration -->
+        <div class="form-group">
+          <label for="traffic-density">Traffic Condition & Speeds</label>
+          <select id="traffic-density" onchange="calculateAStarRoute()">
+            <option value="normal" selected>🚗 Normal Daytime Flow (Calibrated Real Speed)</option>
+            <option value="peak">🚦 Peak Hour Rush (+35% Congestion Delay)</option>
+            <option value="night">🌙 Late Night Corridor (-18% Free Flow)</option>
+          </select>
+          <div style="font-size:11px; color:var(--muted); margin-top:6px;">
+            Realistic Indian city signals (~24 km/h) & highway speeds (~60 km/h)
+          </div>
+        </div>
+      </div>
+
+      <!-- User Stopovers Container -->
+      <div class="form-group" style="margin-top:6px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <span style="display:block; color:var(--muted); font-size:11.5px; text-transform:uppercase; font-weight:700; letter-spacing:0.08em; margin:0;">
+            Intermediate Resting Stops / Stopovers
+          </span>
+          <button onclick="addRestStop()" class="btn ghost" style="padding:4px 12px; font-size:11px; width:auto;">+ Add Stopover</button>
+        </div>
+        <div class="stops-container" id="stops-container"></div>
+      </div>
+
+      <!-- Algorithmic Tuners Bar -->
+      <div class="algo-controls">
+        <div class="range-container">
+          <div class="range-header">
+            <span>Safety Penalty Weight (α)</span>
+            <strong id="safety-weight-val" style="color:var(--accent);">15x</strong>
+          </div>
+          <input type="range" id="safety-weight-slider" min="1" max="30" value="15" step="1" oninput="updateSafetySlider(this.value)" onchange="calculateAStarRoute()">
+        </div>
+
+        <div>
+          <label class="checkbox-label">
+            <input type="checkbox" id="avoid-blackspots-chk" onchange="calculateAStarRoute()">
+            <span>🚫 Aggressively Avoid High-Risk Blackspots</span>
+          </label>
+        </div>
+
+        <div>
+          <label class="checkbox-label">
+            <input type="checkbox" id="compare-routes-chk" checked onchange="calculateAStarRoute()">
+            <span>📊 Compare Safest vs. Shortest Route</span>
+          </label>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:12px; margin-top:14px; flex-wrap:wrap;">
+        <button onclick="calculateAStarRoute()" class="btn" style="flex:1; min-width:240px; font-size:14.5px;">
+          🚀 Calculate & Visualize Route (Actual Roads & Highways)
+        </button>
+        <button onclick="resetPlanner()" class="btn ghost" style="width:auto; padding:0 20px;">
+          🔄 Reset
+        </button>
+      </div>
+
+      <!-- Telemetry Output -->
+      <div class="telemetry-bar" id="telemetry-container" style="display:none;">
+        <div class="telemetry-item">
+          <span>🧠 Algorithm:</span>
+          <strong>A* Graph Search</strong>
+        </div>
+        <div class="telemetry-item">
+          <span>📐 Heuristic:</span>
+          <strong title="Great-circle Haversine straight line (guaranteed admissible: h(n) <= g*(n))">Admissible Haversine (h ≤ g*)</strong>
+        </div>
+        <div class="telemetry-item">
+          <span>🔍 Nodes Evaluated:</span>
+          <strong id="telemetry-expanded">--</strong>
+        </div>
+        <div class="telemetry-item">
+          <span>⚡ Execution Latency:</span>
+          <strong id="telemetry-time">-- ms</strong>
+        </div>
+      </div>
+
+      <!-- Route Comparison Side-by-Side View -->
+      <div id="comparison-view" class="comparison-grid" style="display:none;">
+        <!-- Safest Route Card -->
+        <div class="route-card safest-card">
+          <span class="route-card-badge badge-safe">🛡️ Safest Recommended Corridor</span>
+          <h4 style="margin:0 0 10px; font-size:15px; color:#5ad8a6;">Low-Risk Highway Route</h4>
+          <div class="route-metric-tiles">
+            <div class="metric-tile">
+              <span>Total Distance</span>
+              <strong id="safe-dist">-- km</strong>
+            </div>
+            <div class="metric-tile">
+              <span>Travel Time</span>
+              <strong id="safe-time">-- hrs</strong>
+            </div>
+            <div class="metric-tile">
+              <span>Corridor Hazard</span>
+              <strong id="safe-risk" style="color:#5ad8a6;">--</strong>
+            </div>
+          </div>
+          <div style="margin-top:10px; font-size:12px; color:var(--muted); display:flex; justify-content:space-between;">
+            <span>Blackspots Traversed: <strong id="safe-blackspots" style="color:var(--text);">0</strong></span>
+            <span>Fatal Incidents: <strong id="safe-fatal" style="color:var(--text);">0</strong></span>
+          </div>
+          <div style="margin-top:14px; display:flex; gap:8px;">
+            <button onclick="launchGoogleMapsDrive('safest')" class="btn" style="flex:1; padding:8px 10px; font-size:11.5px; background:linear-gradient(135deg, #10b981, #059669); justify-content:center; box-shadow:0 3px 10px rgba(16,185,129,0.3);">
+              🚀 Drive Safest Corridor (Google Maps)
+            </button>
+            <button onclick="openGoogleMapsModal('safest', true)" class="btn ghost" style="padding:8px 12px; font-size:11.5px; width:auto;" title="View QR Code to scan on mobile">
+              📱 QR
+            </button>
+          </div>
+        </div>
+
+        <!-- Shortest Route Card -->
+        <div class="route-card shortest-card">
+          <span class="route-card-badge badge-short">⚡ Shortest A* Route</span>
+          <h4 style="margin:0 0 10px; font-size:15px; color:#f6bd16;">Pure Distance Highway Route</h4>
+          <div class="route-metric-tiles">
+            <div class="metric-tile">
+              <span>Total Distance</span>
+              <strong id="short-dist">-- km</strong>
+            </div>
+            <div class="metric-tile">
+              <span>Travel Time</span>
+              <strong id="short-time">-- hrs</strong>
+            </div>
+            <div class="metric-tile">
+              <span>Corridor Hazard</span>
+              <strong id="short-risk" style="color:#e8684a;">--</strong>
+            </div>
+          </div>
+          <div style="margin-top:10px; font-size:12px; color:var(--muted); display:flex; justify-content:space-between;">
+            <span>Blackspots Traversed: <strong id="short-blackspots" style="color:var(--danger);">0</strong></span>
+            <span>Fatal Incidents: <strong id="short-fatal" style="color:var(--text);">0</strong></span>
+          </div>
+          <div style="margin-top:14px; display:flex; gap:8px;">
+            <button onclick="launchGoogleMapsDrive('shortest')" class="btn ghost" style="flex:1; padding:8px 10px; font-size:11.5px; border-color:rgba(246,189,22,0.4); color:#f6bd16; justify-content:center;">
+              ⚡ Drive Shortest Route (Google Maps)
+            </button>
+            <button onclick="openGoogleMapsModal('shortest', true)" class="btn ghost" style="padding:8px 12px; font-size:11.5px; width:auto;" title="View QR Code to scan on mobile">
+              📱 QR
+            </button>
+          </div>
+        </div>
+
+        <!-- Analytical Verdict Banner -->
+        <div class="verdict-banner" id="verdict-banner">
+          <span style="font-size:22px;">💡</span>
+          <div id="verdict-text">Calculating RouteX analytical safety trade-off...</div>
+        </div>
+      </div>
+
+      <!-- SECTION 1B: GOOGLE MAPS NAVIGATION & ROUTE EXTRACTION BAR -->
+      <div class="gmaps-banner" id="gmaps-action-bar" style="display:none;">
+        <div class="gmaps-banner-title">
+          <div class="gmaps-banner-icon">🗺️</div>
+          <div>
+            <div style="font-weight:700; font-size:15px; color:#ffffff; display:flex; align-items:center; gap:8px;">
+              <span>Google Maps Driving Navigation &amp; Route Export Hub</span>
+              <span class="amenity-chip" style="background:rgba(66,133,244,0.18); color:#60a5fa; border-color:rgba(66,133,244,0.35); font-size:10.5px;">Live GPS Corridor</span>
+            </div>
+            <div style="font-size:12px; color:var(--muted); margin-top:2px;">
+              Launch real-time turn-by-turn driving in Google Maps on your phone or car, scan QR code, or save to Google My Maps.
+            </div>
+          </div>
+        </div>
+
+        <div class="gmaps-actions">
+          <button onclick="launchGoogleMapsDrive()" class="btn-gmaps-primary" id="btn-quick-drive" title="Launch turn-by-turn driving in Google Maps">
+            🚀 Start Driving (Google Maps)
+          </button>
+          <button onclick="openGoogleMapsModal('safest', true)" class="btn-gmaps-secondary" title="View driver QR code to scan with smartphone">
+            📱 Scan Mobile QR
+          </button>
+          <button onclick="copyGmapsLinkQuick()" class="btn-gmaps-secondary" id="btn-quick-copy" title="Copy Google Maps directions link">
+            📋 Copy Link
+          </button>
+          <button onclick="shareGmapsWhatsApp()" class="btn-gmaps-secondary" style="border-color:rgba(37,211,102,0.35); color:#25D366;" title="Share route and Google Maps link to WhatsApp">
+            💬 WhatsApp
+          </button>
+          <button onclick="openGoogleMapsModal('safest')" class="btn ghost" style="padding:9px 14px; font-size:12.5px; border-color:rgba(91,143,249,0.35); color:#cbd5e1;">
+            ⚙️ Export &amp; Save Hub
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: INTERACTIVE MAP & PIN DROPPER -->
+    <section class="section-card">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:10px;">
+        <h3 style="margin:0; font-size:16px; display:flex; align-items:center; gap:8px;">
+          <span>📍</span> Interactive Road & Highway Map
+        </h3>
+        <span style="font-size:11.5px; color:var(--muted); font-weight:600;" id="map-status">Ready</span>
+      </div>
+
+      <!-- Custom Pin Dropper Toolbar -->
+      <div class="pin-toolbar">
+        <span style="font-size:11.5px; font-weight:700; color:var(--muted);">Custom Location Pin Tool:</span>
+        <button class="pin-mode-btn" id="btn-mode-start" onclick="setPinMode('start')">🟢 Set Origin Pin (Click Map)</button>
+        <button class="pin-mode-btn" id="btn-mode-dest" onclick="setPinMode('dest')">🔴 Set Destination Pin (Click Map)</button>
+        <button class="pin-mode-btn" id="btn-mode-stop" onclick="setPinMode('stop')">🟡 Add Stopover Pin</button>
+        <button class="pin-mode-btn" id="btn-mode-none" onclick="setPinMode('none')">🖱️ Free Click / Drag Mode</button>
+        <label class="checkbox-label" style="margin-left:auto; font-size:11.5px; margin-top:0;">
+          <input type="checkbox" id="show-pitstops-chk" checked onchange="togglePitstopMarkers()">
+          <span>🍽️ Show Food, Fuel & Chill Spots on Map</span>
+        </label>
+      </div>
+
+      <div style="position:relative; border-radius: 12px; overflow: hidden; border: 1px solid var(--border);">
+        <div id="planner-map"></div>
+
+        <!-- Legend Overlay -->
+        <div class="map-legend">
+          <div style="font-weight:700; font-size:11px; text-transform:uppercase; margin-bottom:6px; color:var(--muted);">Map Legend</div>
+          <div class="legend-item"><div class="legend-color" style="background:#5ad8a6;"></div> Origin Node</div>
+          <div class="legend-item"><div class="legend-color" style="background:#e8684a;"></div> Destination Node</div>
+          <div class="legend-item"><div class="legend-color" style="background:#f6bd16;"></div> Intermediate Stop</div>
+          <div class="legend-item"><div class="legend-color" style="background:#5ad8a6; height:4px; margin:5px 0;"></div> Safest Route (Actual Roads)</div>
+          <div class="legend-item"><div class="legend-color" style="background:#f6bd16; height:4px; margin:5px 0; border:1px dashed #f6bd16;"></div> Shortest Route (Actual Roads)</div>
+          <div class="legend-item"><span style="font-size:13px; line-height:1;">🍽️</span> Restaurant / Dhaba</div>
+          <div class="legend-item"><span style="font-size:13px; line-height:1;">⛽</span> Petrol & EV Charger</div>
+          <div class="legend-item"><span style="font-size:13px; line-height:1;">🍿</span> Mall / Chill Spot</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: ACTUAL HIGHWAY NAVIGATION & DRIVING MANEUVERS -->
+    <section class="section-card" id="highway-navigation-section" style="display:none;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:8px;">
+        <h3 style="margin:0; font-size:16px; display:flex; align-items:center; gap:8px;">
+          <span>🛣️</span> Highway Driving Navigation & Turn-by-Turn Directions
+        </h3>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <button onclick="launchGoogleMapsDrive()" class="btn-gmaps-primary" style="padding:6px 14px; font-size:12px;">🗺️ Start Navigation in Google Maps</button>
+          <span style="font-size:12px; color:var(--accent2); font-weight:700;" id="nav-summary-badge">Actual Road Route</span>
+        </div>
+      </div>
+      <p style="margin:0 0 14px; font-size:12.5px; color:var(--muted);">
+        Real-time highway driving itinerary tracing actual national highways, expressways, bypasses, and urban road corridors.
+      </p>
+      <div class="turn-steps-list" id="turn-steps-list" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px; max-height:340px; overflow-y:auto; padding-right:6px;">
+        <!-- Populated dynamically with real highway names and maneuvers -->
+      </div>
+    </section>
+
+    <!-- SECTION 4: ALONG-THE-ROUTE PITSTOPS, FOOD & CHILL SPOTS -->
+    <section class="section-card" id="corridor-pitstops-section" style="display:none;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:10px;">
+        <h3 style="margin:0; font-size:16px; display:flex; align-items:center; gap:8px;">
+          <span>🍽️</span> Along-the-Route Pitstops, Food & Chill Spots
+        </h3>
+        <span style="font-size:12px; color:var(--accent2); font-weight:700;" id="pitstops-count-badge">0 Spots Available</span>
+      </div>
+      <p style="margin:0 0 14px; font-size:12.5px; color:var(--muted);">
+        Top-rated roadside restaurants & dhabas, 24/7 petrol bunks with EV fast charging, and malls & multiplexes along this driving route where you can relax or chill if traffic occurs.
+      </p>
+
+      <!-- Category Filter Tabs -->
+      <div class="pitstop-tabs" style="display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap;">
+        <button class="pitstop-tab active" id="tab-btn-all" onclick="filterPitstops('all')">🌟 All Pitstops (<span id="tab-cnt-all">0</span>)</button>
+        <button class="pitstop-tab" id="tab-btn-restaurant" onclick="filterPitstops('restaurant')">🍽️ Restaurants & Dhabas (<span id="tab-cnt-restaurant">0</span>)</button>
+        <button class="pitstop-tab" id="tab-btn-petrol" onclick="filterPitstops('petrol')">⛽ Petrol & EV Fast Charging (<span id="tab-cnt-petrol">0</span>)</button>
+        <button class="pitstop-tab" id="tab-btn-entertainment" onclick="filterPitstops('entertainment')">🍿 Malls & Chill Spots (<span id="tab-cnt-entertainment">0</span>)</button>
+      </div>
+
+      <!-- Pitstops Grid -->
+      <div class="pitstops-grid" id="corridor-pitstops-container"></div>
+    </section>
+
+    <!-- SECTION 5: INTELLIGENT RESTING POINTS RECOMMENDATIONS -->
+    <section class="section-card" id="recommended-stops-section" style="display:none;">
+      <h3 style="margin:0 0 6px; font-size:16px; display:flex; align-items:center; gap:8px;">
+        <span>☕</span> Fatigue Management: Recommended Resting Points & Amenity Hubs
+      </h3>
+      <p style="margin:0 0 16px; font-size:12.5px; color:var(--muted);">
+        RouteX identified optimal resting intervals (~200–300 km) along this corridor with certified roadside amenities (hospitals, fuel, EV charging, repair, hotels).
+      </p>
+      <div class="rest-stops-grid" id="recommended-stops-container"></div>
+    </section>
+
+    <!-- SECTION 5: STEP-BY-STEP ITINERARY & CORRIDOR BREAKDOWN -->
+    <section class="section-card">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:10px;">
+        <h3 style="margin:0; font-size:16px; display:flex; align-items:center; gap:8px;">
+          <span>📋</span> Detailed Corridor Itinerary & Safety Metrics
+        </h3>
+        <div style="display:flex; gap:8px;">
+          <button onclick="downloadKML()" class="btn ghost" style="padding:5px 12px; font-size:11.5px; border-color:rgba(90,216,166,0.4); color:#5ad8a6;" title="Download KML for Google My Maps">📥 Save KML</button>
+          <button onclick="downloadGPX()" class="btn ghost" style="padding:5px 12px; font-size:11.5px; border-color:rgba(91,143,249,0.4); color:#5b8ff9;" title="Download standard GPX GPS file">📥 Save GPX</button>
+          <button onclick="downloadDrivingSheet()" class="btn ghost" style="padding:5px 12px; font-size:11.5px; border-color:rgba(246,189,22,0.4); color:#f6bd16;" title="Download printable itinerary manifest">📄 Driving Sheet</button>
+        </div>
+      </div>
+      <div style="overflow-x:auto;">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Leg #</th>
+              <th>Corridor Waypoint</th>
+              <th>City & State</th>
+              <th>Segment Distance</th>
+              <th>Corridor Speed</th>
+              <th>Travel Time</th>
+              <th>Hazard Index</th>
+              <th>Available Road Amenities</th>
+            </tr>
+          </thead>
+          <tbody id="itinerary-tbody">
+            <tr>
+              <td colspan="8" style="text-align:center; color:var(--muted); padding:32px;">
+                Pick or search an Origin and Destination above to calculate real road route.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <!-- GOOGLE MAPS NAVIGATION & EXPORT MODAL -->
+  <div id="gmaps-modal" class="gmaps-modal-overlay" style="display:none;" onclick="if(event.target===this)closeGoogleMapsModal()">
+    <div class="gmaps-modal-card">
+      <!-- Modal Header -->
+      <div class="gmaps-modal-header">
+        <div style="display:flex; align-items:center; gap:12px;">
+          <div class="gmaps-banner-icon" style="width:38px; height:38px; font-size:18px;">🗺️</div>
+          <div>
+            <h3 style="margin:0; font-size:16.5px; color:#ffffff;">Google Maps Navigation &amp; Route Export Hub</h3>
+            <div style="font-size:12px; color:var(--muted); margin-top:2px;">Sync RouteX corridor to Google Maps for turn-by-turn driving or permanent saving</div>
+          </div>
+        </div>
+        <button class="gmaps-modal-close" onclick="closeGoogleMapsModal()" title="Close modal">&times;</button>
+      </div>
+
+      <!-- Corridor Summary Bar -->
+      <div class="gmaps-corridor-summary" id="gmaps-corridor-summary">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span style="font-size:18px;">🛣️</span>
+          <div>
+            <div style="font-size:14px; font-weight:700; color:#e2e8f0;" id="gmaps-summary-name">Delhi Cantonment &rarr; Navi Mumbai</div>
+            <div style="font-size:11.5px; color:var(--muted);" id="gmaps-summary-sub">Corridor Route</div>
+          </div>
+        </div>
+        <div style="display:flex; gap:16px; font-size:12px; flex-wrap:wrap;">
+          <div><span style="color:var(--muted);">Distance:</span> <strong id="gmaps-summary-dist" style="color:var(--text);">-- km</strong></div>
+          <div><span style="color:var(--muted);">Est. Time:</span> <strong id="gmaps-summary-time" style="color:var(--accent2);">--</strong></div>
+          <div><span style="color:var(--muted);">Hazard:</span> <strong id="gmaps-summary-risk" style="color:#5ad8a6;">--</strong></div>
+          <div><span style="color:var(--muted);">Waypoints:</span> <strong id="gmaps-summary-wps" style="color:var(--text);">0</strong></div>
+        </div>
+      </div>
+
+      <!-- Settings & Route Selector Tabs -->
+      <div class="gmaps-settings-bar">
+        <div class="gmaps-route-selector">
+          <button type="button" class="gmaps-tab active" id="gmaps-tab-safest" onclick="selectGmapsRouteMode('safest')">
+            🛡️ Safest Recommended
+          </button>
+          <button type="button" class="gmaps-tab" id="gmaps-tab-shortest" onclick="selectGmapsRouteMode('shortest')">
+            ⚡ Shortest Distance
+          </button>
+        </div>
+
+        <div style="display:flex; gap:16px; flex-wrap:wrap; align-items:center;">
+          <label class="checkbox-label" style="font-size:12px; margin:0;">
+            <input type="checkbox" id="gmaps-opt-nav-mode" checked onchange="updateGoogleMapsDetails()">
+            <span>🚀 Turn-by-Turn Navigation Mode</span>
+          </label>
+          <label class="checkbox-label" style="font-size:12px; margin:0;" id="gmaps-rest-opt-wrapper">
+            <input type="checkbox" id="gmaps-opt-rest-stops" checked onchange="updateGoogleMapsDetails()">
+            <span>☕ Include Fatigue Rest Stops</span>
+          </label>
+          <label class="checkbox-label" style="font-size:12px; margin:0;" id="gmaps-stops-opt-wrapper">
+            <input type="checkbox" id="gmaps-opt-user-stops" checked onchange="updateGoogleMapsDetails()">
+            <span>📍 Include Added Stopovers</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Modal Body (Two Columns) -->
+      <div class="gmaps-modal-body">
+        <!-- Left Column: Driving & Mobile Navigation -->
+        <div class="gmaps-col">
+          <div class="gmaps-section-title">
+            <span>🚗</span> Instant Driving Navigation
+          </div>
+
+          <a id="gmaps-launch-btn" href="#" target="_blank" class="btn-gmaps-primary" style="width:100%; justify-content:center; padding:12px 16px; font-size:14.5px; text-decoration:none; margin-bottom:14px; box-sizing:border-box;">
+            🚀 Open Google Maps &amp; Start Driving
+          </a>
+
+          <!-- QR Code Container for Smartphone -->
+          <div class="gmaps-qr-box" id="gmaps-qr-box">
+            <div style="font-size:12.5px; font-weight:700; color:#e2e8f0; margin-bottom:4px; display:flex; align-items:center; justify-content:center; gap:6px;">
+              <span>📱</span> Scan with Phone &amp; Drive
+            </div>
+            <div style="font-size:11px; color:var(--muted); margin-bottom:12px;">
+              Point your smartphone camera at this code to launch Google Maps driving navigation immediately in your car.
+            </div>
+            <div id="gmaps-qrcode-container" style="display:flex; justify-content:center; align-items:center; background:#ffffff; padding:12px; border-radius:10px; width:184px; height:184px; margin:0 auto; box-shadow:0 4px 14px rgba(0,0,0,0.35);">
+              <div id="gmaps-qrcode"></div>
+              <img id="gmaps-qrcode-img" style="display:none; width:160px; height:160px;" alt="Google Maps QR Code"/>
+            </div>
+            <div style="font-size:10.5px; color:#94a3b8; text-align:center; margin-top:8px;">
+              Supports iPhone Camera &amp; Android Google Lens
+            </div>
+          </div>
+
+          <!-- Shareable Link & WhatsApp -->
+          <div style="margin-top:14px;">
+            <label style="font-size:11.5px; color:var(--muted); font-weight:600; display:block; margin-bottom:4px;">Google Maps Universal URL:</label>
+            <div style="display:flex; gap:6px;">
+              <input type="text" id="gmaps-link-input" readonly style="flex:1; background:rgba(10,14,22,0.8); border:1px solid var(--border); border-radius:6px; padding:6px 10px; font-size:11px; color:#cbd5e1; font-family:monospace;" />
+              <button onclick="copyGmapsLink()" class="btn ghost" style="padding:6px 12px; font-size:11px; white-space:nowrap;" id="btn-copy-gmaps">
+                📋 Copy Link
+              </button>
+            </div>
+          </div>
+
+          <div style="margin-top:10px; display:flex; gap:8px;">
+            <button onclick="shareGmapsWhatsApp()" class="btn" style="background:#25D366; color:#ffffff; flex:1; padding:8px 12px; font-size:12px; box-shadow:none; justify-content:center;">
+              💬 Share on WhatsApp
+            </button>
+            <button onclick="openGoogleMapsWebPreview()" class="btn ghost" style="flex:1; padding:8px 12px; font-size:12px; justify-content:center;">
+              🗺️ Open Web Preview
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Column: Permanent Save & Offline Export -->
+        <div class="gmaps-col">
+          <div class="gmaps-section-title">
+            <span>💾</span> Save &amp; Offline Export
+          </div>
+
+          <!-- Google My Maps (KML) Card -->
+          <div class="gmaps-export-card">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+              <strong style="font-size:13.5px; color:#5ad8a6;">🗺️ Save to Google My Maps (KML)</strong>
+              <span class="amenity-chip" style="font-size:10px; color:#5ad8a6; border-color:rgba(90,216,166,0.3);">Cloud Save</span>
+            </div>
+            <p style="font-size:11.5px; color:#94a3b8; margin:0 0 8px; line-height:1.4;">
+              Export full road geometry, rest stops, and hazard markers. Import to Google My Maps to save permanently to your <strong>Google Maps phone app</strong> under <em>Saved &gt; Maps</em>!
+            </p>
+            <div style="background:rgba(90,216,166,0.06); border:1px dashed rgba(90,216,166,0.25); border-radius:6px; padding:8px 10px; font-size:11px; color:#cbd5e1; margin-bottom:10px;">
+              <strong>3-Step Save:</strong> 1. Download KML &rarr; 2. Open <em>mymaps.google.com</em> &rarr; 3. Click <em>Create Map &gt; Import</em>. It will sync automatically to Google Maps on iOS &amp; Android!
+            </div>
+            <button onclick="downloadKML()" class="btn ghost" style="width:100%; padding:8px 12px; font-size:12px; border-color:rgba(90,216,166,0.4); color:#5ad8a6; justify-content:center;">
+              📥 Download Google My Maps (.KML)
+            </button>
+          </div>
+
+          <!-- Universal GPX Card -->
+          <div class="gmaps-export-card" style="margin-top:12px;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+              <strong style="font-size:13.5px; color:#5b8ff9;">🛰️ Universal GPS Track (GPX)</strong>
+              <span class="amenity-chip" style="font-size:10px;">Car &amp; GPS</span>
+            </div>
+            <p style="font-size:11.5px; color:#94a3b8; margin:0 0 10px; line-height:1.4;">
+              Standard GPS track format containing all high-density road trackpoints and waypoints for Garmin, OsmAnd, and car infotainment systems.
+            </p>
+            <button onclick="downloadGPX()" class="btn ghost" style="width:100%; padding:8px 12px; font-size:12px; border-color:rgba(91,143,249,0.4); color:#5b8ff9; justify-content:center;">
+              📥 Download GPS Track (.GPX)
+            </button>
+          </div>
+
+          <!-- Printable Itinerary Card -->
+          <div class="gmaps-export-card" style="margin-top:12px;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+              <strong style="font-size:13.5px; color:#f6bd16;">📋 Offline Highway Driving Sheet</strong>
+              <span class="amenity-chip" style="font-size:10px;">Helpline Sheet</span>
+            </div>
+            <p style="font-size:11.5px; color:#94a3b8; margin:0 0 10px; line-height:1.4;">
+              Full turn-by-turn highway maneuvers, distances, recommended fatigue rest stops, and emergency roadside helplines (NHAI 1033 &amp; Integrated 112).
+            </p>
+            <button onclick="downloadDrivingSheet()" class="btn ghost" style="width:100%; padding:8px 12px; font-size:12px; border-color:rgba(246,189,22,0.4); color:#f6bd16; justify-content:center;">
+              📄 Download Driving Itinerary (.TXT)
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div id="gmaps-toast" class="gmaps-toast" style="display:none;">
+    <span>✓</span> <span id="gmaps-toast-msg">Copied link to clipboard</span>
+  </div>
+
+  <footer>
+    <div style="max-width:1440px; margin:0 auto; padding:0 32px;">
+      RouteX Intelligent Road Safety, Traffic Analytics, and Smart Location Recommendation System &middot; A* Search Corridor Planner
+    </div>
+  </footer>
+
+  <script>
+    let allNodes = [];
+    let nodesById = {};
+    let plannerMap = null;
+    let safeRouteLayer = null;
+    let shortRouteLayer = null;
+    let markersLayer = null;
+    let customPinLayer = null;
+
+    let currentPinMode = 'none'; // 'start', 'dest', 'stop', 'none'
+    let customStart = null;      // { lat, lon, name, id }
+    let customDest = null;       // { lat, lon, name, id }
+    let customStops = [];        // Array of { lat, lon, name, id }
+    let customOriginMarker = null;
+    let customDestMarker = null;
+    let customStopMarkers = [];
+    let searchDebounceTimer = null;
+    let pitstopLayer = null;
+    let currentPitstops = [];
+    let currentPitstopCategory = 'all';
+    let showPitstopsOnMap = true;
+
+    // Google Maps & Navigation State
+    let currentPlanData = null;
+    let currentGmapsMode = 'safest';
+    let qrcodeInstance = null;
+
+    // Check user session
+    fetch('/api/user')
+      .then(res => res.json())
+      .then(data => {
+        if (data.logged_in && data.username) {
+          document.getElementById('username-text').textContent = data.username;
+        } else {
+          document.getElementById('username-text').textContent = 'Guest Session';
+        }
+      }).catch(err => {
+        document.getElementById('username-text').textContent = 'Active Session';
+      });
+
+    function logout() {
+      fetch('/api/logout', {method: 'POST'})
+        .then(() => window.location.href = 'login.html');
+    }
+
+    function updateSafetySlider(val) {
+      document.getElementById('safety-weight-val').textContent = val + 'x';
+    }
+
+    function formatHours(h) {
+      if (!h || h <= 0) return '0 mins';
+      const mins = Math.round(h * 60);
+      if (mins < 60) return `${mins} mins`;
+      const hrs = Math.floor(mins / 60);
+      const rem = mins % 60;
+      return rem > 0 ? `${hrs}h ${rem}m` : `${hrs} hrs`;
+    }
+
+    // Initialize Map
+    function initPlannerMap() {
+      if (plannerMap) return;
+      const mapEl = document.getElementById('planner-map');
+      if (!mapEl) return;
+
+      if (typeof L === 'undefined') {
+        setTimeout(initPlannerMap, 200);
+        return;
+      }
+
+      plannerMap = L.map('planner-map', {
+        center: [22.5937, 78.9629],
+        zoom: 5,
+        zoomControl: true
+      });
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors | RouteX A*'
+      }).addTo(plannerMap);
+
+      shortRouteLayer = L.layerGroup().addTo(plannerMap);
+      safeRouteLayer  = L.layerGroup().addTo(plannerMap);
+      markersLayer    = L.layerGroup().addTo(plannerMap);
+      customPinLayer  = L.layerGroup().addTo(plannerMap);
+      pitstopLayer    = L.layerGroup().addTo(plannerMap);
+
+      plannerMap.on('click', (e) => {
+        handleMapClick(e.latlng.lat, e.latlng.lng);
+      });
+
+      loadGraphNodes();
+      loadPresets();
+
+      setTimeout(() => { if (plannerMap) plannerMap.invalidateSize(); }, 300);
+      setTimeout(() => { if (plannerMap) plannerMap.invalidateSize(); }, 800);
+    }
+
+    window.addEventListener('resize', () => {
+      if (plannerMap) plannerMap.invalidateSize();
+    });
+
+    // Close search dropdowns on outside click
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.search-input-wrapper')) {
+        const origDrop = document.getElementById('origin-suggestions');
+        const destDrop = document.getElementById('dest-suggestions');
+        if (origDrop) origDrop.style.display = 'none';
+        if (destDrop) destDrop.style.display = 'none';
+      }
+    });
+
+    // Load popular presets
+    function loadPresets() {
+      fetch('/api/route/presets')
+        .then(res => res.json())
+        .then(presets => {
+          const container = document.getElementById('presets-container');
+          if (!presets || presets.length === 0) return;
+          let html = '<span style="font-size:11.5px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em; margin-right:4px;">⚡ Popular Corridors:</span>';
+          presets.forEach(p => {
+            html += `<span class="preset-tag" onclick="applyPreset(${p.start_id}, ${p.dest_id})">${p.label}</span>`;
+          });
+          container.innerHTML = html;
+        })
+        .catch(err => console.warn("Failed to load presets:", err));
+    }
+
+    function applyPreset(startId, destId) {
+      const sNode = nodesById[startId];
+      const dNode = nodesById[destId];
+      if (sNode) {
+        setCustomOrigin(sNode.lat, sNode.lon, sNode.display_name, sNode.id, false);
+      }
+      if (dNode) {
+        setCustomDestination(dNode.lat, dNode.lon, dNode.display_name, dNode.id, false);
+      }
+      document.getElementById('stops-container').innerHTML = '';
+      customStops = [];
+      calculateAStarRoute();
+    }
+
+    // Load graph nodes from RouteX backend
+    function loadGraphNodes() {
+      fetch('/api/route/nodes')
+        .then(res => res.json())
+        .then(nodes => {
+          allNodes = nodes;
+          nodesById = {};
+          nodes.forEach(n => { nodesById[n.id] = n; });
+          populateDropdowns();
+          plotBackgroundNodes();
+        })
+        .catch(err => {
+          console.warn("Failed to load /api/route/nodes, falling back to /api/dwdm/map-locations", err);
+          fetch('/api/dwdm/map-locations')
+            .then(res => res.json())
+            .then(locations => {
+              allNodes = locations.map(l => ({
+                id: l.Location_ID,
+                name: l.Location_Name,
+                city: l.City,
+                display_name: `${l.City} (${l.State})`,
+                state: l.State,
+                lat: parseFloat(l.Latitude),
+                lon: parseFloat(l.Longitude),
+                risk_score: Math.min(100, Math.round(((l.total_accidents || 10) / 300) * 100)),
+                risk_zone: (l.total_accidents > 70 ? 'High Risk' : (l.total_accidents > 35 ? 'Moderate' : 'Safe')),
+                total_accidents: l.total_accidents || 0,
+                blackspot_count: 0,
+                fatal_count: 0,
+                avg_speed: l.avg_speed || 55,
+                amenities: ["Hospitals", "Petrol Stations"]
+              }));
+              allNodes.forEach(n => { nodesById[n.id] = n; });
+              populateDropdowns();
+              plotBackgroundNodes();
+            });
+        });
+    }
+
+    function populateDropdowns() {
+      const startSel = document.getElementById('start-point');
+      const destSel  = document.getElementById('dest-point');
+
+      const sorted = [...allNodes].sort((a, b) => a.display_name.localeCompare(b.display_name));
+
+      let startOpts = '<option value="">-- Or Select from 486 National Corridor Cities --</option>';
+      let destOpts  = '<option value="">-- Or Select from 486 National Corridor Cities --</option>';
+
+      sorted.forEach(n => {
+        const opt = `<option value="${n.id}">${n.display_name} — Hazard: ${n.risk_score}/100 (${n.risk_zone})</option>`;
+        startOpts += opt;
+        destOpts  += opt;
+      });
+
+      startSel.innerHTML = startOpts;
+      destSel.innerHTML  = destOpts;
+
+      // Select default Delhi -> Mumbai if present
+      const delhi = allNodes.find(n => n.city && n.city.toLowerCase().includes('delhi'));
+      const mumbai = allNodes.find(n => n.city && (n.city.toLowerCase().includes('mumbai') || n.city.toLowerCase().includes('navi')));
+      if (delhi && mumbai) {
+        setCustomOrigin(delhi.lat, delhi.lon, delhi.display_name, delhi.id, false);
+        setCustomDestination(mumbai.lat, mumbai.lon, mumbai.display_name, mumbai.id, false);
+        calculateAStarRoute();
+      }
+    }
+
+    function plotBackgroundNodes() {
+      allNodes.forEach(n => {
+        const marker = L.circleMarker([n.lat, n.lon], {
+          radius: 3.5,
+          fillColor: '#5b8ff9',
+          color: '#131a27',
+          weight: 1,
+          fillOpacity: 0.35
+        });
+        marker.bindPopup(`
+          <div style="font-family:inherit; color:#131a27; padding:4px;">
+            <strong>${n.display_name}</strong><br>
+            <span style="font-size:11px;">Corridor Hazard Score: ${n.risk_score}/100 (${n.risk_zone})</span><br>
+            <span style="font-size:11px;">Corridor Speed: ${n.avg_speed} km/h</span>
+            <div style="margin-top:6px; display:flex; gap:4px;">
+              <button onclick="setCustomOrigin(${n.lat}, ${n.lon}, '${n.display_name.replace(/'/g, "\'")}', ${n.id}, true); calculateAStarRoute();" style="padding:2px 6px; font-size:10px; cursor:pointer;">Set Origin</button>
+              <button onclick="setCustomDestination(${n.lat}, ${n.lon}, '${n.display_name.replace(/'/g, "\'")}', ${n.id}, true); calculateAStarRoute();" style="padding:2px 6px; font-size:10px; cursor:pointer;">Set Dest</button>
+            </div>
+          </div>
+        `);
+        if (plannerMap) plannerMap.addLayer(marker);
+      });
+    }
+
+    // Toggle corridor dropdown visibility
+    function toggleCorridorDropdown(target) {
+      const sel = document.getElementById(target === 'origin' ? 'start-point' : 'dest-point');
+      if (sel) {
+        sel.style.display = (sel.style.display === 'none' || !sel.style.display) ? 'block' : 'none';
+      }
+    }
+
+    function onCorridorDropdownChange(target) {
+      const sel = document.getElementById(target === 'origin' ? 'start-point' : 'dest-point');
+      const val = parseInt(sel.value);
+      if (val && nodesById[val]) {
+        const n = nodesById[val];
+        if (target === 'origin') {
+          setCustomOrigin(n.lat, n.lon, n.display_name, n.id, true);
+        } else {
+          setCustomDestination(n.lat, n.lon, n.display_name, n.id, true);
+        }
+        calculateAStarRoute();
+      }
+    }
+
+    // Autocomplete Search Handlers
+    function handleLocationSearch(target, query) {
+      const dropdown = document.getElementById(target + '-suggestions');
+      if (!query || query.trim().length < 2) {
+        dropdown.style.display = 'none';
+        dropdown.innerHTML = '';
+        return;
+      }
+
+      clearTimeout(searchDebounceTimer);
+      searchDebounceTimer = setTimeout(() => {
+        const qLower = query.toLowerCase().trim();
+        const localMatches = allNodes.filter(n =>
+          n.city.toLowerCase().includes(qLower) ||
+          n.display_name.toLowerCase().includes(qLower) ||
+          (n.state && n.state.toLowerCase().includes(qLower))
+        ).slice(0, 3);
+
+        const osmUrl = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&countrycodes=in&limit=5`;
+        fetch(osmUrl, { headers: { 'Accept-Language': 'en' } })
+          .then(res => res.json())
+          .then(osmResults => {
+            renderSearchSuggestions(target, localMatches, osmResults);
+          })
+          .catch(() => {
+            renderSearchSuggestions(target, localMatches, []);
+          });
+      }, 250);
+    }
+
+    function renderSearchSuggestions(target, localMatches, osmResults) {
+      const dropdown = document.getElementById(target + '-suggestions');
+      let html = '';
+
+      localMatches.forEach(item => {
+        html += `
+          <div class="suggestion-item" onclick="selectSuggestion('${target}', ${item.lat}, ${item.lon}, '${item.display_name.replace(/'/g, "\'")}', ${item.id})">
+            <span class="suggestion-item-icon">🛣️</span>
+            <div style="min-width:0; flex:1;">
+              <div class="suggestion-title">${item.display_name}</div>
+              <div class="suggestion-subtitle">Corridor Node · Hazard Score: ${item.risk_score}/100 (${item.risk_zone})</div>
+            </div>
+          </div>
+        `;
+      });
+
+      (osmResults || []).forEach(item => {
+        const lat = parseFloat(item.lat);
+        const lon = parseFloat(item.lon);
+        const parts = item.display_name.split(',');
+        const cleanName = parts.slice(0, 2).join(', ').trim();
+        html += `
+          <div class="suggestion-item" onclick="selectSuggestion('${target}', ${lat}, ${lon}, '${cleanName.replace(/'/g, "\'")}', null)">
+            <span class="suggestion-item-icon">📍</span>
+            <div style="min-width:0; flex:1;">
+              <div class="suggestion-title">${cleanName}</div>
+              <div class="suggestion-subtitle">${item.display_name}</div>
+            </div>
+          </div>
+        `;
+      });
+
+      if (!html) {
+        html = `<div style="padding:10px 14px; font-size:12px; color:var(--muted); text-align:center;">No matching places found. Click map to place custom pin.</div>`;
+      }
+
+      dropdown.innerHTML = html;
+      dropdown.style.display = 'block';
+    }
+
+    function selectSuggestion(target, lat, lon, name, id = null) {
+      const dropdown = document.getElementById(target + '-suggestions');
+      if (dropdown) dropdown.style.display = 'none';
+
+      if (target === 'origin') {
+        setCustomOrigin(lat, lon, name, id, true);
+      } else {
+        setCustomDestination(lat, lon, name, id, true);
+      }
+
+      if (customStart && customDest) {
+        calculateAStarRoute();
+      }
+    }
+
+    // Custom Location Setters with Draggable Pins
+    function setCustomOrigin(lat, lon, name, id = null, flyTo = false) {
+      customStart = { lat: parseFloat(lat), lon: parseFloat(lon), name: name, id: id };
+      document.getElementById('origin-search').value = name;
+      const badge = document.getElementById('origin-coords-badge');
+      badge.textContent = `${lat.toFixed(4)}, ${lon.toFixed(4)}`;
+      badge.style.display = 'inline-flex';
+
+      if (id) {
+        document.getElementById('start-point').value = id;
+      }
+
+      if (!customOriginMarker && plannerMap) {
+        const icon = L.divIcon({
+          className: 'custom-pin-icon',
+          html: '<div style="background:#5ad8a6; width:26px; height:26px; border-radius:50%; border:3px solid #ffffff; box-shadow:0 0 12px #5ad8a6; display:grid; place-items:center; font-size:12px; color:#0a0e16; font-weight:900;">A</div>',
+          iconSize: [26, 26],
+          iconAnchor: [13, 13]
+        });
+        customOriginMarker = L.marker([lat, lon], {
+          icon: icon,
+          draggable: true,
+          zIndexOffset: 1200
+        }).addTo(customPinLayer || plannerMap);
+
+        customOriginMarker.on('dragend', function(e) {
+          const pos = e.target.getLatLng();
+          reverseGeocodeLocation(pos.lat, pos.lng, (resolvedName) => {
+            setCustomOrigin(pos.lat, pos.lng, resolvedName, null, false);
+            calculateAStarRoute();
+          });
+        });
+      } else if (customOriginMarker) {
+        customOriginMarker.setLatLng([lat, lon]);
+      }
+
+      customOriginMarker.bindPopup(`
+        <div style="font-family:inherit; padding:4px;">
+          <span style="font-size:10px; font-weight:800; text-transform:uppercase; color:#5ad8a6;">🟢 Origin (Draggable Pin)</span>
+          <h4 style="margin:4px 0 6px; font-size:13px; color:#e6edf7;">${name}</h4>
+          <div style="font-size:11px; color:#94a3b8;">${lat.toFixed(5)}, ${lon.toFixed(5)}</div>
+          <div style="font-size:10.5px; color:#5ad8a6; margin-top:4px;">💡 Drag pin across map to reposition Origin</div>
+        </div>
+      `);
+
+      if (flyTo && plannerMap) {
+        plannerMap.flyTo([lat, lon], Math.max(plannerMap.getZoom(), 8));
+      }
+    }
+
+    function setCustomDestination(lat, lon, name, id = null, flyTo = false) {
+      customDest = { lat: parseFloat(lat), lon: parseFloat(lon), name: name, id: id };
+      document.getElementById('dest-search').value = name;
+      const badge = document.getElementById('dest-coords-badge');
+      badge.textContent = `${lat.toFixed(4)}, ${lon.toFixed(4)}`;
+      badge.style.display = 'inline-flex';
+
+      if (id) {
+        document.getElementById('dest-point').value = id;
+      }
+
+      if (!customDestMarker && plannerMap) {
+        const icon = L.divIcon({
+          className: 'custom-pin-icon',
+          html: '<div style="background:#e8684a; width:26px; height:26px; border-radius:50%; border:3px solid #ffffff; box-shadow:0 0 12px #e8684a; display:grid; place-items:center; font-size:12px; color:#ffffff; font-weight:900;">B</div>',
+          iconSize: [26, 26],
+          iconAnchor: [13, 13]
+        });
+        customDestMarker = L.marker([lat, lon], {
+          icon: icon,
+          draggable: true,
+          zIndexOffset: 1200
+        }).addTo(customPinLayer || plannerMap);
+
+        customDestMarker.on('dragend', function(e) {
+          const pos = e.target.getLatLng();
+          reverseGeocodeLocation(pos.lat, pos.lng, (resolvedName) => {
+            setCustomDestination(pos.lat, pos.lng, resolvedName, null, false);
+            calculateAStarRoute();
+          });
+        });
+      } else if (customDestMarker) {
+        customDestMarker.setLatLng([lat, lon]);
+      }
+
+      customDestMarker.bindPopup(`
+        <div style="font-family:inherit; padding:4px;">
+          <span style="font-size:10px; font-weight:800; text-transform:uppercase; color:#e8684a;">🔴 Destination (Draggable Pin)</span>
+          <h4 style="margin:4px 0 6px; font-size:13px; color:#e6edf7;">${name}</h4>
+          <div style="font-size:11px; color:#94a3b8;">${lat.toFixed(5)}, ${lon.toFixed(5)}</div>
+          <div style="font-size:10.5px; color:#e8684a; margin-top:4px;">💡 Drag pin across map to reposition Destination</div>
+        </div>
+      `);
+
+      if (flyTo && plannerMap) {
+        plannerMap.flyTo([lat, lon], Math.max(plannerMap.getZoom(), 8));
+      }
+    }
+
+    function reverseGeocodeLocation(lat, lon, callback) {
+      const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat.toFixed(6)}&lon=${lon.toFixed(6)}&format=json`;
+      fetch(url, { headers: { 'Accept-Language': 'en' } })
+        .then(res => res.json())
+        .then(data => {
+          let displayName = data.display_name;
+          if (data.address) {
+            const addr = data.address;
+            const main = addr.suburb || addr.neighbourhood || addr.village || addr.town || addr.city || addr.road || '';
+            const sec  = addr.city || addr.county || addr.state_district || addr.state || '';
+            if (main && sec && main !== sec) {
+              displayName = `${main}, ${sec}`;
+            } else if (main) {
+              displayName = `${main}, ${addr.state || 'India'}`;
+            }
+          }
+          callback(displayName || `Custom Point (${lat.toFixed(4)}, ${lon.toFixed(4)})`);
+        })
+        .catch(() => {
+          let closest = allNodes[0];
+          let minD = Infinity;
+          allNodes.forEach(n => {
+            const d = (n.lat - lat) ** 2 + (n.lon - lon) ** 2;
+            if (d < minD) { minD = d; closest = n; }
+          });
+          callback(closest ? `Near ${closest.display_name}` : `Custom Point (${lat.toFixed(4)}, ${lon.toFixed(4)})`);
+        });
+    }
+
+    // Toggle Pin Mode
+    function togglePinMode(mode) {
+      if (currentPinMode === mode) {
+        setPinMode('none');
+      } else {
+        setPinMode(mode);
+      }
+    }
+
+    function setPinMode(mode) {
+      currentPinMode = mode;
+      document.getElementById('btn-mode-start').className = 'pin-mode-btn' + (mode === 'start' ? ' active-start' : '');
+      document.getElementById('btn-mode-dest').className = 'pin-mode-btn' + (mode === 'dest' ? ' active-dest' : '');
+      document.getElementById('btn-mode-stop').className = 'pin-mode-btn' + (mode === 'stop' ? ' active-stop' : '');
+      document.getElementById('btn-mode-none').className = 'pin-mode-btn' + (mode === 'none' ? ' active' : '');
+
+      const pickOrig = document.getElementById('btn-pick-origin');
+      const pickDest = document.getElementById('btn-pick-dest');
+      if (pickOrig) pickOrig.className = 'pick-pin-btn' + (mode === 'start' ? ' active-start' : '');
+      if (pickDest) pickDest.className = 'pick-pin-btn' + (mode === 'dest' ? ' active-dest' : '');
+
+      const statusEl = document.getElementById('map-status');
+      if (mode === 'start') statusEl.textContent = '🟢 Click anywhere on the map to drop Origin pin';
+      else if (mode === 'dest') statusEl.textContent = '🔴 Click anywhere on the map to drop Destination pin';
+      else if (mode === 'stop') statusEl.textContent = '🟡 Click anywhere on the map to add Stopover';
+      else statusEl.textContent = 'Ready (Free Click / Drag Pin Mode)';
+    }
+
+    // Map Click Handler
+    function handleMapClick(lat, lng) {
+      if (currentPinMode === 'start') {
+        document.getElementById('map-status').textContent = '🟢 Resolving Origin address...';
+        reverseGeocodeLocation(lat, lng, (name) => {
+          setCustomOrigin(lat, lng, name, null, false);
+          setPinMode('none');
+          if (customDest) calculateAStarRoute();
+          else setPinMode('dest');
+        });
+      } else if (currentPinMode === 'dest') {
+        document.getElementById('map-status').textContent = '🔴 Resolving Destination address...';
+        reverseGeocodeLocation(lat, lng, (name) => {
+          setCustomDestination(lat, lng, name, null, false);
+          setPinMode('none');
+          if (customStart) calculateAStarRoute();
+        });
+      } else if (currentPinMode === 'stop') {
+        document.getElementById('map-status').textContent = '🟡 Resolving Stopover address...';
+        reverseGeocodeLocation(lat, lng, (name) => {
+          addCustomStopover(lat, lng, name);
+          setPinMode('none');
+          calculateAStarRoute();
+        });
+      } else {
+        // Free Click Mode:
+        if (!customStart) {
+          document.getElementById('map-status').textContent = '🟢 Setting Origin...';
+          reverseGeocodeLocation(lat, lng, (name) => {
+            setCustomOrigin(lat, lng, name, null, false);
+            setPinMode('dest');
+          });
+        } else if (!customDest) {
+          document.getElementById('map-status').textContent = '🔴 Setting Destination...';
+          reverseGeocodeLocation(lat, lng, (name) => {
+            setCustomDestination(lat, lng, name, null, false);
+            calculateAStarRoute();
+          });
+        } else {
+          // Both are already set: show quick context popup
+          const popup = L.popup()
+            .setLatLng([lat, lng])
+            .setContent(`
+              <div style="font-family:inherit; padding:6px; min-width:180px;">
+                <strong style="display:block; font-size:12px; margin-bottom:8px; color:#e6edf7;">Point: ${lat.toFixed(4)}, ${lng.toFixed(4)}</strong>
+                <div style="display:flex; flex-direction:column; gap:6px;">
+                  <button onclick="setPointFromPopup('start', ${lat}, ${lng})" class="btn" style="padding:4px 8px; font-size:11px; background:#5ad8a6; color:#0a0e16;">🟢 Set as Origin</button>
+                  <button onclick="setPointFromPopup('dest', ${lat}, ${lng})" class="btn" style="padding:4px 8px; font-size:11px; background:#e8684a; color:#ffffff;">🔴 Set as Destination</button>
+                  <button onclick="setPointFromPopup('stop', ${lat}, ${lng})" class="btn ghost" style="padding:4px 8px; font-size:11px; border-color:#f6bd16; color:#f6bd16;">🟡 Add as Stopover</button>
+                </div>
+              </div>
+            `)
+            .openOn(plannerMap);
+        }
+      }
+    }
+
+    function setPointFromPopup(role, lat, lng) {
+      if (plannerMap) plannerMap.closePopup();
+      if (role === 'start') {
+        reverseGeocodeLocation(lat, lng, (name) => {
+          setCustomOrigin(lat, lng, name, null, false);
+          calculateAStarRoute();
+        });
+      } else if (role === 'dest') {
+        reverseGeocodeLocation(lat, lng, (name) => {
+          setCustomDestination(lat, lng, name, null, false);
+          calculateAStarRoute();
+        });
+      } else if (role === 'stop') {
+        reverseGeocodeLocation(lat, lng, (name) => {
+          addCustomStopover(lat, lng, name);
+          calculateAStarRoute();
+        });
+      }
+    }
+
+    // Stopovers
+    function addRestStop(defaultId = '') {
+      const container = document.getElementById('stops-container');
+      const stopId = 'stop_' + Date.now() + Math.random().toString(36).substring(2, 6);
+
+      const div = document.createElement('div');
+      div.className = 'stop-item';
+      div.id = stopId;
+
+      const sorted = [...allNodes].sort((a, b) => a.display_name.localeCompare(b.display_name));
+      let optionsHtml = '<option value="">-- Select Stopover City --</option>';
+      sorted.forEach(n => {
+        const selected = (n.id == defaultId) ? 'selected' : '';
+        optionsHtml += `<option value="${n.id}" ${selected}>${n.display_name} (Hazard: ${n.risk_score}/100)</option>`;
+      });
+
+      div.innerHTML = `
+        <select class="form-input rest-stop-select" onchange="calculateAStarRoute()">
+          ${optionsHtml}
+        </select>
+        <button class="remove-stop-btn" onclick="removeRestStop('${stopId}')" title="Remove Stopover">&times;</button>
+      `;
+      container.appendChild(div);
+    }
+
+    function addCustomStopover(lat, lon, name) {
+      const container = document.getElementById('stops-container');
+      const stopId = 'stop_' + Date.now() + Math.random().toString(36).substring(2, 6);
+
+      const div = document.createElement('div');
+      div.className = 'stop-item';
+      div.id = stopId;
+
+      div.innerHTML = `
+        <input type="text" class="form-input rest-stop-custom" value="${name}" readonly style="flex:1;" data-lat="${lat}" data-lon="${lon}" />
+        <button class="remove-stop-btn" onclick="removeRestStop('${stopId}')" title="Remove Stopover">&times;</button>
+      `;
+      container.appendChild(div);
+
+      const stopIcon = L.divIcon({
+        className: 'custom-pin-icon',
+        html: '<div style="background:#f6bd16; width:22px; height:22px; border-radius:50%; border:2px solid #ffffff; box-shadow:0 0 10px #f6bd16; display:grid; place-items:center; font-size:10px; color:#0a0e16; font-weight:800;">S</div>',
+        iconSize: [22, 22],
+        iconAnchor: [11, 11]
+      });
+      const marker = L.marker([lat, lon], {icon: stopIcon, draggable: true}).addTo(customPinLayer || plannerMap);
+      marker.bindPopup(`<strong>Stopover:</strong> ${name}`);
+      customStopMarkers.push({ id: stopId, marker: marker });
+    }
+
+    function removeRestStop(id) {
+      const el = document.getElementById(id);
+      if (el) el.remove();
+      const markerIdx = customStopMarkers.findIndex(m => m.id === id);
+      if (markerIdx !== -1) {
+        if (plannerMap) plannerMap.removeLayer(customStopMarkers[markerIdx].marker);
+        customStopMarkers.splice(markerIdx, 1);
+      }
+      calculateAStarRoute();
+    }
+
+    // MAIN A* ROUTE CALCULATION CALL
+    async function calculateAStarRoute() {
+      if (!plannerMap) return;
+      safeRouteLayer.clearLayers();
+      shortRouteLayer.clearLayers();
+      markersLayer.clearLayers();
+
+      const startSelVal = document.getElementById('start-point').value;
+      const destSelVal  = document.getElementById('dest-point').value;
+
+      if (!customStart && !startSelVal) {
+        document.getElementById('comparison-view').style.display = 'none';
+        document.getElementById('telemetry-container').style.display = 'none';
+        document.getElementById('recommended-stops-section').style.display = 'none';
+        document.getElementById('highway-navigation-section').style.display = 'none';
+        document.getElementById('itinerary-tbody').innerHTML = '<tr><td colspan="8" style="text-align:center; color:var(--muted); padding:32px;">Pick or search an Origin and Destination above to calculate real road route.</td></tr>';
+        return;
+      }
+
+      if (!customDest && !destSelVal) {
+        document.getElementById('map-status').textContent = 'Please choose or click a Destination';
+        return;
+      }
+
+      const stops = [];
+      const customStopsPayload = [];
+      document.querySelectorAll('.rest-stop-select').forEach(sel => {
+        if (sel.value) stops.push(parseInt(sel.value));
+      });
+      document.querySelectorAll('.rest-stop-custom').forEach(inp => {
+        const lat = parseFloat(inp.getAttribute('data-lat'));
+        const lon = parseFloat(inp.getAttribute('data-lon'));
+        if (lat && lon) {
+          customStopsPayload.push({ lat: lat, lon: lon, name: inp.value });
+        }
+      });
+
+      const mode            = document.getElementById('algo-mode').value;
+      const safetyWeight    = parseFloat(document.getElementById('safety-weight-slider').value);
+      const avoidBlackspots = document.getElementById('avoid-blackspots-chk').checked;
+      const compareMode     = document.getElementById('compare-routes-chk').checked;
+      const trafficDensity  = document.getElementById('traffic-density') ? document.getElementById('traffic-density').value : 'normal';
+      if (pitstopLayer) pitstopLayer.clearLayers();
+
+      document.getElementById('map-status').textContent = 'Calculating optimal real road corridor...';
+
+      const payload = {
+        mode: mode,
+        safety_weight: safetyWeight,
+        avoid_blackspots: avoidBlackspots,
+        compare: compareMode,
+        traffic_density: trafficDensity,
+        stops: stops,
+        custom_stops: customStopsPayload
+      };
+
+      if (customStart) {
+        payload.start = { lat: customStart.lat, lon: customStart.lon, name: customStart.name, id: customStart.id };
+      } else {
+        payload.start_id = parseInt(startSelVal);
+      }
+
+      if (customDest) {
+        payload.dest = { lat: customDest.lat, lon: customDest.lon, name: customDest.name, id: customDest.id };
+      } else {
+        payload.dest_id = parseInt(destSelVal);
+      }
+
+      try {
+        const res = await fetch('/api/route/plan', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify(payload)
+        });
+
+        const data = await res.json();
+        if (!data.success) {
+          alert('RouteX Notice: ' + (data.error || 'Failed to find route'));
+          document.getElementById('map-status').textContent = 'No corridor path found';
+          return;
+        }
+
+        renderAStarResults(data);
+        document.getElementById('map-status').textContent = 'Active Driving Corridor';
+      } catch (err) {
+        console.error("Routing error:", err);
+        document.getElementById('map-status').textContent = 'Routing error';
+      }
+    }
+
+    function renderAStarResults(data) {
+      window.currentPlanData = data;
+      const gmBar = document.getElementById('gmaps-action-bar');
+      if (gmBar) gmBar.style.display = 'flex';
+
+      const isCompare = data.compare_mode;
+      const primaryRoute = isCompare ? data.safest : data.route;
+      const shortestRoute = isCompare ? data.shortest : null;
+
+      // 1. Telemetry Bar
+      const telem = primaryRoute.telemetry || {};
+      document.getElementById('telemetry-container').style.display = 'flex';
+      document.getElementById('telemetry-expanded').textContent =
+        `${telem.nodes_expanded || 1} / ${allNodes.length || 486} (${telem.search_space_pct || 0.4}% of network)`;
+      document.getElementById('telemetry-time').textContent = `${telem.search_time_ms || 1.0} ms`;
+
+      // 2. Render Polylines along ACTUAL ROADS & HIGHWAYS
+      let allLatLngs = [];
+
+      // Shortest Route Polyline (Amber/Orange dashed line)
+      let shortPolyline = null;
+      if (isCompare && shortestRoute) {
+        const hasShortRoadGeom = (shortestRoute.road_geometry && shortestRoute.road_geometry.length > 5);
+        const shortCoords = hasShortRoadGeom
+          ? shortestRoute.road_geometry
+          : shortestRoute.path_detail.map(p => [p.lat, p.lon]);
+
+        shortPolyline = L.polyline(shortCoords, {
+          color: '#f6bd16',
+          weight: 4,
+          opacity: 0.88,
+          dashArray: '8, 8'
+        });
+        shortRouteLayer.addLayer(shortPolyline);
+        allLatLngs.push(...shortCoords);
+      }
+
+      // Safest Route Polyline (Vibrant glowing Emerald/Cyan)
+      const hasSafeRoadGeom = (primaryRoute.road_geometry && primaryRoute.road_geometry.length > 5);
+      const safeCoords = hasSafeRoadGeom
+        ? primaryRoute.road_geometry
+        : primaryRoute.path_detail.map(p => [p.lat, p.lon]);
+
+      const glowPolyline = L.polyline(safeCoords, {
+        color: '#5b8ff9',
+        weight: 8,
+        opacity: 0.4,
+        lineCap: 'round',
+        lineJoin: 'round'
+      });
+      safeRouteLayer.addLayer(glowPolyline);
+
+      const safePolyline = L.polyline(safeCoords, {
+        color: '#5ad8a6',
+        weight: 5,
+        opacity: 0.98,
+        lineCap: 'round',
+        lineJoin: 'round'
+      });
+      safeRouteLayer.addLayer(safePolyline);
+      allLatLngs.push(...safeCoords);
+
+      // Fit map bounds
+      if (allLatLngs.length > 0) {
+        plannerMap.fitBounds(L.latLngBounds(allLatLngs), {padding: [50, 50]});
+      }
+
+      // Turn-by-Turn Navigation Steps
+      if (primaryRoute.road_steps && primaryRoute.road_steps.length > 0) {
+        renderTurnByTurnSteps(primaryRoute.road_steps, primaryRoute.total_dist_km);
+      }
+
+      // 3. Render Intermediate Waypoint Markers
+      primaryRoute.path_detail.forEach((node, idx) => {
+        let pinColor = '#5b8ff9';
+        let radius = 6;
+        let roleTitle = 'Corridor Waypoint';
+
+        if (node.point_type === 'start') {
+          pinColor = '#5ad8a6';
+          radius = 10;
+          roleTitle = 'Corridor Origin';
+        } else if (node.point_type === 'dest') {
+          pinColor = '#e8684a';
+          radius = 10;
+          roleTitle = 'Final Destination';
+        } else if (node.point_type === 'stop') {
+          pinColor = '#f6bd16';
+          radius = 8;
+          roleTitle = `Stopover #${idx}`;
+        }
+
+        const marker = L.circleMarker([node.lat, node.lon], {
+          radius: radius,
+          fillColor: pinColor,
+          color: '#ffffff',
+          weight: 2,
+          fillOpacity: 0.95
+        });
+
+        const amenityPills = (node.amenities || []).map(a => `<span class="amenity-chip">${a}</span>`).join('');
+
+        marker.bindPopup(`
+          <div style="font-family:inherit; color:#131a27; min-width:210px; padding:4px;">
+            <span style="font-size:10px; font-weight:700; text-transform:uppercase; color:${pinColor};">${roleTitle}</span>
+            <h4 style="margin:4px 0 6px; font-size:14px; color:#0a0e16;">${node.display_name}</h4>
+            <div style="font-size:12px; margin-bottom:3px;"><strong>Corridor Hazard:</strong> <span style="font-weight:bold; color:${node.risk_score >= 60 ? '#e8684a' : (node.risk_score >= 35 ? '#f6bd16' : '#5ad8a6')}">${node.risk_score}/100 (${node.risk_zone})</span></div>
+            <div style="font-size:12px; margin-bottom:3px;"><strong>Corridor Speed:</strong> ${node.avg_speed} km/h</div>
+            <div style="font-size:12px; margin-bottom:6px;"><strong>Accidents / Blackspots:</strong> ${node.total_accidents} / ${node.blackspot_count}</div>
+            <div style="border-top:1px solid #e2e8f0; padding-top:6px; font-size:11px;">
+              <strong>Road Services:</strong><br>${amenityPills || 'Standard corridor amenities'}
+            </div>
+          </div>
+        `);
+        markersLayer.addLayer(marker);
+      });
+
+      // 4. Comparison Cards & Verdict (ACCURATE REAL ROAD DISTANCES & TRAFFIC DELAY)
+      const compView = document.getElementById('comparison-view');
+      const tDensity = primaryRoute.traffic_density || (document.getElementById('traffic-density') ? document.getElementById('traffic-density').value : 'normal');
+      const tLabel = (tDensity === 'peak') ? '🚦 Peak Rush (+35%)' : ((tDensity === 'night') ? '🌙 Late Night (-18%)' : '🚗 Normal Flow');
+
+      if (isCompare && shortestRoute) {
+        compView.style.display = 'grid';
+        document.getElementById('safe-dist').textContent = primaryRoute.total_dist_km + ' km';
+        document.getElementById('safe-time').innerHTML = `${formatHours(primaryRoute.total_time_hours)} <span style="display:block; font-size:11px; color:#5ad8a6; font-weight:600; margin-top:2px;">${tLabel}</span>`;
+        document.getElementById('safe-risk').textContent = primaryRoute.avg_risk + ' / 100';
+        document.getElementById('safe-blackspots').textContent = primaryRoute.total_blackspots;
+        document.getElementById('safe-fatal').textContent = primaryRoute.total_fatal;
+
+        document.getElementById('short-dist').textContent = shortestRoute.total_dist_km + ' km';
+        document.getElementById('short-time').innerHTML = `${formatHours(shortestRoute.total_time_hours)} <span style="display:block; font-size:11px; color:#f6bd16; font-weight:600; margin-top:2px;">${tLabel}</span>`;
+        document.getElementById('short-risk').textContent = shortestRoute.avg_risk + ' / 100';
+        document.getElementById('short-blackspots').textContent = shortestRoute.total_blackspots;
+        document.getElementById('short-fatal').textContent = shortestRoute.total_fatal;
+
+        document.getElementById('verdict-text').textContent = (data.differential && data.differential.summary_verdict)
+          ? data.differential.summary_verdict
+          : `RouteX Safest Corridor across ${primaryRoute.total_dist_km} km real road driving distance.`;
+      } else {
+        compView.style.display = 'none';
+      }
+
+      // 4b. Render Along-the-Route Pitstops, Food & Chill Spots
+      currentPitstops = data.pitstops || primaryRoute.pitstops || [];
+      renderPitstops(currentPitstops);
+      plotPitstopMarkers(currentPitstops);
+
+      // 5. Recommended Fatigue Rest Stops
+      const recSection = document.getElementById('recommended-stops-section');
+      const recContainer = document.getElementById('recommended-stops-container');
+      if (data.recommended_stops && data.recommended_stops.length > 0) {
+        recSection.style.display = 'block';
+        let recHtml = '';
+        data.recommended_stops.forEach(s => {
+          const aBadges = (s.amenities || []).map(a => `<span class="amenity-chip">${a}</span>`).join('');
+          recHtml += `
+            <div class="rest-card">
+              <div>
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                  <strong style="font-size:14px; color:#e6edf7;">${s.display_name}</strong>
+                  <span class="risk-pill ${s.risk_score >= 60 ? 'high' : (s.risk_score >= 35 ? 'moderate' : 'safe')}">${s.risk_zone}</span>
+                </div>
+                <div style="font-size:12px; color:var(--muted); margin-bottom:8px;">
+                  📍 ${s.distance_from_start_km} km from start &middot; ~${formatHours(s.driving_hours)} driving
+                </div>
+                <p style="font-size:12px; color:#cbd5e1; margin:0 0 10px; line-height:1.4;">
+                  ${s.recommendation_reason}
+                </p>
+                <div style="margin-bottom:12px;">${aBadges}</div>
+              </div>
+              <button onclick="addRestStop(${s.id}); calculateAStarRoute();" class="btn ghost" style="padding:6px 12px; font-size:11.5px;">
+                + Add as Stopover
+              </button>
+            </div>
+          `;
+        });
+        recContainer.innerHTML = recHtml;
+      } else {
+        recSection.style.display = 'none';
+      }
+
+      // 6. Itinerary Table with Exact Road Driving Distances
+      const tbody = document.getElementById('itinerary-tbody');
+      let tableRows = '';
+      let accumKm = 0.0;
+
+      primaryRoute.segments.forEach((seg, idx) => {
+        accumKm += seg.dist_km;
+        const riskClass = seg.risk_score >= 60 ? 'high' : (seg.risk_score >= 35 ? 'moderate' : 'safe');
+        const amenityTags = (seg.amenities || []).map(a => `<span class="amenity-chip">${a}</span>`).join('');
+
+        tableRows += `
+          <tr>
+            <td><strong>#${idx + 1}</strong></td>
+            <td>
+              <strong>${seg.to_city}</strong>
+              <small style="color:var(--muted); display:block;">via ${seg.from_city} Highway Corridor</small>
+            </td>
+            <td>${seg.to_state}</td>
+            <td>
+              <strong>${seg.dist_km} km</strong>
+              <small style="color:var(--muted); display:block;">Cumul: ${Math.round(accumKm)} km</small>
+            </td>
+            <td>${seg.speed_kmh} km/h</td>
+            <td>${seg.travel_time_min} mins</td>
+            <td>
+              <span class="risk-pill ${riskClass}">${seg.risk_zone} (${seg.risk_score}/100)</span>
+              ${seg.blackspots > 0 ? `<small style="color:var(--danger); display:block; margin-top:2px;">⚠️ ${seg.blackspots} blackspot(s)</small>` : ''}
+            </td>
+            <td>${amenityTags || '<span style="color:var(--muted);">Corridor standard</span>'}</td>
+          </tr>
+        `;
+      });
+
+      tbody.innerHTML = tableRows || '<tr><td colspan="8" style="text-align:center; color:var(--muted); padding:20px;">Single corridor leg.</td></tr>';
+    }
+
+    // Render turn-by-turn highway maneuvers and road names
+    function renderTurnByTurnSteps(steps, totalRoadKm) {
+      const section = document.getElementById('highway-navigation-section');
+      const container = document.getElementById('turn-steps-list');
+      const badge = document.getElementById('nav-summary-badge');
+      if (!section || !container) return;
+
+      if (!steps || steps.length === 0) {
+        section.style.display = 'none';
+        return;
+      }
+
+      section.style.display = 'block';
+      badge.textContent = `${steps.length} Highway Maneuvers · ${totalRoadKm} km Real Road Driving`;
+
+      let html = '';
+      steps.forEach((step, idx) => {
+        let icon = '🛣️';
+        const m = (step.maneuver || '').toLowerCase();
+        if (m.includes('depart')) icon = '🟢';
+        else if (m.includes('arrive')) icon = '🔴';
+        else if (m.includes('right')) icon = '↗️';
+        else if (m.includes('left')) icon = '↖️';
+        else if (m.includes('fork') || m.includes('merge')) icon = '🔀';
+        else if (m.includes('roundabout')) icon = '🔄';
+
+        html += `
+          <div style="background:rgba(10,14,22,0.65); border:1px solid var(--border); border-radius:10px; padding:10px 14px; display:flex; align-items:center; gap:12px;">
+            <div style="width:34px; height:34px; border-radius:8px; background:rgba(91,143,249,0.15); display:grid; place-items:center; font-size:16px; flex-shrink:0;">${icon}</div>
+            <div style="flex:1; min-width:0;">
+              <div style="font-size:13px; font-weight:600; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${step.name}">${step.name}</div>
+              <div style="font-size:11.5px; color:var(--muted); text-transform:capitalize;">${step.maneuver || 'Continue'} &middot; <span style="color:var(--accent2); font-weight:600;">${step.distance_km} km</span></div>
+            </div>
+          </div>
+        `;
+      });
+      container.innerHTML = html;
+    }
+
+    // ── Along-Route Pitstops Logic ──────────────────────────────────────────────
+    function renderPitstops(pitstops) {
+      const section = document.getElementById('corridor-pitstops-section');
+      const container = document.getElementById('corridor-pitstops-container');
+      const badge = document.getElementById('pitstops-count-badge');
+      if (!section || !container) return;
+
+      if (!pitstops || pitstops.length === 0) {
+        section.style.display = 'none';
+        return;
+      }
+
+      section.style.display = 'block';
+
+      // Counts per category
+      const cntAll = pitstops.length;
+      const cntRest = pitstops.filter(p => p.category === 'restaurant').length;
+      const cntPet = pitstops.filter(p => p.category === 'petrol').length;
+      const cntEnt = pitstops.filter(p => p.category === 'entertainment').length;
+
+      document.getElementById('tab-cnt-all').textContent = cntAll;
+      document.getElementById('tab-cnt-restaurant').textContent = cntRest;
+      document.getElementById('tab-cnt-petrol').textContent = cntPet;
+      document.getElementById('tab-cnt-entertainment').textContent = cntEnt;
+
+      // Filtered list
+      const filtered = (currentPitstopCategory === 'all')
+        ? pitstops
+        : pitstops.filter(p => p.category === currentPitstopCategory);
+
+      badge.textContent = `${filtered.length} Curated Spots Available`;
+
+      if (filtered.length === 0) {
+        container.innerHTML = '<div style="grid-column: 1 / -1; padding:24px; text-align:center; color:var(--muted); font-size:13px;">No pitstops in this category along the immediate corridor detour.</div>';
+        return;
+      }
+
+      let cardsHtml = '';
+      filtered.forEach(p => {
+        let catIcon = '🍽️';
+        let badgeClass = 'restaurant';
+        if (p.category === 'petrol') {
+          catIcon = '⛽';
+          badgeClass = 'petrol';
+        } else if (p.category === 'entertainment') {
+          catIcon = '🍿';
+          badgeClass = 'entertainment';
+        }
+
+        const featureBadges = (p.features || []).slice(0, 4).map(f => `<span class="amenity-chip">${f}</span>`).join('');
+        const safeName = (p.name || '').replace(/'/g, "\'");
+
+        cardsHtml += `
+          <div class="pitstop-card cat-${p.category}">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px; margin-bottom:8px;">
+                <span class="pitstop-badge ${badgeClass}">${catIcon} ${p.category_label || p.category}</span>
+                <span style="font-size:12px; font-weight:700; color:#f6bd16; background:rgba(246,189,22,0.12); border:1px solid rgba(246,189,22,0.25); padding:2px 7px; border-radius:6px; white-space:nowrap;">
+                  ★ ${p.rating.toFixed(1)} <span style="font-size:10px; color:var(--muted); font-weight:normal;">(${p.review_count})</span>
+                </span>
+              </div>
+              <h4 style="margin:0 0 4px; font-size:14.5px; color:#e6edf7; line-height:1.3;">${p.name}</h4>
+              <div style="font-size:11.5px; color:var(--accent2); margin-bottom:6px; font-weight:600;">${p.subcategory} &middot; ${p.city}</div>
+              
+              <div style="display:flex; gap:12px; font-size:11.5px; color:var(--muted); margin-bottom:8px; flex-wrap:wrap;">
+                <span>📍 at <strong>${p.distance_from_start_km} km</strong></span>
+                <span>🚗 <strong>${p.detour_km} km</strong> detour</span>
+                <span>🕒 ${p.opening_hours}</span>
+                <span>💵 ${p.price_range}</span>
+              </div>
+
+              <div class="pitstop-chill-box">
+                <span style="font-size:14px; flex-shrink:0;">💡</span>
+                <div><strong>Traffic Chill Tip:</strong> ${p.chill_reason}</div>
+              </div>
+
+              <div style="margin-bottom:12px;">${featureBadges}</div>
+            </div>
+
+            <button onclick="addPitstopAsStopover(${p.lat}, ${p.lon}, '${safeName}')" class="btn ghost" style="padding:7px 12px; font-size:11.5px; width:100%; border-color:rgba(91,143,249,0.35); color:#cbd5e1;">
+              + Add as Stopover
+            </button>
+          </div>
+        `;
+      });
+
+      container.innerHTML = cardsHtml;
+    }
+
+    function filterPitstops(category) {
+      currentPitstopCategory = category;
+      ['all', 'restaurant', 'petrol', 'entertainment'].forEach(cat => {
+        const btn = document.getElementById('tab-btn-' + cat);
+        if (btn) {
+          if (cat === category) btn.classList.add('active');
+          else btn.classList.remove('active');
+        }
+      });
+      renderPitstops(currentPitstops);
+    }
+
+    function plotPitstopMarkers(pitstops) {
+      if (!pitstopLayer || !plannerMap) return;
+      pitstopLayer.clearLayers();
+      if (!showPitstopsOnMap || !pitstops || pitstops.length === 0) return;
+
+      pitstops.forEach(p => {
+        let catIcon = '🍽️';
+        let iconClass = 'restaurant';
+        if (p.category === 'petrol') {
+          catIcon = '⛽';
+          iconClass = 'petrol';
+        } else if (p.category === 'entertainment') {
+          catIcon = '🍿';
+          iconClass = 'entertainment';
+        }
+
+        const customIcon = L.divIcon({
+          className: 'pitstop-map-marker',
+          html: `<div class="pitstop-poi-icon ${iconClass}">${catIcon}</div>`,
+          iconSize: [28, 28],
+          iconAnchor: [14, 14]
+        });
+
+        const marker = L.marker([p.lat, p.lon], { icon: customIcon });
+        const safeName = (p.name || '').replace(/'/g, "\'");
+
+        marker.bindPopup(`
+          <div style="font-family:inherit; min-width:220px; padding:4px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+              <span style="font-size:10px; font-weight:700; text-transform:uppercase; color:var(--accent2);">${p.category_label || p.category}</span>
+              <span style="font-size:11px; font-weight:700; color:#f6bd16;">★ ${p.rating.toFixed(1)}</span>
+            </div>
+            <h4 style="margin:2px 0 4px; font-size:13.5px; color:#e6edf7;">${p.name}</h4>
+            <div style="font-size:11px; color:#94a3b8; margin-bottom:6px;">${p.subcategory} &middot; ${p.city}</div>
+            <div style="font-size:11px; color:#cbd5e1; margin-bottom:4px;">🚗 Detour: <strong>${p.detour_km} km</strong> from route (${p.opening_hours})</div>
+            <div style="background:rgba(91,143,249,0.1); border-radius:6px; padding:6px; font-size:11px; color:#cbd5e1; margin:6px 0 8px;">
+              <strong>Chill Tip:</strong> ${p.chill_reason}
+            </div>
+            <button onclick="addPitstopAsStopover(${p.lat}, ${p.lon}, '${safeName}'); plannerMap.closePopup();" class="btn" style="padding:4px 8px; font-size:11px; width:100%;">
+              + Add as Stopover
+            </button>
+          </div>
+        `);
+
+        pitstopLayer.addLayer(marker);
+      });
+    }
+
+    function togglePitstopMarkers() {
+      const chk = document.getElementById('show-pitstops-chk');
+      showPitstopsOnMap = chk ? chk.checked : true;
+      if (showPitstopsOnMap) {
+        plotPitstopMarkers(currentPitstops);
+      } else if (pitstopLayer) {
+        pitstopLayer.clearLayers();
+      }
+    }
+
+    function addPitstopAsStopover(lat, lon, name) {
+      addCustomStopover(lat, lon, name);
+      calculateAStarRoute();
+      const statusEl = document.getElementById('map-status');
+      if (statusEl) statusEl.textContent = `Added stopover: ${name}`;
+    }
+
+    function resetPlanner() {
+      document.getElementById('algo-mode').value = 'safest';
+      document.getElementById('start-point').value = '';
+      document.getElementById('dest-point').value = '';
+      document.getElementById('origin-search').value = '';
+      document.getElementById('dest-search').value = '';
+      document.getElementById('origin-coords-badge').style.display = 'none';
+      document.getElementById('dest-coords-badge').style.display = 'none';
+      document.getElementById('stops-container').innerHTML = '';
+
+      customStart = null;
+      customDest  = null;
+      customStops = [];
+
+      document.getElementById('safety-weight-slider').value = 15;
+      updateSafetySlider(15);
+      document.getElementById('avoid-blackspots-chk').checked = false;
+      const tdSel = document.getElementById('traffic-density');
+      if (tdSel) tdSel.value = 'normal';
+      const psSection = document.getElementById('corridor-pitstops-section');
+      if (psSection) psSection.style.display = 'none';
+      currentPitstops = [];
+      if (pitstopLayer) pitstopLayer.clearLayers();
+      document.getElementById('compare-routes-chk').checked = true;
+
+      document.getElementById('comparison-view').style.display = 'none';
+      document.getElementById('telemetry-container').style.display = 'none';
+      const gmBar = document.getElementById('gmaps-action-bar');
+      if (gmBar) gmBar.style.display = 'none';
+      closeGoogleMapsModal();
+      window.currentPlanData = null;
+      document.getElementById('recommended-stops-section').style.display = 'none';
+      document.getElementById('highway-navigation-section').style.display = 'none';
+      document.getElementById('itinerary-tbody').innerHTML = '<tr><td colspan="8" style="text-align:center; color:var(--muted); padding:32px;">Pick or search an Origin and Destination above to calculate real road route.</td></tr>';
+
+      setPinMode('none');
+      if (safeRouteLayer) safeRouteLayer.clearLayers();
+      if (shortRouteLayer) shortRouteLayer.clearLayers();
+      if (markersLayer) markersLayer.clearLayers();
+      if (customPinLayer) customPinLayer.clearLayers();
+      customOriginMarker = null;
+      customDestMarker = null;
+      customStopMarkers = [];
+
+      if (plannerMap) plannerMap.setView([22.5937, 78.9629], 5);
+      document.getElementById('map-status').textContent = 'Ready';
+    }
+
+    // =========================================================================
+    // GOOGLE MAPS NAVIGATION, QR DRIVING & EXPORT LOGIC
+    // =========================================================================
+
+    function getActiveRouteData(mode = currentGmapsMode) {
+      if (!window.currentPlanData) return null;
+      if (window.currentPlanData.compare_mode) {
+        return (mode === 'shortest') ? window.currentPlanData.shortest : window.currentPlanData.safest;
+      }
+      return window.currentPlanData.route;
+    }
+
+    function buildGoogleMapsUrl(routeMode = currentGmapsMode, isNavigate = null, includeRestStops = null, includeUserStops = null) {
+      const route = getActiveRouteData(routeMode);
+      if (!route || !route.path_detail || route.path_detail.length === 0) {
+        return 'https://www.google.com/maps';
+      }
+
+      const path = route.path_detail;
+      const origin = path[0];
+      const dest = path[path.length - 1];
+
+      const origCoord = origin.lat.toFixed(5) + ',' + origin.lon.toFixed(5);
+      const destCoord = dest.lat.toFixed(5) + ',' + dest.lon.toFixed(5);
+
+      if (path.length === 1) {
+        return `https://www.google.com/maps/dir/?api=1&destination=${destCoord}&travelmode=driving`;
+      }
+
+      const navMode = (isNavigate !== null) ? isNavigate : (document.getElementById('gmaps-opt-nav-mode') ? document.getElementById('gmaps-opt-nav-mode').checked : true);
+      const withRest = (includeRestStops !== null) ? includeRestStops : (document.getElementById('gmaps-opt-rest-stops') ? document.getElementById('gmaps-opt-rest-stops').checked : true);
+      const withUser = (includeUserStops !== null) ? includeUserStops : (document.getElementById('gmaps-opt-user-stops') ? document.getElementById('gmaps-opt-user-stops').checked : true);
+
+      // Intermediate waypoints
+      const intermediates = path.slice(1, -1);
+      const userStops = intermediates.filter(p => p.point_type === 'stop');
+      const corridorNodes = intermediates.filter(p => p.point_type !== 'stop');
+
+      let selectedWps = [];
+      if (withUser && userStops.length > 0) {
+        userStops.forEach(p => selectedWps.push({ lat: p.lat, lon: p.lon }));
+      }
+
+      if (withRest && window.currentPlanData.recommended_stops && window.currentPlanData.recommended_stops.length > 0) {
+        window.currentPlanData.recommended_stops.forEach(s => {
+          if (s.lat && s.lon) {
+            const already = selectedWps.some(w => Math.abs(w.lat - s.lat) < 0.001 && Math.abs(w.lon - s.lon) < 0.001);
+            if (!already) selectedWps.push({ lat: s.lat, lon: s.lon });
+          }
+        });
+      }
+
+      // Budget up to 9 waypoints total for Google Maps universal URL
+      const budgetRemaining = 9 - selectedWps.length;
+      if (budgetRemaining > 0 && corridorNodes.length > 0) {
+        const step = Math.max(1, Math.floor(corridorNodes.length / budgetRemaining));
+        for (let i = 0; i < corridorNodes.length && selectedWps.length < 9; i += step) {
+          const node = corridorNodes[i];
+          const already = selectedWps.some(w => Math.abs(w.lat - node.lat) < 0.001 && Math.abs(w.lon - node.lon) < 0.001);
+          if (!already) selectedWps.push({ lat: node.lat, lon: node.lon });
+        }
+      }
+
+      // Sort waypoints in sequential journey order along the corridor
+      function getOrderIndex(wp) {
+        let bestDist = Infinity;
+        let bestIdx = 0;
+        path.forEach((p, idx) => {
+          const d = Math.hypot(p.lat - wp.lat, p.lon - wp.lon);
+          if (d < bestDist) {
+            bestDist = d;
+            bestIdx = idx;
+          }
+        });
+        return bestIdx;
+      }
+      selectedWps.sort((a, b) => getOrderIndex(a) - getOrderIndex(b));
+      selectedWps = selectedWps.slice(0, 9);
+
+      let url = `https://www.google.com/maps/dir/?api=1&origin=${origCoord}&destination=${destCoord}`;
+      if (selectedWps.length > 0) {
+        const wpStr = selectedWps.map(w => `${w.lat.toFixed(5)},${w.lon.toFixed(5)}`).join('|');
+        url += `&waypoints=${encodeURIComponent(wpStr)}`;
+      }
+      url += `&travelmode=driving`;
+      if (navMode) {
+        url += `&dir_action=navigate`;
+      }
+      return url;
+    }
+
+    function updateGoogleMapsDetails() {
+      if (!window.currentPlanData) return;
+      const route = getActiveRouteData(currentGmapsMode);
+      if (!route) return;
+
+      const path = route.path_detail || [];
+      const origName = path[0] ? path[0].display_name : 'Origin';
+      const destName = path.length > 1 ? path[path.length - 1].display_name : 'Destination';
+
+      // Summary
+      const nameEl = document.getElementById('gmaps-summary-name');
+      const subEl = document.getElementById('gmaps-summary-sub');
+      const distEl = document.getElementById('gmaps-summary-dist');
+      const timeEl = document.getElementById('gmaps-summary-time');
+      const riskEl = document.getElementById('gmaps-summary-risk');
+      const wpsEl = document.getElementById('gmaps-summary-wps');
+
+      if (nameEl) nameEl.textContent = `${origName} ➔ ${destName}`;
+      if (subEl) subEl.textContent = (currentGmapsMode === 'shortest') ? '⚡ Pure Distance Highway Route' : '🛡️ Low-Risk Recommended Highway Corridor';
+      if (distEl) distEl.textContent = `${route.total_dist_km || 0} km`;
+      if (timeEl) timeEl.textContent = formatHours(route.total_time_hours || 0);
+      if (riskEl) {
+        riskEl.textContent = `${route.avg_risk || 0} / 100 (${route.risk_zone || 'Safe'})`;
+        riskEl.style.color = (route.avg_risk >= 60) ? 'var(--danger)' : ((route.avg_risk >= 35) ? 'var(--warning)' : 'var(--accent2)');
+      }
+
+      // Google Maps URL
+      const url = buildGoogleMapsUrl(currentGmapsMode);
+      const launchBtn = document.getElementById('gmaps-launch-btn');
+      const linkInput = document.getElementById('gmaps-link-input');
+      if (launchBtn) launchBtn.href = url;
+      if (linkInput) linkInput.value = url;
+
+      // Extract waypoint count from URL
+      let wpCount = 0;
+      if (url.includes('waypoints=')) {
+        try {
+          const wpParam = decodeURIComponent(url.split('waypoints=')[1].split('&')[0]);
+          wpCount = wpParam.split('|').length;
+        } catch(e) {}
+      }
+      if (wpsEl) wpsEl.textContent = `${wpCount} corridor stops`;
+
+      // QR Code Generation
+      renderGmapsQRCode(url);
+    }
+
+    function renderGmapsQRCode(url) {
+      const qrContainer = document.getElementById('gmaps-qrcode');
+      const qrImg = document.getElementById('gmaps-qrcode-img');
+      if (!qrContainer) return;
+
+      qrContainer.innerHTML = '';
+      let rendered = false;
+
+      if (typeof QRCode !== 'undefined') {
+        try {
+          new QRCode(qrContainer, {
+            text: url,
+            width: 160,
+            height: 160,
+            colorDark: "#0a0e16",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.M
+          });
+          if (qrImg) qrImg.style.display = 'none';
+          qrContainer.style.display = 'block';
+          rendered = true;
+        } catch(err) {
+          console.warn('QRCode JS error, falling back to image:', err);
+        }
+      }
+
+      if (!rendered && qrImg) {
+        qrContainer.style.display = 'none';
+        qrImg.style.display = 'block';
+        qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=${encodeURIComponent(url)}`;
+      }
+    }
+
+    function launchGoogleMapsDrive(mode = null) {
+      if (mode) currentGmapsMode = mode;
+      const url = buildGoogleMapsUrl(currentGmapsMode, true);
+      window.open(url, '_blank');
+      showGmapsToast('🚀 Launching Google Maps Turn-by-Turn Navigation...');
+    }
+
+    function openGoogleMapsWebPreview() {
+      const url = buildGoogleMapsUrl(currentGmapsMode, false);
+      window.open(url, '_blank');
+    }
+
+    function copyGmapsLink() {
+      const input = document.getElementById('gmaps-link-input');
+      const btn = document.getElementById('btn-copy-gmaps');
+      const textToCopy = (input && input.value) ? input.value : buildGoogleMapsUrl(currentGmapsMode);
+
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        if (btn) {
+          const original = btn.textContent;
+          btn.textContent = '✓ Copied!';
+          setTimeout(() => { btn.textContent = original; }, 2000);
+        }
+        showGmapsToast('✓ Google Maps Link copied to clipboard!');
+      }).catch(() => {
+        if (input) {
+          input.select();
+          document.execCommand('copy');
+          showGmapsToast('✓ Link copied to clipboard!');
+        }
+      });
+    }
+
+    function copyGmapsLinkQuick() {
+      const textToCopy = buildGoogleMapsUrl('safest');
+      const btn = document.getElementById('btn-quick-copy');
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        if (btn) {
+          const orig = btn.textContent;
+          btn.textContent = '✓ Copied!';
+          setTimeout(() => { btn.textContent = orig; }, 2000);
+        }
+        showGmapsToast('✓ Google Maps Directions Link copied to clipboard!');
+      });
+    }
+
+    function shareGmapsWhatsApp() {
+      const route = getActiveRouteData(currentGmapsMode);
+      if (!route) {
+        alert("Please calculate a route first.");
+        return;
+      }
+      const path = route.path_detail || [];
+      const origName = path[0] ? path[0].display_name : 'Origin';
+      const destName = path.length > 1 ? path[path.length - 1].display_name : 'Destination';
+      const dist = route.total_dist_km || 0;
+      const time = formatHours(route.total_time_hours || 0);
+      const risk = route.avg_risk || 0;
+      const zone = route.risk_zone || 'Safe';
+      const url = buildGoogleMapsUrl(currentGmapsMode, true);
+
+      let restText = "Direct corridor";
+      if (window.currentPlanData.recommended_stops && window.currentPlanData.recommended_stops.length > 0) {
+        restText = window.currentPlanData.recommended_stops.map(s => s.display_name).join(', ');
+      }
+
+      const msg = `🚗 *RouteX Highway Driving Corridor*\n` +
+        `📍 *Origin:* ${origName}\n` +
+        `🏁 *Destination:* ${destName}\n` +
+        `📏 *Distance:* ${dist} km | ⏱️ *Est. Time:* ${time}\n` +
+        `🛡️ *Safety Rating:* ${risk}/100 (${zone})\n` +
+        `☕ *Rest Stops:* ${restText}\n\n` +
+        `🔗 *Start Driving with Google Maps:*\n${url}`;
+
+      window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`, '_blank');
+    }
+
+    function openGoogleMapsModal(mode = 'safest', focusQr = false) {
+      currentGmapsMode = mode;
+      selectGmapsRouteMode(mode);
+
+      const modal = document.getElementById('gmaps-modal');
+      if (modal) modal.style.display = 'flex';
+      updateGoogleMapsDetails();
+
+      if (focusQr) {
+        const qrBox = document.getElementById('gmaps-qr-box');
+        if (qrBox) {
+          qrBox.style.borderColor = '#5b8ff9';
+          qrBox.style.boxShadow = '0 0 16px rgba(91,143,249,0.5)';
+          setTimeout(() => {
+            qrBox.style.borderColor = 'var(--border)';
+            qrBox.style.boxShadow = 'none';
+          }, 1500);
+        }
+      }
+    }
+
+    function closeGoogleMapsModal() {
+      const modal = document.getElementById('gmaps-modal');
+      if (modal) modal.style.display = 'none';
+    }
+
+    function selectGmapsRouteMode(mode) {
+      currentGmapsMode = mode;
+      const tabSafe = document.getElementById('gmaps-tab-safest');
+      const tabShort = document.getElementById('gmaps-tab-shortest');
+      if (tabSafe && tabShort) {
+        if (mode === 'shortest') {
+          tabShort.classList.add('active');
+          tabSafe.classList.remove('active');
+        } else {
+          tabSafe.classList.add('active');
+          tabShort.classList.remove('active');
+        }
+      }
+      updateGoogleMapsDetails();
+    }
+
+    function showGmapsToast(msg) {
+      const toast = document.getElementById('gmaps-toast');
+      const toastMsg = document.getElementById('gmaps-toast-msg');
+      if (!toast) return;
+      if (toastMsg) toastMsg.textContent = msg;
+      toast.style.display = 'flex';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 3000);
+    }
+
+    function downloadKML() {
+      const route = getActiveRouteData(currentGmapsMode);
+      if (!route) {
+        alert("Please calculate a route first.");
+        return;
+      }
+      const routeName = (currentGmapsMode === 'shortest') ? "RouteX Shortest Corridor" : "RouteX Safest Corridor";
+      const distKm = route.total_dist_km || 0;
+      const durHrs = route.total_time_hours || 0;
+      const avgRisk = route.avg_risk || 0;
+      const path = route.path_detail || [];
+      const roadGeom = (route.road_geometry && route.road_geometry.length > 0)
+        ? route.road_geometry
+        : path.map(p => [p.lat, p.lon]);
+
+      const coordsStr = roadGeom.map(pt => `${pt[1].toFixed(5)},${pt[0].toFixed(5)},0`).join(' ');
+
+      let kml = `<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>${escapeXml(routeName)}</name>
+    <description>RouteX Highway Corridor: ${distKm} km | ~${durHrs} hrs | Safety Hazard Score: ${avgRisk}/100</description>
+    <Style id="routexLine">
+      <LineStyle>
+        <color>${currentGmapsMode === 'shortest' ? 'ff16bdf6' : 'ff5ad8a6'}</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Style id="originPin"><IconStyle><scale>1.3</scale><Icon><href>https://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle></Style>
+    <Style id="destPin"><IconStyle><scale>1.3</scale><Icon><href>https://maps.google.com/mapfiles/ms/icons/red-dot.png</href></Icon></IconStyle></Style>
+    <Style id="stopPin"><IconStyle><scale>1.1</scale><Icon><href>https://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle></Style>
+    <Style id="restPin"><IconStyle><scale>1.1</scale><Icon><href>https://maps.google.com/mapfiles/ms/icons/blue-dot.png</href></Icon></IconStyle></Style>
+`;
+
+      if (path.length > 0) {
+        const orig = path[0];
+        kml += `    <Placemark>
+      <name>Origin: ${escapeXml(orig.display_name || 'Start')}</name>
+      <description>Starting Location - Risk Rating: ${orig.risk_zone || 'Safe'}</description>
+      <styleUrl>#originPin</styleUrl>
+      <Point><coordinates>${orig.lon.toFixed(5)},${orig.lat.toFixed(5)},0</coordinates></Point>
+    </Placemark>\n`;
+      }
+
+      if (path.length > 1) {
+        const dest = path[path.length - 1];
+        kml += `    <Placemark>
+      <name>Destination: ${escapeXml(dest.display_name || 'End')}</name>
+      <description>Final Destination - Total Driving: ${distKm} km</description>
+      <styleUrl>#destPin</styleUrl>
+      <Point><coordinates>${dest.lon.toFixed(5)},${dest.lat.toFixed(5)},0</coordinates></Point>
+    </Placemark>\n`;
+      }
+
+      path.slice(1, -1).forEach((p, idx) => {
+        if (p.point_type === 'stop') {
+          kml += `    <Placemark>
+      <name>Stopover: ${escapeXml(p.display_name || ('Stop #' + (idx + 1)))}</name>
+      <description>Corridor Stopover &middot; Hazard: ${p.risk_score || 0}/100</description>
+      <styleUrl>#stopPin</styleUrl>
+      <Point><coordinates>${p.lon.toFixed(5)},${p.lat.toFixed(5)},0</coordinates></Point>
+    </Placemark>\n`;
+        }
+      });
+
+      if (window.currentPlanData.recommended_stops) {
+        window.currentPlanData.recommended_stops.forEach(s => {
+          if (s.lat && s.lon) {
+            kml += `    <Placemark>
+      <name>Rest Stop: ${escapeXml(s.display_name || 'Fatigue Stop')}</name>
+      <description>${escapeXml(s.recommendation_reason || '')} Amenities: ${escapeXml((s.amenities || []).join(', '))}</description>
+      <styleUrl>#restPin</styleUrl>
+      <Point><coordinates>${s.lon.toFixed(5)},${s.lat.toFixed(5)},0</coordinates></Point>
+    </Placemark>\n`;
+          }
+        });
+      }
+
+      kml += `    <Placemark>
+      <name>${escapeXml(routeName)} (Real Road Track)</name>
+      <description>${distKm} km real road driving geometry.</description>
+      <styleUrl>#routexLine</styleUrl>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>${coordsStr}</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>`;
+
+      downloadBlobFile(kml, 'application/vnd.google-earth.kml+xml', 'RouteX_Corridor.kml');
+      showGmapsToast('Downloaded KML! Import into Google My Maps to save permanently.');
+    }
+
+    function downloadGPX() {
+      const route = getActiveRouteData(currentGmapsMode);
+      if (!route) {
+        alert("Please calculate a route first.");
+        return;
+      }
+      const routeName = (currentGmapsMode === 'shortest') ? "RouteX Shortest Corridor" : "RouteX Safest Corridor";
+      const distKm = route.total_dist_km || 0;
+      const durHrs = route.total_time_hours || 0;
+      const avgRisk = route.avg_risk || 0;
+      const path = route.path_detail || [];
+      const roadGeom = (route.road_geometry && route.road_geometry.length > 0)
+        ? route.road_geometry
+        : path.map(p => [p.lat, p.lon]);
+      const nowIso = new Date().toISOString();
+
+      let gpx = `<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="RouteX Intelligent Road Safety"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>${escapeXml(routeName)}</name>
+    <desc>RouteX Corridor: ${distKm} km, ${durHrs} hrs, Hazard Score: ${avgRisk}/100</desc>
+    <time>${nowIso}</time>
+  </metadata>
+`;
+
+      path.forEach((p, idx) => {
+        let label = p.display_name || `Waypoint ${idx+1}`;
+        if (idx === 0) label = `Origin: ${label}`;
+        else if (idx === path.length - 1) label = `Destination: ${label}`;
+        gpx += `  <wpt lat="${p.lat.toFixed(5)}" lon="${p.lon.toFixed(5)}">
+    <name>${escapeXml(label)}</name>
+    <desc>Hazard Score: ${p.risk_score || 0}/100 (${p.risk_zone || 'Safe'})</desc>
+  </wpt>\n`;
+      });
+
+      gpx += `  <trk>
+    <name>${escapeXml(routeName)}</name>
+    <trkseg>\n`;
+      roadGeom.forEach(pt => {
+        gpx += `      <trkpt lat="${pt[0].toFixed(5)}" lon="${pt[1].toFixed(5)}"></trkpt>\n`;
+      });
+      gpx += `    </trkseg>
+  </trk>
+</gpx>`;
+
+      downloadBlobFile(gpx, 'application/gpx+xml', 'RouteX_Corridor.gpx');
+      showGmapsToast('Downloaded GPX track file for GPS devices & apps.');
+    }
+
+    function downloadDrivingSheet() {
+      const route = getActiveRouteData(currentGmapsMode);
+      if (!route) {
+        alert("Please calculate a route first.");
+        return;
+      }
+      const path = route.path_detail || [];
+      const steps = route.road_steps || [];
+      const distKm = route.total_dist_km || 0;
+      const durHrs = route.total_time_hours || 0;
+      const avgRisk = route.avg_risk || 0;
+
+      const origName = path[0] ? path[0].display_name : 'Origin';
+      const destName = path.length > 1 ? path[path.length - 1].display_name : 'Destination';
+      const gmapsLink = buildGoogleMapsUrl(currentGmapsMode, true);
+
+      let txt = "================================================================================\n";
+      txt += "  ROUTEX INTELLIGENT HIGHWAY CORRIDOR DRIVING MANIFEST\n";
+      txt += "================================================================================\n";
+      txt += `Corridor:      ${origName} -> ${destName}\n`;
+      txt += `Total Road:    ${distKm} km\n`;
+      txt += `Est. Duration: ${formatHours(durHrs)}\n`;
+      txt += `Safety Rating: ${avgRisk}/100\n`;
+      txt += "\n--------------------------------------------------------------------------------\n";
+      txt += "CORRIDOR WAYPOINTS & STOPOVERS:\n";
+      txt += "--------------------------------------------------------------------------------\n";
+      path.forEach((p, idx) => {
+        const role = (idx === 0) ? "Origin" : ((idx === path.length - 1) ? "Destination" : "Corridor Waypoint");
+        txt += ` ${String(idx+1).padStart(2, ' ')}. [${role.padEnd(17, ' ')}] ${p.display_name} (Hazard: ${p.risk_score || 0}/100, ${p.risk_zone || 'Safe'})\n`;
+      });
+
+      if (window.currentPlanData.recommended_stops && window.currentPlanData.recommended_stops.length > 0) {
+        txt += "\n--------------------------------------------------------------------------------\n";
+        txt += "RECOMMENDED FATIGUE REST STOPS (~250 km intervals):\n";
+        txt += "--------------------------------------------------------------------------------\n";
+        window.currentPlanData.recommended_stops.forEach(s => {
+          txt += ` * ${s.display_name} at ${s.distance_from_start_km} km (~${s.driving_hours} hrs driving)\n`;
+          txt += `   Reason:    ${s.recommendation_reason}\n`;
+          txt += `   Amenities: ${(s.amenities || []).join(', ')}\n`;
+        });
+      }
+
+      if (steps.length > 0) {
+        txt += "\n--------------------------------------------------------------------------------\n";
+        txt += "TURN-BY-TURN HIGHWAY MANEUVERS:\n";
+        txt += "--------------------------------------------------------------------------------\n";
+        steps.forEach((step, idx) => {
+          txt += ` ${String(idx+1).padStart(2, ' ')}. ${(step.maneuver || 'Continue').padEnd(14, ' ')} on ${(step.name || 'Highway Corridor').padEnd(36, ' ')} (${step.distance_km} km)\n`;
+        });
+      }
+
+      txt += "\n--------------------------------------------------------------------------------\n";
+      txt += "INDIA 24/7 HIGHWAY EMERGENCY HELPLINES:\n";
+      txt += "--------------------------------------------------------------------------------\n";
+      txt += " * NHAI Roadside Assistance & Ambulance: 1033 (Toll-Free National Highways)\n";
+      txt += " * All-India Integrated Emergency:       112\n";
+      txt += " * Medical Ambulance Response:           108 / 102\n";
+      txt += " * Highway Traffic Police Helpline:      1095 / 1073\n";
+      txt += "\nDIRECT GOOGLE MAPS NAVIGATION URL:\n";
+      txt += gmapsLink + "\n";
+      txt += "================================================================================\n";
+
+      downloadBlobFile(txt, 'text/plain;charset=utf-8', 'RouteX_Driving_Manifest.txt');
+      showGmapsToast('Downloaded offline driving manifest.');
+    }
+
+    function escapeXml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&apos;');
+    }
+
+    function downloadBlobFile(content, mimeType, filename) {
+      const blob = new Blob([content], { type: mimeType });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(() => {
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }, 200);
+    }
+
+    window.addEventListener('load', () => {
+      initPlannerMap();
+    });
+    initPlannerMap();
+  </script>
+</body>
+</html>
