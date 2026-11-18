@@ -10,9 +10,6 @@ import json
 import sqlite3
 import hashlib
 import os
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 import secrets
 import time
 import html
@@ -167,7 +164,7 @@ SIGNUP_OTP_STORE = {}
 class GASRedirectHandler(urllib.request.HTTPRedirectHandler):
     """
     Handles Google Apps Script 302 redirection.
-    GAS executes doPost(e), sends the email, and returns 302 Found pointing to an echo URL.
+    GAS executes doPost(e), sends the email via GmailApp, and returns 302 Found pointing to an echo URL.
     Following the 302 redirect via GET allows reading the JSON result (e.g. {"status": "sent"}).
     """
     def redirect_request(self, req, fp, code, msg, headers, newurl):
@@ -175,22 +172,20 @@ class GASRedirectHandler(urllib.request.HTTPRedirectHandler):
 
 def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
     """
-    Dispatch 6-digit verification code directly to the user's email.
-    Supported channels (no dev code / local bypass):
-    1. Google Apps Script HTTPS Webhook (GAS_WEBHOOK_URL, GAS_SECRET)
-    2. Resend HTTP API (RESEND_API_KEY)
-    3. SMTP (SMTP_HOST, SMTP_USER, SMTP_PASS, SMTP_PORT, SMTP_FROM)
-    4. Unit test mock (TESTING=1)
+    Dispatch 6-digit verification code directly via Google Apps Script HTTPS Webhook.
     """
     gas_webhook_url = os.environ.get("GAS_WEBHOOK_URL", "").strip()
-    resend_api_key = os.environ.get("RESEND_API_KEY", "").strip()
-    smtp_host = os.environ.get("SMTP_HOST", "").strip()
-    smtp_user = os.environ.get("SMTP_USER", "").strip()
-    smtp_pass = os.environ.get("SMTP_PASS", "").strip()
-    smtp_port = int(os.environ.get("SMTP_PORT", "587"))
-    smtp_from = os.environ.get("SMTP_FROM", "").strip() or smtp_user or "no-reply@routex.ai"
 
-    print(f"\n[RouteX OTP Service] >>> Initiating email dispatch for {to_email} ({username}) <<<\n")
+    # Automated unit test bypass
+    if os.environ.get("TESTING") == "1":
+        print(f"[RouteX OTP Service] Test mode active for automated unit tests.")
+        return True, "Test mode mock dispatch"
+
+    if not gas_webhook_url:
+        print("[RouteX OTP Service ERROR] GAS_WEBHOOK_URL is not configured in Render environment variables.")
+        return False, "GAS_WEBHOOK_URL is not configured in Render environment variables."
+
+    print(f"\n[RouteX OTP Service] >>> Dispatching verification email to {to_email} ({username}) via Google Apps Script <<<\n")
 
     html_body = f"""<!DOCTYPE html>
 <html>
@@ -214,124 +209,51 @@ def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
 </body>
 </html>"""
 
-    # 1. Primary: Google Apps Script Webhook
-    if gas_webhook_url:
-        gas_secret = os.environ.get("GAS_SECRET", "routex_secret_2026").strip()
-        gas_payload = {
-            "secret": gas_secret,
-            "to": to_email,
-            "subject": "Your RouteX Verification Code",
-            "html": html_body
-        }
-        try:
-            req = urllib.request.Request(
-                gas_webhook_url,
-                data=json.dumps(gas_payload).encode("utf-8"),
-                headers={
-                    "Content-Type": "application/json",
-                    "User-Agent": "RouteX/1.0"
-                },
-                method="POST"
-            )
-            opener = urllib.request.build_opener(GASRedirectHandler)
-            with opener.open(req, timeout=15) as resp:
-                status_code = resp.getcode()
-                resp_text = resp.read().decode("utf-8", errors="replace")
-                print(f"[RouteX OTP Service] GAS Webhook HTTP {status_code} Response: {resp_text}")
+    gas_secret = os.environ.get("GAS_SECRET", "routex_secret_2026").strip()
+    payload = {
+        "secret": gas_secret,
+        "to": to_email,
+        "subject": "Your RouteX Verification Code",
+        "html": html_body
+    }
 
-                is_success = False
-                try:
-                    res_json = json.loads(resp_text)
-                    if isinstance(res_json, dict):
-                        if res_json.get("status") in ("sent", "success", "ok") or res_json.get("success") is True or res_json.get("result") == "success":
-                            is_success = True
-                        elif res_json.get("status") == "error" or res_json.get("success") is False:
-                            is_success = False
-                        else:
-                            is_success = (200 <= status_code < 300)
-                except Exception:
-                    is_success = (200 <= status_code < 300) and ("error" not in resp_text.lower())
+    try:
+        req = urllib.request.Request(
+            gas_webhook_url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": "RouteX/1.0"
+            },
+            method="POST"
+        )
+        opener = urllib.request.build_opener(GASRedirectHandler)
+        with opener.open(req, timeout=15) as resp:
+            status_code = resp.getcode()
+            resp_text = resp.read().decode("utf-8", errors="replace")
 
-                if is_success:
-                    return True, "Email delivered via Google Apps Script"
-                else:
-                    print(f"[RouteX OTP Service ERROR] GAS Webhook reported failure: {resp_text}")
-        except urllib.error.HTTPError as he:
-            err_text = he.read().decode("utf-8", errors="replace")
-            print(f"[RouteX OTP Service ERROR] GAS Webhook HTTP {he.code} Error: {err_text}")
-        except Exception as e:
-            print(f"[RouteX OTP Service ERROR] GAS Webhook Request Exception: {e}")
+            try:
+                response_json = json.loads(resp_text)
+            except Exception:
+                print(f"[RouteX OTP Service ERROR] Google Apps Script returned non-JSON response:\n{resp_text}")
+                hint = "Google Apps Script returned an HTML page instead of JSON. Ensure 'Who has access' is set to 'Anyone' in your GAS deployment." if "<html" in resp_text.lower() else resp_text[:200]
+                return False, f"Google Apps Script error: {hint}"
 
-    # 2. Resend HTTP API
-    if resend_api_key:
-        payload = {
-            "from": "RouteX <onboarding@resend.dev>",
-            "to": [to_email],
-            "subject": "Your RouteX Verification Code",
-            "html": html_body
-        }
-        try:
-            req = urllib.request.Request(
-                "https://api.resend.com/emails",
-                data=json.dumps(payload).encode("utf-8"),
-                headers={
-                    "Authorization": f"Bearer {resend_api_key}",
-                    "Content-Type": "application/json",
-                    "User-Agent": "RouteX/1.0"
-                },
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=12) as resp:
-                status_code = resp.getcode()
-                resp_text = resp.read().decode("utf-8", errors="replace")
-                print(f"[RouteX OTP Service] Resend API HTTP {status_code} Response: {resp_text}")
-                if 200 <= status_code < 300:
-                    return True, "Email delivered via Resend API"
-                print(f"[RouteX OTP Service ERROR] Resend API HTTP {status_code}: {resp_text}")
-        except urllib.error.HTTPError as he:
-            err_text = he.read().decode("utf-8", errors="replace")
-            print(f"[RouteX OTP Service ERROR] Resend API HTTP {he.code} Error: {err_text}")
-        except Exception as e:
-            print(f"[RouteX OTP Service ERROR] Resend Request Exception: {e}")
-
-    # 3. SMTP Fallback (for local development or providers with open SMTP ports)
-    if smtp_host and smtp_user and smtp_pass:
-        try:
-            msg = MIMEMultipart("alternative")
-            msg["Subject"] = "Your RouteX Verification Code"
-            msg["From"] = f"RouteX Road Safety <{smtp_from}>"
-            msg["To"] = to_email
-
-            plain_body = (
-                f"Hello {username},\n\n"
-                f"Your RouteX verification code is: {otp_code}\n\n"
-                f"This code will expire in 5 minutes.\n\n"
-                f"Best regards,\nRouteX Road Safety Intelligence Team"
-            )
-            msg.attach(MIMEText(plain_body, "plain", "utf-8"))
-            msg.attach(MIMEText(html_body, "html", "utf-8"))
-
-            if smtp_port == 465:
-                mailer = smtplib.SMTP_SSL(smtp_host, smtp_port, timeout=12)
+            if isinstance(response_json, dict) and response_json.get("status") == "sent":
+                print(f"[RouteX OTP Service] Email sent successfully via Google Apps Script: {resp_text}")
+                return True, "Email sent successfully"
             else:
-                mailer = smtplib.SMTP(smtp_host, smtp_port, timeout=12)
-                mailer.starttls()
+                print(f"[RouteX OTP Service ERROR] Google Apps Script failed with response: {resp_text}")
+                err_msg = response_json.get("message") if isinstance(response_json, dict) else resp_text
+                return False, f"Google Apps Script error: {err_msg or resp_text}"
 
-            mailer.login(smtp_user, smtp_pass)
-            mailer.sendmail(smtp_from, [to_email], msg.as_string())
-            mailer.quit()
-            print(f"[RouteX OTP Service] SMTP Dispatched successfully to {to_email}")
-            return True, "Email delivered via SMTP"
-        except Exception as e:
-            print(f"[RouteX OTP Service ERROR] SMTP delivery failed: {e}")
-
-    # 4. Automated Unit Test Mock (only when TESTING=1)
-    if os.environ.get("TESTING") == "1":
-        print(f"[RouteX OTP Service] Test mode active for automated unit tests.")
-        return True, "Test mode mock dispatch"
-
-    print(f"[RouteX OTP Service ERROR] No active email dispatcher succeeded.")
-    return False, "Email service unavailable. Please configure GAS_WEBHOOK_URL, RESEND_API_KEY, or SMTP credentials."
+    except urllib.error.HTTPError as he:
+        err_body = he.read().decode("utf-8", errors="replace")
+        print(f"[RouteX OTP Service ERROR] Google Apps Script HTTP {he.code} Error: {err_body}")
+        return False, f"Google Apps Script HTTP {he.code}: {err_body[:200]}"
+    except Exception as e:
+        print(f"[RouteX OTP Service ERROR] Google Apps Script Request Exception: {e}")
+        return False, f"Google Apps Script exception: {e}"
 
 class RouteXHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
@@ -635,19 +557,29 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
                 "attempts": 0
             }
 
-            # Send real email
+            # Require GAS_WEBHOOK_URL
+            gas_webhook = os.environ.get("GAS_WEBHOOK_URL", "").strip()
+            if not gas_webhook and os.environ.get("TESTING") != "1":
+                print("[RouteX OTP Service ERROR] GAS_WEBHOOK_URL is not configured in Render environment variables.")
+                self.send_json(500, {
+                    "success": False,
+                    "message": "GAS_WEBHOOK_URL is not configured in Render environment variables."
+                })
+                return
+
+            # Send email via Google Apps Script
             ok, status_msg = send_otp_email(email, otp_code, username)
 
             if not ok:
                 self.send_json(500, {
                     "success": False,
-                    "message": f"Unable to send verification email: {status_msg}. Please check your email configuration."
+                    "message": f"Failed to send verification email: {status_msg}"
                 })
                 return
 
             self.send_json(200, {
                 "success": True,
-                "message": f"Verification code sent to {email}! Please check your email inbox (and Spam folder).",
+                "message": f"Verification code sent to {email}! Please check your email inbox.",
                 "expires_in": 300
             })
             return
