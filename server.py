@@ -199,9 +199,8 @@ def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
         print("[RouteX OTP Service] RESEND_API_KEY not configured. Falling back to Dev Mode.")
         return False, "RESEND_API_KEY not set"
 
-    sender_from = os.environ.get("SMTP_FROM", "onboarding@resend.dev").strip() or "onboarding@resend.dev"
     payload = {
-        "from": sender_from,
+        "from": "RouteX <onboarding@resend.dev>",
         "to": [to_email],
         "subject": "Your RouteX Verification Code",
         "html": html_body
@@ -213,15 +212,18 @@ def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
             data=json.dumps(payload).encode("utf-8"),
             headers={
                 "Authorization": f"Bearer {resend_api_key}",
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                "User-Agent": "RouteX/1.0"
             },
             method="POST"
         )
         with urllib.request.urlopen(req, timeout=12) as resp:
             status_code = resp.getcode()
             resp_text = resp.read().decode("utf-8", errors="replace")
-            print(f"[RouteX OTP Service] Resend API HTTP {status_code} Success: {resp_text}")
-            return True, f"Resend HTTP {status_code}"
+            print(f"[RouteX OTP Service] Resend API HTTP {status_code} Response: {resp_text}")
+            if 200 <= status_code < 300:
+                return True, f"Resend HTTP {status_code}"
+            return False, f"Resend HTTP {status_code}: {resp_text}"
     except urllib.error.HTTPError as he:
         err_text = he.read().decode("utf-8", errors="replace")
         print(f"[RouteX OTP Service ERROR] Resend API HTTP {he.code} Error: {err_text}")
@@ -532,7 +534,8 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
                 "attempts": 0
             }
 
-            # Send email via Resend HTTP API (falls back to Dev Mode if not set or error)
+            # Send email via Resend HTTP API (only falls back to Dev Mode if RESEND_API_KEY is missing or errors)
+            resend_key = os.environ.get("RESEND_API_KEY", "").strip()
             ok, status_msg = send_otp_email(email, otp_code, username)
 
             resp_data = {
@@ -543,7 +546,8 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
                 "delivery_ok": ok,
                 "delivery_status": status_msg
             }
-            if not ok:
+            # Only include dev_otp if RESEND_API_KEY is missing or the Resend API call failed
+            if not ok or not resend_key:
                 resp_data["dev_otp"] = otp_code
                 resp_data["dev_note"] = f"Dev Mode: {status_msg}"
 
