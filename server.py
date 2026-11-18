@@ -166,29 +166,12 @@ SIGNUP_OTP_STORE = {}
 
 def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
     """
-    Dispatch 6-digit verification code.
-    Supported dispatch channels:
-    1. Resend HTTP API (RESEND_API_KEY) - works on Render free tier (HTTPS port 443)
-    2. Brevo HTTP API (BREVO_API_KEY) - works on Render free tier (HTTPS port 443)
-    3. SMTP fallback (SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_FROM)
-    4. Dev Mode fallback (stdout console logging)
+    Dispatch 6-digit verification code using Resend HTTP API.
+    Falls back to Dev Mode (console logging + client-side display) if RESEND_API_KEY is not set or delivery fails.
     """
     resend_api_key = os.environ.get("RESEND_API_KEY", "").strip()
-    brevo_api_key = os.environ.get("BREVO_API_KEY", "").strip()
-    smtp_host = os.environ.get("SMTP_HOST", "").strip()
-    smtp_port = int(os.environ.get("SMTP_PORT", "587"))
-    smtp_user = os.environ.get("SMTP_USER", "").strip()
-    smtp_pass = os.environ.get("SMTP_PASS", "").strip()
-    smtp_from = os.environ.get("SMTP_FROM", "").strip() or smtp_user or "no-reply@routex.ai"
 
     print(f"\n[RouteX OTP Service] >>> Generated 6-digit verification code for {to_email} ({username}): {otp_code} (Valid for 5 mins) <<<\n")
-
-    plain_body = (
-        f"Hello {username},\n\n"
-        f"Your RouteX verification code is: {otp_code}\n\n"
-        f"This code will expire in 5 minutes. If you did not request this, please ignore this email.\n\n"
-        f"Best regards,\nRouteX Road Safety Intelligence Team"
-    )
 
     html_body = f"""<!DOCTYPE html>
 <html>
@@ -212,105 +195,40 @@ def send_otp_email(to_email: str, otp_code: str, username: str) -> tuple:
 </body>
 </html>"""
 
-    # 1. Primary HTTP API: Resend (https://api.resend.com/emails)
-    if resend_api_key:
-        resend_from = (os.environ.get("RESEND_FROM") or os.environ.get("SMTP_FROM") or "RouteX <onboarding@resend.dev>").strip()
-        payload = {
-            "from": resend_from,
-            "to": [to_email],
-            "subject": f"Your RouteX Sign-Up Verification Code: {otp_code}",
-            "html": html_body,
-            "text": plain_body
-        }
-        try:
-            req = urllib.request.Request(
-                "https://api.resend.com/emails",
-                data=json.dumps(payload).encode("utf-8"),
-                headers={
-                    "Authorization": f"Bearer {resend_api_key}",
-                    "Content-Type": "application/json",
-                    "User-Agent": "RouteX/1.0"
-                },
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=12) as resp:
-                status_code = resp.getcode()
-                resp_text = resp.read().decode("utf-8", errors="replace")
-                print(f"[RouteX OTP Service] Resend API HTTP {status_code} Success: {resp_text}")
-                return True, f"Resend HTTP {status_code}"
-        except urllib.error.HTTPError as he:
-            err_text = he.read().decode("utf-8", errors="replace")
-            print(f"[RouteX OTP Service ERROR] Resend API Failed - HTTP {he.code}: {err_text}")
-            return False, f"Resend HTTP {he.code}: {err_text}"
-        except Exception as e:
-            print(f"[RouteX OTP Service ERROR] Resend Request Exception: {e}")
-            return False, f"Resend Request Error: {e}"
+    if not resend_api_key:
+        print("[RouteX OTP Service] RESEND_API_KEY not configured. Falling back to Dev Mode.")
+        return False, "RESEND_API_KEY not set"
 
-    # 2. Primary HTTP API: Brevo / Sendinblue (https://api.brevo.com/v3/smtp/email)
-    if brevo_api_key:
-        brevo_sender_email = (os.environ.get("BREVO_FROM") or os.environ.get("SMTP_FROM") or os.environ.get("SMTP_USER") or "no-reply@routex.ai").strip()
-        brevo_sender_name = os.environ.get("BREVO_SENDER_NAME", "RouteX Road Safety").strip()
-        payload = {
-            "sender": {"name": brevo_sender_name, "email": brevo_sender_email},
-            "to": [{"email": to_email, "name": username}],
-            "subject": f"Your RouteX Sign-Up Verification Code: {otp_code}",
-            "htmlContent": html_body,
-            "textContent": plain_body
-        }
-        try:
-            req = urllib.request.Request(
-                "https://api.brevo.com/v3/smtp/email",
-                data=json.dumps(payload).encode("utf-8"),
-                headers={
-                    "api-key": brevo_api_key,
-                    "Content-Type": "application/json",
-                    "Accept": "application/json",
-                    "User-Agent": "RouteX/1.0"
-                },
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=12) as resp:
-                status_code = resp.getcode()
-                resp_text = resp.read().decode("utf-8", errors="replace")
-                print(f"[RouteX OTP Service] Brevo API HTTP {status_code} Success: {resp_text}")
-                return True, f"Brevo HTTP {status_code}"
-        except urllib.error.HTTPError as he:
-            err_text = he.read().decode("utf-8", errors="replace")
-            print(f"[RouteX OTP Service ERROR] Brevo API Failed - HTTP {he.code}: {err_text}")
-            return False, f"Brevo HTTP {he.code}: {err_text}"
-        except Exception as e:
-            print(f"[RouteX OTP Service ERROR] Brevo Request Exception: {e}")
-            return False, f"Brevo Request Error: {e}"
+    sender_from = os.environ.get("SMTP_FROM", "onboarding@resend.dev").strip() or "onboarding@resend.dev"
+    payload = {
+        "from": sender_from,
+        "to": [to_email],
+        "subject": "Your RouteX Verification Code",
+        "html": html_body
+    }
 
-    # 3. Fallback: SMTP (local development / environments with open SMTP ports)
-    if smtp_host and smtp_user and smtp_pass:
-        try:
-            msg = MIMEMultipart("alternative")
-            msg["Subject"] = f"Your RouteX Sign-Up Verification Code: {otp_code}"
-            msg["From"] = f"RouteX Road Safety <{smtp_from}>"
-            msg["To"] = to_email
-
-            msg.attach(MIMEText(plain_body, "plain", "utf-8"))
-            msg.attach(MIMEText(html_body, "html", "utf-8"))
-
-            if smtp_port == 465:
-                mailer = smtplib.SMTP_SSL(smtp_host, smtp_port, timeout=12)
-            else:
-                mailer = smtplib.SMTP(smtp_host, smtp_port, timeout=12)
-                mailer.starttls()
-
-            mailer.login(smtp_user, smtp_pass)
-            mailer.sendmail(smtp_from, [to_email], msg.as_string())
-            mailer.quit()
-            print(f"[RouteX OTP Service] SMTP Dispatched successfully to {to_email}")
-            return True, "Email dispatched via SMTP"
-        except Exception as e:
-            print(f"[RouteX OTP Service Warning] SMTP delivery failed ({e}). Verification code remains active in logs.")
-            return False, f"SMTP error: {e}"
-
-    # 4. Fallback: Dev Mode
-    print("[RouteX OTP Service] Running in Dev Mode (no RESEND_API_KEY, BREVO_API_KEY, or SMTP credentials configured).")
-    return True, "Dev mode: code logged to console"
+    try:
+        req = urllib.request.Request(
+            "https://api.resend.com/emails",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Authorization": f"Bearer {resend_api_key}",
+                "Content-Type": "application/json"
+            },
+            method="POST"
+        )
+        with urllib.request.urlopen(req, timeout=12) as resp:
+            status_code = resp.getcode()
+            resp_text = resp.read().decode("utf-8", errors="replace")
+            print(f"[RouteX OTP Service] Resend API HTTP {status_code} Success: {resp_text}")
+            return True, f"Resend HTTP {status_code}"
+    except urllib.error.HTTPError as he:
+        err_text = he.read().decode("utf-8", errors="replace")
+        print(f"[RouteX OTP Service ERROR] Resend API HTTP {he.code} Error: {err_text}")
+        return False, f"Resend HTTP {he.code}: {err_text}"
+    except Exception as e:
+        print(f"[RouteX OTP Service ERROR] Resend Request Exception: {e}")
+        return False, f"Resend error: {e}"
 
 class RouteXHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
@@ -614,25 +532,20 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
                 "attempts": 0
             }
 
-            # Send email via HTTP API (Resend / Brevo) or SMTP fallback
+            # Send email via Resend HTTP API (falls back to Dev Mode if not set or error)
             ok, status_msg = send_otp_email(email, otp_code, username)
-            email_service_active = bool(
-                os.environ.get("RESEND_API_KEY") or
-                os.environ.get("BREVO_API_KEY") or
-                (os.environ.get("SMTP_HOST") and os.environ.get("SMTP_USER") and os.environ.get("SMTP_PASS"))
-            )
 
             resp_data = {
                 "success": True,
-                "message": f"Verification code sent to {email}!",
+                "message": f"Verification code sent to {email}!" if ok else "Verification code generated (Dev Mode).",
                 "expires_in": 300,
-                "smtp_active": email_service_active and ok,
+                "smtp_active": ok,
                 "delivery_ok": ok,
                 "delivery_status": status_msg
             }
-            if not email_service_active or not ok:
+            if not ok:
                 resp_data["dev_otp"] = otp_code
-                resp_data["dev_note"] = f"Delivery note: {status_msg}"
+                resp_data["dev_note"] = f"Dev Mode: {status_msg}"
 
             self.send_json(200, resp_data)
             return
