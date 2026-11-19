@@ -157,6 +157,22 @@ init_db()
 def hash_password(password):
     return hashlib.sha256(password.encode('utf-8')).hexdigest()
 
+
+def ensure_demo_user():
+    """Create the shared account used to evaluate RouteX deployments."""
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        conn.execute(
+            "INSERT OR IGNORE INTO users (username, email, password_hash) VALUES (?, ?, ?)",
+            ("demo", "demo@routex.local", hash_password("demo123")),
+        )
+        conn.commit()
+    finally:
+        conn.close()
+
+
+ensure_demo_user()
+
 # In-memory store for pending signup OTP verifications
 # Map: email -> { "otp": str, "username": str, "expires_at": float, "created_at": float, "attempts": int }
 SIGNUP_OTP_STORE = {}
