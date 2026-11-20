@@ -28,6 +28,7 @@ import dwdm_etl
 import dwdm_olap
 import dwdm_mining
 import astar_router
+import bi_analytics
 
 def get_dwdm_kpis(db_path=OLAP_DB_PATH):
     conn = sqlite3.connect(db_path)
@@ -400,6 +401,54 @@ class RouteXHandler(http.server.SimpleHTTPRequestHandler):
                     "contact_number": r["Contact_Number"] or ""
                 })
             self.send_json(200, pitstops)
+            return
+
+        elif path == "/api/bi/config":
+            cfg = bi_analytics.get_powerbi_config()
+            self.send_json(200, cfg)
+            return
+
+        elif path == "/api/bi/filter-options":
+            options = bi_analytics.get_filter_options(OLAP_DB_PATH)
+            self.send_json(200, options)
+            return
+
+        elif path == "/api/bi/analytics":
+            params = parse_qs(parsed.query)
+            filters = {
+                "year": params.get("year", [None])[0],
+                "state": params.get("state", [None])[0],
+                "city": params.get("city", [None])[0],
+                "severity": params.get("severity", [None])[0],
+                "road_type": params.get("road_type", [None])[0],
+                "congestion_level": params.get("congestion_level", [None])[0],
+                "preset": params.get("preset", [None])[0]
+            }
+            analytics = bi_analytics.get_bi_analytics(filters, OLAP_DB_PATH)
+            self.send_json(200, analytics)
+            return
+
+        elif path == "/api/bi/export":
+            params = parse_qs(parsed.query)
+            fmt = params.get("format", ["csv"])[0]
+            filters = {
+                "year": params.get("year", [None])[0],
+                "state": params.get("state", [None])[0],
+                "city": params.get("city", [None])[0],
+                "severity": params.get("severity", [None])[0],
+                "road_type": params.get("road_type", [None])[0],
+                "congestion_level": params.get("congestion_level", [None])[0],
+                "preset": params.get("preset", [None])[0]
+            }
+            content, mime_type, filename = bi_analytics.export_bi_dataset(filters, fmt, OLAP_DB_PATH)
+            content_bytes = content.encode("utf-8")
+            self.send_response(200)
+            self.send_header("Content-Type", mime_type)
+            self.send_header("Content-Disposition", f'attachment; filename="{filename}"')
+            self.send_header("Content-Length", str(len(content_bytes)))
+            self.send_header("Connection", "close")
+            self.end_headers()
+            self.wfile.write(content_bytes)
             return
 
         if path == "/" or path == "":
